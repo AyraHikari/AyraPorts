@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NMins">
+        <item quantity="other">%d မိနစ်</item>
+        <item quantity="one">၁ မိနစ်</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">သီခ်င္း %d ပုဒ္ ဖ်က္လိုက္ပါၿပီ</item>
+        <item quantity="one">သီခ်င္း 1 ပုဒ္ ဖ်က္လိုက္ပါၿပီ</item>
+    </plurals>
+    <plurals name="NNNtrackswilldeleted">
+        <item quantity="other">သီခ်င္း %d ပုဒ္ကို သုိေလွာင္ခန္းမွ အၿပီး ဖ်က္လိုက္ပါလိမ့္မည္။</item>
+        <item quantity="one">သီခ်င္း 1 ပုဒ္ကို သုိေလွာင္ခန္းမွ အၿပီး ဖ်က္လိုက္ပါလိမ့္မည္။</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">အယ္လ္ဘမ္ %d ခု</item>
+        <item quantity="one">အယ္လ္ဘမ္တစ္ခု</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">သီခ်င္း %d ပုဒ္</item>
+    </plurals>
+</resources>

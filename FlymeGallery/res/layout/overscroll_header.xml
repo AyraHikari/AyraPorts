@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.widget.Space android:layout_width="1.0px" android:layout_height="0.0px" android:layout_weight="1.0" />
+    <android.support.v4.widget.Space android:layout_width="fill_parent" android:layout_height="3.0dip" />
+    <TextView android:textSize="@dimen/mz_text_size_small" android:textColor="@color/black_60" android:gravity="center_horizontal" android:id="@id/over_scroll_picture_count" android:paddingTop="8.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+</LinearLayout>

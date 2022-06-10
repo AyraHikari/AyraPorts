@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="270.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/stick_function_cancel_btn" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/ic_menu_cancel_holo_light" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/black_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="108.0dip" android:text="@string/online_reopen_sticker_title" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-medium" />
+    <TextView android:textSize="@dimen/cloud_guide_login_text_size" android:textColor="@color/gallery_main_color" android:gravity="center" android:id="@id/sticker_func_open_btn" android:background="@drawable/round_button_crimson" android:layout_width="@dimen/cloud_guide_button_width" android:layout_height="@dimen/cloud_guide_button_height" android:layout_marginBottom="40.0dip" android:text="@string/online_reopen_sticker_button" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-medium" />
+</RelativeLayout>

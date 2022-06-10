@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?android:selectableItemBackground" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="70.0dip" android:paddingStart="@dimen/default_page_padding" android:paddingEnd="@dimen/default_page_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_bq_more_vert" android:scaleType="center" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/item_song_info_with_visualizer" />
+    <TextView android:textSize="@dimen/sp_12" android:textColor="@android:color/darker_gray" android:gravity="right" android:id="@id/playDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dp_10" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/menu" />
+</androidx.constraintlayout.widget.ConstraintLayout>

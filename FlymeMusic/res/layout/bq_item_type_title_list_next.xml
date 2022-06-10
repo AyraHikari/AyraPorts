@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_20"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/titleLayout" layout="@layout/bq_group_category_header_normal" />
+    <include layout="@layout/layout_list_x" />
+    <include layout="@layout/layout_bq_list_item_next" />
+</LinearLayout>

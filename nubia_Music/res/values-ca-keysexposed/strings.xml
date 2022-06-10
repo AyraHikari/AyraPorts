@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Nom de la llista de reproducció</string>
+    <string name="rename_playlist_diff_prompt">Canvia el nom de \"%s\" a</string>
+    <string name="rename_playlist_same_prompt">Canvia el nom de \"%s\" a</string>
+</resources>

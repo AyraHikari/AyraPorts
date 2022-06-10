@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/playerView" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.devbrackets.android.exomedia.ui.widget.VideoView android:id="@id/exoPlayerView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/fullScreenIv" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_margin="4.0dip" android:src="@drawable/ic_fullscreen_white" />
+    <LinearLayout android:gravity="center" android:layout_gravity="end|bottom|center" android:id="@id/controllerView" android:background="@color/float_bg" android:padding="@dimen/dp_4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp_32">
+        <ImageView android:id="@id/prevIv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_prev_white" android:layout_weight="1.0" />
+        <ImageView android:id="@id/playPauseIv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pause_white" android:layout_weight="1.0" />
+        <ImageView android:id="@id/nextIv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_next_white" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

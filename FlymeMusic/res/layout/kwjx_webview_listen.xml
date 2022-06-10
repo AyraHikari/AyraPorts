@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebView android:id="@id/kwjx_web_view_listen" android:background="@color/kw_common_cl_transparent" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

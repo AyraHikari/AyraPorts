@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NMins">
+        <item quantity="other">%d דקות</item>
+        <item quantity="one">דקה אחת</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d שירים נמחקו.</item>
+        <item quantity="one">שיר אחד נמחק.</item>
+    </plurals>
+    <plurals name="NNNtrackswilldeleted">
+        <item quantity="other">%d שירים יימחקו לצמיתות מהאחסון.</item>
+        <item quantity="one">שיר אחד יימחק לצמיתות מהאחסון.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d אלבומים</item>
+        <item quantity="one">אלבום אחד</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d שירים</item>
+    </plurals>
+</resources>

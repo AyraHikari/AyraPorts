@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/kwjx_theme_color_MOD1" android:layout_width="fill_parent" android:layout_height="fill_parent" skin:enable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <RelativeLayout android:id="@id/rank_fourth_user" android:layout_width="fill_parent" android:layout_height="@dimen/ranking_line_h">
+        <RelativeLayout android:id="@id/rank_fourth_order" android:background="@drawable/rank_regal_image" android:layout_width="@dimen/ranking_line_h" android:layout_height="@dimen/ranking_line_h" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/ranking_m_l_t_r" android:layout_toLeftOf="@id/rank_back2" android:layout_toRightOf="@id/rank_fourth_order">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ranking_item_m">
+                <ImageView android:id="@id/ranking_top_one_fourth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ranking_m_l_t_r" android:src="@drawable/ranking_top_one" android:layout_centerVertical="true" />
+                <TextView android:textColor="@color/kwjx_theme_color_C1" android:id="@id/rank_fourth_user_nick_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/ranking_top_one_fourth" android:layout_centerVertical="true" skin:enable="true" />
+                <ImageView android:id="@id/rank_fourth_user_level" android:layout_width="30.0dip" android:layout_height="15.0dip" android:layout_marginLeft="@dimen/ranking_item_m_l" android:layout_toRightOf="@id/rank_fourth_user_nick_name" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ranking_item1_m">
+                <ImageView android:id="@id/ranking_top_two_fourth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ranking_m_l_t_r" android:src="@drawable/ranking_top_two" android:layout_centerVertical="true" />
+                <TextView android:textColor="@color/kwjx_theme_color_C1" android:id="@id/rank_fourth_user_second_nick_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/ranking_top_two_fourth" skin:enable="true" />
+                <ImageView android:id="@id/rank_fourth_user_second_level" android:layout_width="30.0dip" android:layout_height="15.0dip" android:layout_marginLeft="@dimen/ranking_item_m_l" android:layout_toRightOf="@id/rank_fourth_user_second_nick_name" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ranking_item1_m">
+                <ImageView android:id="@id/ranking_top_three_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ranking_m_l_t_r" android:src="@drawable/ranking_top_three" android:layout_centerVertical="true" />
+                <TextView android:textColor="@color/kwjx_theme_color_C1" android:id="@id/rank_fourth_user_third_nick_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/ranking_top_three_second" android:layout_centerVertical="true" skin:enable="true" />
+                <ImageView android:id="@id/rank_fourth_user_third_level" android:layout_width="30.0dip" android:layout_height="15.0dip" android:layout_marginLeft="@dimen/ranking_item_m_l" android:layout_toRightOf="@id/rank_fourth_user_third_nick_name" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/rank_back2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

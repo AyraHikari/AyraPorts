@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/addto" android:title="@string/add_to_playlist" />
+    <item android:id="@id/Ring" android:title="@string/ringtone_menu" />
+    <item android:id="@id/delete" android:title="@string/delete_item" />
+    <item android:id="@id/information" android:title="@string/player_trackinfo" />
+</menu>

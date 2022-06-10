@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d गीत हटा दिए गए.</item>
+        <item quantity="one">एक गीत हटा दिया गया.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d एल्‍बम</item>
+        <item quantity="one">1 एल्बम</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d गीत</item>
+    </plurals>
+</resources>

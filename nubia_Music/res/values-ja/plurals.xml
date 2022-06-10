@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NMins">
+        <item quantity="other">%d分</item>
+        <item quantity="one">1分</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d曲削除しました。</item>
+        <item quantity="one">1曲削除しました。</item>
+    </plurals>
+    <plurals name="NNNtrackswilldeleted">
+        <item quantity="other">%d 曲がストレージから永久に削除されます。</item>
+        <item quantity="one">ストレージから 1 曲永久に削除されました。</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">アルバム（%d）</item>
+        <item quantity="one">アルバム（1）</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">曲（%d）</item>
+    </plurals>
+</resources>

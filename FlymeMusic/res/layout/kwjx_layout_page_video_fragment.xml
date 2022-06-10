@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/kwjx_theme_color_MOD1" android:layout_width="fill_parent" android:layout_height="fill_parent" skin:enable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <cn.kuwo.show.ui.view.NestedRefreshListView android:id="@id/content_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchMode="columnWidth" android:footerDividersEnabled="false" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <ImageView android:id="@id/content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mv_data_fail" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_error_content" android:paddingBottom="200.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/user_img_default" />
+        <TextView android:textSize="14.0sp" android:id="@id/tv_content" android:background="@color/kwjx_theme_color_C2" android:layout_width="wrap_content" android:layout_height="wrap_content" skin:enable="true" />
+    </LinearLayout>
+</RelativeLayout>

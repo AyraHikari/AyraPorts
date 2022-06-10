@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NMins">
+        <item quantity="other">%d 分鐘</item>
+        <item quantity="one">1 分鐘</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">已刪除 %d 首樂曲。</item>
+        <item quantity="one">已刪除 1 首樂曲。</item>
+    </plurals>
+    <plurals name="NNNtrackswilldeleted">
+        <item quantity="other">"要從存儲空間永久刪除
+    %d 首歌曲"</item>
+        <item quantity="one">1 首曲目將從儲存空間永久刪除。</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d 專輯</item>
+        <item quantity="one">1 張專輯</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">"
+      %d 首樂曲"</item>
+    </plurals>
+</resources>

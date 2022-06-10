@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.media.gallery.facebeauty.FaceBeautyFastView android:layout_gravity="center_vertical" android:id="@id/face_beauty" android:scrollbars="none" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:beautyFilter="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/fast_beauty_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.meizu.media.gallery.facebeauty.FilterItemView beautyFilter:filterBackground="@drawable/facebeauty_a0" beautyFilter:filterName="@string/beauty_none" style="@style/FaceBeautyFilter6" />
+        <com.meizu.media.gallery.facebeauty.FilterItemView beautyFilter:filterBackground="@drawable/facebeauty_a1" beautyFilter:filterName="@string/beauty_zr" style="@style/FaceBeautyFilter6" />
+        <com.meizu.media.gallery.facebeauty.FilterItemView beautyFilter:filterBackground="@drawable/facebeauty_a2" beautyFilter:filterName="@string/beauty_tq" style="@style/FaceBeautyFilter6" />
+        <com.meizu.media.gallery.facebeauty.FilterItemView beautyFilter:filterBackground="@drawable/facebeauty_a3" beautyFilter:filterName="@string/beauty_fg" style="@style/FaceBeautyFilter6" />
+        <com.meizu.media.gallery.facebeauty.FilterItemView beautyFilter:filterBackground="@drawable/facebeauty_a4" beautyFilter:filterName="@string/beauty_cz" style="@style/FaceBeautyFilter6" />
+        <com.meizu.media.gallery.facebeauty.FilterItemView beautyFilter:filterBackground="@drawable/facebeauty_a5" beautyFilter:filterName="@string/beauty_tm" style="@style/FaceBeautyFilter6Last" />
+    </LinearLayout>
+</com.meizu.media.gallery.facebeauty.FaceBeautyFastView>

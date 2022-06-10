@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/widget_bg" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/album_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/widget_bg_cover" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="right" android:id="@id/album_appwidget" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/app_name" />
+            <ImageView android:id="@id/default_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_centerInParent="true" android:contentDescription="@string/app_name" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="#b3ffffff" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/no_songs" android:singleLine="true" />
+                <TextView android:textSize="12.0sp" android:textColor="#b3ffffff" android:id="@id/artist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:singleLine="true" />
+                <TextView android:textSize="10.0sp" android:textColor="#77ffffff" android:id="@id/album" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layoutDirection="ltr">
+                <ImageView android:id="@id/control_prev" android:background="@drawable/actionbar_button_selector" android:layout_width="36.0dip" android:layout_height="36.0dip" android:contentDescription="@string/app_name" android:layout_marginStart="22.0dip" />
+                <ImageView android:id="@id/control_play" android:background="@drawable/actionbar_button_selector" android:layout_width="36.0dip" android:layout_height="36.0dip" android:contentDescription="@string/app_name" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" />
+                <ImageView android:id="@id/control_next" android:background="@drawable/actionbar_button_selector" android:layout_width="36.0dip" android:layout_height="36.0dip" android:contentDescription="@string/app_name" android:layout_marginEnd="22.0dip" />
+            </LinearLayout>
+            <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/progressbar_dur" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="10.0dip" android:maxHeight="2.0dip" android:progressDrawable="@drawable/seekbar_widget_style_new" android:minHeight="2.0dip" android:thumbOffset="5.0dip" android:layout_marginStart="22.0dip" android:layout_marginEnd="22.0dip" style="?android:progressBarStyleHorizontal" />
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/widget_repeat" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginEnd="18.0dip" />
+                <ImageView android:id="@id/widget_shuffle" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginStart="18.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

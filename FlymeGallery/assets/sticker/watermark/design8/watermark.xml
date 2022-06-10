@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sticker type="watermark_location_user" width="62" height="57" id="watermark_8" thumb="watermark_city_user_thumb">
+    <icon left="2" top="0" right="59" bottom="57" src="watermark_city_user_icon"/>
+    <text left="34" top="6" right="62" bottom="20" font-name="sans-serif-medium"
+        size="14" text-align="left"
+        hint="城市"/>
+    <text left="0" top="45" right="36" bottom="57" font-name="sans-serif-medium"
+        size="12" text-align="right"
+        hint="用户名"/>
+</sticker>

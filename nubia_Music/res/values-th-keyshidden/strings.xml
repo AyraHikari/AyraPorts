@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">"เปิดแป้นพิมพ์เพื่อตั้งชื่อให้รายการเพลงใหม่หรือเลือก บันทึก เพื่อตั้งชื่อว่า  \"%s\""</string>
+    <string name="rename_playlist_diff_prompt">เปิดแป้นพิมพ์เพื่อตั้งชื่อใหม่แก่รายการเพลง \"%1$s\" หรือเลือก บันทึก เพื่อตั้งชื่อว่า \"%2$s\"</string>
+    <string name="rename_playlist_same_prompt">เปิดแป้นพิมพ์เพื่อตั้งชื่อใหม่ให้รายการเพลง \"%s\"</string>
+</resources>

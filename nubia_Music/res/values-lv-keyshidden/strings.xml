@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Atveriet tastatūru, lai jaunajam atskaņošanas sarakstam piešķirtu nosaukumu, vai atlasiet Saglabāt, lai to nosauktu kā “%s”.</string>
+    <string name="rename_playlist_diff_prompt">Atveriet tastatūru, lai atskaņošanas sarakstam “%1$s” piešķirtu jaunu nosaukumu, vai atlasiet Saglabāt, lai to nosauktu kā “%2$s”.</string>
+    <string name="rename_playlist_same_prompt">Atveriet tastatūru, lai atskaņošanas sarakstam “%s” piešķirtu jaunu nosaukumu.</string>
+</resources>

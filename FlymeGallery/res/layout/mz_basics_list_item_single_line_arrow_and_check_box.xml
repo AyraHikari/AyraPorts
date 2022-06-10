@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/list_item_split" android:background="@drawable/mz_list_selector_background" android:paddingStart="@dimen/mz_list_publish_padding" android:paddingEnd="@dimen/mz_list_item_divider_margin_start" style="@style/Widget.Flyme.SingleList.ContainerRelativeLayout">
+        <TextView android:id="@id/title" style="@style/Widget.Flyme.SingleList.Title" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/mz_list_publish_padding">
+        <View android:id="@id/divider" android:layout_marginEnd="@dimen/mz_list_item_divider_margin_end" style="@style/Widget.Flyme.List.Vertical.Divider" />
+        <com.flyme.design.ui.listview.BasicsListView.MyCheckBox android:id="@id/check_box" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

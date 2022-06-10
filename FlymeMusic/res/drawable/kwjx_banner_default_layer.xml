@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/kwjx_banner_default_bg" android:left="0.0dip" android:top="0.0dip" android:right="0.0dip" android:bottom="0.0dip" />
+    <item android:gravity="center" android:height="60.0dip" android:width="80.0dip" android:drawable="@drawable/kwjx_show_banner_center_default" />
+</layer-list>

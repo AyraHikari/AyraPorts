@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/nfc_button" android:id="@id/right_top_nfc_icon" android:visible="false" app:showAsAction="always" />
+    <item android:icon="@drawable/dlna_button_dark" android:id="@id/right_top_icon" android:visible="false" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_share" android:id="@id/menu_share" android:visible="false" android:title="@string/menu_share_title" app:showAsAction="always" />
+    <item android:icon="@drawable/btn_filtershow" android:id="@id/menu_edit" android:visible="false" android:title="@string/edit_image" app:showAsAction="always" />
+    <item android:icon="@drawable/filtershow_imgtext" android:id="@id/menu_annotate" android:visible="false" android:title="@string/filter_toolbar_mark" app:showAsAction="always" />
+    <item android:icon="@drawable/btn_favorite_selector" android:id="@id/menu_favorita" android:visible="false" android:title="@string/favorita" app:showAsAction="always" />
+    <item android:icon="@drawable/video_play_selector" android:id="@id/menu_video_play" android:visible="false" android:title="@string/video_pause" android:checkable="true" app:showAsAction="always" />
+    <item android:icon="@drawable/btn_delete" android:id="@id/menu_delete" android:visible="false" android:title="@string/menu_delete_title" app:showAsAction="always" />
+    <item android:icon="@drawable/btn_more" android:id="@id/menu_more" android:visible="true" android:title="@string/menu_more_title" app:showAsAction="always" />
+    <item android:id="@id/menu_all_photo" android:visible="false" android:title="@string/all_photos" app:actionLayout="@layout/text_menuitem_layout" app:showAsAction="always" />
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/translateLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/srcBg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitXY" app:layout_constraintDimensionRatio="w,1:1" />
+        <ImageView android:id="@id/blurBg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitXY" android:alpha="0.0" app:layout_constraintDimensionRatio="w,1:1" />
+        <View android:layout_gravity="bottom" android:id="@id/bottomShadow" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/srcBg" app:layout_constraintDimensionRatio="w,1:1.8" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/titleLayout" layout="@layout/layout_bq_distinguishing_title" />
+        <include layout="@layout/layout_overscroll_list_x" />
+    </LinearLayout>
+</FrameLayout>

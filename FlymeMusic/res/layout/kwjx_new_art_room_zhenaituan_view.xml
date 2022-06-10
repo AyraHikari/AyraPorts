@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/zhenaituan_enter_view" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/empty_view" android:background="@color/kw_common_cl_black_alpha_56" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/zhenaituan_content" android:layout_width="279.0dip" android:layout_height="378.0dip" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/content_layout" android:background="@drawable/kwjx_zhenaituan_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/touxiangbeijing">
+            <RelativeLayout android:id="@id/nameLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="49.0dip" android:layout_centerHorizontal="true">
+                <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/black" android:ellipsize="end" android:id="@id/zhubo_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="你好啊你好啊的的" android:maxLines="1" android:maxEms="6" />
+                <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/black" android:ellipsize="end" android:id="@id/zhubo_name_zhenaituan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="的真爱团" android:maxLines="1" android:maxEms="6" android:layout_toRightOf="@id/zhubo_name" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/renshuLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_below="@id/nameLayout" android:layout_centerHorizontal="true">
+                <TextView android:textSize="@dimen/text_size_13" android:textColor="#ff737373" android:id="@id/chakanText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="查看成员" />
+                <TextView android:textSize="@dimen/text_size_13" android:textColor="#ffed7670" android:id="@id/chakanNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_toRightOf="@id/chakanText" />
+                <TextView android:textSize="@dimen/text_size_13" android:textColor="#ff737373" android:id="@id/chakanRen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="人" android:drawableRight="@drawable/kwjx_jiantou" android:drawablePadding="2.0dip" android:layout_toRightOf="@id/chakanNum" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/tequanLayout" android:background="@drawable/kwjx_zhenaituan_back_li" android:layout_width="238.0dip" android:layout_height="120.0dip" android:layout_marginTop="24.0dip" android:layout_below="@id/renshuLayout" android:layout_centerHorizontal="true">
+                <RelativeLayout android:id="@id/tequanTextLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_centerHorizontal="true">
+                    <View android:background="#ff737373" android:layout_width="43.0dip" android:layout_height="1.0px" android:layout_marginRight="13.0dip" android:layout_toLeftOf="@id/tequanText" android:layout_centerVertical="true" />
+                    <View android:background="#ff737373" android:layout_width="43.0dip" android:layout_height="1.0px" android:layout_marginLeft="13.0dip" android:layout_toRightOf="@id/tequanText" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/text_size_13" android:textColor="#ff737373" android:id="@id/tequanText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="入团特权" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/tequan_content_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/tequanTextLayout" android:layout_centerHorizontal="true">
+                    <LinearLayout android:orientation="vertical" android:id="@id/tequan1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/tequanIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_tequan" />
+                        <TextView android:textSize="@dimen/text_size_13" android:textColor="#ff404040" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="粉丝特权" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/tequan2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="33.0dip" android:layout_toRightOf="@id/tequan1">
+                        <ImageView android:id="@id/xunzhangIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_xunzhang" />
+                        <TextView android:textSize="@dimen/text_size_13" android:textColor="#ff404040" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="真爱勋章" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/zhenaituan_kaitong_btn" android:background="@drawable/kwjx_anniu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_below="@id/tequanLayout" android:layout_centerHorizontal="true">
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/kw_white" android:id="@id/jiaruText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="加入真爱团" />
+                    <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/kw_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="（100星币/月）" android:layout_toRightOf="@id/jiaruText" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <View android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_below="@id/kaitong_btn" />
+            <ImageView android:id="@id/close" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/kwjx_cha" android:scaleType="centerInside" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/touxiangbeijing" android:layout_width="fill_parent" android:layout_height="48.0dip" android:src="@drawable/kwjx_touxiangbeijing" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/touxiangLayhout" android:layout_width="160.0dip" android:layout_height="92.0dip" android:layout_marginTop="2.0dip" android:layout_centerHorizontal="true">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/zhuboHeader" android:layout_width="92.0dip" android:layout_height="92.0dip" android:layout_centerHorizontal="true" app:actualImageScaleType="fitXY" app:placeholderImage="@drawable/def_user_icon" app:roundAsCircle="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/kwjx_xiaomai_zuo" android:layout_toLeftOf="@id/zhuboHeader" android:layout_centerVertical="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/kwjx_xiaomai_you" android:layout_toRightOf="@id/zhuboHeader" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Názov zoznamu skladieb</string>
+    <string name="rename_playlist_diff_prompt">Premenovať zoznam skladieb %s na</string>
+    <string name="rename_playlist_same_prompt">Premenovať zoznam skladieb %s na</string>
+</resources>

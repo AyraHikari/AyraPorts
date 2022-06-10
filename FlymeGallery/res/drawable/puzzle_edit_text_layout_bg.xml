@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/puzzle_edit_text_layout_bg_radius" />
+    <stroke android:width="0.33000004dip" android:color="@color/black" />
+</shape>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="76.0dip" android:paddingStart="@dimen/default_page_padding" android:paddingEnd="@dimen/default_page_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.banqu.music.ui.widget.RoundImageView android:id="@id/icon" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ListIcon56" />
+    <TextView android:textSize="@dimen/bq_list_item_title_ts" android:textColor="@color/bq_list_item_title_color" android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.5dip" android:maxWidth="200.0dip" android:singleLine="true" android:layout_marginStart="10.0dip" app:layout_constraintLeft_toRightOf="@id/icon" app:layout_constraintTop_toTopOf="@id/icon" />
+    <TextView android:textSize="@dimen/bq_list_item_sub_ts" android:textColor="@color/bq_list_item_sub_color" android:id="@id/count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginStart="10.0dip" app:layout_constraintLeft_toRightOf="@id/icon" app:layout_constraintTop_toBottomOf="@id/name" />
+</androidx.constraintlayout.widget.ConstraintLayout>

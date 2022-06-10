@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/iconLayout" android:layout_width="100.0dip" android:layout_height="100.0dip" layout="@layout/bq_audio_icon_view_100" />
+    <TextView android:textSize="@dimen/bq_grid_item_title_ts" android:id="@id/title" android:layout_marginTop="5.0dip" android:maxLines="2" android:singleLine="false" android:layout_below="@id/iconLayout" style="@style/bqAudioTitleTextStyle" />
+</RelativeLayout>

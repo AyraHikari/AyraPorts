@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/gridview_selector" android:layout_width="@dimen/share_item_width" android:layout_height="@dimen/intent_chooser_view_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_app_icon" android:layout_width="@dimen/item_icon_width" android:layout_height="@dimen/item_icon_height" android:layout_marginTop="5.0dip" android:scaleType="fitCenter" />
+    <TextView android:textSize="10.0sp" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/item_app_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.669983dip" android:maxLines="2" android:lineSpacingExtra="2.0dip" android:fontFamily="sans-serif-medium" />
+</LinearLayout>

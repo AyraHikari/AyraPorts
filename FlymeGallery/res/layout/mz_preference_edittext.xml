@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:minHeight="@dimen/mz_preference_min_height" style="@style/Widget.Flyme.Preference.ContentLinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" style="@style/Widget.Flyme.MultipleList.Title" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/edittext_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="5.0dip">
+        <EditText android:textColor="@color/mz_alert_dialog_edittext_text_color" android:textColorHint="@color/mz_edittext_preference_hint_text_color" android:id="@android:id/edit" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:imeOptions="flagNoFullscreen" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/kwjx_transparent" android:paddingTop="20.0dip" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kuwo="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lot_gift_anim" android:background="@color/kwjx_transparent" android:visibility="invisible" android:layout_width="50.0dip" android:layout_height="16.0dip" android:layout_centerHorizontal="true" kuwo:lottie_autoPlay="false" kuwo:lottie_loop="true" kuwo:lottie_scale="1.0" />
+    <View android:id="@id/iv_pull_process" android:background="@drawable/kwjx_bg_pull_point" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_alignBottom="@id/lot_gift_anim" android:layout_centerHorizontal="true" />
+</RelativeLayout>

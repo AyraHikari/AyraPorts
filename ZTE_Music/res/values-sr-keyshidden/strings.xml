@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Активирајте тастатуру да бисте новој плејлисти дали име или изаберите „Сачувај“ да бисте јој дали име „%s“.</string>
+    <string name="rename_playlist_diff_prompt">Активирајте тастатуру да бисте плејлисти „%1$s“ дали ново име или изаберите „Сачувај“ да бисте јој дали име „%2$s“.</string>
+    <string name="rename_playlist_same_prompt">Активирајте тастатуру да бисте плејлисти „%s“ дали ново име.</string>
+</resources>

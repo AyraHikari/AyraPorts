@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/tab_works_record_layout" android:background="@color/kwjx_transparent" android:layout_width="fill_parent" android:layout_height="55.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/kwjx_audio_check_text_select" android:gravity="center" android:id="@id/tv_record_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="资料" android:singleLine="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <View android:id="@id/v_line_resume" android:background="@drawable/kwjx_audio_rankline" android:layout_width="11.0dip" android:layout_height="3.0dip" android:layout_marginTop="4.0dip" android:layout_below="@id/tv_record_data" android:layout_centerHorizontal="true" />
+</RelativeLayout>

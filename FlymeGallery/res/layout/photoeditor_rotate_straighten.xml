@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.media.gallery.rotate.RotateStraightenView android:id="@id/toolbar" android:background="@color/gallery_background" android:paddingLeft="@dimen/rotate_view_padding_edge" android:paddingTop="@dimen/rotate_view_padding_edge" android:paddingRight="@dimen/rotate_view_padding_edge" android:paddingBottom="@dimen/rotate_view_padding_edge" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.tools.PhotoView android:id="@id/photo_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/rotate_angle_display_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rotate_angle_margin_top">
+        <TextView android:id="@id/rotate_angle" android:visibility="gone" android:layout_marginLeft="@dimen/rotate_angle_margin_left" android:layout_alignParentLeft="true" style="@style/RotateAngleDispley" />
+    </RelativeLayout>
+</com.meizu.media.gallery.rotate.RotateStraightenView>

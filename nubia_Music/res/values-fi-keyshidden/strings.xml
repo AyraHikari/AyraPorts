@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Avaa näppäimistö ja anna uudelle soittolistallesi nimi tai valitse Tallenna, jolloin soittolistan nimeksi asetetaan %s.</string>
+    <string name="rename_playlist_diff_prompt">Avaa näppäimistö ja anna soittolistalle %1$s uusi nimi tai valitse Tallenna, jolloin soittolistan nimeksi asetetaan %2$s.</string>
+    <string name="rename_playlist_same_prompt">Avaa näppäimistö ja anna soittolistalle %s uusi nimi.</string>
+</resources>

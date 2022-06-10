@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/notification_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/notifyicon" android:background="@drawable/media_status_icon_background" android:layout_width="@android:dimen/notification_large_icon_width" android:layout_height="@android:dimen/notification_large_icon_height" android:scaleType="center" />
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/notification_linear_layout_width" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/notification_linear_margin_left">
+        <TextView android:textSize="@dimen/notification_download_name_size" android:id="@id/download_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/notification_download_margin_top" android:singleLine="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/notification_common_size" android:textColor="@color/notification_text_color" android:gravity="center" android:id="@id/download_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/notification_download_state_right" />
+            <TextView android:textSize="@dimen/notification_common_size" android:textColor="@color/notification_text_color" android:id="@id/download_speed_bps" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/notification_common_size" android:textColor="@color/notification_text_color" android:id="@id/download_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/notification_download_state_right" android:singleLine="true" />
+            <TextView android:textSize="@dimen/notification_common_size" android:textColor="@color/notification_text_color" android:id="@id/download_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <ProgressBar android:id="@id/progressbar" android:layout_width="fill_parent" android:layout_height="@dimen/notification_progressbar_height" android:layout_marginTop="@dimen/notification_progressbar_top" android:max="100" android:progress="0" style="?android:progressBarStyleHorizontal" />
+    </LinearLayout>
+</LinearLayout>

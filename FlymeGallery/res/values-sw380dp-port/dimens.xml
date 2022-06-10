@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="face_set_filter_margin_left">2.0dip</dimen>
+    <dimen name="face_setting_container_padding_left">10.0dip</dimen>
+    <dimen name="face_setting_container_padding_right">9.0dip</dimen>
+</resources>

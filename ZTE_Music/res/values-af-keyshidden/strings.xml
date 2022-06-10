@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">"Open die sleutelbord om jou nuwe snitlys 'n naam te gee, of kies Stoor om dit \"%s\" te noem."</string>
+    <string name="rename_playlist_diff_prompt">"Open die sleutelbord om snitlys \"%1$s\" 'n nuwe naam te gee, of kies Stoor om dit \"%2$s\" te noem."</string>
+    <string name="rename_playlist_same_prompt">"Open die sleutelbord om snitlys \"%s\" 'n nuwe naam te gee."</string>
+</resources>

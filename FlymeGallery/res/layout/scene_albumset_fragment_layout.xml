@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <flyme.support.v7.widget.MzRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/list" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/cluster_grid_footer" />
+    <include layout="@layout/cluster_empty_view" />
+    <include layout="@layout/media_progress_container" />
+</FrameLayout>

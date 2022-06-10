@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="KTitleBar" android:background="@color/rgbf0f0f0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textColor="#ff555555" android:id="@id/tv_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:text="@string/cropimg_cancelbtn_title" android:layout_marginStart="14.0dip" />
+    <TextView android:textSize="17.0sp" android:textColor="@color/black" android:id="@id/tv_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:text="发布" android:layout_alignTop="@id/tv_cancel" android:layout_alignParentRight="true" android:layout_marginEnd="14.0dip" android:layout_alignParentEnd="true" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview" android:paddingLeft="29.0dip" android:paddingRight="29.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tv_cancel" android:overScrollMode="never" android:paddingStart="29.0dip" android:paddingEnd="29.0dip" />
+</RelativeLayout>

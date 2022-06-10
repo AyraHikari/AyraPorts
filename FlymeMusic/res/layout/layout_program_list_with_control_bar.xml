@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/controllerLayout" android:layout_width="fill_parent" android:layout_height="50.0dip" layout="@layout/program_list_control_layout" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/controllerLayout" layout="@layout/layout_two_direct_pull_list_x" />
+    <FrameLayout android:id="@id/expandSelectLayout" android:tag="ignoredScrollable" android:background="@drawable/bq_program_select_list_bg" android:paddingBottom="@dimen/default_page_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@id/controllerLayout">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/layout_overscroll_list_x" />
+    </FrameLayout>
+</RelativeLayout>

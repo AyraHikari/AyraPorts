@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <RelativeLayout android:id="@id/myinfo_page_header_rel" android:tag="KTitleBar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/myinfo_page_header" layout="@layout/kwjx_normal_titlebar" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@color/kwjx_theme_color_MOD1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/rl_input" android:layout_below="@id/myinfo_page_header_rel" skin:enable="true">
+        <cn.kuwo.show.base.uilib.pulltorefresh.PullToRefreshListView android:id="@id/list_community" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <include android:id="@id/layout_header_out" layout="@layout/show_community_userinfo_sub" />
+    <RelativeLayout android:id="@id/rl_input" android:background="@color/kwjx_theme_color_MOD1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" skin:enable="true">
+        <RelativeLayout android:id="@id/rl_input_ctr" android:background="@drawable/kwjx_shape_commuity_input_bg" android:layout_width="fill_parent" android:layout_height="33.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip" android:layout_toLeftOf="@id/tv_care" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" android:layout_toStartOf="@id/tv_care" skin:enable="true">
+            <EditText android:textSize="15.0sp" android:textColor="@color/kwjx_theme_color_C2" android:textColorHint="@color/kwjx_theme_color_C2" android:gravity="center_vertical" android:id="@id/et_comment" android:background="@color/kwjx_transparent" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:hint="写评论..." android:singleLine="true" android:includeFontPadding="false" android:drawableLeft="@drawable/kwjx_ic_edit_comment" android:drawablePadding="8.0dip" android:layout_toLeftOf="@id/iv_emoticon" android:layout_centerVertical="true" android:imeOptions="actionSend" android:layout_marginStart="10.0dip" android:layout_marginEnd="5.0dip" android:layout_toStartOf="@id/iv_emoticon" skin:enable="true" />
+            <ImageView android:id="@id/iv_emoticon" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/kwjx_live_emoji_btn" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingEnd="5.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <TextView android:textColor="@color/kwjx_theme_color_C1" android:gravity="center_vertical" android:id="@id/tv_care" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="44.0dip" android:layout_marginRight="20.0dip" android:text="赞" android:drawablePadding="5.0dip" android:layout_above="@id/rl_emotion" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingStart="20.0dip" android:layout_marginEnd="20.0dip" android:layout_alignParentEnd="true" skin:enable="true" />
+        <TextView android:gravity="center_vertical" android:id="@id/tv_care_pre" android:layout_width="wrap_content" android:layout_height="44.0dip" android:drawableLeft="@drawable/kwjx_ic_care_1" android:drawablePadding="5.0dip" android:layout_alignLeft="@id/tv_care" android:layout_alignRight="@id/tv_care" android:layout_centerVertical="true" android:drawableStart="@drawable/kwjx_ic_care_1" skin:enable="true" />
+        <RelativeLayout android:id="@id/rl_emotion" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/rl_input_ctr">
+            <include layout="@layout/liveroom_emoticon_pageview_layout" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

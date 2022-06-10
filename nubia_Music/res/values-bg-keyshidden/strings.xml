@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Отворете клавиатурата, за да дадете име на новия си плейлист или изберете „Запазване“, за да го преименувате на „%s“.</string>
+    <string name="rename_playlist_diff_prompt">Отворете клавиатурата, за да дадете на плейлиста „%1$s“ ново име или изберете „Запазване“, за да го наименувате на „%2$s“.</string>
+    <string name="rename_playlist_same_prompt">Отворете клавиатурата, за да дадете ново име на плейлиста „%s“.</string>
+</resources>

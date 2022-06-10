@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/pageStatus" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center" android:id="@id/errorMsg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="无网络" />
+    </FrameLayout>
+    <include layout="@layout/layout_online_close" />
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="@id/refreshView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.banqu.music.smart.refresh.header.BQMaterialHeader android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/online_recyclerview" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" />
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/scanLayout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_percent="0.625" app:layout_constraintStart_toStartOf="parent">
+        <com.banqu.music.ui.widget.ScanView android:id="@id/scanLogo" android:background="@drawable/scan_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/checkLayout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="0.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_percent="0.075" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/scanLayout">
+        <CheckBox android:textSize="14.0dip" android:textColor="#44000000" android:id="@id/check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq_scan_check_title" android:drawablePadding="2.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:paddingTop="30.0dip" android:paddingBottom="30.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_percent="0.3" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/checkLayout">
+        <Button android:textSize="16.0dip" android:gravity="center" android:id="@id/scanAllTV" android:background="@drawable/scan_btn_bg" android:layout_width="fill_parent" android:layout_height="38.0dip" android:text="@string/bq_scan_all" android:fontFamily="sans-serif-medium" android:layout_marginStart="50.0dip" android:layout_marginEnd="50.0dip" />
+        <Button android:textSize="16.0dip" android:textColor="@color/bq_theme_color_red" android:gravity="center" android:id="@id/customScan" android:background="@drawable/scan_custom_btn_bg" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_marginTop="20.0dip" android:text="@string/bq_custom_scan" android:fontFamily="sans-serif-medium" android:layout_marginStart="50.0dip" android:layout_marginEnd="50.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

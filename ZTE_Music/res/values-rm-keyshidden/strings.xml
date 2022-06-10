@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Avri la tastatura per dar in num a Vossa nova playlist u tscherni «Memorisar» per la numnar %s.</string>
+    <string name="rename_playlist_diff_prompt">Avri la tastatura per dar in nov num a la playlist %1$s u tscherni «Memorisar» per la numnar %2$s.</string>
+    <string name="rename_playlist_same_prompt">Avri la tastatura per renumnar la playlist %s.</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <flyme.support.v7.widget.AloneTabContainer android:id="@id/scrollingTabContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.meizu.media.gallery.ui.GalleryViewPager android:id="@id/media_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/emptylayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/media_progress_container" />
+        <include layout="@layout/media_empty_view" />
+    </FrameLayout>
+</FrameLayout>

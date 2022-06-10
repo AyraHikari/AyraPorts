@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/MainRootView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/main_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_marginTop="200.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/logo_loading" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/kwjx_live_loading" />
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/white" android:id="@id/txt_loading_tip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="正在打开房间，精彩马上呈现" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/sub_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/main_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/policy_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

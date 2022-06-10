@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/menu_share" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="fill_parent" android:layout_height="@dimen/mz_action_bar_default_height_appcompat_split" android:text="@string/save_str" android:fontFamily="sans-serif-medium" />
+</merge>

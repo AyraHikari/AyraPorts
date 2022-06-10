@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flyme="http://schemas.android.com/apk/res-auto">
+    <flyme.support.v7.widget.MzRecyclerView android:scrollbarSize="3.0dip" android:id="@id/recyclerview" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <flyme.support.v7.widget.RecyclerFastScrollLetter android:id="@id/fastscroller" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignTop="@id/recyclerview" android:layout_alignBottom="@id/recyclerview" android:layout_alignParentEnd="true" flyme:mcLetterBarPaddingBottom="100.0dip" flyme:mcLetterBarPaddingTop="100.0dip" flyme:mcLetterBarTouchDownBkDrawable="@drawable/fastscroller_letterbar_lightwhite" flyme:mcLetterBarTouchMoveBkDrawable="@drawable/fastscroller_letterbar_lightwhite" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white_50" android:id="@id/empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ve_music_empty_tip" android:layout_centerInParent="true" />
+</RelativeLayout>

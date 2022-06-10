@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:MzCenterSeekBar="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/switch_stroke_solid_rect" android:layout_marginTop="4.0dip" android:src="@drawable/doodles_squre_switch_background" android:contentDescription="@string/switch_solid" style="@style/AnnotationShapeItemStyleRect" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="13.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="10.0dip" android:textColor="@color/colorWhite50" android:id="@id/rect_seekbar_label1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="@string/edit_mark_sb_alpha" android:fontFamily="sans-serif-medium" />
+        <com.meizu.media.gallery.filtershow.ui.MarkBreakerSeekBar android:id="@id/rect_seekbar_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" MzCenterSeekBar:filterShowThumbTint="@color/filter_progress_bg_color" MzCenterSeekBar:progressBackgroundTint="@color/filter_progress_hint_bg_color" MzCenterSeekBar:progressTint="@color/filter_progress_bg_color" MzCenterSeekBar:thumbEdgeLen="15.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="5.0dip">
+        <TextView android:textSize="10.0dip" android:textColor="@color/colorWhite50" android:id="@id/rect_seekbar_label2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="@string/edit_mark_sb_round" android:fontFamily="sans-serif-medium" />
+        <com.meizu.media.gallery.filtershow.ui.MarkBreakerSeekBar android:id="@id/rect_seekbar_round" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" MzCenterSeekBar:filterShowThumbTint="@color/filter_progress_bg_color" MzCenterSeekBar:progressBackgroundTint="@color/filter_progress_hint_bg_color" MzCenterSeekBar:progressTint="@color/filter_progress_bg_color" MzCenterSeekBar:thumbEdgeLen="15.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<puzzle type="poster" width="900" height="1200">
+    <window type="rect" left="116" top="304" right="443" bottom="692"/>
+    <window type="rect" left="456" top="304" right="782" bottom="990"/>
+    <window type="rect" left="116" top="705" right="443" bottom="1200"/>
+    <window type="rect" left="456" top="1004" right="782" bottom="1200"/>
+    <icon left="0" top="0" right="900" bottom="1200" src="temp.png" local="0"/>
+    <text x="450" y="195" content="每一张图片，都是时光的标本" length="15" size="30" textAlign="center" textColor="#747474"/>
+</puzzle>
+<!--md5:39f59a80a0461b4d25a8edc0a50b798d,idx:8-->

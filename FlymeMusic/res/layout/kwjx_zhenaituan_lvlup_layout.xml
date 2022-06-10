@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/zhenaituan_lvlup_view" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/kw_common_cl_black_alpha_50" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="270.0dip" android:layout_marginTop="85.0dip" android:layout_centerHorizontal="true">
+        <RelativeLayout android:layout_width="235.0dip" android:layout_height="250.0dip" android:layout_centerInParent="true">
+            <ImageView android:id="@id/fanslvlup_guang" android:layout_width="200.0dip" android:layout_height="200.0dip" android:src="@drawable/kwjx_zhenaituan_lvlup_guang" android:layout_centerInParent="true" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/kwjx_button_zhenaituan_lvlup_bg" android:layout_width="fill_parent" android:layout_height="94.0dip" android:layout_alignParentBottom="true">
+                <LinearLayout android:id="@id/ll_lvlup_firstline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:layout_below="@id/gongxiIcon" android:layout_centerHorizontal="true">
+                    <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/kw_white" android:id="@id/gongxiText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="恭喜" />
+                    <ImageView android:textSize="@dimen/text_size_16" android:layout_gravity="center_vertical" android:id="@id/fanslvlup_richlvl" android:layout_width="40.0dip" android:layout_height="20.0dip" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" />
+                    <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/kw_white" android:id="@id/fanslvlup_user" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/ll_lvlup_firstline" android:layout_centerHorizontal="true">
+                    <TextView android:textSize="@dimen/text_size_15" android:textColor="#ffff876b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="真爱升级为" />
+                    <TextView android:textSize="@dimen/text_size_16" android:textColor="#ffff876b" android:id="@id/fanslvlup_grade" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+                    <TextView android:textSize="@dimen/text_size_16" android:textColor="#ffff876b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="级" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_zhenaituan_lvlup_gongxi" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

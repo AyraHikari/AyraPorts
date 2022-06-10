@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d lögum var eytt.</item>
+        <item quantity="one">1 lagi var eytt</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d plötur</item>
+        <item quantity="one">1 plata</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d lög</item>
+    </plurals>
+</resources>

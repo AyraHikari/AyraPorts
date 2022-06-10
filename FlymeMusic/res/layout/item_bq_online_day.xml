@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginBottom="10.0dip" android:paddingStart="@dimen/dp_18" android:paddingEnd="@dimen/dp_18"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/dailyRecommendLayout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="8.0dip" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/activeLayout">
+        <com.banqu.music.ui.widget.RoundImageView android:id="@id/dailyBg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_bq_home_daily_recommend_bg" android:scaleType="centerCrop" app:borderRadius="8.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip">
+            <com.banqu.music.ui.widget.PlaySourceImageView android:id="@id/playImage" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/ic_bq_home_daily_recommend_play" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="40.0dip" android:layout_alignLeft="@id/playImage" android:layout_alignParentLeft="true">
+                <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="left" android:id="@id/dailyRecommendTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bq_daily_recommend_material_title" android:singleLine="true" />
+                <TextView android:textSize="10.0dip" android:textColor="#99ffffff" android:ellipsize="end" android:gravity="left" android:id="@id/dailySubtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/bq_daily_recommend_material_subtitle" android:singleLine="true" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/activeLayout" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintLeft_toRightOf="@id/dailyRecommendLayout" app:layout_constraintRight_toRightOf="parent">
+        <com.banqu.music.ui.widget.RoundImageView android:id="@id/activeBg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_bq_home_channel_active_bg" android:scaleType="centerCrop" app:borderRadius="8.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip">
+            <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="left" android:id="@id/activeTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="10.0dip" android:textColor="#99ffffff" android:ellipsize="end" android:gravity="left" android:id="@id/activeSubtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

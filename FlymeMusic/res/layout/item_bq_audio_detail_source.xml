@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.banqu.music.ui.widget.BQTextView android:textSize="10.0dip" android:ellipsize="end" android:id="@id/source" android:paddingTop="@dimen/default_page_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="7.0dip" android:paddingStart="@dimen/default_page_padding" android:paddingEnd="@dimen/default_page_padding" style="@style/BQ_Medium_sub" />
+</FrameLayout>

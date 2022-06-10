@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/pub_chat_fl" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_chatList" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.kuwo.show.ui.view.EdgeTransparentView android:id="@id/etv_phone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.kuwo.jx.chat.widget.ChatListView android:id="@id/content_list" android:paddingLeft="8.0dip" android:paddingBottom="5.0dip" android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:fadeScrollbars="true" />
+        </cn.kuwo.show.ui.view.EdgeTransparentView>
+    </FrameLayout>
+    <include android:id="@id/enter_show_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" layout="@layout/kwjx_mob_chat_vip_enter" />
+    <TextView android:textSize="@dimen/text_size_9" android:textColor="@color/kwjx_rgbd77aff" android:gravity="center" android:layout_gravity="bottom" android:id="@id/tv_scroll_bottom" android:background="@drawable/kwjx_chat_bottom_background" android:paddingLeft="5.0dip" android:paddingTop="3.5dip" android:paddingRight="5.0dip" android:paddingBottom="3.5dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginBottom="7.0dip" android:text="返回底部" android:drawableLeft="@drawable/kwjx_chat_bottom_arrow" android:drawablePadding="4.0dip" />
+</FrameLayout>

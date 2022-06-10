@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NMins">
+        <item quantity="other">%d মিনিট</item>
+        <item quantity="one">১ মিনিট</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%dটি গান মোছা হয়েছে</item>
+        <item quantity="one">১টি গান মোছা হয়েছে</item>
+    </plurals>
+    <plurals name="NNNtrackswilldeleted">
+        <item quantity="other">%dটি গান সঞ্চয়স্থান থেকে স্থায়ী ভাবে মোছা হবে।</item>
+        <item quantity="one">১টি গান সঞ্চয়স্থান থেকে স্থায়ী ভাবে মোছা হবে।</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%dটি অ্যালবাম</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d sanger</item>
+    </plurals>
+</resources>

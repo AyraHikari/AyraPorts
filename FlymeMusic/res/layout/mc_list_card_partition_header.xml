@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mz_list_card_partition_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/mz_list_card_partition_content_padding_left">
+        <TextView android:textColor="@color/mz_text_view_color_black_alpha_40" android:id="@id/card_partition_title_text" android:paddingTop="@dimen/mz_list_card_partition_content_padding_top" android:paddingBottom="@dimen/mz_list_card_partition_content_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignParentStart="true" style="@style/Widget.Flyme.Light.TextView.Little.Medium" />
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/mz_item_background_borderless" android:paddingTop="@dimen/mz_list_card_partition_content_padding_top" android:paddingBottom="@dimen/mz_list_card_partition_content_padding_bottom" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/mz_list_card_partition_content_padding_right" android:layout_alignParentEnd="true">
+            <TextView android:gravity="center" android:id="@id/card_partition_right_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/Widget.Flyme.Light.TextView.Little.Medium" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/card_partition_right_pic" android:background="@drawable/mz_list_category_1_right_triangle" android:visibility="visible" android:layout_width="@dimen/mz_list_card_partition_right_pic_height" android:layout_height="@dimen/mz_list_card_partition_right_pic_weight" android:scaleX="0.98" android:scaleY="0.9" android:layout_marginStart="@dimen/mz_list_card_partition_right_text_pic_padding" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

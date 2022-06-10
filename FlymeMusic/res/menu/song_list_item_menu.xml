@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/add_play_song_list" android:title="@string/bq_menu_add_next_song_play" />
+    <item android:id="@id/add_play_list" android:title="@string/bq_menu_add_playlist" />
+    <item android:id="@id/delete" android:title="@string/bq_menu_delete" />
+    <item android:id="@id/download" android:title="@string/bq_menu_download" />
+    <item android:id="@id/share" android:title="@string/bq_menu_share" />
+    <item android:id="@id/look_artist" android:title="@string/bq_menu_look_artist" />
+    <item android:id="@id/look_album" android:title="@string/bq_menu_look_album" />
+    <item android:id="@id/syncSong" android:title="@string/bq_menu_sync_song" />
+    <item android:id="@id/removeSyncSong" android:title="@string/bq_menu_drop_sync_song" />
+    <item android:id="@id/lookOrEditInfo" android:title="@string/bq_menu_look_edit_song" />
+</menu>

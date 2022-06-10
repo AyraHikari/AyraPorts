@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/nextLayout" android:background="@drawable/bq_list_item_next_bg" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:clickable="true" android:layout_width="74.0dip" android:layout_height="24.0dip" android:layout_marginTop="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bq_change_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bq_change_icon" android:layout_centerVertical="true" />
+    <TextView android:textSize="11.0dip" android:textColor="@color/app_theme_color_red" android:gravity="center" android:id="@id/next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_3" android:layout_toRightOf="@id/bq_change_icon" android:layout_centerVertical="true" />
+</RelativeLayout>

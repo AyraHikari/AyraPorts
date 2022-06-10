@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gallery="http://schemas.android.com/apk/res-auto">
+    <com.meizu.media.gallery.ui.GalleryRecyclerView android:id="@id/list" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" gallery:enablePerformItemClick="false" />
+    <include layout="@layout/fast_scroller_layout" />
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/bottom_zone" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/mz_action_bar_default_height_appcompat_split">
+        <View android:background="@color/black_10" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentTop="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gallery_main_color" android:gravity="center" android:id="@id/tv_add_privacy" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/add_privacy_photo" android:layout_centerInParent="true" android:fontFamily="sans-serif-medium" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">Διαγράφηκαν %d τραγούδια.</item>
+        <item quantity="one">Διαγράφηκε 1 τραγούδι.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d άλμπουμ</item>
+        <item quantity="one">1 άλμπουμ</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d τραγούδια</item>
+    </plurals>
+</resources>

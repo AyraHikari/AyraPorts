@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Otvorite tipkovnicu da biste dali ime novom popisu za reprodukciju ili odaberite \"Spremi\" da biste mu dali ime \"%s\".</string>
+    <string name="rename_playlist_diff_prompt">Otvorite tipkovnicu da biste popisu za reprodukciju \"%1$s\" dali novo ime ili odaberite \"Spremi\" da biste mu dali ime \"%2$s\".</string>
+    <string name="rename_playlist_same_prompt">Otvorite tipkovnicu da biste popisu za reprodukciju \"%s\" dali novo ime.</string>
+</resources>

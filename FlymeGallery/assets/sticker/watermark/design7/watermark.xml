@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sticker width="116" height="55" id="watermark_7" thumb="watermark_city_bubble_thumb" type="watermark_location">
+    <icon background="true" left="0" right="116" top="0" bottom="55" src="watermark_city_bubble_icon" />
+    <text  left="36" right="100" top="13" bottom="37" font-name="站酷快乐体2016修订版" hint="城市" size="16"
+        text-align="center"/>
+</sticker>

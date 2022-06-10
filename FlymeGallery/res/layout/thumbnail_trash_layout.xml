@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.ui.ThumbnailImageView android:id="@id/thumbnail" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/cloud_video_corner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:src="@drawable/video_corner_thumb" android:layout_marginStart="6.0dip" />
+    <CheckBox android:id="@id/thumbnail_check_box" android:paddingTop="@dimen/thumbnail_fragment_checkbox_margin" android:paddingEnd="@dimen/thumbnail_fragment_checkbox_margin" style="@style/ListCheckBox" />
+    <View android:layout_gravity="bottom" android:id="@id/trash_shader" android:background="@drawable/trash_shader" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:layout_gravity="bottom|center" android:id="@id/thumbnail_trash_date" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:fontFamily="sans-serif-medium" />
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gallery="http://schemas.android.com/apk/res-auto">
+    <com.meizu.media.gallery.ui.GalleryRecyclerView android:id="@id/list" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" gallery:enablePerformItemClick="false" />
+    <include layout="@layout/fast_scroller_layout" />
+    <include layout="@layout/media_empty_view" />
+    <ViewStub android:id="@id/progress_container_stub" android:layout="@layout/media_progress_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/bottom_zone" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/black_10" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentTop="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gallery_main_color" android:gravity="center" android:id="@id/tv_add_privacy" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/mz_action_bar_default_height_appcompat_split" android:text="@string/add_privacy_photo" android:layout_alignParentTop="true" android:fontFamily="sans-serif-medium" />
+    </RelativeLayout>
+</FrameLayout>

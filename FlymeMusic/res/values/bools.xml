@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">false</bool>
+    <bool name="abc_allow_stacked_button_bar">false</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">true</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="isTablet">false</bool>
+    <bool name="kwjx_theme_property_boolean_demo">false</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="mz_split_action_bar_is_narrow">true</bool>
+    <bool name="zb_compat_abc_action_bar_embed_tabs_pre_jb">false</bool>
+    <bool name="zb_compat_abc_config_allowActionMenuItemTextWithIcon">true</bool>
+    <bool name="zb_compat_isTablet">false</bool>
+    <bool name="zb_compat_split_action_bar_is_narrow">true</bool>
+</resources>

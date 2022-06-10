@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NMins">
+        <item quantity="other">%d minuuttia</item>
+        <item quantity="one">1 minuutti</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d kappaletta poistettiin.</item>
+        <item quantity="one">1 kappale poistettu.</item>
+    </plurals>
+    <plurals name="NNNtrackswilldeleted">
+        <item quantity="other">%d kappaletta poistetaan pysyvästi.</item>
+        <item quantity="one">1 kappale poistetaan pysyvästi.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d albumia</item>
+        <item quantity="one">1 albumi</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d kappaletta</item>
+    </plurals>
+</resources>

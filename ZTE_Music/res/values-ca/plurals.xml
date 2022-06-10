@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">"S'han suprimit %d cançons."</item>
+        <item quantity="one">"S'ha suprimit 1 cançó."</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d àlbums</item>
+        <item quantity="one">1 àlbum</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d cançons</item>
+    </plurals>
+</resources>

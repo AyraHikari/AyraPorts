@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="76.0dip" android:paddingStart="@dimen/default_page_padding" android:paddingEnd="@dimen/default_page_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.banqu.music.ui.widget.RoundImageView android:id="@id/albumIcon" style="@style/ListIcon56" />
+    <ImageView android:layout_width="10.0dip" android:layout_height="56.0dip" android:src="@drawable/bq_album_cd_bg" android:layout_toRightOf="@id/albumIcon" android:translationX="-5.0dip" />
+    <TextView android:textSize="@dimen/bq_list_item_title_ts" android:textColor="@color/black" android:ellipsize="end" android:id="@id/albumName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.5dip" android:singleLine="true" android:layout_marginStart="14.0dip" android:layout_toEndOf="@id/albumIcon" />
+    <TextView android:textSize="@dimen/bq_list_item_sub_ts" android:textColor="@color/bq_list_item_sub_color" android:ellipsize="end" android:id="@id/artist" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxWidth="150.0dip" android:lines="1" android:singleLine="true" android:layout_below="@id/albumName" android:layout_alignLeft="@id/albumName" android:layout_toEndOf="@id/albumIcon" />
+    <TextView android:textSize="@dimen/bq_list_item_sub_ts" android:textColor="@color/bq_list_item_sub_color" android:id="@id/createTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/albumName" android:layout_alignBaseline="@id/artist" android:layout_toEndOf="@id/artist" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:duration="248" android:shareInterpolator="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:interpolator="@interpolator/mz_support_fragment_open_enter_alpha" android:fromAlpha="0.0" android:toAlpha="1.0" />
+    <translate android:interpolator="@interpolator/mz_support_fragment_open_enter_translationx" android:fromXDelta="10.000002%" android:toXDelta="0.0" />
+</set>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/parentPanel" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="wrap_content" android:layout_height="34.0dip" android:maxWidth="312.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:meizu="http://schemas.android.com/apk/res-auto">
+    <com.meizu.open.pay.base.ui.LoadingView android:layout_gravity="center_vertical" android:id="@id/loadingView" android:layout_width="wrap_content" android:layout_height="wrap_content" meizu:mcLBackground="@color/progress_dialog_loading_view_bg_color" meizu:mcLForeground="@android:color/white" meizu:mcLoadingRadius="6.0dip" meizu:mcRingWidth="1.5dip" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pay_mc_loadingviewdialog_message_margin_left" />
+</LinearLayout>

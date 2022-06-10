@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_infobhw_view" android:background="@color/blacks" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/bank_select_fl" android:background="@color/rgbf0f0f0" android:layout_width="fill_parent" android:layout_height="218.0dip" android:layout_alignParentBottom="true">
+        <cn.kuwo.show.ui.show.applysinger.bank.WheelView android:layout_gravity="center" android:id="@id/bank_select_wheel_one" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_alignParentBottom="true" />
+        <cn.kuwo.show.ui.show.applysinger.bank.WheelView android:layout_gravity="center" android:id="@id/bank_select_wheel_two" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_alignParentBottom="true" />
+        <cn.kuwo.show.ui.show.applysinger.bank.WheelView android:layout_gravity="center" android:id="@id/bank_select_wheel_three" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:background="@color/kw_common_cl_white" android:layout_width="fill_parent" android:layout_height="@dimen/apply_signer_user_bank_pop_t_h" android:layout_above="@id/bank_select_fl">
+        <TextView android:textSize="16.0sp" android:textColor="@color/kw_common_cl_black_66" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_weight="2.0" android:layout_centerInParent="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/kw_common_cl_black_33" android:gravity="center" android:id="@id/tv_quxiao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/apply_signer_user_bank_pop_cancel" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/purple" android:gravity="center" android:id="@id/tv_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/apply_signer_user_bank_pop_finish" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

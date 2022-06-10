@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:paddingLeft="25.0dip" android:paddingRight="25.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/vip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vip_icon" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/rateType" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/sp_15" android:textColor="@color/alpha_90_black" android:id="@id/rateType" android:paddingEnd="15.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/BaseTextTheme" />
+    <CheckBox android:textAppearance="?android:textAppearanceListItemSmall" android:gravity="center_vertical" android:id="@id/checkBoxView" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkMark="?android:listChoiceIndicatorSingle" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

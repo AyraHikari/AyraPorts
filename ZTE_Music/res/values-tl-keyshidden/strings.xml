@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Buksan ang keyboard upang bigyan ng bagong pangalan ang iyong Playlist, o piliin ang I-save upang pangalanan ito na \"%s\".</string>
+    <string name="rename_playlist_diff_prompt">Buksan ang keyboard upang bigyan ang playlist na \"%1$s\" ng bagong pangalan, o piliin ang I-save upang pangalanan ito na \"%2$s\".</string>
+    <string name="rename_playlist_same_prompt">Buksan ang keyboard upang bigyan ang playlist na \"%s\" ng bagong pangalan.</string>
+</resources>

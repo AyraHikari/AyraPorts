@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/btn_export_black" android:id="@id/menu_export" android:title="@string/exporting_video" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_menu_share" android:id="@id/menu_share" android:title="@string/menu_share_title" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/btn_delete" android:id="@id/menu_delete" android:title="@string/delete" app:showAsAction="always|withText" />
+</menu>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="1.5dip" android:paddingRight="1.5dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/user_icon_img" android:layout_width="@dimen/hot_list_user_icon_size_30" android:layout_height="@dimen/hot_list_user_icon_size_30" fresco:placeholderImage="@drawable/kwjx_def_user_icon" fresco:roundAsCircle="true" fresco:roundingBorderColor="@color/kw_common_cl_white_alpha_60" fresco:roundingBorderWidth="0.5dip" />
+</RelativeLayout>

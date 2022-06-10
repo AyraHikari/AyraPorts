@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.kuwo.show.base.uilib.pulltorefresh.PullToRefreshListView android:id="@id/content_list" android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.5dip" android:headerDividersEnabled="true" android:fadeScrollbars="true" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/kw_common_cl_black_4" android:gravity="center" android:id="@id/load_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/data_non" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/non_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/user_img_default" />
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/live_inout_text_color" android:id="@id/error_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="暂无记录" />
+    </LinearLayout>
+    <include android:id="@id/online_error_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/online_error" />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.kuwo.show.ui.view.GestureSwitchLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/rl_dragview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_room_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" fresco:actualImageScaleType="focusCrop" fresco:placeholderImage="@drawable/kwjx_room_bg" fresco:placeholderImageScaleType="focusCrop" fresco:progressBarImage="@color/black80" fresco:progressBarImageScaleType="focusCrop" />
+        <TextureView android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/room_mid_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/content_portrait" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ViewStub android:id="@id/room_content_stub" android:layout="@layout/kwjx_room_content2" android:inflatedId="@id/room_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/content_landscape" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ViewStub android:id="@id/room_content_landscape_stub" android:layout="@layout/kwjx_room_content_landscape" android:inflatedId="@id/room_content_landscape" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/room_above_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</cn.kuwo.show.ui.view.GestureSwitchLayout>

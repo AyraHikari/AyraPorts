@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/nameLayout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fly.xtablayout.ColorTrackTabLayout android:id="@id/tabLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-6.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:x_indicatorMarginTop="0.0dip" app:x_tabGravity="center" app:x_tabIndicatorAnimation="false" app:x_tabIndicatorColor="@color/app_theme_color_red" app:x_tabIndicatorHeight="3.0dip" app:x_tabIndicatorRoundRect="true" app:x_tabMargin="0.0dip" app:x_tabMode="scrollable" app:x_tabPaddingEnd="@dimen/main_tab_padding" app:x_tabPaddingStart="@dimen/main_tab_padding" app:x_tabSelectedTextColor="@color/app_theme_color_red" app:x_tabTextColor="#ff000000" app:x_tabTextSize="@dimen/sp_20" style="@style/BQ_Medium_title" />
+</LinearLayout>

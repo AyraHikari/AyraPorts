@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">برای اختصاص یک نام جدید به لیست پخش، صفحه کلید را باز کنید یا برای نامگذاری آن به \"%s\" ذخیره را انتخاب کنید.</string>
+    <string name="rename_playlist_diff_prompt">برای اختصاص یک نام جدید به لیست پخش \"%1$s\"، صفحه کلید را باز کنید یا برای نامگذاری آن به \"%2$s\" ذخیره را انتخاب کنید.</string>
+    <string name="rename_playlist_same_prompt">برای اختصاص یک نام جدید به لیست پخش \"%s\"، صفحه کلید را باز کنید.</string>
+</resources>

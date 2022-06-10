@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="6.0dip" android:insetRight="6.0dip" android:insetTop="6.0dip" android:insetBottom="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <layer-list>
+        <item>
+            <selector>
+                <item android:state_pressed="true">
+                    <nine-patch android:src="@drawable/btn_default_bg_mfvx" android:tint="@color/mfv_common_btn_pressed_bg" />
+                </item>
+                <item android:state_enabled="false">
+                    <nine-patch android:src="@drawable/btn_default_bg_mfvx" android:tint="@color/mfv_common_btn_disabled_bg" />
+                </item>
+                <item>
+                    <nine-patch android:src="@drawable/btn_default_bg_mfvx" android:tint="@color/mfv_common_btn_default_bg" />
+                </item>
+            </selector>
+        </item>
+        <item>
+            <selector>
+                <item android:state_pressed="true">
+                    <nine-patch android:src="@drawable/btn_default_mfv9" android:tint="@color/btn_pressed" />
+                </item>
+                <item android:state_enabled="false">
+                    <nine-patch android:src="@drawable/btn_default_mfv9" android:tint="@color/btn_disabled" />
+                </item>
+                <item>
+                    <nine-patch android:src="@drawable/btn_default_mfv9" android:tint="@color/btn_default" />
+                </item>
+            </selector>
+        </item>
+    </layer-list>
+</inset>

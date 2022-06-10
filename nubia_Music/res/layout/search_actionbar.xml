@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/voice_search" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+    <ImageView android:gravity="center" android:id="@id/more_result" android:visibility="gone" android:layout_width="@dimen/mfvc_ic_medium_width" android:layout_height="@dimen/mfvc_ic_medium_height" android:layout_marginLeft="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+    <com.zte.mifavor.widget.SearchViewZTE android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:inputType="text" android:imeOptions="actionSearch" android:iconifiedByDefault="true" android:queryHint="@string/search_hint" android:layout_toStartOf="@id/more_result" android:importantForAutofill="no" />
+</RelativeLayout>

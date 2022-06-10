@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/playBack" android:layout_width="58.0dip" android:layout_height="50.0dip" android:src="@drawable/bq_ic_player_back" android:scaleType="centerInside" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tabContainer" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="18.0dip" android:textColor="@color/alpha_80_black" android:gravity="center" android:id="@id/songTv" android:layout_width="40.0dip" android:layout_height="wrap_content" android:text="@string/song" android:includeFontPadding="false" style="@style/BQ_Sans_Medium" />
+        <View android:layout_gravity="center" android:background="@color/transparent" android:layout_width="22.0dip" android:layout_height="wrap_content" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/alpha_25_black" android:gravity="center" android:id="@id/lyricTv" android:layout_width="40.0dip" android:layout_height="wrap_content" android:text="@string/lyric" android:includeFontPadding="false" style="@style/BQ_Sans_Medium" />
+    </LinearLayout>
+    <ImageView android:id="@id/share" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/bq_ic_player_share" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

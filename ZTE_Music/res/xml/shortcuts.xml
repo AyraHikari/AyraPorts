@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/icon_play_all" android:enabled="true" android:shortcutId="playAll_sc" android:shortcutShortLabel="@string/all_play">
+        <intent android:targetPackage="cn.zte.music" android:action="android.intent.action.SHORTCUT" android:targetClass="cn.zte.music.activity.AllMusicActivity" />
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/page_padding" android:paddingEnd="@dimen/page_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/cover_image_layout" android:layout_width="wrap_content" android:layout_height="62.0dip" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+        <com.meizu.media.gallery.ui.CoverView android:layout_gravity="center" android:id="@id/cover_image" android:layout_width="@dimen/search_result_cover_size" android:layout_height="@dimen/search_result_cover_size" app:roundRadius="1.3299866dip" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/search_tip_title_size" android:textColor="@color/black_40" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxWidth="220.0dip" android:lines="1" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/cover_image_layout" />
+    <TextView android:textSize="@dimen/search_tip_sub_title_size" android:textColor="@color/black_40" android:ellipsize="end" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxWidth="220.0dip" android:lines="1" android:layout_below="@id/title" android:layout_alignStart="@id/title" />
+    <ImageView android:id="@id/ic_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/ic_more" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black_40" android:id="@id/result_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/ic_more" />
+    <View android:background="@color/black_40" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignLeft="@id/title" android:layout_alignParentBottom="true" />
+</RelativeLayout>

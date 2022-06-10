@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:imageText="http://schemas.android.com/apk/res-auto" xmlns:DiscreteSeekBar="http://schemas.android.com/apk/res-auto">
+    <com.meizu.media.gallery.ui.WallpaperLayout android:id="@id/wallpaper_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/panel_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/main_panel" android:layout_width="fill_parent" android:layout_height="@dimen/mz_action_bar_default_height_appcompat_split" />
+        <LinearLayout android:orientation="vertical" android:id="@id/blur_toolbar_panel" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="74.0dip">
+                <com.meizu.media.gallery.filtershow.ui.MzBreakerSeekbar android:layout_gravity="center" android:id="@id/blur_seekbar" android:paddingTop="@dimen/wallpaper_fragment_seekbar_padding_top" android:paddingBottom="@dimen/filtershow_seekbar_padding" android:layout_width="264.0dip" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" android:progressTint="@color/red" android:progressBackgroundTint="@color/filter_text_color_20_black" android:thumbTint="@color/red" style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal" />
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/mz_smartbar_background" android:clickable="true" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/mz_action_bar_default_height_appcompat_split">
+                <TextView android:text="@string/blur" style="@style/BottomMenuTextItem" />
+                <ImageView android:layout_gravity="start|center" android:id="@id/set_blur_cancel" android:src="@drawable/ic_menu_cancel_holo_light" style="@style/BottomMenuItem" />
+                <ImageView android:layout_gravity="end|center" android:id="@id/set_blur_ok" android:src="@drawable/ic_menu_done_holo_light" style="@style/BottomMenuItem" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/texture_toolbar_panel" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <HorizontalScrollView android:id="@id/texture_horizontal_scroll_view" android:background="@color/white" android:paddingTop="@dimen/wallpaper_fragment_overlaying_panel_padding_top" android:paddingBottom="@dimen/wallpaper_fragment_overlaying_panel_padding_bottom" android:layout_width="fill_parent" android:layout_height="74.0dip" android:paddingStart="@dimen/wallpaper_fragment_overlaying_panel_padding_left">
+                <com.meizu.media.gallery.ui.WallPaperTexturePanel android:id="@id/texture_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </HorizontalScrollView>
+            <FrameLayout android:background="@drawable/mz_smartbar_background" android:clickable="true" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/mz_action_bar_default_height_appcompat_split">
+                <TextView android:text="@string/wallpaper_overlaying" style="@style/BottomMenuTextItem" />
+                <ImageView android:layout_gravity="start|center" android:id="@id/set_overlay_cancel" android:src="@drawable/ic_menu_cancel_holo_light" style="@style/BottomMenuItem" />
+                <ImageView android:layout_gravity="end|center" android:id="@id/set_overlay_ok" android:src="@drawable/ic_menu_done_holo_light" style="@style/BottomMenuItem" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <flyme.support.v7.widget.ControlTitleBar android:id="@id/title_bar" android:background="@drawable/titlebar_background_bottom_divide_white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

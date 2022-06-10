@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:shareInterpolator="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:interpolator="@interpolator/dialog_enter_translate" android:duration="250" android:fromYDelta="34.000004%" android:toYDelta="0.0%" />
+    <alpha android:interpolator="@interpolator/dialog_enter_alpha" android:duration="140" android:fromAlpha="0.0" android:toAlpha="1.0" />
+</set>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.ui.AnimatorView android:id="@id/long_screenshot_trans_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/top_menu_bar" android:visibility="invisible" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/filtershow_top_menu_height" layout="@layout/screen_shot_edit_top_menu_layout" />
+    <FrameLayout android:id="@id/screenshot_bottom_container" android:background="@drawable/filtershow_editor_panel_background" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@layout/long_screenshot_bottom_panel" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/imageShowContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/screenshot_bottom_container" android:layout_below="@id/top_menu_bar" />
+</RelativeLayout>

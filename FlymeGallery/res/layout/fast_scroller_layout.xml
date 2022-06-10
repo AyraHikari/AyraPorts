@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.media.gallery.ui.RecyclerViewFastScroller android:layout_gravity="right" android:id="@id/fastScroller" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/fastscroll_handle" android:background="@drawable/scroll" android:visibility="gone" android:layout_width="44.0dip" android:layout_height="50.0dip" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="@dimen/mz_text_size_little" android:textColor="@color/white" android:gravity="center" android:id="@id/fastscroll_indicator" android:background="@drawable/base" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.329987dip" android:layout_marginBottom="10.329987dip" android:fontFamily="sans-serif-medium" android:layout_marginEnd="23.0dip" android:layout_toStartOf="@id/fastscroll_handle" />
+</com.meizu.media.gallery.ui.RecyclerViewFastScroller>

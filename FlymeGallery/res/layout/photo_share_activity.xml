@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/root_view" android:paddingTop="@dimen/status_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent" android:transitionGroup="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <flyme.support.v7.widget.MultiChoiceView android:id="@id/multi_choice_view" android:paddingTop="9.0dip" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:transitionGroup="true" />
+    <View android:id="@id/divider_line" android:background="@color/mz_titlebar_background_divide_color" android:layout_width="fill_parent" android:layout_height="@dimen/activity_color_line_height" android:layout_below="@id/multi_choice_view" />
+    <com.meizu.media.gallery.ui.GalleryShareViewGroup android:id="@id/share_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:transitionGroup="true" />
+    <com.meizu.media.gallery.ui.VerticalScrollalbeViewPager android:id="@id/photo_pager" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/share_widget" android:layout_below="@id/divider_line" />
+</RelativeLayout>

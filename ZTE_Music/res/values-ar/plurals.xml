@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NMins">
+        <item quantity="other">"
+      %d دقيقة"</item>
+        <item quantity="one">دقيقة واحدة</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">تم حذف %d من الأغاني.</item>
+        <item quantity="one">تم حذف أغنية واحدة</item>
+    </plurals>
+    <plurals name="NNNtrackswilldeleted">
+        <item quantity="other">"
+%d أغاني سيتم حذفها بشكل دائم من التخزين.
+    "</item>
+        <item quantity="one">سيتم حذف أغنية واحدة بشكل دائم من التخزين.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d من الألبومات</item>
+        <item quantity="one">ألبوم واحد</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d من الأغاني</item>
+    </plurals>
+</resources>

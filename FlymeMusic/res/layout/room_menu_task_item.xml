@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/kwjx_transparent" android:paddingTop="61.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/room_menu_task_ll" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/room_menu_task_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="任务" android:drawableTop="@drawable/room_menu_task_icon" android:drawablePadding="5.0dip" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/room_menu_task_bubble" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/room_menu_task_bubble" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/room_menu_ranking_ll" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="排行榜" android:drawableTop="@drawable/room_menu_ranking_icon" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/room_menu_sign_ll" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="签到" android:drawableTop="@drawable/room_menu_sign_icon" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/room_menu_exchange_ll" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="星币兑换" android:drawableTop="@drawable/kwjx_room_menu_exchange_icon" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+</LinearLayout>

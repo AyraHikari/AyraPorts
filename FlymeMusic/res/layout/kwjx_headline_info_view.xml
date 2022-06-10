@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_headline_01" android:background="@drawable/kwjx_headline_info_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip">
+        <RelativeLayout android:id="@id/rl_headline_title" android:layout_width="wrap_content" android:layout_height="30.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/tv_headling_time" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" />
+            <ImageView android:id="@id/iv_headline_close" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/kwjx_headline_info_close" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_headline_user" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_headline_user" android:layout_width="74.0dip" android:layout_height="74.0dip" fresco:actualImageScaleType="focusCrop" fresco:placeholderImage="@drawable/show_lib_default" fresco:roundAsCircle="true" fresco:roundingBorderColor="#ffffffff" fresco:roundingBorderWidth="1.0dip" />
+                <TextView android:textSize="@dimen/text_size_13" android:textColor="#ffff620c" android:gravity="center" android:background="@drawable/kwjx_headline_info_tag" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="58.0dip" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" android:text="富豪" />
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="#ffffffff" android:id="@id/tv_headline_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxWidth="90.0dip" android:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_headline_singer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="46.0dip">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_headline_singer" android:layout_width="74.0dip" android:layout_height="74.0dip" fresco:actualImageScaleType="focusCrop" fresco:placeholderImage="@drawable/show_lib_default" fresco:roundAsCircle="true" fresco:roundingBorderColor="#ffffffff" fresco:roundingBorderWidth="1.0dip" />
+                <TextView android:textSize="@dimen/text_size_13" android:textColor="#ffff620c" android:gravity="center" android:background="@drawable/kwjx_headline_info_tag" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="58.0dip" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" android:text="主播" />
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="#ffffffff" android:id="@id/tv_headline_singername" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxWidth="90.0dip" android:maxLines="1" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_headline_gift_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_headline_gift_pic" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" fresco:placeholderImage="@drawable/show_lib_default" />
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_headline_gift_cnt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_18" android:textStyle="bold" android:textColor="#fffff113" android:ellipsize="end" android:id="@id/tv_headline_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" android:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_headline_02" android:background="@drawable/kwjx_headline_white_bg" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ll_headline_01">
+        <Button android:textSize="18.0sp" android:textColor="#ffff7673" android:id="@id/btn_headline_change" android:background="@drawable/kwjx_headline_red_btn" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="25.0dip" android:text="去围观>" style="?android:borderlessButtonStyle" />
+        <Button android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/btn_headline_send" android:background="@drawable/kwjx_headline_info_btn" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="25.0dip" android:text="一键抢头条" style="?android:borderlessButtonStyle" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="10.0dip">
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/black" android:ellipsize="end" android:id="@id/tv_headline_send_gift_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_headline_send_gift_pic" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" fresco:placeholderImage="@drawable/show_lib_default" />
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/black" android:ellipsize="end" android:id="@id/tv_headline_send_gift_cnt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_headline_info_ic" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

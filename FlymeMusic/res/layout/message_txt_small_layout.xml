@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="80.0dip" android:paddingStart="@dimen/dp_20" android:paddingEnd="@dimen/dp_20"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="12.0dip" android:textColor="#ffffffff" android:id="@id/right_bt" android:background="@drawable/bg_bq_notify_btn" android:visibility="gone" android:layout_width="70.0dip" android:layout_height="28.0dip" android:layout_marginLeft="12.0dip" android:maxEms="4" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/right_bt" android:layout_centerVertical="true" layout="@layout/message_title_layout" />
+</RelativeLayout>

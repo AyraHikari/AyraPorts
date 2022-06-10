@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.ui.MenuTextView android:id="@id/menu_share" android:text="@string/menu_share_title" android:maxLines="1" android:drawableTop="@drawable/ic_menu_share" android:layout_marginStart="15.0dip" style="@style/MenuTextItem" />
+    <com.meizu.media.gallery.ui.MenuTextView android:id="@id/menu_edit" android:text="@string/edit_image" android:maxLines="1" android:drawableTop="@drawable/btn_filtershow" style="@style/MenuTextItem" />
+    <com.meizu.media.gallery.ui.MenuTextView android:id="@id/menu_download" android:text="@string/cloud_menu_title_download" android:maxLines="1" android:drawableTop="@drawable/btn_cloud_download" style="@style/MenuTextItem" />
+    <com.meizu.media.gallery.ui.MenuTextView android:id="@id/menu_delete" android:text="@string/menu_delete_title" android:maxLines="1" android:drawableTop="@drawable/btn_delete" style="@style/MenuTextItem" />
+    <com.meizu.media.gallery.ui.MenuTextView android:id="@id/menu_more" android:text="@string/menu_more_title" android:maxLines="1" android:drawableTop="@drawable/btn_more_land" android:layout_marginEnd="15.0dip" style="@style/MenuTextItem" />
+</merge>

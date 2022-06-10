@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:layout_width="70.0dip" android:layout_height="wrap_content" android:defaultFocusHighlightEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_app_icon" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" android:scaleType="fitCenter" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/item_recommend_icon" android:layout_width="25.0dip" android:layout_height="14.0dip" android:layout_marginTop="43.0dip" android:layout_marginEnd="9.0dip" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#e6000000" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/item_activity_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="2" android:includeFontPadding="false" android:layout_below="@id/item_app_icon" android:paddingHorizontal="4.0dip" />
+    <TextView android:textSize="10.0sp" android:textColor="#40000000" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/item_app_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_below="@id/item_activity_name" android:paddingHorizontal="4.0dip" />
+</RelativeLayout>

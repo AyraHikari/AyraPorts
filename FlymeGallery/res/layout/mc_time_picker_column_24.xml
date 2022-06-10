@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_height="wrap_content" style="@style/Widget.MeizuCommon.McPickerLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/mc_select_box" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/mz_picker_box_selected" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/mc_column_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+        <FrameLayout android:id="@id/mc_column1Layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layoutDirection="locale">
+            <com.meizu.common.widget.ScrollTextView android:layout_gravity="start" android:id="@id/mc_scroll1" android:layout_width="90.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="@dimen/mc_picker_text_size" android:textColor="@color/mc_picker_text_color" android:id="@id/mc_scroll1_text" android:paddingTop="@dimen/mc_date_picker_padding_top" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="68.0dip" />
+        </FrameLayout>
+        <ImageView android:id="@id/mc_divider_bar1" android:visibility="gone" android:layout_width="0.0px" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/mc_column2Layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layoutDirection="locale" android:layout_marginEnd="10.0dip">
+            <com.meizu.common.widget.ScrollTextView android:layout_gravity="start" android:id="@id/mc_scroll2" android:layout_width="90.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="@dimen/mc_picker_text_size" android:textColor="@color/mc_picker_text_color" android:id="@id/mc_scroll2_text" android:paddingTop="@dimen/mc_date_picker_padding_top" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="68.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

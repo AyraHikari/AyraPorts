@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:id="@id/crop_ratio_container" android:background="@drawable/crop_mirror_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/crop_ratio_unspecified" android:text="@string/freely_crop_aspect" android:drawableTop="@drawable/crop_editor_unspecified" style="@style/filterGeoCropRationStyle" />
+        <TextView android:id="@id/crop_ratio_1_1" android:text="@string/one_one_crop_aspect" android:drawableTop="@drawable/crop_editor_1_1" style="@style/filterGeoCropRationStyle" />
+        <TextView android:id="@id/crop_ratio_3_4" android:text="@string/three_four_crop_aspect" android:drawableTop="@drawable/crop_editor_3_4" style="@style/filterGeoCropRationStyle" />
+        <TextView android:id="@id/crop_ratio_4_3" android:text="@string/four_three_crop_aspect" android:drawableTop="@drawable/crop_editor_4_3" style="@style/filterGeoCropRationStyle" />
+        <TextView android:id="@id/crop_ratio_9_16" android:text="@string/nine_sixteen_crop_aspect" android:drawableTop="@drawable/crop_editor_9_16" style="@style/filterGeoCropRationStyle" />
+        <TextView android:id="@id/crop_ratio_16_9" android:text="@string/sixteen_nine_crop_aspect" android:drawableTop="@drawable/crop_editor_16_9" style="@style/filterGeoCropRationStyle" />
+    </LinearLayout>
+</HorizontalScrollView>

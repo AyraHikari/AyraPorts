@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/cloud_empty_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="174.0dip" android:src="@drawable/scene_empty_drawable" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/black_40" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/cloud_empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="334.0dip" android:fontFamily="sans-serif-medium" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black_40" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/cloud_sub_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="366.6953dip" android:maxWidth="230.0dip" />
+    <Button android:textSize="14.0sp" android:textColor="@color/member_tip_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/cloud_empty_btn" android:background="@drawable/round_corner_cloud_empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginTop="387.0dip" android:minWidth="120.69998dip" android:text="@string/cloud_empty_button" android:fontFamily="sans-serif-medium" />
+</FrameLayout>

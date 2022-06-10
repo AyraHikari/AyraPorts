@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/singer_bg" android:background="@color/mv_recommend_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/img_mv" android:background="@color/kw_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mv_recomment_item_m_t">
+            <RelativeLayout android:id="@id/mv_top" android:background="@color/mv_recommend_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/mv_bottom">
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/mv_list_user" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" app:placeholderImage="@drawable/kwjx_empty" />
+                </RelativeLayout>
+                <ImageView android:id="@id/mv_list_user_right_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_homepage_mv" android:layout_alignParentRight="true" />
+                <RelativeLayout android:background="@drawable/show_song_bg" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_alignParentBottom="true">
+                    <ImageView android:id="@id/mv_list_music" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mv_recomment_item_b_h_l" android:layout_marginRight="@dimen/mv_recomment_item_b_h_l" android:src="@drawable/kwjx_homepage_music" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/text_size_11" android:textColor="@color/kw_white" android:id="@id/mv_list_music_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/mv_list_music" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/mv_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/mv_recomment_item_b_h" android:layout_alignParentBottom="true">
+                <ImageView android:id="@id/mv_zan_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mv_recomment_item_b_h_l" android:layout_marginRight="@dimen/mv_recomment_item_b_h_l" android:src="@drawable/mv_recommend_zan" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/mv_recommend_play" android:id="@id/mv_recommend_zan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/mv_zan_img" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_homepage_play" android:layout_toLeftOf="@id/mv_recommend_play" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/mv_recommend_play" android:id="@id/mv_recommend_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mv_recomment_item_b_h_l" android:layout_marginRight="@dimen/mv_recomment_item_b_h_l" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/rl_works_delete" android:background="@color/kw_common_cl_black_alpha_40" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/mv_recomment_item_m_t">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/myif_work_delete" />
+    </RelativeLayout>
+</RelativeLayout>

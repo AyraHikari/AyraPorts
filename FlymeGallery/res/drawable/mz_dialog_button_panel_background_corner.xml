@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:bottomLeftRadius="@dimen/mz_alert_dialog_corners_radius" android:bottomRightRadius="@dimen/mz_alert_dialog_corners_radius" />
+        <solid android:color="#ffffffff" />
+    </shape>
+</inset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/btn_add_set" android:id="@id/action_puzzle" android:visible="true" android:title="@string/cloud_menu_title_puzzle" app:showAsAction="never" />
+    <item android:icon="@drawable/btn_add_set" android:id="@id/action_new_set" android:visible="true" android:title="@string/cloud_menu_title_add_folder" app:showAsAction="never" />
+    <item android:id="@id/action_release_space" android:visible="false" android:title="@string/release_space" app:showAsAction="never" />
+    <item android:id="@id/trash_bin" android:title="@string/trash_album_name" app:showAsAction="never" />
+    <item android:id="@id/action_settings" android:title="@string/menu_title_settings" app:showAsAction="never" />
+</menu>

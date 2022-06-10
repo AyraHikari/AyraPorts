@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/default_page_padding" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="34.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/bq_title_ts" android:layout_gravity="center_vertical" android:id="@id/typeTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" style="@style/BQ_Medium_title" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/crop_ratio_container" android:background="@drawable/crop_ratio_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+        <TextView android:id="@id/crop_ratio_unspecified" android:text="@string/freely_crop_aspect" android:drawableTop="@drawable/ic_editor_cut_0" style="@style/filterGeoCropRationStyle" />
+        <TextView android:id="@id/crop_ratio_1_1" android:text="@string/one_one_crop_aspect" android:drawableTop="@drawable/ic_editor_cut_1_1" style="@style/filterGeoCropRationStyle" />
+        <TextView android:id="@id/crop_ratio_3_4" android:text="@string/three_four_crop_aspect" android:drawableTop="@drawable/ic_editor_cut_3_4" style="@style/filterGeoCropRationStyle" />
+        <TextView android:id="@id/crop_ratio_9_16" android:text="@string/nine_sixteen_crop_aspect" android:drawableTop="@drawable/ic_editor_cut_9_16" style="@style/filterGeoCropRationStyle" />
+    </LinearLayout>
+</FrameLayout>

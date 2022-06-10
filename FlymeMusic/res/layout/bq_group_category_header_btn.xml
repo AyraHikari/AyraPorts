@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center|left" android:id="@id/category_head_normal_layout" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/bq_main_adapter_title_default_height" android:paddingStart="20.0dip" android:paddingEnd="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/dp_16" android:textStyle="bold" android:ellipsize="end" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toStartOf="@id/subText" style="@style/BQ_Medium_title" />
+    <TextView android:textSize="@dimen/dp_12" android:textColor="@color/bq_app_theme_color_red" android:gravity="center" android:id="@id/subText" android:background="@drawable/bq_btn_normal_color_light_red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/dp_20" android:text="@string/bq_play_all" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_marginStart="@dimen/dp_12" android:layout_alignParentEnd="true" style="@style/TextAppearance.Banqu.H11.Medium" />
+</RelativeLayout>

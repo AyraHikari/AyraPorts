@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="16.0sp" android:textColor="@color/kw_common_cl_black" android:id="@id/dialog_btn_name" android:background="@drawable/kw_dialog_bottom_btn_white_selector" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="设为来电铃声" />
+    <View android:background="@color/kw_common_cl_dddddd_05" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

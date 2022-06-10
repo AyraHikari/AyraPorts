@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/downloadManager" android:title="@string/bq_menu_download_manager" />
+    <item android:id="@id/scan" android:title="@string/bq_menu_scan_local" />
+    <item android:id="@id/sort" android:title="@string/bq_menu_sort" />
+    <item android:id="@id/matchLrc" android:title="@string/bq_menu_match_lrc" />
+</menu>

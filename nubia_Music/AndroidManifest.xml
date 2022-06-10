@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="cn.zte.music" platformBuildVersionCode="100000" platformBuildVersionName="10.5.010.000.2007281852">
+    <permission android:name="cn.zte.music.permission.PlaybackService"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.android.email.provider.AttachmentProvider"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="com.zte.halo.app.permission.barginreceiver"/>
+    <uses-permission android:name="launchermfv.permission.RECENT_CLEAR_BLACKLIST"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="false"/>
+    <application android:allowBackup="false" android:allowTaskReparenting="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@mipmap/ic_launcher_stock" android:label="@string/musicbrowserlabel" android:name="cn.zte.music.MusicApplication" android:requestLegacyExternalStorage="true" android:supportsRtl="true" android:taskAffinity="android.task.music" android:theme="@style/MyTheme">
+        <meta-data android:name="appDescription" android:value="ZTE_appName|MusicPlayer"/>
+        <meta-data android:name="android.app.default_searchable" android:value="cn.zte.music.activity.QueryBrowserActivity"/>
+        <meta-data android:name="appuid" android:value="4d75736963506c61796572636f6c6c65"/>
+        <meta-data android:name="marketinfo" android:value="preload"/>
+        <meta-data android:name="isZteApp" android:value="true"/>
+        <meta-data android:name="isUseNewRingCut" android:value="true"/>
+        <meta-data android:name="isStock" android:value="true"/>
+        <meta-data android:name="isMultyPro" android:value="false"/>
+        <activity android:exported="false" android:name="cn.zte.music.activity.BaseActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTop" android:name="cn.zte.music.activity.MusicBrowserActivity" android:theme="@style/EntryTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MUSIC_PLAYER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cn.zte.music.MUSIC_BROWSER_VIEWER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MONKEY"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.APP_MUSIC"/>
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
+        </activity>
+        <receiver android:name="cn.zte.music.receiver.MediaButtonIntentReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|screenSize" android:excludeFromRecents="true" android:exported="false" android:label="@string/mediaplaybacklabel" android:launchMode="singleTask" android:name="cn.zte.music.activity.MediaPlaybackActivity" android:theme="@style/MyPlaybackTheme">
+            <intent-filter>
+                <action android:name="cn.zte.music.PLAYBACK_VIEWER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="cn.zte.music.activity.AudioPreviewActivity" android:resizeableActivity="true" android:taskAffinity="" android:theme="@style/MyDialogStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/x-ogg"/>
+                <data android:mimeType="application/itunes"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/x-ogg"/>
+                <data android:mimeType="application/itunes"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="content"/>
+                <data android:host="media"/>
+                <data android:pathPrefix="/external"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/x-ogg"/>
+                <data android:mimeType="application/itunes"/>
+                <data android:scheme="filemgr"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/x-ogg"/>
+                <data android:mimeType="application/itunes"/>
+                <data android:scheme="filemgr"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="cn.zte.music.search.SearchActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:exported="false" android:name="cn.zte.music.activity.TrackInfoModifyActivity" android:theme="@style/MyPlaybackTheme" android:windowSoftInputMode="stateAlwaysVisible"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="cn.zte.music.activity.TrackBrowserActivity" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/track"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="cn.zte.music.activity.TrackSelectActivity" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/edit"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/musicbrowserlabel" android:name="cn.zte.music.activity.FileDirectActivity" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/filedirect"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/filedirect"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:label="@string/music_picker_title" android:name="cn.zte.music.activity.MusicPickerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/x-ogg"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+                <data android:mimeType="vnd.android.cursor.dir/audio"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/musicbrowserlabel" android:name="cn.zte.music.activity.SettingActvity" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/musicbrowserlabel" android:name="cn.zte.music.activity.LocalSongAlbumActivity" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="local/artist_song_and_album"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="local/artist_song_and_album"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/musicbrowserlabel" android:name="cn.zte.music.activity.FavoriteActivity" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="local/favorite"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="local/favorite"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="cn.zte.music.activity.AllMusicActivity"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:exported="false" android:name="cn.zte.music.RingtoneSet.RingCutActivity1"/>
+        <service android:exported="true" android:name="cn.zte.music.service.MediaPlaybackService" android:permission="cn.zte.music.permission.PlaybackService">
+            <intent-filter>
+                <action android:name="cn.zte.music.musicservicecommand.startmusic"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cn.zte.music.musicservicecommand.exit"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cn.zte.music.musicservicecommand.playall"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:label="@string/widget_label" android:name="cn.zte.music.widget.MediaAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DELETED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info"/>
+        </receiver>
+        <receiver android:exported="false" android:label="@string/widget_label" android:name="cn.zte.music.widget.MediaAppWidgetProvider1">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DELETED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info1"/>
+        </receiver>
+        <meta-data android:name="ZteExtResVersion" android:value="MiFavor 10.5.010.002 2020-07-21 15:36"/>
+        <meta-data android:name="buildFlavor" android:value="CM"/>
+        <meta-data android:name="CommitId" android:value="5ac87aa"/>
+    </application>
+</manifest>

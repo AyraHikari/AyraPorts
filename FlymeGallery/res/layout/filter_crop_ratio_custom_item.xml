@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.media.gallery.ui.RollingTextView android:id="@id/crop_ratio_custom" android:text="@string/custom_crop_aspect" android:drawableTop="@drawable/editor_cut_custom_selctor" style="@style/filterGeoCropRationStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

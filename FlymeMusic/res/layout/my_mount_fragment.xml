@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:gravity="center" android:layout_gravity="center" android:id="@id/content_list" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:stretchMode="columnWidth" android:divider="@null" android:footerDividersEnabled="false" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/kwjx_theme_color_C2" android:gravity="center" android:id="@id/load_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/data_non" android:layout_centerVertical="true" skin:enable="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_error_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_centerVertical="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/user_img_default" />
+            <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/kwjx_theme_color_C2" android:id="@id/error_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="" skin:enable="true" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/ll_error_content_two" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/my_mount_image" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/my_mount_nodate_icon" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <include android:id="@id/online_error_content" android:visibility="gone" layout="@layout/online_error" />
+    </RelativeLayout>
+</RelativeLayout>

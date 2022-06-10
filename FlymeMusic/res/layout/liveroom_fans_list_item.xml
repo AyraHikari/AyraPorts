@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rank_item_rl" android:background="@drawable/liveroom_audience_listitem_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/live_fans_rank_tv_color" android:gravity="center" android:id="@id/fans_num_tv" android:visibility="visible" android:layout_width="45.0dip" android:layout_height="wrap_content" android:text="10" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <cn.kuwo.show.ui.view.CircleImageView android:id="@id/fans_icon" android:background="@drawable/kwjx_user_head_default_bg" android:padding="3.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/user_img_default" android:layout_toRightOf="@id/fans_num_tv" android:layout_centerVertical="true" app:border_color="@android:color/white" app:border_width="2.0dip" />
+        <ImageView android:id="@id/fans_userlevel" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="14.0dip" android:src="@drawable/f0" android:scaleType="fitXY" android:layout_toRightOf="@id/fans_icon" />
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="#ff444444" android:ellipsize="end" android:id="@id/fans_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="12.0dip" android:text="test" android:singleLine="true" android:layout_toRightOf="@id/fans_userlevel" />
+        <TextView android:textSize="@dimen/text_size_12" android:id="@id/fans_xuibi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="4.0dip" android:layout_toRightOf="@id/fans_icon" android:layout_below="@id/fans_username" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/top_rank_item_rl" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/top_fans_icon_ll" android:background="@drawable/live_fans_bg_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <cn.kuwo.show.ui.view.CircleImageView android:id="@id/top_fans_icon" android:background="@drawable/kwjx_user_head_default_bg" android:padding="3.0dip" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/kwjx_user_head_default" android:layout_centerInParent="true" app:border_color="#fff0b14f" app:border_width="2.0dip" />
+        </RelativeLayout>
+        <LinearLayout android:id="@id/top_fans_name_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/top_fans_icon_ll" android:layout_centerHorizontal="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/top_fans_userlevel" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/f0" android:scaleType="fitXY" />
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/live_fans_name_tv_color" android:ellipsize="end" android:id="@id/top_fans_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:text="test" android:singleLine="true" android:layout_toRightOf="@id/top_fans_userlevel" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_12" android:id="@id/top_fans_xuibi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/top_fans_name_ll" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

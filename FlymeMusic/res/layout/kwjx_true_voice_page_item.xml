@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_width="fill_parent" android:layout_height="252.0dip" android:layout_centerVertical="true" fresco:roundingBorderColor="#ffe3e3e3" fresco:roundingBorderWidth="8.0dip" style="@style/kwjx_common_style_head_image1" skin:enable="true" />
+    <cn.kuwo.show.ui.view.CDSimpleDraweeView android:id="@id/true_voice_gallery_image" android:layout_width="238.0dip" android:layout_height="238.0dip" android:layout_centerInParent="true" style="@style/kwjx_common_style_head_image1" skin:enable="true" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:layout_gravity="center|left" android:id="@id/cancel_btn" android:text="是" style="@style/Dialog_Button_Cancle_Style" />
+    <View android:id="@id/dialog_btn_horizontal_divider_left" android:background="@color/kw_common_cl_black_alpha_30" android:visibility="gone" android:layout_width="@dimen/kw_dialog_common_divider_size" android:layout_height="fill_parent" />
+    <View android:id="@id/dialog_btn_vertical_divider_upper" android:background="@color/kw_common_cl_black_alpha_30" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/kw_dialog_common_divider_size" />
+    <Button android:layout_gravity="center" android:id="@id/mid_btn" android:layout_marginLeft="@dimen/kuwo_alert_dialog_button_marginLeft" android:layout_marginRight="@dimen/kuwo_alert_dialog_button_marginRight" android:text="未知" style="@style/Dialog_Button_Ok_Style" />
+    <View android:id="@id/dialog_btn_horizontal_divider_right" android:background="@color/kw_common_cl_black_alpha_30" android:visibility="gone" android:layout_width="@dimen/kw_dialog_common_divider_size" android:layout_height="fill_parent" />
+    <View android:id="@id/dialog_btn_vertical_divider_lower" android:background="@color/kw_common_cl_black_alpha_30" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/kw_dialog_common_divider_size" />
+    <Button android:layout_gravity="center|right" android:id="@id/ok_btn" android:text="否" style="@style/Dialog_Button_Ok_Style" />
+</merge>

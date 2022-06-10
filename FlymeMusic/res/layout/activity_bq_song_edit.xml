@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/vipLayout" android:background="@drawable/bq_song_edit_vip" android:paddingLeft="@dimen/dp_18" android:paddingRight="@dimen/dp_18" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/sp_15" android:textColor="@android:color/white" android:id="@id/vipDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/sp_14" android:textColor="@color/bq_open_vip_btn_stroke_color" android:gravity="center" android:id="@id/goVip" android:background="@drawable/bg_bq_stroke_gold" android:layout_width="80.0dip" android:layout_height="28.0dip" android:text="@string/bq_open_vip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/vipLayout" layout="@layout/layout_list_x" />
+</RelativeLayout>

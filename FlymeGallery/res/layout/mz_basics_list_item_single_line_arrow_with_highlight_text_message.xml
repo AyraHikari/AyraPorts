@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/list_item" style="@style/Widget.Flyme.List.Layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/Widget.Flyme.SingleList.ContainerRelativeLayout">
+        <TextView android:id="@id/title" style="@style/Widget.Flyme.SingleList.Title" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/arrow_right_number_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/mz_list_item_highlight_message_arrow_margin" android:layout_marginEnd="@dimen/mz_list_item_highlight_message_arrow_margin" style="@style/Widget.TextAppearance.Flyme.list.Highlight.Message" />
+        <ImageView android:id="@id/arrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mz_arrow_next_right" />
+    </LinearLayout>
+</LinearLayout>

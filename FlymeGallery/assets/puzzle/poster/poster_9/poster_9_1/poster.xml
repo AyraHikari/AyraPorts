@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<puzzle type="poster" width="900" height="1200" name="r_poster_9_1">
+    <window left="83" top="298" right="319" bottom="534"/>
+    <window left="83" top="546" right="319" bottom="782"/>
+    <window left="83" top="794" right="319" bottom="1030"/>
+
+    <window left="331" top="298" right="569" bottom="534"/>
+    <window left="331" top="546" right="569" bottom="782"/>
+    <window left="331" top="794" right="569" bottom="1030"/>
+
+    <window left="581" top="298" right="817" bottom="534"/>
+    <window left="581" top="546" right="817" bottom="782"/>
+    <window left="581" top="794" right="817" bottom="1030"/>
+	<icon left="0" top="0" right="900" bottom="1200" src="temp.png"/>
+    <text x="450" y="137" content="DREAM" length="8" size="51" textColor="#9c9c9c" textAlign="center"/>
+</puzzle>

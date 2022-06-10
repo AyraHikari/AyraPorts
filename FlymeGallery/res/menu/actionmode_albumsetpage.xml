@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/btn_move" android:id="@id/action_box" android:title="@string/menu_box" android:showAsAction="always|withText" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/btn_delete" android:id="@id/action_delete" android:title="@string/menu_delete_title" android:showAsAction="always|withText" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_cloud_rename" android:id="@id/action_rename" android:visible="true" android:title="@string/rename" android:showAsAction="always|withText" app:showAsAction="always|withText" />
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="action_bar_menu_drawablePadding">2.0dip</dimen>
+    <item type="dimen" name="actionbar_title_margin_end">@dimen/mfvc_small_padding</item>
+    <dimen name="dialog_bottom_margin">64.0dip</dimen>
+    <dimen name="dialog_top_margin">40.0dip</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_bottom">24.0dip</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_top">24.0dip</dimen>
+    <item type="dimen" name="tab_margin_end">@dimen/mfvc_xlarge_padding</item>
+</resources>

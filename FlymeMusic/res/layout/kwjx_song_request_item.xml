@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <RelativeLayout android:id="@id/rl_head" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/select_song_btn_item" android:layout_toStartOf="@id/select_song_btn_item">
+        <LinearLayout android:gravity="bottom" android:id="@id/ll_singger_name" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/kwjx_common_text_size_32" android:textColor="@color/kwjx_theme_color_C1" android:ellipsize="end" android:id="@id/song_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="歌名" android:singleLine="true" skin:enable="true" />
+            <ImageView android:id="@id/iv_sheet_song_singing" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="3.0dip" android:src="@drawable/kwxj_sheet_song_singing" skin:enable="true" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/kwjx_common_text_size_24" android:textColor="@color/kwjx_theme_color_C2" android:ellipsize="end" android:id="@id/singger_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="歌手" android:singleLine="true" android:layout_below="@id/ll_singger_name" skin:enable="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/kwjx_common_text_size_28" android:textColor="@color/kwjx_theme_color_BWC" android:gravity="center" android:id="@id/select_song_btn_item" android:background="@drawable/kwjx_theme_img_hl7" android:clickable="true" android:layout_width="63.0dip" android:layout_height="26.0dip" android:layout_marginRight="10.0dip" android:text="@string/select_song_request" android:layout_alignParentRight="true" android:layout_centerVertical="true" skin:enable="true" />
+    <View android:background="@color/kwjx_theme_color_LN" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/rl_head" skin:enable="true" />
+</RelativeLayout>

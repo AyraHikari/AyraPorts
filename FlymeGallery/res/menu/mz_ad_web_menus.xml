@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menuRefresh" android:title="刷新" android:showAsAction="never" />
+    <item android:id="@id/menuCopyUrl" android:title="复制链接" android:showAsAction="never" />
+    <item android:id="@id/menuOpenWithBrowser" android:title="用浏览器打开" android:showAsAction="never" />
+</menu>

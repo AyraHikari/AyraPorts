@@ -1,0 +1,1256 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: FlymeMusic_9.4.100.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+- so
+- res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-ldrtl-xxxhdpi-v17/mz_spinner_normal_light.9.png
+- res/drawable-ldrtl-xxxhdpi-v17/mz_spinner_pressed_light.9.png
+- res/drawable-xhdpi-v4/gift_item_select_bg.9.png
+- res/drawable-xhdpi-v4/kwjx_audio_gift_show_view_bg.9.png
+- res/drawable-xhdpi-v4/kwjx_select_gift_num_bg.9.png
+- res/drawable-xhdpi-v4/list_frame.9.png
+- res/drawable-xhdpi-v4/live_level_1_20.9.png
+- res/drawable-xhdpi-v4/live_level_21_40.9.png
+- res/drawable-xhdpi-v4/live_level_41_60.9.png
+- res/drawable-xhdpi-v4/local_login_tip.9.png
+- res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+- res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
+- res/drawable-xhdpi-v4/notification_bg_normal.9.png
+- res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+- jpg
+- res/drawable-xhdpi-v4/show_enter_bg.9.png
+- res/drawable-xhdpi-v4/user_level_1_20.9.png
+- res/drawable-xhdpi-v4/user_level_21_40.9.png
+- res/drawable-xhdpi-v4/user_level_41_60.9.png
+- res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+- res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+- res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+- res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+- res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+- res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+- res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+- res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+- res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/audio_gift_fly_bg.9.png
+- res/drawable-xxhdpi-v4/bq_card_list_divider_light.9.png
+- res/drawable-xxhdpi-v4/bq_default_cover.9.png
+- res/drawable-xxhdpi-v4/bq_main_new_album_bg.9.png
+- res/drawable-xxhdpi-v4/bq_main_new_song_bg.9.png
+- res/drawable-xxhdpi-v4/bq_program_select_list_bg.9.png
+- res/drawable-xxhdpi-v4/bq_recyclerview_selector_activated.9.png
+- res/drawable-xxhdpi-v4/bq_recyclerview_selector_pressed.9.png
+- res/drawable-xxhdpi-v4/bq_search_view_edittext_bg_normal.9.png
+- res/drawable-xxhdpi-v4/bq_search_view_edittext_bg_press.9.png
+- res/drawable-xxhdpi-v4/bq_splash.9.png
+- res/drawable-xxhdpi-v4/bq_tab_selected_slide_line.9.png
+- res/drawable-xxhdpi-v4/bq_text_cursor_error_color.9.png
+- jpeg
+- res/drawable-xxhdpi-v4/bqz_btn_check_button_square_on_color_red.9.png
+- res/drawable-xxhdpi-v4/bqz_btn_check_button_square_on_disable_color_red.9.png
+- res/drawable-xxhdpi-v4/bqz_checkbox_counter_color_red.9.png
+- res/drawable-xxhdpi-v4/bqz_checkbox_counter_disable_color_red.9.png
+- res/drawable-xxhdpi-v4/bqz_checkbox_counter_pressed_color_red.9.png
+- res/drawable-xxhdpi-v4/bqz_edittext_new_selected_red.9.png
+- res/drawable-xxhdpi-v4/bqz_guide_middle_down_color_red.9.png
+- res/drawable-xxhdpi-v4/bqz_guide_middle_up_color_red.9.png
+- res/drawable-xxhdpi-v4/bqz_guide_right_color_red.9.png
+- res/drawable-xxhdpi-v4/bqz_progress_primary_color_red.9.png
+- res/drawable-xxhdpi-v4/bqz_scrubber_control_aura_bg_color_red.9.png
+- res/drawable-xxhdpi-v4/bqz_scrubber_primary_disable_color_red.9.png
+- res/drawable-xxhdpi-v4/bqz_scrubber_primary_normal_color_red.9.png
+- res/drawable-xxhdpi-v4/bqz_scrubber_primary_vertical_disable_color_red.9.png
+- res/drawable-xxhdpi-v4/bqz_scrubber_primary_vertical_normal_color_red.9.png
+- res/drawable-xxhdpi-v4/bqz_tab_selected_color_red.9.png
+- res/drawable-xxhdpi-v4/bqz_text_cursor_light_color_red.9.png
+- res/drawable-xxhdpi-v4/ic_bq_home_account_bg.9.png
+- res/drawable-xxhdpi-v4/ic_bq_widget_new_bg.9.png
+- res/drawable-xxhdpi-v4/kwjx_chat_item_truelove_bg.9.png
+- res/drawable-xxhdpi-v4/kwjx_danmu_show_view_bg.9.png
+- res/drawable-xxhdpi-v4/kwjx_enter_welcome_bg.9.png
+- res/drawable-xxhdpi-v4/kwjx_enter_welcome_icon.9.png
+- res/drawable-xxhdpi-v4/kwjx_gift_receiver_name.9.png
+- res/drawable-xxhdpi-v4/kwjx_guide_btn_bg.9.png
+- res/drawable-xxhdpi-v4/kwjx_guide_send_gift_bg.9.png
+- res/drawable-xxhdpi-v4/kwjx_guide_send_msg_bg.9.png
+- res/drawable-xxhdpi-v4/kwjx_guide_send_msg_newbg.9.png
+- res/drawable-xxhdpi-v4/kwjx_header_beijing.9.png
+- res/drawable-xxhdpi-v4/kwjx_headline_bg1.9.png
+- res/drawable-xxhdpi-v4/kwjx_headline_bg2.9.png
+- res/drawable-xxhdpi-v4/kwjx_headline_info_btn.9.png
+- res/drawable-xxhdpi-v4/kwjx_headline_red_btn.9.png
+- res/drawable-xxhdpi-v4/kwjx_hour_list_bg.9.png
+- res/drawable-xxhdpi-v4/kwjx_mob_enter_welcome_bg.9.png
+- res/drawable-xxhdpi-v4/kwjx_msg_guide_word_bg.9.png
+- res/drawable-xxhdpi-v4/kwjx_notice_artist_bg.9.png
+- res/drawable-xxhdpi-v4/kwjx_repor_admin_bg.9.png
+- res/drawable-xxhdpi-v4/kwjx_shape_msg_guide_word_bg.9.png
+- res/drawable-xxhdpi-v4/kwjx_truelove_guide_bg.9.png
+- res/drawable-xxhdpi-v4/kwjx_wish_info_bg.9.png
+- res/drawable-xxhdpi-v4/liveroom_tab_item_seleced.9.png
+- res/drawable-xxhdpi-v4/mz_titlebar_background_bottom_divide_gradient_bg_cover.9.png
+- res/drawable-xxhdpi-v4/shadow_item_bg.9.png
+- res/drawable-xxhdpi-v4/zb_common_action_bar_tab_indicator_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_check_button_circle_off_disable.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_check_button_circle_off_normal.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_check_button_off_disable_arrow.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_check_button_off_disable_arrow_circle.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_check_button_off_disable_arrow_dark.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_check_button_off_normal_arrow.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_check_button_off_normal_arrow_circle.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_check_button_off_normal_arrow_dark.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_check_button_square_off.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_check_button_square_off_dark.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_check_button_square_off_disable.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_check_button_square_off_disable_dark.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_check_button_square_on_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_check_button_square_on_disable_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_check_buttonless_off_single.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_check_buttonless_on_disable_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_check_buttonless_on_normal_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_copy_left_normal.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_copy_left_pressed.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_copy_middle_normal.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_copy_middle_pressed.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_copy_right_normal.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_copy_right_pressed.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_list_default_disabled.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_list_default_normal.9.png
+- res/drawable-xxhdpi-v4/zb_common_btn_list_default_pressed.9.png
+- res/drawable-xxhdpi-v4/zb_common_card_bg_light_activated.9.png
+- res/drawable-xxhdpi-v4/zb_common_card_bg_light_normal.9.png
+- res/drawable-xxhdpi-v4/zb_common_card_bg_light_pressed.9.png
+- res/drawable-xxhdpi-v4/zb_common_card_bottom_shade_light.9.png
+- res/drawable-xxhdpi-v4/zb_common_card_full_shade_light.9.png
+- res/drawable-xxhdpi-v4/zb_common_card_list_divider_light.9.png
+- res/drawable-xxhdpi-v4/zb_common_card_list_divider_shade_light.9.png
+- res/drawable-xxhdpi-v4/zb_common_card_middle_shade_light.9.png
+- res/drawable-xxhdpi-v4/zb_common_card_new_bg_light_activated.9.png
+- res/drawable-xxhdpi-v4/zb_common_card_new_bg_light_pressed.9.png
+- res/drawable-xxhdpi-v4/zb_common_card_new_list_divider.9.png
+- res/drawable-xxhdpi-v4/zb_common_card_top_shade_light.9.png
+- res/drawable-xxhdpi-v4/zb_common_checkbox_counter_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_checkbox_counter_disable_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_checkbox_counter_pressed_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_contact_list_picture_pressed.9.png
+- res/drawable-xxhdpi-v4/zb_common_dialog_background_material.9.png
+- res/drawable-xxhdpi-v4/zb_common_dialog_background_material_bottom.9.png
+- res/drawable-xxhdpi-v4/zb_common_dialog_background_material_dark.9.png
+- res/drawable-xxhdpi-v4/zb_common_dialog_background_material_top.9.png
+- res/drawable-xxhdpi-v4/zb_common_dialog_card_bg_light.9.png
+- res/drawable-xxhdpi-v4/zb_common_dialog_full_light_bg.9.png
+- res/drawable-xxhdpi-v4/zb_common_drawer_list_divider_light.9.png
+- res/drawable-xxhdpi-v4/zb_common_drawer_shadow_light.9.png
+- res/drawable-xxhdpi-v4/zb_common_edittext_new_error.9.png
+- res/drawable-xxhdpi-v4/zb_common_edittext_new_normal.9.png
+- res/drawable-xxhdpi-v4/zb_common_edittext_new_selected_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_fastscroll_track_default.9.png
+- res/drawable-xxhdpi-v4/zb_common_guide_left_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_guide_middle_down_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_guide_middle_up_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_guide_right_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_ic_ab_back_indicator_normal.9.png
+- res/drawable-xxhdpi-v4/zb_common_ic_ab_back_indicator_pressed.9.png
+- res/drawable-xxhdpi-v4/zb_common_ic_list_more_down.9.png
+- res/drawable-xxhdpi-v4/zb_common_list_activated.9.png
+- res/drawable-xxhdpi-v4/zb_common_list_divider_dark.9.png
+- res/drawable-xxhdpi-v4/zb_common_list_divider_light.9.png
+- res/drawable-xxhdpi-v4/zb_common_list_group_divider_light.9.png
+- res/drawable-xxhdpi-v4/zb_common_list_history_background.9.png
+- res/drawable-xxhdpi-v4/zb_common_list_history_background_noshadow.9.png
+- res/drawable-xxhdpi-v4/zb_common_list_selector_background_delete.9.png
+- res/drawable-xxhdpi-v4/zb_common_list_selector_background_filter.9.png
+- res/drawable-xxhdpi-v4/zb_common_list_selector_background_long_pressed.9.png
+- res/drawable-xxhdpi-v4/zb_common_list_selector_background_pressed.9.png
+- res/drawable-xxhdpi-v4/zb_common_list_selector_disabled_holo_light.9.png
+- res/drawable-xxhdpi-v4/zb_common_option_menu_background.9.png
+- res/drawable-xxhdpi-v4/zb_common_picker_box_selected.9.png
+- res/drawable-xxhdpi-v4/zb_common_popup_bg_light.9.png
+- res/drawable-xxhdpi-v4/zb_common_popup_divider_line.9.png
+- res/drawable-xxhdpi-v4/zb_common_popup_list_divider.9.png
+- res/drawable-xxhdpi-v4/zb_common_popup_list_divider_dark.9.png
+- res/drawable-xxhdpi-v4/zb_common_progress_bg.9.png
+- res/drawable-xxhdpi-v4/zb_common_progress_bg_notification.9.png
+- res/drawable-xxhdpi-v4/zb_common_progress_error.9.png
+- res/drawable-xxhdpi-v4/zb_common_progress_error_notification.9.png
+- res/drawable-xxhdpi-v4/zb_common_progress_primary_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_progress_primary_notification.9.png
+- res/drawable-xxhdpi-v4/zb_common_progress_stop.9.png
+- res/drawable-xxhdpi-v4/zb_common_progress_stop_notification.9.png
+- res/drawable-xxhdpi-v4/zb_common_recipient_divider_email_2px.9.png
+- res/drawable-xxhdpi-v4/zb_common_scrollbar_handle_horizontal.9.png
+- res/drawable-xxhdpi-v4/zb_common_scrollbar_handle_vertical.9.png
+- res/drawable-xxhdpi-v4/zb_common_scrubber_control_aura_bg_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_scrubber_primary_disable.9.png
+- res/drawable-xxhdpi-v4/zb_common_scrubber_primary_disable_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_scrubber_primary_disable_dark.9.png
+- res/drawable-xxhdpi-v4/zb_common_scrubber_primary_normal.9.png
+- res/drawable-xxhdpi-v4/zb_common_scrubber_primary_normal_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_scrubber_primary_vertical_disable_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_scrubber_primary_vertical_normal_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_scrubber_primary_white_disable.9.png
+- res/drawable-xxhdpi-v4/zb_common_scrubber_primary_white_normal.9.png
+- res/drawable-xxhdpi-v4/zb_common_scrubber_track_disable.9.png
+- res/drawable-xxhdpi-v4/zb_common_scrubber_track_normal.9.png
+- res/drawable-xxhdpi-v4/zb_common_scrubber_track_white.9.png
+- res/drawable-xxhdpi-v4/zb_common_search_view_textfield_hover_default.9.png
+- res/drawable-xxhdpi-v4/zb_common_slide_divider_8px.9.png
+- res/drawable-xxhdpi-v4/zb_common_smartbar_background_grey.9.png
+- res/drawable-xxhdpi-v4/zb_common_spinner_normal_light.9.png
+- res/drawable-xxhdpi-v4/zb_common_spinner_pressed_light.9.png
+- res/drawable-xxhdpi-v4/zb_common_tab_background.9.png
+- res/drawable-xxhdpi-v4/zb_common_tab_selected.9.png
+- res/drawable-xxhdpi-v4/zb_common_tab_selected_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_text_cursor_dark.9.png
+- res/drawable-xxhdpi-v4/zb_common_text_cursor_light_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_textfield_default.9.png
+- res/drawable-xxhdpi-v4/zb_common_textfield_default_color_blue.9.png
+- res/drawable-xxhdpi-v4/zb_common_textfield_nocursor.9.png
+- res/drawable-xxhdpi-v4/zb_common_titlebar_ic_tab_unfold_light.9.png
+- res/drawable-xxhdpi-v4/zb_common_topbar_dropdown_ic_arrow.9.png
+- res/drawable-xxhdpi-v4/zb_compat_search_view_edittext_bg_normal.9.png
+- res/drawable-xxhdpi-v4/zb_compat_search_view_edittext_bg_press.9.png
+- res/drawable-xxhdpi-v4/zb_compat_titlebar_ic_tab_unfold_dark.9.png
+- res/drawable-xxhdpi-v4/zbc_common_badge_view.9.png
+- res/drawable-xxhdpi-v4/zbc_common_btn_list_default_alpha_normal.9.png
+- res/drawable-xxhdpi-v4/zbc_common_btn_list_default_pressed.9.png
+- res/drawable-xxhdpi-v4/zbc_common_contact_list_picture_cover.9.png
+- res/drawable-xxhdpi-v4/zbc_common_contact_list_picture_default.9.png
+- res/drawable-xxhdpi-v4/zbc_common_contact_list_picture_pressed.9.png
+- res/drawable-xxhdpi-v4/zbc_common_contact_list_picture_shadow.9.png
+- res/drawable-xxhdpi-v4/zbc_common_ic_letter_search_bg.9.png
+- res/drawable-xxhdpi-v4/zbc_common_pinned_header_background.9.png
+- res/drawable-xxhdpi-v4/zbc_common_scrubber_track_vertical.9.png
+- res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+- res/drawable-xxxhdpi-v4/mc_badge_view.9.png
+- res/drawable-xxxhdpi-v4/mc_btn_list_default_alpha_normal.9.png
+- res/drawable-xxxhdpi-v4/mc_btn_list_default_alpha_pressed.9.png
+- res/drawable-xxxhdpi-v4/mc_btn_list_default_normal.9.png
+- res/drawable-xxxhdpi-v4/mc_btn_list_default_pressed.9.png
+- res/drawable-xxxhdpi-v4/mc_contact_list_picture_cover.9.png
+- res/drawable-xxxhdpi-v4/mc_contact_list_picture_default.9.png
+- res/drawable-xxxhdpi-v4/mc_contact_list_picture_pressed.9.png
+- res/drawable-xxxhdpi-v4/mc_contact_list_picture_shadow.9.png
+- res/drawable-xxxhdpi-v4/mc_ic_letter_search_bg.9.png
+- res/drawable-xxxhdpi-v4/mc_pinned_header_background.9.png
+- res/drawable-xxxhdpi-v4/mc_scrubber_track_shadow_vertical.9.png
+- res/drawable-xxxhdpi-v4/mc_scrubber_track_vertical.9.png
+- res/drawable-xxxhdpi-v4/mc_slide_shadow_r.9.png
+- res/drawable-xxxhdpi-v4/mc_spinner_normal_light.9.png
+- res/drawable-xxxhdpi-v4/mc_spinner_normal_light_pressed.9.png
+- res/drawable-xxxhdpi-v4/mc_toast_frame.9.png
+- res/drawable-xxxhdpi-v4/mc_viewpager_cover.9.png
+- res/drawable-xxxhdpi-v4/mw_list_divider_light.9.png
+- res/drawable-xxxhdpi-v4/mw_list_history_background.9.png
+- res/drawable-xxxhdpi-v4/mw_list_history_background_noshadow.9.png
+- res/drawable-xxxhdpi-v4/mw_recipient_divider_email_2px.9.png
+- res/drawable-xxxhdpi-v4/mw_recipient_divider_sms_2px.9.png
+- res/drawable-xxxhdpi-v4/mw_scrollbar_handle_vertical.9.png
+- res/drawable-xxxhdpi-v4/mz_action_bar_tab_indicator_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_action_bar_tab_indicator_color_firebrick.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_button_circle_off_disable.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_button_circle_off_normal.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_button_off_disable_arrow.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_button_off_disable_arrow_circle.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_button_off_disable_arrow_dark.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_button_off_normal_arrow.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_button_off_normal_arrow_circle.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_button_off_normal_arrow_dark.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_button_square_off.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_button_square_off_dark.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_button_square_off_disable.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_button_square_off_disable_dark.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_button_square_on_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_button_square_on_color_firebrick.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_button_square_on_disable_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_button_square_on_disable_color_firebrick.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_buttonless_off_single.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_buttonless_on_disable_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_buttonless_on_disable_color_firebrick.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_buttonless_on_normal_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_check_buttonless_on_normal_color_firebrick.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_copy_left_normal.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_copy_left_pressed.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_copy_middle_normal.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_copy_middle_pressed.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_copy_right_normal.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_copy_right_pressed.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_list_default_disabled.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_list_default_normal.9.png
+- res/drawable-xxxhdpi-v4/mz_btn_list_default_pressed.9.png
+- res/drawable-xxxhdpi-v4/mz_card_bg_light_activated.9.png
+- res/drawable-xxxhdpi-v4/mz_card_bg_light_normal.9.png
+- res/drawable-xxxhdpi-v4/mz_card_bg_light_pressed.9.png
+- res/drawable-xxxhdpi-v4/mz_card_bottom_shade_light.9.png
+- res/drawable-xxxhdpi-v4/mz_card_full_shade_light.9.png
+- res/drawable-xxxhdpi-v4/mz_card_list_divider_light.9.png
+- res/drawable-xxxhdpi-v4/mz_card_list_divider_shade_light.9.png
+- res/drawable-xxxhdpi-v4/mz_card_middle_shade_light.9.png
+- res/drawable-xxxhdpi-v4/mz_card_new_bg_light_activated.9.png
+- res/drawable-xxxhdpi-v4/mz_card_new_bg_light_pressed.9.png
+- res/drawable-xxxhdpi-v4/mz_card_new_list_divider.9.png
+- res/drawable-xxxhdpi-v4/mz_card_top_shade_light.9.png
+- res/drawable-xxxhdpi-v4/mz_checkbox_counter_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_checkbox_counter_color_firebrick.9.png
+- res/drawable-xxxhdpi-v4/mz_checkbox_counter_disable_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_checkbox_counter_disable_color_firebrick.9.png
+- res/drawable-xxxhdpi-v4/mz_checkbox_counter_pressed_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_checkbox_counter_pressed_color_firebrick.9.png
+- res/drawable-xxxhdpi-v4/mz_complete_toast_bg.9.png
+- res/drawable-xxxhdpi-v4/mz_contact_list_picture_pressed.9.png
+- res/drawable-xxxhdpi-v4/mz_dialog_background_material.9.png
+- res/drawable-xxxhdpi-v4/mz_dialog_background_material_bottom.9.png
+- res/drawable-xxxhdpi-v4/mz_dialog_background_material_dark.9.png
+- res/drawable-xxxhdpi-v4/mz_dialog_background_material_top.9.png
+- res/drawable-xxxhdpi-v4/mz_dialog_card_bg_light.9.png
+- res/drawable-xxxhdpi-v4/mz_dialog_full_light_bg.9.png
+- res/drawable-xxxhdpi-v4/mz_drawer_list_divider_light.9.png
+- res/drawable-xxxhdpi-v4/mz_drawer_shadow_light.9.png
+- res/drawable-xxxhdpi-v4/mz_edittext_new_error.9.png
+- res/drawable-xxxhdpi-v4/mz_edittext_new_normal.9.png
+- res/drawable-xxxhdpi-v4/mz_edittext_new_selected_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_edittext_new_selected_firebrick.9.png
+- res/drawable-xxxhdpi-v4/mz_fastscroll_track_default.9.png
+- res/drawable-xxxhdpi-v4/mz_guide_left_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_guide_left_color_firebrick.9.png
+- res/drawable-xxxhdpi-v4/mz_guide_middle_down_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_guide_middle_down_color_firebrick.9.png
+- res/drawable-xxxhdpi-v4/mz_guide_middle_up_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_guide_middle_up_color_firebrick.9.png
+- res/drawable-xxxhdpi-v4/mz_guide_right_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_guide_right_color_firebrick.9.png
+- res/drawable-xxxhdpi-v4/mz_ic_ab_back_indicator_normal.9.png
+- res/drawable-xxxhdpi-v4/mz_ic_ab_back_indicator_pressed.9.png
+- res/drawable-xxxhdpi-v4/mz_ic_list_more_down.9.png
+- res/drawable-xxxhdpi-v4/mz_list_activated.9.png
+- res/drawable-xxxhdpi-v4/mz_list_divider_dark.9.png
+- res/drawable-xxxhdpi-v4/mz_list_divider_light.9.png
+- res/drawable-xxxhdpi-v4/mz_list_group_divider_light.9.png
+- res/drawable-xxxhdpi-v4/mz_list_history_background.9.png
+- res/drawable-xxxhdpi-v4/mz_list_history_background_noshadow.9.png
+- res/drawable-xxxhdpi-v4/mz_list_selector_background_delete.9.png
+- res/drawable-xxxhdpi-v4/mz_list_selector_background_filter.9.png
+- res/drawable-xxxhdpi-v4/mz_list_selector_background_long_pressed.9.png
+- res/drawable-xxxhdpi-v4/mz_list_selector_background_pressed.9.png
+- res/drawable-xxxhdpi-v4/mz_list_selector_disabled_holo_light.9.png
+- res/drawable-xxxhdpi-v4/mz_lite_popup_title_bar_bg.9.png
+- res/drawable-xxxhdpi-v4/mz_option_menu_background.9.png
+- res/drawable-xxxhdpi-v4/mz_picker_box_selected.9.png
+- res/drawable-xxxhdpi-v4/mz_popup_bg_light.9.png
+- res/drawable-xxxhdpi-v4/mz_popup_divider_line.9.png
+- res/drawable-xxxhdpi-v4/mz_popup_list_divider.9.png
+- res/drawable-xxxhdpi-v4/mz_popup_list_divider_dark.9.png
+- res/drawable-xxxhdpi-v4/mz_progress_bg.9.png
+- res/drawable-xxxhdpi-v4/mz_progress_bg_notification.9.png
+- res/drawable-xxxhdpi-v4/mz_progress_error.9.png
+- res/drawable-xxxhdpi-v4/mz_progress_error_notification.9.png
+- res/drawable-xxxhdpi-v4/mz_progress_primary_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_progress_primary_color_firebrick.9.png
+- res/drawable-xxxhdpi-v4/mz_progress_primary_notification.9.png
+- res/drawable-xxxhdpi-v4/mz_progress_stop.9.png
+- res/drawable-xxxhdpi-v4/mz_progress_stop_notification.9.png
+- res/drawable-xxxhdpi-v4/mz_recipient_divider_email_2px.9.png
+- res/drawable-xxxhdpi-v4/mz_recyclerview_item_divider.9.png
+- res/drawable-xxxhdpi-v4/mz_recyclerview_selector_activated.9.png
+- res/drawable-xxxhdpi-v4/mz_recyclerview_selector_pressed.9.png
+- res/drawable-xxxhdpi-v4/mz_scrollbar_handle_horizontal.9.png
+- res/drawable-xxxhdpi-v4/mz_scrollbar_handle_vertical.9.png
+- res/drawable-xxxhdpi-v4/mz_scrubber_control_aura_bg_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_scrubber_primary_disable.9.png
+- res/drawable-xxxhdpi-v4/mz_scrubber_primary_disable_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_scrubber_primary_disable_dark.9.png
+- res/drawable-xxxhdpi-v4/mz_scrubber_primary_normal.9.png
+- res/drawable-xxxhdpi-v4/mz_scrubber_primary_normal_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_scrubber_primary_vertical_disable_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_scrubber_primary_vertical_disable_color_firebrick.9.png
+- res/drawable-xxxhdpi-v4/mz_scrubber_primary_vertical_normal_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_scrubber_primary_vertical_normal_color_firebrick.9.png
+- res/drawable-xxxhdpi-v4/mz_scrubber_primary_white_disable.9.png
+- res/drawable-xxxhdpi-v4/mz_scrubber_primary_white_normal.9.png
+- res/drawable-xxxhdpi-v4/mz_scrubber_track_disable.9.png
+- res/drawable-xxxhdpi-v4/mz_scrubber_track_normal.9.png
+- res/drawable-xxxhdpi-v4/mz_search_view_edittext_bg_normal.9.png
+- res/drawable-xxxhdpi-v4/mz_search_view_edittext_bg_press.9.png
+- res/drawable-xxxhdpi-v4/mz_search_view_textfield_hover_default.9.png
+- res/drawable-xxxhdpi-v4/mz_slide_divider_8px.9.png
+- res/drawable-xxxhdpi-v4/mz_smartbar_background_grey.9.png
+- res/drawable-xxxhdpi-v4/mz_spinner_normal_light.9.png
+- res/drawable-xxxhdpi-v4/mz_spinner_pressed_light.9.png
+- res/drawable-xxxhdpi-v4/mz_tab_background.9.png
+- res/drawable-xxxhdpi-v4/mz_tab_selected.9.png
+- res/drawable-xxxhdpi-v4/mz_tab_selected_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_tab_selected_color_firebrick.9.png
+- res/drawable-xxxhdpi-v4/mz_text_cursor_dark.9.png
+- res/drawable-xxxhdpi-v4/mz_text_cursor_error_color.9.png
+- res/drawable-xxxhdpi-v4/mz_text_cursor_light_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_text_cursor_light_color_firebrick.9.png
+- res/drawable-xxxhdpi-v4/mz_textfield_default.9.png
+- res/drawable-xxxhdpi-v4/mz_textfield_default_color_blue.9.png
+- res/drawable-xxxhdpi-v4/mz_textfield_default_color_firebrick.9.png
+- res/drawable-xxxhdpi-v4/mz_textfield_nocursor.9.png
+- res/drawable-xxxhdpi-v4/mz_titlebar_ic_tab_unfold_dark.9.png
+- res/drawable-xxxhdpi-v4/mz_titlebar_ic_tab_unfold_light.9.png
+- res/drawable-xxxhdpi-v4/mz_toast_frame.9.png
+- res/drawable-xxxhdpi-v4/mz_topbar_background.9.png
+- res/drawable-xxxhdpi-v4/mz_topbar_dropdown_ic_arrow.9.png
+- res/drawable-xxxhdpi-v4/mz_topbar_shadow_light.9.png
+- res/drawable-xxxhdpi-v4/start_window_backgound.9.png
+- res/drawable/bq_splash.9.png
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '30'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  AUTHORS: '8'
+  androidsupportmultidexversion.txt: '8'
+  changelog.txt: '8'
+  latestchanges.html: '8'
+  module-info.SCL.lombok: '8'
+  release-timestamp.txt: '8'
+  Class50/lombok/eclipse/agent/EclipseLoaderPatcherTransplants.SCL.lombok: '8'
+  Class50/lombok/launch/PatchFixesHider$Delegate.SCL.lombok: '8'
+  Class50/lombok/launch/PatchFixesHider$ExtensionMethod.SCL.lombok: '8'
+  Class50/lombok/launch/PatchFixesHider$LombokDeps.SCL.lombok: '8'
+  Class50/lombok/launch/PatchFixesHider$PatchFixes.SCL.lombok: '8'
+  Class50/lombok/launch/PatchFixesHider$Transform.SCL.lombok: '8'
+  Class50/lombok/launch/PatchFixesHider$Util.SCL.lombok: '8'
+  Class50/lombok/launch/PatchFixesHider$Val.SCL.lombok: '8'
+  Class50/lombok/launch/PatchFixesHider$ValPortal.SCL.lombok: '8'
+  Class50/lombok/launch/PatchFixesHider.SCL.lombok: '8'
+  com/zwitserloot/cmdreader/CmdReader$1State.SCL.lombok: '8'
+  com/zwitserloot/cmdreader/CmdReader.SCL.lombok: '8'
+  com/zwitserloot/cmdreader/Description.SCL.lombok: '8'
+  com/zwitserloot/cmdreader/Excludes.SCL.lombok: '8'
+  com/zwitserloot/cmdreader/FullName.SCL.lombok: '8'
+  com/zwitserloot/cmdreader/InvalidCommandLineException.SCL.lombok: '8'
+  com/zwitserloot/cmdreader/Mandatory.SCL.lombok: '8'
+  com/zwitserloot/cmdreader/ParseItem.SCL.lombok: '8'
+  com/zwitserloot/cmdreader/Requires.SCL.lombok: '8'
+  com/zwitserloot/cmdreader/Sequential.SCL.lombok: '8'
+  com/zwitserloot/cmdreader/Shorthand.SCL.lombok: '8'
+  lombok/bytecode/AsmUtil$1.SCL.lombok: '8'
+  lombok/bytecode/AsmUtil.SCL.lombok: '8'
+  lombok/bytecode/ClassFileMetaData.SCL.lombok: '8'
+  lombok/bytecode/FixedClassWriter.SCL.lombok: '8'
+  lombok/bytecode/PoolConstantsApp$CmdArgs.SCL.lombok: '8'
+  lombok/bytecode/PoolConstantsApp.SCL.lombok: '8'
+  lombok/bytecode/PostCompilerApp$CmdArgs.SCL.lombok: '8'
+  lombok/bytecode/PostCompilerApp.SCL.lombok: '8'
+  lombok/bytecode/PreventNullAnalysisRemover$1.SCL.lombok: '8'
+  lombok/bytecode/PreventNullAnalysisRemover$1PreventNullAnalysisVisitor.SCL.lombok: '8'
+  lombok/bytecode/PreventNullAnalysisRemover.SCL.lombok: '8'
+  lombok/bytecode/SneakyThrowsRemover$1.SCL.lombok: '8'
+  lombok/bytecode/SneakyThrowsRemover$1SneakyThrowsRemoverVisitor.SCL.lombok: '8'
+  lombok/bytecode/SneakyThrowsRemover.SCL.lombok: '8'
+  lombok/bytecode/package-info.SCL.lombok: '8'
+  lombok/core/AST$FieldAccess.SCL.lombok: '8'
+  lombok/core/AST$Kind.SCL.lombok: '8'
+  lombok/core/AST.SCL.lombok: '8'
+  lombok/core/AgentLauncher$AgentInfo.SCL.lombok: '8'
+  lombok/core/AgentLauncher$AgentLaunchable.SCL.lombok: '8'
+  lombok/core/AgentLauncher$EclipsePatcherInfo.SCL.lombok: '8'
+  lombok/core/AgentLauncher.SCL.lombok: '8'
+  lombok/core/AnnotationProcessor$EcjDescriptor.SCL.lombok: '8'
+  lombok/core/AnnotationProcessor$JavacDescriptor.SCL.lombok: '8'
+  lombok/core/AnnotationProcessor$ProcessorDescriptor.SCL.lombok: '8'
+  lombok/core/AnnotationProcessor.SCL.lombok: '8'
+  lombok/core/AnnotationValues$1.SCL.lombok: '8'
+  lombok/core/AnnotationValues$AnnotationValue.SCL.lombok: '8'
+  lombok/core/AnnotationValues$AnnotationValueDecodeFail.SCL.lombok: '8'
+  lombok/core/AnnotationValues.SCL.lombok: '8'
+  lombok/core/Augments.SCL.lombok: '8'
+  lombok/core/DiagnosticsReceiver$1.SCL.lombok: '8'
+  lombok/core/DiagnosticsReceiver.SCL.lombok: '8'
+  lombok/core/FieldAugment$MapFieldAugment.SCL.lombok: '8'
+  lombok/core/FieldAugment$MapWeakFieldAugment.SCL.lombok: '8'
+  lombok/core/FieldAugment$ReflectionFieldAugment.SCL.lombok: '8'
+  lombok/core/FieldAugment.SCL.lombok: '8'
+  lombok/core/GuavaTypeMap.SCL.lombok: '8'
+  lombok/core/HandlerPriority.SCL.lombok: '8'
+  lombok/core/ImportList.SCL.lombok: '8'
+  lombok/core/JavaIdentifiers.SCL.lombok: '8'
+  lombok/core/LombokApp.SCL.lombok: '8'
+  lombok/core/LombokConfiguration$1.SCL.lombok: '8'
+  lombok/core/LombokConfiguration$2.SCL.lombok: '8'
+  lombok/core/LombokConfiguration$3.SCL.lombok: '8'
+  lombok/core/LombokConfiguration.SCL.lombok: '8'
+  lombok/core/LombokImmutableList$1.SCL.lombok: '8'
+  lombok/core/LombokImmutableList.SCL.lombok: '8'
+  lombok/core/LombokInternalAliasing.SCL.lombok: '8'
+  lombok/core/LombokNode.SCL.lombok: '8'
+  lombok/core/Main$LicenseApp.SCL.lombok: '8'
+  lombok/core/Main$VersionApp.SCL.lombok: '8'
+  lombok/core/Main.SCL.lombok: '8'
+  lombok/core/PostCompiler$1.SCL.lombok: '8'
+  lombok/core/PostCompiler.SCL.lombok: '8'
+  lombok/core/PostCompilerTransformation.SCL.lombok: '8'
+  lombok/core/PrintAST.SCL.lombok: '8'
+  lombok/core/PublicApiCreatorApp$Fail.SCL.lombok: '8'
+  lombok/core/PublicApiCreatorApp.SCL.lombok: '8'
+  lombok/core/SpiLoadUtil$1$1.SCL.lombok: '8'
+  lombok/core/SpiLoadUtil$1.SCL.lombok: '8'
+  lombok/core/SpiLoadUtil.SCL.lombok: '8'
+  lombok/core/TypeLibrary.SCL.lombok: '8'
+  lombok/core/TypeResolver.SCL.lombok: '8'
+  lombok/core/Version.SCL.lombok: '8'
+  lombok/core/package-info.SCL.lombok: '8'
+  lombok/core/configuration/AllowHelper.SCL.lombok: '8'
+  lombok/core/configuration/BubblingConfigurationResolver.SCL.lombok: '8'
+  lombok/core/configuration/CallSuperType.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationApp$1.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationApp$2.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationApp$3.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationApp$4.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationApp$CmdArgs.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationApp.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationDataType$1.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationDataType$2.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationDataType$3.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationDataType$4.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationDataType$5.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationDataType$6.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationDataType$7.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationDataType.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationKey.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationKeysLoader$LoaderLoader.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationKeysLoader.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationParser$Collector.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationParser.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationProblemReporter$1.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationProblemReporter.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationResolver.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationResolverFactory.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationSource$ListModification.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationSource$Result.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationSource.SCL.lombok: '8'
+  lombok/core/configuration/ConfigurationValueParser.SCL.lombok: '8'
+  lombok/core/configuration/ExampleValueString.SCL.lombok: '8'
+  lombok/core/configuration/FileSystemSourceCache$1.SCL.lombok: '8'
+  lombok/core/configuration/FileSystemSourceCache$2$1.SCL.lombok: '8'
+  lombok/core/configuration/FileSystemSourceCache$2.SCL.lombok: '8'
+  lombok/core/configuration/FileSystemSourceCache$Content.SCL.lombok: '8'
+  lombok/core/configuration/FileSystemSourceCache.SCL.lombok: '8'
+  lombok/core/configuration/FlagUsageType.SCL.lombok: '8'
+  lombok/core/configuration/NullCheckExceptionType$1.SCL.lombok: '8'
+  lombok/core/configuration/NullCheckExceptionType$2.SCL.lombok: '8'
+  lombok/core/configuration/NullCheckExceptionType.SCL.lombok: '8'
+  lombok/core/configuration/StringConfigurationSource$1.SCL.lombok: '8'
+  lombok/core/configuration/StringConfigurationSource.SCL.lombok: '8'
+  lombok/core/configuration/TypeName.SCL.lombok: '8'
+  lombok/core/debug/AssertionLogger.SCL.lombok: '8'
+  lombok/core/debug/DebugSnapshot.SCL.lombok: '8'
+  lombok/core/debug/DebugSnapshotStore.SCL.lombok: '8'
+  lombok/core/debug/FileLog$1.SCL.lombok: '8'
+  lombok/core/debug/FileLog.SCL.lombok: '8'
+  lombok/core/debug/HistogramTracker$1.SCL.lombok: '8'
+  lombok/core/debug/HistogramTracker.SCL.lombok: '8'
+  lombok/core/debug/ProblemReporter$EclipseWorkspaceLogger.SCL.lombok: '8'
+  lombok/core/debug/ProblemReporter$ErrorLogger.SCL.lombok: '8'
+  lombok/core/debug/ProblemReporter$TerminalLogger.SCL.lombok: '8'
+  lombok/core/debug/ProblemReporter.SCL.lombok: '8'
+  lombok/core/debug/package-info.SCL.lombok: '8'
+  lombok/core/handlers/HandlerUtil.SCL.lombok: '8'
+  lombok/core/handlers/Singulars.SCL.lombok: '8'
+  lombok/core/handlers/SneakyThrowsAndCleanupDependencyInfo.SCL.lombok: '8'
+  lombok/core/handlers/package-info.SCL.lombok: '8'
+  lombok/core/handlers/singulars.txt: '8'
+  lombok/core/runtimeDependencies/CreateLombokRuntimeApp$CmdArgs.SCL.lombok: '8'
+  lombok/core/runtimeDependencies/CreateLombokRuntimeApp$Fail.SCL.lombok: '8'
+  lombok/core/runtimeDependencies/CreateLombokRuntimeApp.SCL.lombok: '8'
+  lombok/core/runtimeDependencies/RuntimeDependencyInfo.SCL.lombok: '8'
+  lombok/core/runtimeDependencies/package-info.SCL.lombok: '8'
+  lombok/delombok/Delombok$1.SCL.lombok: '8'
+  lombok/delombok/Delombok$CmdArgs.SCL.lombok: '8'
+  lombok/delombok/Delombok$InvalidFormatOptionException.SCL.lombok: '8'
+  lombok/delombok/Delombok.SCL.lombok: '8'
+  lombok/delombok/DelombokApp$1$1.SCL.lombok: '8'
+  lombok/delombok/DelombokApp$1.SCL.lombok: '8'
+  lombok/delombok/DelombokApp.SCL.lombok: '8'
+  lombok/delombok/DelombokResult.SCL.lombok: '8'
+  lombok/delombok/DocCommentIntegrator$CommentAttacher_8$1.SCL.lombok: '8'
+  lombok/delombok/DocCommentIntegrator$CommentAttacher_8.SCL.lombok: '8'
+  lombok/delombok/DocCommentIntegrator.SCL.lombok: '8'
+  lombok/delombok/FormatPreferenceScanner$1.SCL.lombok: '8'
+  lombok/delombok/FormatPreferenceScanner.SCL.lombok: '8'
+  lombok/delombok/FormatPreferences.SCL.lombok: '8'
+  lombok/delombok/LombokOptionsFactory$1.SCL.lombok: '8'
+  lombok/delombok/LombokOptionsFactory$LombokOptionCompilerVersion$1.SCL.lombok: '8'
+  lombok/delombok/LombokOptionsFactory$LombokOptionCompilerVersion$2.SCL.lombok: '8'
+  lombok/delombok/LombokOptionsFactory$LombokOptionCompilerVersion$3.SCL.lombok: '8'
+  lombok/delombok/LombokOptionsFactory$LombokOptionCompilerVersion.SCL.lombok: '8'
+  lombok/delombok/LombokOptionsFactory.SCL.lombok: '8'
+  lombok/delombok/PrettyPrinter$1.SCL.lombok: '8'
+  lombok/delombok/PrettyPrinter$UncheckedIOException.SCL.lombok: '8'
+  lombok/delombok/PrettyPrinter.SCL.lombok: '8'
+  lombok/delombok/UnicodeEscapeWriter.SCL.lombok: '8'
+  lombok/delombok/ant/DelombokTaskImpl.SCL.lombok: '8'
+  lombok/eclipse/DeferUntilPostDiet.SCL.lombok: '8'
+  lombok/eclipse/Eclipse.SCL.lombok: '8'
+  lombok/eclipse/EclipseAST$EcjReflectionCheck.SCL.lombok: '8'
+  lombok/eclipse/EclipseAST$EclipseWorkspaceBasedFileResolver.SCL.lombok: '8'
+  lombok/eclipse/EclipseAST$ParseProblem.SCL.lombok: '8'
+  lombok/eclipse/EclipseAST.SCL.lombok: '8'
+  lombok/eclipse/EclipseASTAdapter.SCL.lombok: '8'
+  lombok/eclipse/EclipseASTVisitor$Printer.SCL.lombok: '8'
+  lombok/eclipse/EclipseASTVisitor.SCL.lombok: '8'
+  lombok/eclipse/EclipseAnnotationHandler.SCL.lombok: '8'
+  lombok/eclipse/EclipseAstProblemView$LombokProblem.SCL.lombok: '8'
+  lombok/eclipse/EclipseAstProblemView.SCL.lombok: '8'
+  lombok/eclipse/EclipseAugments.SCL.lombok: '8'
+  lombok/eclipse/EclipseImportList.SCL.lombok: '8'
+  lombok/eclipse/EclipseNode.SCL.lombok: '8'
+  lombok/eclipse/HandlerLibrary$AnnotationHandlerContainer.SCL.lombok: '8'
+  lombok/eclipse/HandlerLibrary$VisitorContainer.SCL.lombok: '8'
+  lombok/eclipse/HandlerLibrary.SCL.lombok: '8'
+  lombok/eclipse/TransformEclipseAST$AnnotationVisitor.SCL.lombok: '8'
+  lombok/eclipse/TransformEclipseAST.SCL.lombok: '8'
+  lombok/eclipse/package-info.SCL.lombok: '8'
+  lombok/eclipse/agent/EclipseLoaderPatcher.SCL.lombok: '8'
+  lombok/eclipse/agent/EclipseLoaderPatcherTransplants.SCL.lombok: '8'
+  lombok/eclipse/agent/EclipsePatcher$1.SCL.lombok: '8'
+  lombok/eclipse/agent/EclipsePatcher$2.SCL.lombok: '8'
+  lombok/eclipse/agent/EclipsePatcher$3.SCL.lombok: '8'
+  lombok/eclipse/agent/EclipsePatcher$4.SCL.lombok: '8'
+  lombok/eclipse/agent/EclipsePatcher.SCL.lombok: '8'
+  lombok/eclipse/agent/ExtensionMethodCompletionProposal.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchDelegate$1.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchDelegate$BindingTuple.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchDelegate$CantMakeDelegates.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchDelegate$ClassScopeEntry.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchDelegate$DelegateReceiver$1.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchDelegate$DelegateReceiver$2.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchDelegate$DelegateReceiver.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchDelegate$DelegateRecursion.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchDelegate$EclipseTypeBindingScanner.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchDelegate$Reflection.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchDelegate$TypeVarFinder.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchDelegate.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchDelegatePortal$Reflection.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchDelegatePortal.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchDiagnostics.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchExtensionMethod$Extension.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchExtensionMethod$PostponedError.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchExtensionMethod$PostponedInvalidMethodError.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchExtensionMethod$PostponedNoMethodError.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchExtensionMethod.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchExtensionMethodCompletionProposal$Reflection.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchExtensionMethodCompletionProposal.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchExtensionMethodCompletionProposalPortal$ReflectionForUi.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchExtensionMethodCompletionProposalPortal.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchExtensionMethodPortal$Reflection.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchExtensionMethodPortal.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchFixesShadowLoaded.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchVal$Reflection.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchVal.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchValEclipse$Reflection.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchValEclipse.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchValEclipsePortal$Reflection.SCL.lombok: '8'
+  lombok/eclipse/agent/PatchValEclipsePortal.SCL.lombok: '8'
+  lombok/eclipse/agent/package-info.SCL.lombok: '8'
+  lombok/eclipse/handlers/EclipseHandlerUtil$1.SCL.lombok: '8'
+  lombok/eclipse/handlers/EclipseHandlerUtil$2.SCL.lombok: '8'
+  lombok/eclipse/handlers/EclipseHandlerUtil$FieldAccess.SCL.lombok: '8'
+  lombok/eclipse/handlers/EclipseHandlerUtil$GetterMethod.SCL.lombok: '8'
+  lombok/eclipse/handlers/EclipseHandlerUtil$MemberExistsResult.SCL.lombok: '8'
+  lombok/eclipse/handlers/EclipseHandlerUtil.SCL.lombok: '8'
+  lombok/eclipse/handlers/EclipseSingularsRecipes$EclipseSingularizer.SCL.lombok: '8'
+  lombok/eclipse/handlers/EclipseSingularsRecipes$SingularData.SCL.lombok: '8'
+  lombok/eclipse/handlers/EclipseSingularsRecipes.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleAccessors.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleBuilder$BuilderFieldData.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleBuilder.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleBuilderDefault.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleCleanup.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleConstructor$HandleAllArgsConstructor.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleConstructor$HandleNoArgsConstructor.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleConstructor$HandleRequiredArgsConstructor.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleConstructor$SkipIfConstructorExists.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleConstructor.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleData.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleDelegate.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleEqualsAndHashCode.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleExtensionMethod.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleFieldDefaults.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleGetter.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleHelper$1.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleHelper.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleLog$HandleCommonsLog.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleLog$HandleJBossLog.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleLog$HandleJulLog.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleLog$HandleLog4j2Log.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleLog$HandleLog4jLog.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleLog$HandleSlf4jLog.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleLog$HandleXSlf4jLog.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleLog$LoggingFramework$1.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleLog$LoggingFramework.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleLog.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleNonNull.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandlePrintAST.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleSetter.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleSneakyThrows$DeclaredException.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleSneakyThrows.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleSynchronized.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleToString.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleUtilityClass.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleVal.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleValue.SCL.lombok: '8'
+  lombok/eclipse/handlers/HandleWither.SCL.lombok: '8'
+  lombok/eclipse/handlers/SetGeneratedByVisitor.SCL.lombok: '8'
+  lombok/eclipse/handlers/package-info.SCL.lombok: '8'
+  lombok/eclipse/handlers/singulars/EclipseGuavaMapSingularizer.SCL.lombok: '8'
+  lombok/eclipse/handlers/singulars/EclipseGuavaSetListSingularizer.SCL.lombok: '8'
+  lombok/eclipse/handlers/singulars/EclipseGuavaSingularizer.SCL.lombok: '8'
+  lombok/eclipse/handlers/singulars/EclipseGuavaTableSingularizer.SCL.lombok: '8'
+  lombok/eclipse/handlers/singulars/EclipseJavaUtilListSetSingularizer.SCL.lombok: '8'
+  lombok/eclipse/handlers/singulars/EclipseJavaUtilListSingularizer.SCL.lombok: '8'
+  lombok/eclipse/handlers/singulars/EclipseJavaUtilMapSingularizer.SCL.lombok: '8'
+  lombok/eclipse/handlers/singulars/EclipseJavaUtilSetSingularizer.SCL.lombok: '8'
+  lombok/eclipse/handlers/singulars/EclipseJavaUtilSingularizer.SCL.lombok: '8'
+  lombok/installer/AppleNativeLook.SCL.lombok: '8'
+  lombok/installer/CorruptedIdeLocationException.SCL.lombok: '8'
+  lombok/installer/IdeLocation.SCL.lombok: '8'
+  lombok/installer/IdeLocationProvider.SCL.lombok: '8'
+  lombok/installer/InstallException.SCL.lombok: '8'
+  lombok/installer/Installer$1.SCL.lombok: '8'
+  lombok/installer/Installer$CmdArgs.SCL.lombok: '8'
+  lombok/installer/Installer$CommandLineInstallerApp.SCL.lombok: '8'
+  lombok/installer/Installer$CommandLineUninstallerApp.SCL.lombok: '8'
+  lombok/installer/Installer$GraphicalInstallerApp.SCL.lombok: '8'
+  lombok/installer/Installer.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$1.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$10$1.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$10$2.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$10$3.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$10$4.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$10.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$11$1.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$11$2.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$11$3.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$11.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$12.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$13.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$2.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$3.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$4.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$5$1.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$5.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$6$1.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$6$2.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$6.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$7.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$8.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$9.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$IdesList$1.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$IdesList.SCL.lombok: '8'
+  lombok/installer/InstallerGUI$JHyperLink.SCL.lombok: '8'
+  lombok/installer/InstallerGUI.SCL.lombok: '8'
+  lombok/installer/OsUtils$OS.SCL.lombok: '8'
+  lombok/installer/OsUtils.SCL.lombok: '8'
+  lombok/installer/UninstallException.SCL.lombok: '8'
+  lombok/installer/WindowsDriveInfo-i386.dll: '8'
+  lombok/installer/WindowsDriveInfo-x86_64.dll: '8'
+  lombok/installer/WindowsDriveInfo.SCL.lombok: '8'
+  lombok/installer/loading.gif: '8'
+  lombok/installer/lombok.png: '8'
+  lombok/installer/lombok.svg: '8'
+  lombok/installer/lombokIcon.png: '8'
+  lombok/installer/lombokText.png: '8'
+  lombok/installer/lombokText.svg: '8'
+  lombok/installer/package-info.SCL.lombok: '8'
+  lombok/installer/eclipse/EclipseLocationProvider.SCL.lombok: '8'
+  lombok/installer/eclipse/EclipseProductDescriptor.SCL.lombok: '8'
+  lombok/installer/eclipse/EclipseProductLocation.SCL.lombok: '8'
+  lombok/installer/eclipse/EclipseProductLocationProvider$DirectoryFinder.SCL.lombok: '8'
+  lombok/installer/eclipse/EclipseProductLocationProvider$MacFinder.SCL.lombok: '8'
+  lombok/installer/eclipse/EclipseProductLocationProvider$UnixFinder.SCL.lombok: '8'
+  lombok/installer/eclipse/EclipseProductLocationProvider$WindowsFinder.SCL.lombok: '8'
+  lombok/installer/eclipse/EclipseProductLocationProvider.SCL.lombok: '8'
+  lombok/installer/eclipse/JbdsLocationProvider.SCL.lombok: '8'
+  lombok/installer/eclipse/MyEclipseLocationProvider.SCL.lombok: '8'
+  lombok/installer/eclipse/RhdsLocationProvider.SCL.lombok: '8'
+  lombok/installer/eclipse/STS.png: '8'
+  lombok/installer/eclipse/STSLocationProvider.SCL.lombok: '8'
+  lombok/installer/eclipse/StandardProductDescriptor.SCL.lombok: '8'
+  lombok/installer/eclipse/eclipse.png: '8'
+  lombok/installer/eclipse/jbds.png: '8'
+  lombok/installer/eclipse/myeclipse.png: '8'
+  lombok/installer/eclipse/rhds.png: '8'
+  lombok/javac/CapturingDiagnosticListener$CompilerMessage.SCL.lombok: '8'
+  lombok/javac/CapturingDiagnosticListener.SCL.lombok: '8'
+  lombok/javac/CommentCatcher.SCL.lombok: '8'
+  lombok/javac/CommentInfo$EndConnection.SCL.lombok: '8'
+  lombok/javac/CommentInfo$StartConnection.SCL.lombok: '8'
+  lombok/javac/CommentInfo.SCL.lombok: '8'
+  lombok/javac/CompilerMessageSuppressor$Java8WriterField.SCL.lombok: '8'
+  lombok/javac/CompilerMessageSuppressor$Java9WriterField.SCL.lombok: '8'
+  lombok/javac/CompilerMessageSuppressor$WriterField$1.SCL.lombok: '8'
+  lombok/javac/CompilerMessageSuppressor$WriterField$2.SCL.lombok: '8'
+  lombok/javac/CompilerMessageSuppressor$WriterField.SCL.lombok: '8'
+  lombok/javac/CompilerMessageSuppressor$Writers.SCL.lombok: '8'
+  lombok/javac/CompilerMessageSuppressor.SCL.lombok: '8'
+  lombok/javac/FindTypeVarScanner.SCL.lombok: '8'
+  lombok/javac/HandlerLibrary$AnnotationHandlerContainer.SCL.lombok: '8'
+  lombok/javac/HandlerLibrary$VisitorContainer.SCL.lombok: '8'
+  lombok/javac/HandlerLibrary.SCL.lombok: '8'
+  lombok/javac/Javac$JCNoType.SCL.lombok: '8'
+  lombok/javac/Javac.SCL.lombok: '8'
+  lombok/javac/Javac6BasedLombokOptions.SCL.lombok: '8'
+  lombok/javac/Javac8BasedLombokOptions.SCL.lombok: '8'
+  lombok/javac/Javac9BasedLombokOptions.SCL.lombok: '8'
+  lombok/javac/JavacAST$1.SCL.lombok: '8'
+  lombok/javac/JavacAST$ErrorLog.SCL.lombok: '8'
+  lombok/javac/JavacAST$Jdk9Plus.SCL.lombok: '8'
+  lombok/javac/JavacAST$JdkBefore9.SCL.lombok: '8'
+  lombok/javac/JavacAST.SCL.lombok: '8'
+  lombok/javac/JavacASTAdapter.SCL.lombok: '8'
+  lombok/javac/JavacASTVisitor$Printer.SCL.lombok: '8'
+  lombok/javac/JavacASTVisitor.SCL.lombok: '8'
+  lombok/javac/JavacAnnotationHandler.SCL.lombok: '8'
+  lombok/javac/JavacAugments.SCL.lombok: '8'
+  lombok/javac/JavacImportList.SCL.lombok: '8'
+  lombok/javac/JavacNode$1.SCL.lombok: '8'
+  lombok/javac/JavacNode.SCL.lombok: '8'
+  lombok/javac/JavacResolution$1.SCL.lombok: '8'
+  lombok/javac/JavacResolution$EnvFinder.SCL.lombok: '8'
+  lombok/javac/JavacResolution$ReflectiveAccess.SCL.lombok: '8'
+  lombok/javac/JavacResolution$TypeNotConvertibleException.SCL.lombok: '8'
+  lombok/javac/JavacResolution.SCL.lombok: '8'
+  lombok/javac/JavacTransformer$AnnotationVisitor.SCL.lombok: '8'
+  lombok/javac/JavacTransformer.SCL.lombok: '8'
+  lombok/javac/JavacTreeMaker$1.SCL.lombok: '8'
+  lombok/javac/JavacTreeMaker$MethodId.SCL.lombok: '8'
+  lombok/javac/JavacTreeMaker$SchroedingerType.SCL.lombok: '8'
+  lombok/javac/JavacTreeMaker$TreeTag.SCL.lombok: '8'
+  lombok/javac/JavacTreeMaker$TypeTag.SCL.lombok: '8'
+  lombok/javac/JavacTreeMaker.SCL.lombok: '8'
+  lombok/javac/LombokOptions.SCL.lombok: '8'
+  lombok/javac/PackageName.SCL.lombok: '8'
+  lombok/javac/ResolutionResetNeeded.SCL.lombok: '8'
+  lombok/javac/TreeMirrorMaker.SCL.lombok: '8'
+  lombok/javac/package-info.SCL.lombok: '8'
+  lombok/javac/apt/EmptyLombokFileObject.SCL.lombok: '8'
+  lombok/javac/apt/InterceptingJavaFileManager.SCL.lombok: '8'
+  lombok/javac/apt/InterceptingJavaFileObject.SCL.lombok: '8'
+  lombok/javac/apt/Javac6BaseFileObjectWrapper.SCL.lombok: '8'
+  lombok/javac/apt/Javac7BaseFileObjectWrapper.SCL.lombok: '8'
+  lombok/javac/apt/Javac9BaseFileObjectWrapper.SCL.lombok: '8'
+  lombok/javac/apt/LombokFileObject.SCL.lombok: '8'
+  lombok/javac/apt/LombokFileObjects$Compiler$1.SCL.lombok: '8'
+  lombok/javac/apt/LombokFileObjects$Compiler$2.SCL.lombok: '8'
+  lombok/javac/apt/LombokFileObjects$Compiler.SCL.lombok: '8'
+  lombok/javac/apt/LombokFileObjects$Java9Compiler$FileManagerWrapper.SCL.lombok: '8'
+  lombok/javac/apt/LombokFileObjects$Java9Compiler.SCL.lombok: '8'
+  lombok/javac/apt/LombokFileObjects.SCL.lombok: '8'
+  lombok/javac/apt/LombokProcessor$1.SCL.lombok: '8'
+  lombok/javac/apt/LombokProcessor.SCL.lombok: '8'
+  lombok/javac/apt/MessagerDiagnosticsReceiver.SCL.lombok: '8'
+  lombok/javac/apt/package-info.SCL.lombok: '8'
+  lombok/javac/handlers/HandleAccessors.SCL.lombok: '8'
+  lombok/javac/handlers/HandleBuilder$1.SCL.lombok: '8'
+  lombok/javac/handlers/HandleBuilder$BuilderFieldData.SCL.lombok: '8'
+  lombok/javac/handlers/HandleBuilder.SCL.lombok: '8'
+  lombok/javac/handlers/HandleBuilderDefault.SCL.lombok: '8'
+  lombok/javac/handlers/HandleCleanup.SCL.lombok: '8'
+  lombok/javac/handlers/HandleConstructor$1.SCL.lombok: '8'
+  lombok/javac/handlers/HandleConstructor$HandleAllArgsConstructor.SCL.lombok: '8'
+  lombok/javac/handlers/HandleConstructor$HandleNoArgsConstructor.SCL.lombok: '8'
+  lombok/javac/handlers/HandleConstructor$HandleRequiredArgsConstructor.SCL.lombok: '8'
+  lombok/javac/handlers/HandleConstructor$SkipIfConstructorExists.SCL.lombok: '8'
+  lombok/javac/handlers/HandleConstructor.SCL.lombok: '8'
+  lombok/javac/handlers/HandleData.SCL.lombok: '8'
+  lombok/javac/handlers/HandleDelegate$1.SCL.lombok: '8'
+  lombok/javac/handlers/HandleDelegate$CantMakeDelegates.SCL.lombok: '8'
+  lombok/javac/handlers/HandleDelegate$DelegateReceiver$1.SCL.lombok: '8'
+  lombok/javac/handlers/HandleDelegate$DelegateReceiver$2.SCL.lombok: '8'
+  lombok/javac/handlers/HandleDelegate$DelegateReceiver.SCL.lombok: '8'
+  lombok/javac/handlers/HandleDelegate$DelegateRecursion.SCL.lombok: '8'
+  lombok/javac/handlers/HandleDelegate$MethodSig.SCL.lombok: '8'
+  lombok/javac/handlers/HandleDelegate.SCL.lombok: '8'
+  lombok/javac/handlers/HandleEqualsAndHashCode$1.SCL.lombok: '8'
+  lombok/javac/handlers/HandleEqualsAndHashCode.SCL.lombok: '8'
+  lombok/javac/handlers/HandleExtensionMethod$Extension.SCL.lombok: '8'
+  lombok/javac/handlers/HandleExtensionMethod$ExtensionMethodReplaceVisitor.SCL.lombok: '8'
+  lombok/javac/handlers/HandleExtensionMethod.SCL.lombok: '8'
+  lombok/javac/handlers/HandleFieldDefaults.SCL.lombok: '8'
+  lombok/javac/handlers/HandleGetter$1.SCL.lombok: '8'
+  lombok/javac/handlers/HandleGetter.SCL.lombok: '8'
+  lombok/javac/handlers/HandleHelper$1.SCL.lombok: '8'
+  lombok/javac/handlers/HandleHelper.SCL.lombok: '8'
+  lombok/javac/handlers/HandleLog$1.SCL.lombok: '8'
+  lombok/javac/handlers/HandleLog$HandleCommonsLog.SCL.lombok: '8'
+  lombok/javac/handlers/HandleLog$HandleJBossLog.SCL.lombok: '8'
+  lombok/javac/handlers/HandleLog$HandleJulLog.SCL.lombok: '8'
+  lombok/javac/handlers/HandleLog$HandleLog4j2Log.SCL.lombok: '8'
+  lombok/javac/handlers/HandleLog$HandleLog4jLog.SCL.lombok: '8'
+  lombok/javac/handlers/HandleLog$HandleSlf4jLog.SCL.lombok: '8'
+  lombok/javac/handlers/HandleLog$HandleXSlf4jLog.SCL.lombok: '8'
+  lombok/javac/handlers/HandleLog$LoggingFramework$1.SCL.lombok: '8'
+  lombok/javac/handlers/HandleLog$LoggingFramework.SCL.lombok: '8'
+  lombok/javac/handlers/HandleLog.SCL.lombok: '8'
+  lombok/javac/handlers/HandleNonNull.SCL.lombok: '8'
+  lombok/javac/handlers/HandlePrintAST.SCL.lombok: '8'
+  lombok/javac/handlers/HandleSetter$1.SCL.lombok: '8'
+  lombok/javac/handlers/HandleSetter.SCL.lombok: '8'
+  lombok/javac/handlers/HandleSneakyThrows$1.SCL.lombok: '8'
+  lombok/javac/handlers/HandleSneakyThrows.SCL.lombok: '8'
+  lombok/javac/handlers/HandleSynchronized.SCL.lombok: '8'
+  lombok/javac/handlers/HandleToString$1.SCL.lombok: '8'
+  lombok/javac/handlers/HandleToString.SCL.lombok: '8'
+  lombok/javac/handlers/HandleUtilityClass$1.SCL.lombok: '8'
+  lombok/javac/handlers/HandleUtilityClass.SCL.lombok: '8'
+  lombok/javac/handlers/HandleVal.SCL.lombok: '8'
+  lombok/javac/handlers/HandleValue.SCL.lombok: '8'
+  lombok/javac/handlers/HandleWither$1.SCL.lombok: '8'
+  lombok/javac/handlers/HandleWither.SCL.lombok: '8'
+  lombok/javac/handlers/JavacHandlerUtil$1.SCL.lombok: '8'
+  lombok/javac/handlers/JavacHandlerUtil$2.SCL.lombok: '8'
+  lombok/javac/handlers/JavacHandlerUtil$3.SCL.lombok: '8'
+  lombok/javac/handlers/JavacHandlerUtil$ClassSymbolMembersField.SCL.lombok: '8'
+  lombok/javac/handlers/JavacHandlerUtil$CopyJavadoc$1.SCL.lombok: '8'
+  lombok/javac/handlers/JavacHandlerUtil$CopyJavadoc$2.SCL.lombok: '8'
+  lombok/javac/handlers/JavacHandlerUtil$CopyJavadoc$3.SCL.lombok: '8'
+  lombok/javac/handlers/JavacHandlerUtil$CopyJavadoc.SCL.lombok: '8'
+  lombok/javac/handlers/JavacHandlerUtil$CopyJavadoc_8$1.SCL.lombok: '8'
+  lombok/javac/handlers/JavacHandlerUtil$CopyJavadoc_8.SCL.lombok: '8'
+  lombok/javac/handlers/JavacHandlerUtil$FieldAccess.SCL.lombok: '8'
+  lombok/javac/handlers/JavacHandlerUtil$GetterMethod.SCL.lombok: '8'
+  lombok/javac/handlers/JavacHandlerUtil$MarkingScanner.SCL.lombok: '8'
+  lombok/javac/handlers/JavacHandlerUtil$MemberExistsResult.SCL.lombok: '8'
+  lombok/javac/handlers/JavacHandlerUtil.SCL.lombok: '8'
+  lombok/javac/handlers/JavacResolver$1.SCL.lombok: '8'
+  lombok/javac/handlers/JavacResolver$2.SCL.lombok: '8'
+  lombok/javac/handlers/JavacResolver$3.SCL.lombok: '8'
+  lombok/javac/handlers/JavacResolver.SCL.lombok: '8'
+  lombok/javac/handlers/JavacSingularsRecipes$1.SCL.lombok: '8'
+  lombok/javac/handlers/JavacSingularsRecipes$JavacSingularizer.SCL.lombok: '8'
+  lombok/javac/handlers/JavacSingularsRecipes$SingularData.SCL.lombok: '8'
+  lombok/javac/handlers/JavacSingularsRecipes.SCL.lombok: '8'
+  lombok/javac/handlers/package-info.SCL.lombok: '8'
+  lombok/javac/handlers/singulars/JavacGuavaMapSingularizer.SCL.lombok: '8'
+  lombok/javac/handlers/singulars/JavacGuavaSetListSingularizer.SCL.lombok: '8'
+  lombok/javac/handlers/singulars/JavacGuavaSingularizer.SCL.lombok: '8'
+  lombok/javac/handlers/singulars/JavacGuavaTableSingularizer.SCL.lombok: '8'
+  lombok/javac/handlers/singulars/JavacJavaUtilListSetSingularizer.SCL.lombok: '8'
+  lombok/javac/handlers/singulars/JavacJavaUtilListSingularizer.SCL.lombok: '8'
+  lombok/javac/handlers/singulars/JavacJavaUtilMapSingularizer.SCL.lombok: '8'
+  lombok/javac/handlers/singulars/JavacJavaUtilSetSingularizer.SCL.lombok: '8'
+  lombok/javac/handlers/singulars/JavacJavaUtilSingularizer.SCL.lombok: '8'
+  lombok/javac/java6/CommentCollectingParser.SCL.lombok: '8'
+  lombok/javac/java6/CommentCollectingParserFactory.SCL.lombok: '8'
+  lombok/javac/java6/CommentCollectingScanner.SCL.lombok: '8'
+  lombok/javac/java6/CommentCollectingScannerFactory$1MyFactory.SCL.lombok: '8'
+  lombok/javac/java6/CommentCollectingScannerFactory.SCL.lombok: '8'
+  lombok/javac/java7/CommentCollectingParser.SCL.lombok: '8'
+  lombok/javac/java7/CommentCollectingParserFactory.SCL.lombok: '8'
+  lombok/javac/java7/CommentCollectingScanner.SCL.lombok: '8'
+  lombok/javac/java7/CommentCollectingScannerFactory$1MyFactory.SCL.lombok: '8'
+  lombok/javac/java7/CommentCollectingScannerFactory.SCL.lombok: '8'
+  lombok/javac/java8/CommentCollectingParser.SCL.lombok: '8'
+  lombok/javac/java8/CommentCollectingParserFactory.SCL.lombok: '8'
+  lombok/javac/java8/CommentCollectingScanner.SCL.lombok: '8'
+  lombok/javac/java8/CommentCollectingScannerFactory$1MyFactory.SCL.lombok: '8'
+  lombok/javac/java8/CommentCollectingScannerFactory.SCL.lombok: '8'
+  lombok/javac/java8/CommentCollectingTokenizer$PositionUnicodeReader.SCL.lombok: '8'
+  lombok/javac/java8/CommentCollectingTokenizer.SCL.lombok: '8'
+  lombok/javac/java9/CommentCollectingParser.SCL.lombok: '8'
+  lombok/javac/java9/CommentCollectingParserFactory.SCL.lombok: '8'
+  lombok/patcher/ClassRootFinder.SCL.lombok: '8'
+  lombok/patcher/Filter$1.SCL.lombok: '8'
+  lombok/patcher/Filter.SCL.lombok: '8'
+  lombok/patcher/Hook.SCL.lombok: '8'
+  lombok/patcher/MethodLogistics.SCL.lombok: '8'
+  lombok/patcher/MethodTarget.SCL.lombok: '8'
+  lombok/patcher/PatchScript$1.SCL.lombok: '8'
+  lombok/patcher/PatchScript$2.SCL.lombok: '8'
+  lombok/patcher/PatchScript$FixedClassWriter.SCL.lombok: '8'
+  lombok/patcher/PatchScript$InsertBodyOfMethodIntoAnotherVisitor.SCL.lombok: '8'
+  lombok/patcher/PatchScript$MethodPatcher.SCL.lombok: '8'
+  lombok/patcher/PatchScript$MethodPatcherFactory.SCL.lombok: '8'
+  lombok/patcher/PatchScript$NoopClassVisitor.SCL.lombok: '8'
+  lombok/patcher/PatchScript.SCL.lombok: '8'
+  lombok/patcher/ScriptManager$OurClassFileTransformer.SCL.lombok: '8'
+  lombok/patcher/ScriptManager.SCL.lombok: '8'
+  lombok/patcher/StackRequest.SCL.lombok: '8'
+  lombok/patcher/Symbols$1.SCL.lombok: '8'
+  lombok/patcher/Symbols.SCL.lombok: '8'
+  lombok/patcher/TargetMatcher.SCL.lombok: '8'
+  lombok/patcher/TransplantMapper$1.SCL.lombok: '8'
+  lombok/patcher/TransplantMapper.SCL.lombok: '8'
+  lombok/patcher/Version.SCL.lombok: '8'
+  lombok/patcher/inject/LiveInjector$LibInstrument.SCL.lombok: '8'
+  lombok/patcher/inject/LiveInjector$LibJVM.SCL.lombok: '8'
+  lombok/patcher/inject/LiveInjector.SCL.lombok: '8'
+  lombok/patcher/scripts/AddFieldScript$1.SCL.lombok: '8'
+  lombok/patcher/scripts/AddFieldScript.SCL.lombok: '8'
+  lombok/patcher/scripts/ExitFromMethodEarlyScript$1.SCL.lombok: '8'
+  lombok/patcher/scripts/ExitFromMethodEarlyScript$ExitEarly.SCL.lombok: '8'
+  lombok/patcher/scripts/ExitFromMethodEarlyScript.SCL.lombok: '8'
+  lombok/patcher/scripts/MethodLevelPatchScript.SCL.lombok: '8'
+  lombok/patcher/scripts/ReplaceMethodCallScript$1.SCL.lombok: '8'
+  lombok/patcher/scripts/ReplaceMethodCallScript$ReplaceMethodCall.SCL.lombok: '8'
+  lombok/patcher/scripts/ReplaceMethodCallScript.SCL.lombok: '8'
+  lombok/patcher/scripts/ScriptBuilder$AddFieldBuilder.SCL.lombok: '8'
+  lombok/patcher/scripts/ScriptBuilder$ExitEarlyBuilder.SCL.lombok: '8'
+  lombok/patcher/scripts/ScriptBuilder$ReplaceMethodCallBuilder.SCL.lombok: '8'
+  lombok/patcher/scripts/ScriptBuilder$SetSymbolDuringMethodCallBuilder.SCL.lombok: '8'
+  lombok/patcher/scripts/ScriptBuilder$WrapMethodCallBuilder.SCL.lombok: '8'
+  lombok/patcher/scripts/ScriptBuilder$WrapReturnValueBuilder.SCL.lombok: '8'
+  lombok/patcher/scripts/ScriptBuilder.SCL.lombok: '8'
+  lombok/patcher/scripts/SetSymbolDuringMethodCallScript$1.SCL.lombok: '8'
+  lombok/patcher/scripts/SetSymbolDuringMethodCallScript$2.SCL.lombok: '8'
+  lombok/patcher/scripts/SetSymbolDuringMethodCallScript$WrapWithSymbol.SCL.lombok: '8'
+  lombok/patcher/scripts/SetSymbolDuringMethodCallScript.SCL.lombok: '8'
+  lombok/patcher/scripts/WrapMethodCallScript$1.SCL.lombok: '8'
+  lombok/patcher/scripts/WrapMethodCallScript$WrapMethodCall.SCL.lombok: '8'
+  lombok/patcher/scripts/WrapMethodCallScript.SCL.lombok: '8'
+  lombok/patcher/scripts/WrapReturnValuesScript$1.SCL.lombok: '8'
+  lombok/patcher/scripts/WrapReturnValuesScript$WrapReturnValues.SCL.lombok: '8'
+  lombok/patcher/scripts/WrapReturnValuesScript.SCL.lombok: '8'
+  lombok/patcher/scripts/WrapperMethodDescriptor.SCL.lombok: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+  org/apache/commons/codec/language/bm/ash_approx_any.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_common.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_cyrillic.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_english.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_french.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_german.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_hungarian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_polish.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_romanian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_russian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_any.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_approx_common.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_common.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_cyrillic.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_english.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_french.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_german.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_hungarian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_polish.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_romanian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_russian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/ash_hebrew_common.txt: '8'
+  org/apache/commons/codec/language/bm/ash_languages.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_any.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_cyrillic.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_english.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_french.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_german.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_hungarian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_polish.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_romanian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_russian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_any.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_arabic.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_common.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_cyrillic.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_czech.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_dutch.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_english.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_french.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_german.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_greek.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_greeklatin.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_hungarian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_italian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_polish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_portuguese.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_romanian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_russian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_turkish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_any.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_approx_common.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_arabic.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_common.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_cyrillic.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_czech.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_dutch.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_english.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_french.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_german.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_greek.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_greeklatin.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_hungarian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_italian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_polish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_portuguese.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_romanian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_russian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_turkish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_hebrew_common.txt: '8'
+  org/apache/commons/codec/language/bm/gen_languages.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_any.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_arabic.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_cyrillic.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_czech.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_dutch.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_english.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_french.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_german.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_greek.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_greeklatin.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_hungarian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_italian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_polish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_portuguese.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_romanian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_russian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_turkish.txt: '8'
+  org/apache/commons/codec/language/bm/lang.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_any.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_common.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_french.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_italian.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_portuguese.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_any.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_approx_common.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_common.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_french.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_italian.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_portuguese.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/sep_hebrew_common.txt: '8'
+  org/apache/commons/codec/language/bm/sep_languages.txt: '8'
+  org/apache/commons/codec/language/bm/sep_rules_any.txt: '8'
+  org/apache/commons/codec/language/bm/sep_rules_french.txt: '8'
+  org/apache/commons/codec/language/bm/sep_rules_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/sep_rules_italian.txt: '8'
+  org/apache/commons/codec/language/bm/sep_rules_portuguese.txt: '8'
+  org/apache/commons/codec/language/bm/sep_rules_spanish.txt: '8'
+  org/objectweb/asm/AnnotationVisitor.SCL.lombok: '8'
+  org/objectweb/asm/AnnotationWriter.SCL.lombok: '8'
+  org/objectweb/asm/Attribute.SCL.lombok: '8'
+  org/objectweb/asm/ByteVector.SCL.lombok: '8'
+  org/objectweb/asm/ClassReader.SCL.lombok: '8'
+  org/objectweb/asm/ClassVisitor.SCL.lombok: '8'
+  org/objectweb/asm/ClassWriter.SCL.lombok: '8'
+  org/objectweb/asm/Context.SCL.lombok: '8'
+  org/objectweb/asm/CurrentFrame.SCL.lombok: '8'
+  org/objectweb/asm/Edge.SCL.lombok: '8'
+  org/objectweb/asm/FieldVisitor.SCL.lombok: '8'
+  org/objectweb/asm/FieldWriter.SCL.lombok: '8'
+  org/objectweb/asm/Frame.SCL.lombok: '8'
+  org/objectweb/asm/Handle.SCL.lombok: '8'
+  org/objectweb/asm/Handler.SCL.lombok: '8'
+  org/objectweb/asm/Item.SCL.lombok: '8'
+  org/objectweb/asm/Label.SCL.lombok: '8'
+  org/objectweb/asm/MethodVisitor.SCL.lombok: '8'
+  org/objectweb/asm/MethodWriter.SCL.lombok: '8'
+  org/objectweb/asm/ModuleVisitor.SCL.lombok: '8'
+  org/objectweb/asm/ModuleWriter.SCL.lombok: '8'
+  org/objectweb/asm/Opcodes.SCL.lombok: '8'
+  org/objectweb/asm/Type.SCL.lombok: '8'
+  org/objectweb/asm/TypePath.SCL.lombok: '8'
+  org/objectweb/asm/TypeReference.SCL.lombok: '8'
+  org/objectweb/asm/commons/AdviceAdapter.SCL.lombok: '8'
+  org/objectweb/asm/commons/AnalyzerAdapter.SCL.lombok: '8'
+  org/objectweb/asm/commons/AnnotationRemapper.SCL.lombok: '8'
+  org/objectweb/asm/commons/ClassRemapper.SCL.lombok: '8'
+  org/objectweb/asm/commons/CodeSizeEvaluator.SCL.lombok: '8'
+  org/objectweb/asm/commons/FieldRemapper.SCL.lombok: '8'
+  org/objectweb/asm/commons/GeneratorAdapter.SCL.lombok: '8'
+  org/objectweb/asm/commons/InstructionAdapter.SCL.lombok: '8'
+  org/objectweb/asm/commons/JSRInlinerAdapter$Instantiation.SCL.lombok: '8'
+  org/objectweb/asm/commons/JSRInlinerAdapter.SCL.lombok: '8'
+  org/objectweb/asm/commons/LocalVariablesSorter.SCL.lombok: '8'
+  org/objectweb/asm/commons/Method.SCL.lombok: '8'
+  org/objectweb/asm/commons/MethodRemapper.SCL.lombok: '8'
+  org/objectweb/asm/commons/ModuleHashesAttribute.SCL.lombok: '8'
+  org/objectweb/asm/commons/ModuleRemapper.SCL.lombok: '8'
+  org/objectweb/asm/commons/ModuleResolutionAttribute.SCL.lombok: '8'
+  org/objectweb/asm/commons/ModuleTargetAttribute.SCL.lombok: '8'
+  org/objectweb/asm/commons/Remapper.SCL.lombok: '8'
+  org/objectweb/asm/commons/RemappingAnnotationAdapter.SCL.lombok: '8'
+  org/objectweb/asm/commons/RemappingClassAdapter.SCL.lombok: '8'
+  org/objectweb/asm/commons/RemappingFieldAdapter.SCL.lombok: '8'
+  org/objectweb/asm/commons/RemappingMethodAdapter.SCL.lombok: '8'
+  org/objectweb/asm/commons/RemappingSignatureAdapter.SCL.lombok: '8'
+  org/objectweb/asm/commons/SerialVersionUIDAdder$Item.SCL.lombok: '8'
+  org/objectweb/asm/commons/SerialVersionUIDAdder.SCL.lombok: '8'
+  org/objectweb/asm/commons/SignatureRemapper.SCL.lombok: '8'
+  org/objectweb/asm/commons/SimpleRemapper.SCL.lombok: '8'
+  org/objectweb/asm/commons/StaticInitMerger.SCL.lombok: '8'
+  org/objectweb/asm/commons/TableSwitchGenerator.SCL.lombok: '8'
+  org/objectweb/asm/commons/TryCatchBlockSorter$1.SCL.lombok: '8'
+  org/objectweb/asm/commons/TryCatchBlockSorter.SCL.lombok: '8'
+  org/objectweb/asm/signature/SignatureReader.SCL.lombok: '8'
+  org/objectweb/asm/signature/SignatureVisitor.SCL.lombok: '8'
+  org/objectweb/asm/signature/SignatureWriter.SCL.lombok: '8'
+  org/objectweb/asm/tree/AbstractInsnNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/AnnotationNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/ClassNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/FieldInsnNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/FieldNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/FrameNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/IincInsnNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/InnerClassNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/InsnList$InsnListIterator.SCL.lombok: '8'
+  org/objectweb/asm/tree/InsnList.SCL.lombok: '8'
+  org/objectweb/asm/tree/InsnNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/IntInsnNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/InvokeDynamicInsnNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/JumpInsnNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/LabelNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/LdcInsnNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/LineNumberNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/LocalVariableAnnotationNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/LocalVariableNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/LookupSwitchInsnNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/MethodInsnNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/MethodNode$1.SCL.lombok: '8'
+  org/objectweb/asm/tree/MethodNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/ModuleExportNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/ModuleNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/ModuleOpenNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/ModuleProvideNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/ModuleRequireNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/MultiANewArrayInsnNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/ParameterNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/TableSwitchInsnNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/TryCatchBlockNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/TypeAnnotationNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/TypeInsnNode.SCL.lombok: '8'
+  org/objectweb/asm/tree/VarInsnNode.SCL.lombok: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0-dirty
+versionInfo:
+  versionCode: '9004100'
+  versionName: 9.4.100

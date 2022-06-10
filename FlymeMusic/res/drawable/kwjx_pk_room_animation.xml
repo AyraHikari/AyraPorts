@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100" android:drawable="@drawable/kwjx_vs_11" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_vs_12" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_vs_13" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_vs_14" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_vs_15" />
+</animation-list>

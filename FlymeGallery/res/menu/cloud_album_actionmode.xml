@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_menu_share" android:id="@id/action_cloud_share" android:title="@string/menu_share_title" android:showAsAction="always|withText" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/btn_cloud_download" android:id="@id/action_cloud_download" android:title="@string/cloud_menu_title_download" android:showAsAction="always|withText" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/btn_delete" android:id="@id/action_cloud_delete" android:title="@string/menu_delete_title" android:showAsAction="always|withText" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/btn_move" android:id="@id/action_cloud_move" android:title="@string/move" android:showAsAction="always|withText" app:showAsAction="always|withText" />
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/root_view" android:background="@color/bq_widget_theme_66_black" android:layout_width="fill_parent" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_cover" android:layout_width="@dimen/dp_72" android:layout_height="@dimen/dp_72" android:layout_margin="@dimen/dp_4" android:src="@drawable/bq_default_cover" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/iv_lyric" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp_4" android:layout_marginBottom="@dimen/dp_4" android:layout_marginEnd="@dimen/dp_8">
+            <TextView android:textStyle="bold" android:textColor="@color/bq_widget_theme_white" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_title" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/bq_app_name" android:singleLine="true" android:layout_weight="1.0" android:marqueeRepeatLimit="marquee_forever" />
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp_32">
+                <ImageView android:id="@id/iv_lyric" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_lyric" android:layout_weight="1.0" />
+                <ImageView android:id="@id/iv_prev" android:background="?android:selectableItemBackground" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_skip_previous" android:layout_weight="1.0" />
+                <ImageView android:id="@id/iv_play_pause" android:background="?android:selectableItemBackground" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_play" android:layout_weight="1.0" />
+                <ImageView android:id="@id/iv_next" android:background="?android:selectableItemBackground" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_skip_next" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

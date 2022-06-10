@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NMins">
+        <item quantity="other">Minutu bat</item>
+        <item quantity="one">1 minutu</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">"%dezabatutako Abestia "</item>
+        <item quantity="one">1 Ezabatutako Abestia</item>
+    </plurals>
+    <plurals name="NNNtrackswilldeleted">
+        <item quantity="other">%d abesti betiko ezabatuko dira memoriatik.</item>
+        <item quantity="one">1 abesti betiko ezabatuko da memoriatik.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d album</item>
+        <item quantity="one">album 1</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d abesti</item>
+    </plurals>
+</resources>

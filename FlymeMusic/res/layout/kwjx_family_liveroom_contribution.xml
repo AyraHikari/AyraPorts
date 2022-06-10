@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/def_view" android:layout_width="fill_parent" android:layout_height="@dimen/video_height" />
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/tab_ll" android:background="@color/rgbf0393740" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/def_view">
+        <LinearLayout android:gravity="center" android:background="@drawable/bg_contribution_full_tab" android:layout_width="320.0dip" android:layout_height="31.0dip">
+            <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/kw_common_cl_white" android:gravity="center" android:id="@id/contribution_tab_tv" android:background="@drawable/liveroom_tab_text_color_left_bg" android:layout_width="0.0dip" android:layout_height="30.0dip" android:text="@string/fans_type_current" android:layout_weight="1.0" />
+            <View android:background="@color/rgb595959" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/kw_common_cl_white" android:gravity="center" android:id="@id/star_tab_tv" android:background="@drawable/liveroom_tab_text_color_bg" android:layout_width="0.0dip" android:layout_height="30.0dip" android:text="@string/fans_type_week" android:singleLine="true" android:layout_weight="1.0" />
+            <View android:background="@color/rgb595959" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/kw_common_cl_white" android:gravity="center" android:id="@id/gift_tab_tv" android:background="@drawable/liveroom_tab_text_color_bg" android:layout_width="0.5dip" android:layout_height="30.0dip" android:text="@string/fans_type_month" android:layout_weight="1.0" />
+            <View android:background="@color/rgb595959" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/kw_common_cl_white" android:gravity="center" android:id="@id/week_star_tab_tv" android:background="@drawable/liveroom_tab_text_color_right_bg" android:layout_width="0.0dip" android:layout_height="30.0dip" android:text="@string/fans_type_star" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/tab_content_rl" android:background="@color/rgbf029282e" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tab_ll" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="15.0dip" />
+    <padding android:left="10.0dip" android:top="3.0dip" android:right="10.0dip" android:bottom="3.0dip" />
+    <gradient android:startColor="@color/bq_gold_gradient_left_color" android:endColor="@color/bq_gold_gradient_right_color" android:angle="0.0" />
+</shape>

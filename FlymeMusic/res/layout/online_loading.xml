@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kuwo="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/online_gift_anim" android:background="@color/kwjx_transparent" android:visibility="invisible" android:layout_width="50.0dip" android:layout_height="16.0dip" kuwo:lottie_autoPlay="false" kuwo:lottie_loop="true" kuwo:lottie_scale="1.0" />
+</FrameLayout>

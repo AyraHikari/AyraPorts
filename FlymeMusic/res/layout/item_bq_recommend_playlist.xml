@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/playlistRoot" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.banqu.music.ui.widget.RoundImageView android:id="@id/image" style="@style/ListIcon100" />
+    <TextView android:background="@drawable/bg_recommend_item_mantle" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_alignBottom="@id/image" />
+    <TextView android:textSize="10.0dip" android:textColor="#b3ffffff" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/playCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:maxWidth="60.0dip" android:singleLine="true" android:layout_alignBottom="@id/image" android:layout_marginStart="8.0dip" android:layout_alignStart="@id/image" />
+    <com.banqu.music.ui.widget.PlaySourceImageView android:gravity="center_vertical" android:id="@id/playIcon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip" android:src="@drawable/ic_bq_home_daily_recommend_play" android:layout_alignRight="@id/image" android:layout_alignBottom="@id/image" />
+    <TextView android:textSize="@dimen/bq_grid_item_title_ts" android:textColor="@color/bq_grid_item_title_color" android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="2" android:lines="2" android:layout_below="@id/image" android:layout_alignStart="@id/image" android:layout_alignEnd="@id/image" />
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/room_content" android:tag="clear_screen" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/room_header_rel" android:tag="KTitleBar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.kuwo.show.ui.room.widget.RoomHeaderLayout android:id="@id/room_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/def_video_view" android:layout_width="fill_parent" android:layout_height="@dimen/video_height" android:layout_below="@id/room_header_rel">
+        <ViewStub android:id="@id/online_error_content" android:visibility="gone" android:layout="@layout/online_error" android:layout_width="fill_parent" android:layout_height="@dimen/video_height" android:layout_below="@id/layout_common_header" />
+        <cn.kuwo.show.ui.room.widget.RoomNoLiveView android:id="@id/roomNoLive" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/webview_gift_container" android:background="@color/kwjx_transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/room_guard_layout" android:background="@color/kwjx_transparent" android:visibility="gone" android:layout_width="198.0dip" android:layout_height="33.0dip" android:layout_marginTop="10.0dip" android:layout_alignParentRight="true">
+            <cn.kuwo.show.ui.view.CornerView android:background="@drawable/kwjx_shouhubeijing" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="-30.0dip">
+                <cn.kuwo.show.ui.view.listview.HorizontalListView android:id="@id/guard_list" android:background="@color/kwjx_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/kaitong_btn" />
+                <ImageView android:id="@id/kaitong_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40.0dip" android:src="@drawable/kwjx_kaitong_shouhu" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </cn.kuwo.show.ui.view.CornerView>
+        </RelativeLayout>
+        <ImageView android:id="@id/iv_live_recorded" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/ic_live_recorded" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/full_screen_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/bg_full_screen_select" android:layout_below="@id/iv_live_recorded" />
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" layout="@layout/kwjx_pendant_webview" />
+        <ViewStub android:id="@id/explosion_lights_webview_stub" android:layout="@layout/kwjx_common_viewstub_webview" android:inflatedId="@id/explosion_lights_root" android:layout_width="89.0dip" android:layout_height="184.0dip" android:layout_marginTop="16.0dip" />
+        <FrameLayout android:id="@id/fl_h5_banner_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true" />
+        <ViewStub android:id="@id/wish_progress_rate_stub" android:layout="@layout/kwjx_wish_progress_rate" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_alignParentBottom="true" />
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/rl_wish_process" layout="@layout/kwjx_pc_chat_lyt_gift_bullet" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/kwjx_pk_wheat" android:layout="@layout/kwjx_family_wheat" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/ballot_rl" android:visibility="gone" android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignBottom="@id/def_video_view" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/ballot_img" android:layout_width="57.0dip" android:layout_height="57.0dip" android:src="@drawable/kwjx_ballot_song_icon" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/text_size_9" android:textColor="@color/kw_white" android:gravity="center" android:id="@id/ballot_count_tv" android:background="@drawable/kwjx_ballot_count_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="0" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/chatRoom" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/chat_room_marginTop" android:layout_below="@id/def_video_view">
+        <FrameLayout android:id="@id/room_tab_content_rl" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/layout_chat_bottom" />
+        <include android:id="@id/kwjx_guide_send_msg" layout="@layout/kwjx_guide_send_msg_btn" />
+        <include android:id="@id/layout_chat_bottom" layout="@layout/layout_chat_bottom" />
+        <FrameLayout android:id="@id/room_tab_content_rl_2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <include android:id="@id/kwjx_guide_send_msg_focused" layout="@layout/kwjx_guide_send_msg_focused" />
+    <ViewStub android:id="@id/fly_screen_webview_stub" android:layout="@layout/kwjx_common_viewstub_webview" android:inflatedId="@id/fly_screen_root" android:layout_width="fill_parent" android:layout_height="33.0dip" android:layout_marginBottom="5.0dip" android:layout_above="@id/def_video_view" />
+    <LinearLayout android:orientation="vertical" android:id="@id/move_pendant_webview_23_container" android:visibility="gone" android:layout_width="@dimen/move_pendant_webview_width" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="60.0dip" android:layout_above="@id/chatRoom" android:layout_alignParentRight="true">
+        <ViewStub android:id="@id/move_pendante_webview_vs_3" android:layout="@layout/kwjx_move_pendant_webview" android:inflatedId="@id/move_pendant_root_3" android:layout_width="@dimen/move_pendant_webview_width" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+        <ViewStub android:id="@id/move_pendante_webview_vs_2" android:layout="@layout/kwjx_move_pendant_webview" android:inflatedId="@id/move_pendant_root_2" android:layout_width="@dimen/move_pendant_webview_width" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ViewStub android:id="@id/move_pendant_webview_vs" android:layout="@layout/kwjx_move_pendant_multi_root" android:inflatedId="@id/move_pendant_root" android:layout_width="@dimen/move_pendant_webview_width" android:layout_height="wrap_content" android:layout_marginRight="@dimen/move_pendant_webview_1_margin_right" android:layout_marginBottom="@dimen/move_pendant_webview_1_margin_bottom" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_marginBottom="64.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" layout="@layout/kwjx_room_plume_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/gift_active_ll" android:layout_width="57.0dip" android:layout_height="57.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="61.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/gift_shortcut_active" android:visibility="gone" android:layout_width="57.0dip" android:layout_height="57.0dip" android:scaleType="fitCenter" />
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_horizontal" android:id="@id/gift_shortcut" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="5.0dip" android:scaleType="fitCenter" app:failureImage="@drawable/kwjx_default_gift" app:placeholderImage="@drawable/kwjx_default_gift" />
+        <TextView android:textSize="@dimen/text_size_11" android:textColor="@color/kw_white" android:gravity="center_horizontal" android:id="@id/gift_shortcut_count" android:layout_width="57.0dip" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/dialog_h5_placeholder_view" android:background="@color/kwjx_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:orientation="vertical" android:id="@id/lay_private_bottom_vs" android:background="@color/bg_gray10" android:layout="@layout/kwjx_pri_chat_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.kuwo.show.ui.livebase.danmaku.LiveDanmakuView android:id="@id/bullet_view" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="20.0dip" android:layout_below="@id/room_header_rel" app:end_Y_offset="0.9" app:max_row="2" app:max_running_per_row="2" app:pick_interval="2000" app:show_debug="false" app:start_Y_offset="0.1" />
+    <cn.kuwo.show.ui.chat.light.LightView android:id="@id/lightview" android:layout_marginBottom="170.0dip" android:layout_alignParentBottom="true" style="@style/kwjx_light_view" />
+    <ViewStub android:id="@id/glgift_viewstub" android:layout="@layout/page_live_gift_glview" android:inflatedId="@id/shake_guide_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/glkeyword_viewstub" android:layout="@layout/kwjx_live_keyword_glview" android:inflatedId="@id/shake_guide_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/liveroom_input_view_stub" />
+    <View android:id="@id/chat_option_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/full_h5_no_title" android:background="@color/kwjx_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="42.0dip" />
+    <include layout="@layout/page_room_other_menu_view" />
+    <cn.kuwo.jx.chat.widget.animation.FrameAnimationImageView android:id="@id/gift_gif_img" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <include layout="@layout/page_room_live_remind_view" />
+    <include layout="@layout/kwjx_room_zhenaituan_view" />
+    <include layout="@layout/kwjx_zhenaituan_wancheng_layout" />
+    <include layout="@layout/kwjx_header_seat_view" />
+    <include layout="@layout/kwjx_zhenaituan_lvlup_layout" />
+    <include layout="@layout/kwjx_room_gesturetips_view" />
+</RelativeLayout>

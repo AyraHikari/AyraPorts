@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/page_live_failed" android:background="@drawable/live_end_bkgrd" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/stop_indicate_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stop_live_indicate" android:layout_alignParentRight="true" />
+    <Button android:textSize="@dimen/text_size_19" android:textColor="@color/color_666666" android:id="@id/txt_failed_back" android:background="@drawable/live_strong_button_white" android:layout_width="fill_parent" android:layout_height="@dimen/live_button_height" android:layout_marginLeft="@dimen/live_button_marginLeft" android:layout_marginRight="@dimen/live_button_marginRight" android:layout_marginBottom="110.0dip" android:text="@string/live_return_to_main" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/txt_failed_back">
+        <ImageView android:id="@id/img_logo" android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@drawable/live_loading_1" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/kw_common_cl_white" android:gravity="center" android:id="@id/txt_failed_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/live_failed_defautl_text" android:layout_below="@id/img_logo" />
+    </RelativeLayout>
+</RelativeLayout>

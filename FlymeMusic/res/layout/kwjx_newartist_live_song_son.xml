@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/black" android:gravity="center|left" android:id="@id/select_song_edittext" android:background="@drawable/kwjx_horizontal_bg_song_input_edit" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:minHeight="30.0dip" android:hint="请输入歌名" android:maxLines="1" android:maxLength="50" android:drawableRight="@drawable/select_song_search_icon" android:drawablePadding="5.0dip" android:inputType="text" android:imeOptions="actionSearch" />
+    <RelativeLayout android:id="@id/resize_rl" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <cn.kuwo.show.base.uilib.pulltorefresh.PullToRefreshListView android:id="@id/content_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:divider="@null" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_no_data" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="18.0sp" android:textColor="@color/kw_common_edit" android:gravity="center" android:id="@id/load_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/data_non" android:layout_centerVertical="true" />
+        </LinearLayout>
+        <include android:id="@id/online_error_content" android:visibility="gone" layout="@layout/online_error" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_setting_header_rel" android:tag="KTitleBar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/rl_setting_header" layout="@layout/kwjx_normal_titlebar" />
+    </RelativeLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/ranking_main" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/ranking_m_l_t_r" android:layout_marginTop="@dimen/ranking_m_l_t_r" android:layout_marginRight="@dimen/ranking_m_l_t_r">
+            <include android:id="@id/rank_first" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_fragment_rank_first" />
+            <include android:id="@id/rank_second" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ranking_item_m_t" layout="@layout/layout_fragment_rank_second" />
+            <include android:id="@id/rank_third" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ranking_item_m_t" layout="@layout/layout_fragment_rank_third" />
+            <include android:id="@id/rank_fourth" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ranking_item_m_t" layout="@layout/layout_fragment_rank_fourth" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

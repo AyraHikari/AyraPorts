@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/video_editor_root" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/top_menu_container" android:background="@drawable/filtershow_top_menu_background" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/filtershow_top_menu_height" android:layout_alignParentTop="true" />
+    <FrameLayout android:id="@id/videoView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="184.0dip" android:layout_below="@id/top_menu_container" android:layout_centerHorizontal="true" android:layout_alignWithParentIfMissing="true">
+        <FrameLayout android:layout_gravity="center" android:id="@id/video_preview_layout" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center" android:id="@id/video_play_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_video_editor_play" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/video_editor_panel" android:background="@drawable/filtershow_editor_panel_background" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="220.0dip" android:layout_alignParentBottom="true">
+        <FrameLayout android:id="@id/editor_tool_container" android:layout_width="fill_parent" android:layout_height="164.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottom_panel" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <com.meizu.media.gallery.filtershow.ui.MainPanelItemView android:id="@id/cutButton" android:background="?android:selectableItemBackgroundBorderless" android:text="@string/ve_menu_cut" android:drawableTop="@drawable/icon_cut" android:onClick="onPanelIconClick" android:layout_marginStart="18.0dip" style="@style/FilterShowMainPanelItem" />
+            <com.meizu.media.gallery.filtershow.ui.MainPanelItemView android:id="@id/fxButton" android:background="?android:selectableItemBackgroundBorderless" android:text="@string/filter_menu_title_filter" android:drawableTop="@drawable/icon_filter" android:onClick="onPanelIconClick" style="@style/FilterShowMainPanelItem" />
+            <com.meizu.media.gallery.filtershow.ui.MainPanelItemView android:id="@id/cropButton" android:background="?android:selectableItemBackgroundBorderless" android:text="@string/menu_crop_title" android:drawableTop="@drawable/icon_crop" android:onClick="onPanelIconClick" style="@style/FilterShowMainPanelItem" />
+            <com.meizu.media.gallery.filtershow.ui.MainPanelItemView android:id="@id/adjustButton" android:background="?android:selectableItemBackgroundBorderless" android:text="@string/filter_toolbar_adjust" android:drawableTop="@drawable/icon_adjust" android:onClick="onPanelIconClick" style="@style/FilterShowMainPanelItem" />
+            <com.meizu.media.gallery.filtershow.ui.MainPanelItemView android:id="@id/musicButton" android:background="?android:selectableItemBackgroundBorderless" android:text="@string/ve_menu_music" android:drawableTop="@drawable/ve_menu_music" android:onClick="onPanelIconClick" android:layout_marginEnd="18.0dip" style="@style/FilterShowMainPanelItem" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/ve_btn_contrast" android:background="@drawable/ve_contrast_but_bg" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_filter_contrast" android:scaleType="centerInside" android:layout_alignBottom="@id/videoView" android:contentDescription="@string/contrast_btn" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true" />
+    <com.meizu.media.gallery.filtershow.editlongcrop.TransitionAnimationView android:id="@id/video_trans_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

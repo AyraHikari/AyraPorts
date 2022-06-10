@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <RelativeLayout android:id="@id/sdk_plugin_header_rl" android:tag="KTitleBar" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.kuwo.show.ui.common.KwTitleBar android:id="@id/sdk_plugin_header" style="@style/KwjxTitleBar" skin:enable="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/fl_plugin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/sdk_plugin_header_rl" />
+</RelativeLayout>

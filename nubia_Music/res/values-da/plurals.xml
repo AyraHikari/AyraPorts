@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NMins">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">1 minut</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d sange blev slettet.</item>
+        <item quantity="one">Der blev slettet 1 sang.</item>
+    </plurals>
+    <plurals name="NNNtrackswilldeleted">
+        <item quantity="other">"\" 
+      %s sange slettes permanent fra hukommelsen."</item>
+        <item quantity="one">1 sang slettes permanent fra hukommelsen.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d albummer</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d sange</item>
+    </plurals>
+</resources>

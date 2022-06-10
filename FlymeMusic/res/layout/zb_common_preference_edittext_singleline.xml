@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/zb_com_preference_singleline_height" android:paddingStart="@dimen/zb_com_page_padding_default" android:paddingEnd="@dimen/zb_com_page_padding_default"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" style="@style/Widget.Banqu.MultipleList.Title" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/edittext_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="5.0dip" />
+</LinearLayout>

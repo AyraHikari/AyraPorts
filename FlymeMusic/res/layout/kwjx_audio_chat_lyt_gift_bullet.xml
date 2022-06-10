@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/lay_gift_bullet_ll" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_second_gift" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/kwjx_audio_gift_show_view" />
+    <include android:id="@id/layout_first_gift" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" layout="@layout/kwjx_audio_gift_show_view" />
+</LinearLayout>

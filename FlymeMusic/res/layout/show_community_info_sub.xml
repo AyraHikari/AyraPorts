@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <TextView android:textSize="@dimen/kwjx_common_text_size_28" android:textColor="@color/kwjx_theme_color_C1" android:id="@id/tv_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:includeFontPadding="false" android:layout_below="@id/tv_date" android:lineSpacingExtra="3.0dip" skin:enable="true" />
+    <cn.kuwo.show.ui.view.NoScrollGridView android:id="@id/gv_pic" android:focusable="true" android:scrollbars="none" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="50.0dip" android:listSelector="@null" android:horizontalSpacing="5.0dip" android:verticalSpacing="5.0dip" android:numColumns="2" android:layout_below="@id/tv_text" />
+</merge>

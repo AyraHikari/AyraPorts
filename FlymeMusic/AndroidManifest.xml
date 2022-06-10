@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.meizu.media.music" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <compatible-screens/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.SET_ACTIVITY_WATCHER"/>
+    <uses-permission android:name="android.permission.START_ANY_ACTIVITY"/>
+    <uses-permission android:name="android.permission.GRANT_REVOKE_PERMISSIONS"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <permission android:name="com.meizu.media.music.push.permission.MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.meizu.media.music.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.meizu.media.music.push.permission.MESSAGE"/>
+    <uses-permission android:name="com.meizu.flyme.push.permission.RECEIVE"/>
+    <uses-permission android:name="com.meizu.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.meizu.media.music.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.meizu.flyme.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.meizu.flyme.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.meizu.flyme.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.meizu.flyme.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="com.meizu.flyme.appcenter.permission.action.perform"/>
+    <uses-permission android:name="com.meizu.flyme.permission.UPDATE"/>
+    <uses-permission android:name="com.meizu.flyme.update.permission.EXTERNAL_INSTALL"/>
+    <uses-permission android:name="com.meizu.flyme.permission.PUSH"/>
+    <uses-permission android:name="android.permission.LOCAL_MAC_ADDRESS"/>
+    <uses-permission android:name="android.permission.ROOT_RECOVERY_STATE"/>
+    <uses-permission android:name="flyme.permission.ROOT_RECOVERY_STATE"/>
+    <uses-permission android:name="com.meizu.safe.permission.MZ_OPEN_ID"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true"/>
+    <uses-permission android:name="com.fm.openservice.READ_PROPERTY"/>
+    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS"/>
+    <uses-permission android:name="freemme.permission.msa"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx" android:icon="@mipmap/ic_launcher_music" android:label="@string/bq_app_name" android:largeHeap="true" android:name="com.banqu.music.AppContext" android:networkSecurityConfig="@xml/network_security_config" android:preserveLegacyExternalStorage="true" android:requestLegacyExternalStorage="true" android:resizeableActivity="true" android:supportsRtl="true" android:theme="@style/BaseNoActionBarAppTheme" android:usesCleartextTraffic="true">
+        <receiver android:label="@string/widget_standard" android:name="com.banqu.music.oldui.widget.appwidgets.StandardWidgetFourTwo">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.banqu.music.metachanged"/>
+                <action android:name="com.banqu.music.notify.play_state"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_standard_new_42"/>
+        </receiver>
+        <receiver android:label="@string/widget_standard" android:name="com.banqu.music.oldui.widget.appwidgets.StandardWidgetTwoTwo">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.banqu.music.metachanged"/>
+                <action android:name="com.banqu.music.notify.play_state"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.meizu.assistant.appwidget.action.APPWIDGET_UPDATE"/>
+                <category android:name="com.meizu.assistant.intent.category.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_standard_new_22"/>
+        </receiver>
+        <meta-data android:name="support_hidden_icon" android:value="true"/>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="ffabc62a9c933882032387155a0f79be"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.WelcomeActivity" android:screenOrientation="unspecified" android:theme="@style/WelcomeTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.banqu.music.ui.main.MainActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.banqu.music.ui.settings.SettingActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.banqu.music.ui.settings.AboutMusicActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.search.SearchActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.playlist.PlaylistActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.banqu.music.ui.music.playlist.PlaylistDetailActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.song.SongListEditActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.playlistclassify.PlaylistClassifyActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.banqu.music.ui.music.playlist.PlaylistSquareActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.playlistclassify.PlaylistSubClassifyActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.album.AlbumActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.billboard.BoardListActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.artist.ArtistActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.artist.ArtistClassifyActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.banqu.music.ui.music.artist.ArtistDetailActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.banqu.music.ui.music.album.AlbumDetailActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.local.LocalActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.local.LocalSongListActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.banqu.music.ui.music.local.download.DownloadManagerActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme">
+            <intent-filter>
+                <action android:name="com.banqu.music.action.downloader"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.local.favorite.FavoriteActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.recent.RecentPlayActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.playlist.PlaylistManagerActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.local.addsong.AddSongActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.local.addsong.AddSongEditActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.local.scan.ScanActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.importp.ImportPlaylistActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:launchMode="singleTask" android:name="com.banqu.music.ui.music.playpage.PlayerActivity" android:screenOrientation="behind" android:theme="@style/PlayActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.banqu.music.ui.music.playpage.ShareLyricActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.banqu.music.ui.music.playpage.PlaybillActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.billboard.BoardActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.fresh.NewSongAlbumPageActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.billboard.BoardDetailActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <meta-data android:name="com.banqu.music.api.net.OkHttpAppGlideModule" android:value="AppGlideModule"/>
+        <provider android:authorities="com.meizu.media.music.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.banqu.music.message.MessageActivity" android:noHistory="true" android:screenOrientation="behind" android:theme="@style/transparent">
+            <intent-filter>
+                <action android:name="message_request_action"/>
+                <action android:name="message_send_action"/>
+                <action android:name="message_click_action"/>
+                <action android:name="message_delete_action"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.banqu.music.player.MediaButtonIntentReceiver"/>
+        <service android:enabled="true" android:name="com.banqu.music.player.MusicPlayerService"/>
+        <service android:name="com.banqu.music.ui.music.local.scan.service.MusicScanService"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.banqu.music.deeplink.DeepLinkActivity" android:noHistory="true" android:screenOrientation="behind" android:taskAffinity="com.banqu.music.deeplink" android:theme="@style/empty_activity_theme">
+            <intent-filter>
+                <data android:host="com.meizu.media.music" android:scheme="banqumusic"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MUSIC_PLAYER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/x-ogg"/>
+                <data android:mimeType="application/itunes"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="file"/>
+                <data android:host="*"/>
+                <data android:pathPattern="*.bqm"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="content"/>
+                <data android:host="media"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/x-ogg"/>
+                <data android:mimeType="application/itunes"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/x-ogg"/>
+                <data android:mimeType="application/itunes"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/x-ogg"/>
+                <data android:mimeType="application/itunes"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/album"/>
+                <data android:mimeType="vnd.android.cursor.dir/playlist"/>
+                <data android:mimeType="vnd.android.cursor.dir/audio"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:launchMode="standard" android:name="com.banqu.music.web.WebPageActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:launchMode="standard" android:name="com.banqu.music.deeplink.DeepLinkTestActivity" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.daily.DailyRecSongActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.LocalSearchActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.identify.IdentifyActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.identify.IdentifyResultActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.identify.history.IdentifyHistoryActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.livecast.ui.PayKwActivity" android:screenOrientation="behind" android:theme="@style/empty_activity_theme_AppCompat"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.livecast.ui.LiveBroadcastSquareActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.musician.MusicianActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.audio.more.AudioRecommendMoreActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.audio.detail.AudioDetailActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.audio.category.AudioCategoryActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.audio.board.AudioBoardActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.audio.my.MyAudioActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:launchMode="singleTask" android:name="com.banqu.music.ui.audio.player.AudioPlayerActivity" android:screenOrientation="behind" android:theme="@style/PlayActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.banqu.music.ui.main.DistinguishingMusicActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.playlist.DistinguishingMorePlaylistActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.artist.DistinguishingMoreArtistActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.banqu.music.ui.music.album.DistinguishingMoreAlbumActivity" android:screenOrientation="behind" android:theme="@style/ActivityTheme"/>
+        <provider android:authorities="com.meizu.media.music.DownloadFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.download.library.DownloadFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/download_files_publics"/>
+        </provider>
+        <meta-data android:name="wxAppId" android:value="wx810c544889e4f1a4"/>
+        <meta-data android:name="com.meizu.update.key.appid" android:value="100072"/>
+        <meta-data android:name="com.meizu.update.key.appkey" android:value="27fb3bf8515c470689b4ed6421c54014"/>
+        <meta-data android:name="account_client_id" android:value="IJMZSyhaGumj2oT7kJv4"/>
+        <meta-data android:name="account_client_secret" android:value="yl7y5OSmr6Gh01OF0LhRALFbkkuHr5"/>
+        <receiver android:name="com.banqu.music.mz.MZPushReceiver">
+            <intent-filter>
+                <action android:name="com.meizu.flyme.push.intent.REGISTER.FEEDBACK"/>
+                <action android:name="com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"/>
+                <action android:name="com.meizu.flyme.push.intent.MESSAGE"/>
+                <action android:name="com.meizu.c2dm.intent.REGISTRATION"/>
+                <action android:name="com.meizu.c2dm.intent.RECEIVE"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <category android:name="com.meizu.media.music"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.meizu.media.music.provider.sp" android:exported="true" android:name="com.banqu.music.mz.SharedPreferenceProvider"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:launchMode="singleTask" android:name="com.meizu.media.music.wxapi.WXEntryActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:launchMode="singleTask" android:name="com.rda.media.music.wxapi.WXEntryActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.banqu.music.ui.music.functionmgr.MusicFunctionMgrActivity">
+            <intent-filter>
+                <action android:name="meizu.intent.action.FUNCTION_MANAGER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.blankj.utilcode.util.UtilsTransActivity" android:theme="@style/ActivityTranslucent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <provider android:authorities="com.meizu.media.music.utilcode.provider" android:exported="false" android:grantUriPermissions="true" android:name="com.blankj.utilcode.util.UtilsFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/util_code_provider_paths"/>
+        </provider>
+        <service android:exported="false" android:name="com.blankj.utilcode.util.MessengerUtils$ServerService">
+            <intent-filter>
+                <action android:name="com.meizu.media.music.messenger"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:launchMode="singleTask" android:name="cn.kuwo.show.live.activities.MainActivity" android:screenOrientation="portrait" android:theme="@style/TheAppCompat.AppCompat" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="cn.kuwo.show.ui.show.KWLiveActivity" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/KW_Theme_Transparent"/>
+        <activity android:launchMode="singleTop" android:name="cn.kuwo.show.ui.view.CropImageActivity" android:screenOrientation="portrait"/>
+        <service android:enabled="true" android:name="cn.kuwo.show.mod.keepalive.KeepAliveService">
+            <intent-filter android:priority="1000">
+                <action android:name="cn.kuwo.show.mod.keepalive.KeepAliveService"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="cn.kuwo.show.ui.pklive.KWLiveService"/>
+        <provider android:authorities="com.meizu.media.music.kuwo.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="cn.kuwo.show.KwjxFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/kwjx_filepaths"/>
+        </provider>
+        <activity android:exported="false" android:label="" android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity" android:theme="@style/EasyPermissions.Transparent"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTop" android:name="com.banqu.tool.rout.RouterActivity" android:taskAffinity=".wxcustomentry" android:theme="@style/transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="ftool" android:scheme="com.meizu.media.music.router"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+        <service android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService"/>
+        <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService" android:process=":filedownloader"/>
+        <provider android:authorities="com.meizu.media.music.AgentWebFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.just.agentweb.AgentWebFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/web_files_public"/>
+        </provider>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.just.agentweb.ActionActivity" android:theme="@style/actionActivity" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <receiver android:exported="false" android:name="com.download.library.NotificationCancelReceiver"/>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <activity android:launchMode="singleTop" android:name="com.kuaiqian.feifanpay.sdk.FeiFanH5PayActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTask" android:name="com.kuaiqian.fusedpay.sdk.FusedPayEntryActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity-alias android:exported="true" android:name="com.bill99.wxapi.WXEntryActivity" android:screenOrientation="portrait" android:targetActivity="com.kuaiqian.fusedpay.sdk.FusedPayEntryActivity"/>
+        <service android:name="com.meizu.advertise.services.ProxyIntentService"/>
+        <service android:name="com.meizu.advertise.services.ProxyService"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:name="com.meizu.adplatform.api.activity.WebSurfingActivity" android:theme="@style/MzAdWebViewTheme"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:name="com.meizu.adplatform.api.activity.VideoWebActivity" android:theme="@style/MzAdWebViewTheme"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:name="com.meizu.adplatform.api.activity.AdFullScreenActivity" android:theme="@style/MzAdWebViewTheme"/>
+        <activity android:name="flyme.support.v7.app.WebViewActivity" android:screenOrientation="portrait"/>
+        <service android:exported="false" android:name="com.meizu.update.service.MzUpdateComponentService" android:stopWithTask="false"/>
+        <activity android:exported="false" android:name="com.meizu.update.display.KeyguardHelperActivity" android:theme="@style/MzucActivityNoDisplay"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.meizu.update.display.UpdateDialogActivityWrapper" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.meizu.media.music.update.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.meizu.update.util.UpdateFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/updatefilepaths"/>
+        </provider>
+        <service android:exported="true" android:name="com.meizu.cloud.pushsdk.NotificationService"/>
+        <receiver android:exported="false" android:name="com.meizu.cloud.pushsdk.MzPushSystemReceiver" android:permission="com.meizu.flyme.permission.PUSH">
+            <intent-filter>
+                <action android:name="com.meizu.flyme.push.intent.PUSH_SYSTEM"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:exported="false" android:name="com.alipay.sdk.app.H5PayActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:name="com.alipay.sdk.app.H5AuthActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="true" android:launchMode="singleInstance" android:name="com.alipay.sdk.app.PayResultActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.alipay.sdk.app.AlipayResultActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.ipaynow.wechatpay.plugin.inner_plugin.wechat_plugin.activity.WeChatNotifyActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="com.meizu.open.pay.hybrid.ui.PayAlertActivity" android:screenOrientation="portrait" android:theme="@style/OpenPayTheme.MyTranslucent"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation" android:exported="false" android:name="com.meizu.open.pay.hybrid.ui.HybridBaseActivity" android:screenOrientation="portrait" android:theme="@style/pay_custom_app_theme"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation" android:exported="false" android:name="com.meizu.open.pay.hybrid.ui.RequestActionActivity" android:screenOrientation="portrait" android:theme="@style/pay_custom_app_theme"/>
+    </application>
+</manifest>

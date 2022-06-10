@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Відкр. клавіат., щоб перейм. новий спис. відвор., або вибер. \"Збер.\", щоб назв. \"%s\".</string>
+    <string name="rename_playlist_diff_prompt">Відкр. клавіат., щоб перейм. спис. відвор. \"%1$s\", або вибер. \"Збер.\", щоб назвати \"%2$s\".</string>
+    <string name="rename_playlist_same_prompt">Відкр. клавіатуру, щоб переймен. список відвор. \"%s\".</string>
+</resources>

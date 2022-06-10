@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/father_layout" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/end_layout" android:layout_toEndOf="@id/icon">
+        <LinearLayout android:orientation="horizontal" android:id="@id/line1_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="16.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/downloaded_icon" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/downloaded_outline" android:layout_marginEnd="6.0dip" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/favorate_icon" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginEnd="6.0dip" />
+            <TextView android:textSize="@dimen/first_line_text_size" android:textColor="@color/list_item_text" android:ellipsize="end" android:id="@id/line1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/first_line_text_size" android:textColor="@color/list_item_text" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/total_songs" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(0)" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/second_line_text_size" android:textColor="@color/list_item_second_text" android:ellipsize="end" android:id="@id/line2" android:paddingTop="@dimen/two_line_between_height" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:layout_below="@id/line1_layout" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/end_layout" android:background="@drawable/actionbar_button_selector" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <cn.zte.music.view.VisualizerView android:id="@id/play_flag" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" />
+        <cn.zte.music.view.RepeatingImageButton android:id="@id/play_btn" android:background="@drawable/actionbar_button_selector" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/play_more" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/more" android:tint="@color/my_music_common_color" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

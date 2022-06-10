@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <nine-patch android:src="@drawable/textfield_search_actived" android:tint="@color/mfv_common_acb_search_bg" />
+    </item>
+    <item>
+        <nine-patch android:src="@drawable/textfield_search_default" android:tint="@color/mfv_common_acb_search_bg" />
+    </item>
+</selector>

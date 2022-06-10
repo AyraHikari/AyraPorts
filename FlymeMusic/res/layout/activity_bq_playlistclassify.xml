@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/rootLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/toolbar_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="@dimen/toolbar_guideline_begin" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/songListClassifyRV" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/bq_page_padding_default" android:layout_marginTop="15.0dip" android:layout_marginRight="@dimen/default_page_padding" android:layout_marginBottom="@dimen/default_page_padding" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_guideline" />
+</androidx.constraintlayout.widget.ConstraintLayout>

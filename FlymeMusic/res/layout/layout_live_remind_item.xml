@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/singer_bg" android:background="@color/kw_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="69.0dip" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/live_remind_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/live_remind_round" android:layout_width="49.0dip" android:layout_height="49.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:scaleType="centerCrop" android:layout_centerVertical="true" fresco:actualImageScaleType="centerCrop" fresco:placeholderImage="@drawable/def_user_icon" fresco:placeholderImageScaleType="centerCrop" fresco:roundAsCircle="true" />
+            <TextView android:textSize="@dimen/text_size_15" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/live_remind_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/live_remind_switch_img" android:layout_toRightOf="@id/live_remind_round" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/live_remind_switch_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/kwjx_setting_paylive_open" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/line" android:background="@color/mv_recommend_day_line" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="69.0dip" android:layout_alignLeft="@id/mv_follow_small_head_pic" android:layout_alignParentBottom="true" />
+</LinearLayout>

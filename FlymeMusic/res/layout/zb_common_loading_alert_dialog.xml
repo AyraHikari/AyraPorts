@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.banqu.music.widgetcommon.widget.SmoothCornerView android:layout_width="wrap_content" android:layout_height="wrap_content" app:zbCornerRadius="@dimen/mc_content_toast_bg_corner_radius"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/rootLayout" android:background="@color/zb_com_complete_toast_bg" android:paddingTop="25.0dip" android:paddingBottom="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/zb_com_complete_toast_width">
+        <com.banqu.music.widgetcommon.widget.SwimmingAnimationView android:layout_gravity="center_horizontal" android:id="@id/applyAnimView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.669983dip" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/applyAnimTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mc_loading_animation_alert" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" android:paddingStart="17.0dip" android:paddingEnd="17.0dip" />
+    </LinearLayout>
+</com.banqu.music.widgetcommon.widget.SmoothCornerView>

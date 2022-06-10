@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/boardOne" android:layout_width="100.0dip" android:layout_height="100.0dip" layout="@layout/item_billboard_image_100" />
+    <include android:id="@id/boardTwo" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginStart="@dimen/trisection_padding" layout="@layout/item_billboard_image_100" />
+    <include android:id="@id/boardThree" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginStart="@dimen/trisection_padding" layout="@layout/item_billboard_image_100" />
+</LinearLayout>

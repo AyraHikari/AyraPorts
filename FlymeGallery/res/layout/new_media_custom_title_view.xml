@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/topbar_background" android:background="@drawable/mz_topbar_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/icon_container" android:background="?android:actionBarItemBackground" android:paddingRight="@dimen/new_media_custom_title_back_icon_width" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+                <ImageView android:id="@id/back_icon" android:layout_width="@dimen/new_media_custom_title_back_icon_width" android:layout_height="wrap_content" android:src="?android:homeAsUpIndicator" android:scaleType="center" />
+                <ImageView android:id="@id/media_title_icon" android:layout_width="@dimen/new_media_custom_title_icon_size" android:layout_height="@dimen/new_media_custom_title_icon_size" android:scaleType="fitCenter" />
+            </LinearLayout>
+            <com.meizu.common.widget.SelectionButton android:gravity="center_vertical" android:layout_gravity="right" android:id="@id/selection_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:layout_alignParentRight="true" />
+            <FrameLayout android:id="@id/media_special_view_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:layout_toLeftOf="@id/media_special_view_container" android:layout_toRightOf="@id/icon_container">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/normal_title_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/new_media_custom_title_normal_margin_right" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/meida_title_text_size" android:gravity="left" android:id="@id/media_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" style="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title" />
+                    <TextView android:gravity="left" android:id="@id/media_subtitle_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Subtitle" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/tab_title_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <com.meizu.media.common.widget.TabRadioGroup android:gravity="center_vertical" android:layout_gravity="left" android:orientation="horizontal" android:id="@id/media_list_tab" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/media_tab_indicator_right_margin" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

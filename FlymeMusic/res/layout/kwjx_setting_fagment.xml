@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/myinfo_scroll" android:background="@color/rgbf5f5f5" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_string_blacklist" android:background="@color/kw_white" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="6.0dip">
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/kw_common_404040" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="黑名单" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/apply_signer_user_msg_wearrn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:singleLine="true" android:layout_toLeftOf="@id/imageView5" android:layout_alignBottom="@id/imageView5" android:layout_toStartOf="@id/imageView5" />
+            <ImageView android:id="@id/imageView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/myinfo_enter_l" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_string_Culture" android:background="@color/kw_white" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="6.0dip">
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/kw_common_404040" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="全国文化市场举报平台" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/myinfo_enter_l" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

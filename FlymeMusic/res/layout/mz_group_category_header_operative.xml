@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="@dimen/mz_list_category_header_operative_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Flyme.List.Operative.Category.Title" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:includeFontPadding="false" android:letterSpacing="0.08" />
+    <View android:id="@id/title_indicator" android:background="@drawable/mz_list_header_title_indicator" android:layout_width="14.0dip" android:layout_height="2.0dip" android:layout_marginTop="4.0dip" />
+</LinearLayout>

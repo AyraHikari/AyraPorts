@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:facebeauty="http://schemas.android.com/apk/res-auto">
+    <com.meizu.media.gallery.facebeauty.BeautyItemView android:id="@id/doodle_color_picker" android:layout_marginLeft="0.0dip" facebeauty:bg_bitmap="@drawable/ic_color" facebeauty:pressed_bitmap="@drawable/ic_color_pressed" style="@style/FilterDoodleColorStyle1" />
+    <com.meizu.media.gallery.facebeauty.BeautyItemView android:id="@id/doodle_color_custom" facebeauty:bg_bitmap="#ff444444" facebeauty:round_bg="true" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.facebeauty.BeautyItemView android:id="@id/doodle_color_01" facebeauty:bg_bitmap="#ffffffff" facebeauty:round_bg="true" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.facebeauty.BeautyItemView android:id="@id/doodle_color_02" facebeauty:bg_bitmap="#ff000000" facebeauty:innerRingColor="#ff505050" facebeauty:round_bg="true" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.facebeauty.BeautyItemView android:id="@id/doodle_color_03" facebeauty:bg_bitmap="#ffe03731" facebeauty:round_bg="true" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.facebeauty.BeautyItemView android:id="@id/doodle_color_04" facebeauty:bg_bitmap="#ffef6935" facebeauty:round_bg="true" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.facebeauty.BeautyItemView android:id="@id/doodle_color_05" facebeauty:bg_bitmap="#ffff8800" facebeauty:round_bg="true" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.facebeauty.BeautyItemView android:id="@id/doodle_color_06" facebeauty:bg_bitmap="#ffecc43e" facebeauty:round_bg="true" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.facebeauty.BeautyItemView android:id="@id/doodle_color_07" facebeauty:bg_bitmap="#ff8fc531" facebeauty:round_bg="true" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.facebeauty.BeautyItemView android:id="@id/doodle_color_08" facebeauty:bg_bitmap="#ff54ae56" facebeauty:round_bg="true" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.facebeauty.BeautyItemView android:id="@id/doodle_color_09" facebeauty:bg_bitmap="#ff28bc92" facebeauty:round_bg="true" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.facebeauty.BeautyItemView android:id="@id/doodle_color_10" facebeauty:bg_bitmap="#ff28bcba" facebeauty:round_bg="true" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.facebeauty.BeautyItemView android:id="@id/doodle_color_11" facebeauty:bg_bitmap="#ff3d68ba" facebeauty:round_bg="true" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.facebeauty.BeautyItemView android:id="@id/doodle_color_12" android:layout_marginRight="0.0dip" facebeauty:bg_bitmap="#ff783aac" facebeauty:round_bg="true" style="@style/FilterDoodleColorStyle" />
+</LinearLayout>

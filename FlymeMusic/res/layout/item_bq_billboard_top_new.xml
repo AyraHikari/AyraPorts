@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/boardTopRoot" android:layout_width="fill_parent" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/boardImageRoot" layout="@layout/item_billboard_image_100" />
+    <include layout="@layout/layout_list_x" />
+</LinearLayout>

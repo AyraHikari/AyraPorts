@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/kwjx_theme_color_MOD1" android:layout_width="fill_parent" android:layout_height="fill_parent" skin:enable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <RelativeLayout android:tag="KTitleBar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/ranking_header" layout="@layout/rank_fragment_header" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/rank_list_tab_ray" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/mine_local_tab_h" android:baselineAligned="false">
+        <include android:id="@id/rank_list_main_tab4" layout="@layout/rank_list_main_tab4" />
+        <include android:id="@id/rank_list_main_tab2" android:visibility="gone" layout="@layout/rank_list_main_tab2" />
+    </RelativeLayout>
+    <View android:background="@color/kw_common_cl_transparent" android:layout_width="fill_parent" android:layout_height="7.0dip" android:layout_below="@id/rank_list_tab_ray" />
+    <cn.kuwo.show.base.uilib.pulltorefresh.PullToRefreshBothEndRecyclerView android:gravity="center" android:layout_gravity="center" android:id="@id/week_list_cont" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:stretchMode="columnWidth" android:divider="@null" android:footerDividersEnabled="false" />
+    <include android:id="@id/quku_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rank_list_tab_ray" layout="@layout/kwjx_quku_loading" />
+    <cn.kuwo.show.ui.common.KwTipView android:id="@id/kw_tip_view" android:background="@color/kwjx_theme_color_tip_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" skin:enable="true" />
+</LinearLayout>

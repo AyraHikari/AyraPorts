@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.media.gallery.photopager.VideoPlayGroup android:id="@id/video_group" android:background="@color/white" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.photopager.VideoPlaySeekBar android:id="@id/video_play_seekbar" android:layout_width="fill_parent" android:layout_height="@dimen/video_play_seek_bar_height_portrait" android:contentDescription="@string/slip_to_drag_video_proggress" />
+    <ImageView android:layout_gravity="end|center" android:id="@id/video_play_sound" android:background="@drawable/video_play_sound_background" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/video_mute_selector" android:scaleType="centerInside" android:contentDescription="@string/mute" android:layout_marginEnd="18.0dip" />
+</com.meizu.media.gallery.photopager.VideoPlayGroup>

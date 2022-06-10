@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/base_layout" android:background="@color/list_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/mfvc_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/tab_height" android:layoutDirection="ltr" android:elevation="2.0dip">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="14.0sp" android:textColor="@color/my_music_actb_txt" android:gravity="center" android:layout_gravity="center" android:id="@id/songer_music_tv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/local_tab_allsongs" android:layout_weight="1.0" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/my_music_actb_txt" android:gravity="center" android:layout_gravity="center" android:id="@id/songer_album_tv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/albums_title" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="bottom" android:id="@id/ivCursor" android:layout_width="180.0dip" android:layout_height="@dimen/tab_select_line_height" android:src="@color/my_music_actb_ab" android:scaleType="matrix" />
+    </FrameLayout>
+    <cn.zte.music.online.view.FocusListViewPager android:id="@id/vpViewPager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="0.0dip" android:layout_weight="1.0" />
+    <include layout="@layout/nowplaying" />
+</LinearLayout>

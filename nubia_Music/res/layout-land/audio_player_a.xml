@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/backgroundlayout" android:background="@drawable/shape_nowplaying_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/bg_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="#80000000" />
+    <cn.zte.music.view.PlaybackLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="25.0dip">
+        <RelativeLayout android:id="@id/top_layout" android:paddingLeft="16.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_marginTop="25.0dip" android:layout_alignParentTop="true">
+            <ImageView android:id="@id/back_image" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerVertical="true" android:contentDescription="@string/talkback_back" android:layout_alignParentStart="true" />
+            <ImageView android:id="@id/switch_image" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerVertical="true" android:contentDescription="@string/talkback_open_now_playing_list" android:layout_marginEnd="20.0dip" android:layout_toStartOf="@id/menubutton" />
+            <cn.zte.music.view.RepeatingImageButton android:id="@id/menubutton" android:background="@drawable/menu_selector" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerVertical="true" android:contentDescription="@string/talkback_more_options" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/content_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/albumfragment" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="0.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/menu_bar" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+                <LinearLayout android:gravity="center" android:id="@id/random_menu_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/random_menu" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="centerInside" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:id="@id/favorite_menu_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/favorite_menu" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/star_outline" android:scaleType="centerInside" android:contentDescription="@string/talkback_favorite" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:id="@id/hifi_menu_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/hifi_menu" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="centerInside" android:contentDescription="@null" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:id="@id/dolby_menu_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/dolby_menu" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/dobly" android:scaleType="centerInside" android:contentDescription="@string/talkback_dolby_Atmos" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:id="@id/repeat_menu_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/repeat_menu" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="centerInside" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/controllayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <RelativeLayout android:gravity="center" android:id="@id/timelayout" android:layout_width="fill_parent" android:layout_height="33.0dip" android:layout_marginBottom="34.0dip">
+                    <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/currenttime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true" />
+                    <TextView android:textSize="13.0sp" android:textColor="#33ffffff" android:id="@id/totaltime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+                    <com.zte.mifavor.widget.SeekBarZTE android:layout_gravity="center" android:id="@id/progress" android:paddingLeft="8.0dip" android:paddingTop="0.0px" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="20.0dip" android:maxHeight="2.0dip" android:progress="0" android:secondaryProgress="0" android:progressDrawable="@drawable/seekbar_style" android:minHeight="1.0dip" android:thumb="@drawable/progress_control" android:thumbOffset="8.0dip" android:layout_toStartOf="@id/totaltime" android:layout_toEndOf="@id/currenttime" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center_vertical" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginBottom="34.0dip">
+                    <ImageButton android:id="@id/repeatbutton_random" android:background="@drawable/actionbar_button_selector" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerVertical="true" android:contentDescription="@string/app_name" android:layout_marginEnd="20.0dip" android:layout_alignParentStart="true" />
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/repeatbutton" android:layout_toRightOf="@id/repeatbutton_random" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                        <RelativeLayout android:orientation="vertical" android:id="@id/pauselayout" android:background="@drawable/playbg" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_centerInParent="true">
+                            <ImageView android:id="@id/pause" android:layout_width="48.0dip" android:layout_height="48.0dip" android:tint="@color/music_btb_icon_btn" android:layout_centerInParent="true" android:contentDescription="@string/talkback_play_current" />
+                            <ProgressBar android:id="@id/progress_load" android:background="@drawable/actionbar_button_selector" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerInParent="true" style="?android:progressBarStyleLarge" />
+                        </RelativeLayout>
+                        <RelativeLayout android:gravity="center" android:background="@drawable/next_btn_background" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+                            <ImageView android:id="@id/prev" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_centerVertical="true" android:contentDescription="@string/talkback_play_previous" />
+                        </RelativeLayout>
+                        <RelativeLayout android:gravity="center" android:background="@drawable/next_btn_background" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                            <ImageView android:id="@id/next" android:layout_width="36.0dip" android:layout_height="36.0dip" android:contentDescription="@string/talkback_play_next" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <ImageButton android:id="@id/repeatbutton" android:background="@drawable/actionbar_button_selector" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerVertical="true" android:contentDescription="@string/app_name" android:layout_marginStart="20.0dip" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/listfragment" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="32.0dip" android:paddingEnd="16.0dip" />
+    </cn.zte.music.view.PlaybackLayout>
+</FrameLayout>

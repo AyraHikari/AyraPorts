@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sticker type="watermark_user" width="54" height="12" id="watermark_12" thumb="watermark_text_user_thumb">
+    <text left="0" top="0" right="54" bottom="12" font-name="sans-serif-medium"
+        size="12" hint="By 用户名"/>
+</sticker>

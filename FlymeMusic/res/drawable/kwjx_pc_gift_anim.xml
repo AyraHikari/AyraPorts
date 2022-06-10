@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="30" android:drawable="@drawable/kwjx_pc_gift_anim_0" />
+    <item android:duration="30" android:drawable="@drawable/kwjx_pc_gift_anim_1" />
+    <item android:duration="30" android:drawable="@drawable/kwjx_pc_gift_anim_2" />
+    <item android:duration="30" android:drawable="@drawable/kwjx_pc_gift_anim_3" />
+    <item android:duration="30" android:drawable="@drawable/kwjx_pc_gift_anim_4" />
+    <item android:duration="30" android:drawable="@drawable/kwjx_pc_gift_anim_5" />
+    <item android:duration="30" android:drawable="@drawable/kwjx_pc_gift_anim_6" />
+    <item android:duration="30" android:drawable="@drawable/kwjx_pc_gift_anim_7" />
+    <item android:duration="30" android:drawable="@drawable/kwjx_pc_gift_empty" />
+</animation-list>

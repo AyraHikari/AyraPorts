@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">اسم قائمة التشغيل</string>
+    <string name="rename_playlist_diff_prompt">إعادة تسمية \"%s\" إلى</string>
+    <string name="rename_playlist_same_prompt">إعادة تسمية \"%s\" إلى</string>
+</resources>

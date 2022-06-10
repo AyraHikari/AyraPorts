@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/zb_com_cir_btn_radius_normal" />
+    <solid android:color="@color/zb_theme_color_blue" />
+</shape>

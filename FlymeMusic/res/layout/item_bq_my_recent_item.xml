@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutOne" android:layout_width="160.0dip" android:layout_height="fill_parent">
+        <com.banqu.music.ui.widget.RoundImageView android:id="@id/iconOne" app:borderRadius="@dimen/dp_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ListIcon46" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/hotOne" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" app:layout_constraintBottom_toBottomOf="@id/iconOne" app:layout_constraintLeft_toRightOf="@id/iconOne" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@id/iconOne">
+            <TextView android:textSize="@dimen/bq_grid_item_title_ts" android:textColor="@color/bq_grid_item_title_color" android:ellipsize="end" android:id="@id/nameOne" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" app:layout_constraintTop_toTopOf="@id/hotOne" />
+            <TextView android:textSize="@dimen/bq_grid_item_sub_ts" android:textColor="@color/bq_grid_item_sub_color" android:ellipsize="end" android:id="@id/infoOne" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" app:layout_constraintTop_toBottomOf="@id/nameOne" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutTwo" android:visibility="gone" android:layout_width="160.0dip" android:layout_height="fill_parent" android:layout_marginStart="10.0dip">
+        <com.banqu.music.ui.widget.RoundImageView android:id="@id/iconTwo" app:borderRadius="@dimen/dp_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ListIcon46" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/hotTwo" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="10.0dip" app:layout_constraintBottom_toBottomOf="@id/iconTwo" app:layout_constraintLeft_toRightOf="@id/iconTwo" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@id/iconTwo">
+            <TextView android:textSize="@dimen/bq_grid_item_title_ts" android:textColor="@color/bq_grid_item_title_color" android:ellipsize="end" android:id="@id/nameTwo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" app:layout_constraintTop_toTopOf="@id/hotTwo" />
+            <TextView android:textSize="@dimen/bq_grid_item_sub_ts" android:textColor="@color/bq_grid_item_sub_color" android:ellipsize="end" android:id="@id/infoTwo" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" app:layout_constraintTop_toBottomOf="@id/nameTwo" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

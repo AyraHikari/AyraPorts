@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/media_foreground_image_drawable"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.common.widget.FixedSizeImageView android:id="@id/media_foreground_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/qualityflag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+</FrameLayout>

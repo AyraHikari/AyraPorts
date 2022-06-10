@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/mz_complete_toast_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/mz_complete_toast_background_padding" android:paddingBottom="@dimen/mz_complete_toast_background_padding" android:layout_width="@dimen/mz_complete_toast_width" android:layout_height="wrap_content" android:minHeight="@dimen/mz_complete_toast_height">
+        <ImageView android:id="@id/toast_complete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/mz_complete_toast_icon_margin_bottom" android:src="@drawable/mc_toast_complete" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/toast_text" android:layout_width="@dimen/mz_complete_toast_text_width" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" android:layout_marginStart="@dimen/mz_complete_toast_text_margin_horizontal" android:layout_marginEnd="@dimen/mz_complete_toast_text_margin_horizontal" />
+    </LinearLayout>
+</FrameLayout>

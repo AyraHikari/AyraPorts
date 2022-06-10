@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/zbc_common_pinned_header_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/zb_com_card_list_item_padding_left" android:paddingEnd="@dimen/zb_com_card_list_item_padding_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/zb_com_pinned_interval_header_title_height" layout="@layout/zb_common_pinned_group_header" />
+</LinearLayout>

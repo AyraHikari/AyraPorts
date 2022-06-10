@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="category_item_adjust_width">74.0dip</dimen>
+    <dimen name="face_albumset_page_item_height">203.0dip</dimen>
+    <dimen name="face_albumset_page_item_width">150.0dip</dimen>
+</resources>

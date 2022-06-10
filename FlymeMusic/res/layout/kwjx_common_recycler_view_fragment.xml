@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/kw_common_cl_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <cn.kuwo.show.ui.common.KwTitleBar android:id="@id/mine_header" android:background="@color/kw_common_cl_white_alpha_100" style="@style/KwjxTitleBar" skin:enable="true" />
+    <cn.kuwo.show.base.uilib.pulltorefresh.PullToRefreshRecyclerView android:id="@id/common_recycler_view" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:layout_below="@id/mine_header" app:pullmode="both" />
+    <include android:id="@id/show_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/kwjx_quku_loading" />
+    <cn.kuwo.show.ui.common.KwTipView android:id="@id/kw_tip_view" android:background="@color/kwjx_theme_color_tip_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/mine_header" skin:enable="true" />
+</RelativeLayout>

@@ -1,0 +1,59 @@
+.class public final Lcom/loc/dt$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/content/ServiceConnection;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/loc/dt;->b()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/loc/dt;
+
+
+# direct methods
+.method constructor <init>(Lcom/loc/dt;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/loc/dt$1;->a:Lcom/loc/dt;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V
+    .locals 0
+
+    iget-object p1, p0, Lcom/loc/dt$1;->a:Lcom/loc/dt;
+
+    const/4 p2, 0x1
+
+    iput-boolean p2, p1, Lcom/loc/dt;->a:Z
+
+    return-void
+.end method
+
+.method public final onServiceDisconnected(Landroid/content/ComponentName;)V
+    .locals 1
+
+    iget-object p1, p0, Lcom/loc/dt$1;->a:Lcom/loc/dt;
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p1, Lcom/loc/dt;->a:Z
+
+    return-void
+.end method

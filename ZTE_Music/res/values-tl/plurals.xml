@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">Tinanggal ang %d (na) kanta.</item>
+        <item quantity="one">Tinanggal ang 1 awit.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d (na) album</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d (na) kanta</item>
+    </plurals>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">Buvo ištrintos (-a) %d dainos (-ų).</item>
+        <item quantity="one">Buvo ištrinta 1 daina.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">„%d“ albumai</item>
+        <item quantity="one">1 albumas</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d dainos</item>
+    </plurals>
+</resources>

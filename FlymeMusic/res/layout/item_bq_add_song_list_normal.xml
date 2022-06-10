@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bq_recyclerview_item_activated" android:paddingLeft="@dimen/bq_page_padding_default" android:paddingRight="@dimen/bq_page_padding_default" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/baseSong" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/item_bq_base_song_list" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.banqu.music.ui.widget.BQCheckBox android:layout_gravity="center|right" android:id="@android:id/checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.DeviceDefault.CompoundButton.CheckButtonlessMultiple.Arrow.Circle.Color.RedBq" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/addIv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_bq_player_morelist_add" android:alpha="0.4" />
+        <TextView android:textSize="@dimen/sp_15" android:textColor="@color/bq_list_item_sub_color" android:gravity="center|right" android:layout_gravity="center" android:id="@id/doneTv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/bq_add_done" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

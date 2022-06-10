@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sticker type="watermark_location_date" width="68" height="41" id="watermark_2" thumb="watermark_location_date_thumb">
+    <text left="0" top="0" right="68" bottom="17" font-name="sans-serif-medium"
+        size="17" hint="我的位置" color="white" text-align="center"/>
+    <icon left="2" top="22" right="66" bottom="24" src="watermark_location_date_icon"/>
+    <text left="3" top="29" right="65" bottom="41" font-name="sans-serif-medium"
+        size="12" hint="2020.4.22" text-align="center"/>
+</sticker>

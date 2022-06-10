@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/kwjx_theme_color_MOD1" android:layout_width="fill_parent" android:layout_height="72.0dip" skin:enable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <RelativeLayout android:id="@id/rel_consume_item_one" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="72.0dip">
+        <TextView android:textSize="@dimen/text_size_18" android:textStyle="bold" android:textColor="@color/rgbff8827" android:id="@id/tv_consume_xbcoin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/tv_consume_xbcoin" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/kwjx_theme_color_C1" android:id="@id/tv_consume_giftname" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" skin:enable="true" />
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/kwjx_theme_color_C2" android:id="@id/tv_consume_touser" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tv_consume_giftname" skin:enable="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:layout_gravity="bottom" android:background="@color/kwjx_theme_color_LN" android:layout_width="wrap_content" android:layout_height="1.0dip" skin:enable="true" />
+</FrameLayout>

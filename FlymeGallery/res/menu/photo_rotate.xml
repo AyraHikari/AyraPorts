@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_sb_rotate_left" android:id="@id/action_rotate_ccw" android:title="@string/rotate" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_sb_mirror" android:id="@id/action_horiontal_mirror" android:title="@string/rotate" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_sb_rotate_right" android:id="@id/action_rotate_cw" android:title="@string/rotate" app:showAsAction="always" />
+    <item android:id="@id/action_rotate_close" android:title="@string/save_str" app:showAsAction="always|withText" />
+</menu>

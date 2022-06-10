@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.banqu.music.ui.widget.RoundImageView android:id="@id/icon" android:scaleType="fitXY" app:borderRadius="@dimen/dp_8" app:layout_constraintStart_toStartOf="parent" style="@style/ListIcon56" />
+    <include android:id="@id/baseSong" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_14" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/icon" app:layout_constraintTop_toTopOf="parent" layout="@layout/item_bq_base_song_list" />
+</androidx.constraintlayout.widget.ConstraintLayout>

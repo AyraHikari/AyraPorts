@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="344.0dip" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingStart="@dimen/mfvc_large_padding">
+        <ImageView android:layout_gravity="bottom" android:background="@drawable/shape_corner_preview" android:layout_width="fill_parent" android:layout_height="302.0dip" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/mfvc_large_padding" android:paddingRight="@dimen/mfvc_large_padding" android:paddingBottom="@dimen/mfvc_large_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.zte.music.view.ShadowImageView android:layout_gravity="center_horizontal" android:id="@id/albumart" android:layout_width="220.0dip" android:layout_height="220.0dip" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+            <TextView android:textSize="14.0sp" android:layout_gravity="center" android:id="@id/loading" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/mfvc_medium_padding" android:layout_width="wrap_content" android:layout_height="64.0dip" android:layout_marginTop="@dimen/mfvc_large_padding">
+                <TextView android:textSize="@dimen/mfvc_primary_font_size" android:textColor="#e6000000" android:ellipsize="end" android:id="@id/line1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="@dimen/mfvc_secondary_font_size" android:textColor="#8a000000" android:ellipsize="end" android:id="@id/artistname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <TextView android:textSize="16.0sp" android:textColor="#e6000000" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/curtime" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                </FrameLayout>
+                <com.zte.mifavor.widget.SeekBarZTE android:layout_gravity="center" android:id="@id/progress" android:paddingLeft="@dimen/mfvc_medium_padding" android:paddingRight="@dimen/mfvc_medium_padding" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="48.0dip" android:maxHeight="2.0dip" android:minHeight="2.0dip" android:thumbOffset="1.0dip" android:layout_weight="1.0" />
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <TextView android:textSize="16.0sp" android:textColor="#8a000000" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/toltime" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                </FrameLayout>
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/playpause" android:layout_width="48.0dip" android:layout_height="48.0dip" android:onClick="playPauseClicked" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

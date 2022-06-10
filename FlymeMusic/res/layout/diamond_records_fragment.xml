@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/mv_category_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_tv" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/kw_common_404040" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="兑换时间" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/kw_common_404040" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="兑换数量" android:singleLine="true" android:layout_alignTop="@id/textView2" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/lv_diamond" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_tv" />
+</RelativeLayout>

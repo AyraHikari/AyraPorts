@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/root" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/rootLayout" android:layout_width="fill_parent" android:layout_height="360.0dip" android:scaleType="centerCrop" app:layout_behavior="com.banqu.music.ui.widget.behavior.BackgroundBehavior">
+        <ImageView android:id="@id/rootLayoutBG" android:layout_width="fill_parent" android:layout_height="360.0dip" android:src="@drawable/bg_bq_artist_bg" android:scaleType="centerCrop" />
+        <View android:id="@id/foreground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    </FrameLayout>
+    <com.banqu.music.ui.widget.MarqueeTextView android:ellipsize="marquee" android:id="@id/actionBarTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="210.0dip" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:alpha="0.0" app:layout_behavior="com.banqu.music.ui.widget.behavior.ArtistSongListTitleBehavior" style="@style/TextAppearance.Banqu.AppCompat.Widget.ActionBar.Title" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="150.0dip">
+        <TextView android:textSize="24.0dip" android:textStyle="bold" android:textColor="@android:color/black" android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/favorite" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/dp_24" android:layout_alignParentStart="true" />
+        <TextView android:textSize="12.0dip" android:textColor="@android:color/black" android:ellipsize="end" android:id="@id/region" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_12" android:singleLine="true" android:layout_below="@id/name" android:layout_marginEnd="17.0dip" android:layout_alignStart="@id/name" />
+        <com.banqu.music.ui.widget.CollectingView android:id="@id/favorite" android:padding="@dimen/collecting_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/name" android:layout_marginEnd="17.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/viewPagerRoot" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.banqu.music.ui.widget.behavior.ViewPagerBehavior">
+        <androidx.viewpager.widget.ViewPager android:id="@id/artistPage" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/headLayout" android:layout_width="fill_parent" android:layout_height="@dimen/bq_list_head_layout_height" app:layout_behavior="com.banqu.music.ui.widget.behavior.ListHeaderBehavior">
+        <FrameLayout android:id="@id/tabLayoutContainer" android:background="@drawable/ic_bq_top_circle_shape" android:layout_width="fill_parent" android:layout_height="@dimen/dp_50" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+            <com.fly.xtablayout.ColorTrackTabLayout android:gravity="center|top" android:layout_gravity="center_horizontal" android:id="@id/tabLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:x_indicatorMarginTop="0.0dip" app:x_tabGravity="center" app:x_tabIndicatorAnimation="false" app:x_tabIndicatorColor="@color/app_theme_color_red" app:x_tabIndicatorHeight="3.0dip" app:x_tabIndicatorRoundRect="true" app:x_tabMargin="84.0dip" app:x_tabMode="scrollable" app:x_tabPaddingEnd="0.0dip" app:x_tabPaddingStart="0.0dip" app:x_tabSelectedTextColor="@color/app_theme_color_red" app:x_tabTextColor="#ff000000" app:x_tabTextSize="@dimen/sp_16" style="@style/BQ_Medium_title" />
+        </FrameLayout>
+        <View android:background="#22444444" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

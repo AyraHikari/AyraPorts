@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom" android:id="@id/base_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_note_tag" android:background="@drawable/kwjx_note_live_record" android:paddingBottom="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:background="@drawable/kwjx_bg_white_corner_up_6" android:paddingLeft="30.0dip" android:paddingTop="17.0dip" android:paddingRight="30.0dip" android:paddingBottom="17.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tv_note_tag">
+        <TextView android:gravity="center_horizontal" android:id="@id/tv_live_re_record" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="60.0dip" android:text="重录" android:drawableTop="@drawable/kwjx_live_re_record" android:drawablePadding="5.0dip" android:layout_toLeftOf="@id/progress_record" android:layout_centerVertical="true" />
+        <cn.kuwo.show.ui.view.LiveReordProgressView android:id="@id/progress_record" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_centerInParent="true" />
+        <TextView android:gravity="center_horizontal" android:id="@id/tv_cancel_live_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:text="取消" android:drawableTop="@drawable/kwjx_cancel_live_record" android:drawablePadding="5.0dip" android:layout_toRightOf="@id/progress_record" android:layout_centerVertical="true" android:layout_marginStart="60.0dip" android:layout_toEndOf="@id/progress_record" />
+    </RelativeLayout>
+</RelativeLayout>

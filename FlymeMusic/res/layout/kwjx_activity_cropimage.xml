@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/kw_common_cl_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.kuwo.show.ui.view.CropImageView android:id="@id/cropimg_imageview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/cropimg_btnlayout" android:background="#b2000000" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:textSize="16.0sp" android:textColor="@color/kw_common_cl_white" android:id="@id/cropimg_okbtn" android:paddingBottom="5.0dip" android:layout_width="134.0dip" android:layout_height="40.0dip" android:layout_marginRight="5.0dip" android:text="@string/cropimg_savebtn_title" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:textSize="16.0sp" android:textColor="@color/kw_common_cl_black_33" android:id="@id/cropimg_cancelbtn" android:paddingBottom="5.0dip" android:layout_width="134.0dip" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:text="@string/cropimg_cancelbtn_title" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/croping_rotatelayout" android:background="#b2000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:layout_above="@id/cropimg_btnlayout" android:layout_centerHorizontal="true">
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/cropimg_zoomout" android:background="@color/kw_common_cl_transparent" android:paddingLeft="19.0dip" android:paddingTop="12.0dip" android:paddingRight="19.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:layout_gravity="center_vertical" android:background="#7fffffff" android:layout_width="1.0dip" android:layout_height="13.0dip" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/cropimg_zoomin" android:background="@color/kw_common_cl_transparent" android:paddingLeft="19.0dip" android:paddingTop="12.0dip" android:paddingRight="19.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:layout_gravity="center_vertical" android:background="#7fffffff" android:layout_width="1.0dip" android:layout_height="13.0dip" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/cropimg_rotateleft" android:background="@color/kw_common_cl_transparent" android:paddingLeft="19.0dip" android:paddingTop="12.0dip" android:paddingRight="19.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:layout_gravity="center_vertical" android:background="#7fffffff" android:layout_width="1.0dip" android:layout_height="13.0dip" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/cropimg_rotateright" android:background="@color/kw_common_cl_transparent" android:paddingLeft="19.0dip" android:paddingTop="12.0dip" android:paddingRight="19.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/cropimg_progresslayout" android:background="#33333333" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyle" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/pk_switch_ll" android:background="@drawable/kwjx_pk_second_head_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginLeft="184.0dip" android:layout_marginTop="4.0dip">
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_vertical" android:id="@id/pk_head_sv" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="1.5dip" android:layout_marginRight="4.0dip" app:placeholderImage="@drawable/kwjx_def_user_icon" app:roundAsCircle="true" app:roundingBorderColor="@color/kw_common_cl_white" app:roundingBorderWidth="0.5dip" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/kw_common_cl_white" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/second_nikename_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="5.0dip" android:maxWidth="114.0dip" android:text="" android:maxLines="1" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginRight="13.0dip" android:src="@drawable/kwjx_pk_second_goto_icon" />
+    </LinearLayout>
+    <ImageView android:id="@id/im_pk_room_animation" android:focusable="false" android:visibility="gone" android:layout_width="300.0dip" android:layout_height="200.0dip" android:layout_marginBottom="45.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <include android:id="@id/hall_follow_enter_show_view_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" layout="@layout/kwjx_pk_enter_room_left" />
+    <ImageView android:id="@id/iv_vs_animation" android:background="@drawable/kwjx_vs_5" android:focusable="false" android:visibility="gone" android:layout_width="300.0dip" android:layout_height="200.0dip" android:layout_marginBottom="45.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <include android:id="@id/hall_follow_enter_show_view_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" layout="@layout/kwjx_pk_enter_room_right" />
+    <cn.kuwo.show.ui.pklive.widget.PkLiveHeadLayout android:id="@id/pk_head_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

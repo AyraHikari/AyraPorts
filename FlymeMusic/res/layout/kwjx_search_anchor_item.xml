@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/singer_bg" android:background="@color/kwjx_theme_color_MOD1" android:layout_width="fill_parent" android:layout_height="wrap_content" skin:enable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <TextView android:textSize="@dimen/text_size_14" android:textStyle="bold" android:textColor="@color/kwjx_theme_color_C1" android:gravity="center_vertical" android:id="@id/tv_search_tv" android:padding="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="以下为您搜索的主播" skin:enable="true" />
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ray_list_item2_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/rl_search_bt" android:layout_toStartOf="@id/rl_search_bt">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/singer_list_item2_left" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="15.0dip" android:layout_centerVertical="true" app:placeholderImageScaleType="centerCrop" style="@style/kwjx_common_style_head_image1" skin:enable="true" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/kwjx_theme_color_C1" android:id="@id/item2_left_room_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" skin:enable="true" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_itme_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/item2_left_room_name">
+                    <TextView android:textSize="@dimen/text_size_11" android:textColor="@color/kwjx_theme_color_C2" android:ellipsize="end" android:id="@id/tv_item_room_number_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxEms="15" android:singleLine="true" skin:enable="true" />
+                    <TextView android:textSize="@dimen/text_size_11" android:textColor="@color/kwjx_theme_color_C2" android:ellipsize="end" android:id="@id/tv_item_fans" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="2.0dip" android:maxEms="15" android:singleLine="true" skin:enable="true" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/rl_search_bt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <LinearLayout android:id="@id/follow_right_btn_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip">
+                <ImageView android:id="@id/singer_user_level_sign" android:background="@drawable/kwjx_follow_start_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:scaleType="centerCrop" android:layout_toLeftOf="@id/item2_left_audience_num" />
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/kwjx_theme_color_C1" android:id="@id/item2_left_audience_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="15.0dip" android:text="直播中" android:singleLine="true" skin:enable="true" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/follow_right_btn_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip">
+                <FrameLayout android:textSize="@dimen/text_size_12" android:ellipsize="end" android:id="@id/follow_right_btn" android:background="@drawable/kwjx_follow_yes" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:id="@id/line" android:background="@color/kwjx_theme_color_LN" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" android:layout_alignLeft="@id/mv_follow_small_head_pic" android:layout_alignParentBottom="true" skin:enable="true" />
+</LinearLayout>

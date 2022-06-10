@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/recentHead" layout="@layout/bq_group_category_header_normal" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recentRV" android:paddingLeft="@dimen/default_page_padding" android:paddingTop="@dimen/dp_10" android:paddingRight="@dimen/default_page_padding" android:paddingBottom="@dimen/dp_10" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/recentHead" />
+</androidx.constraintlayout.widget.ConstraintLayout>

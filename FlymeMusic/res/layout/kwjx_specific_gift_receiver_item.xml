@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/gift_join_user_item" android:layout_width="40.0dip" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <RelativeLayout android:id="@id/rl_gift_receiver" android:background="@drawable/kwjx_specific_receiver_ring_bg" android:layout_width="31.0dip" android:layout_height="31.0dip" android:layout_centerInParent="true">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/gift_join_user_head" android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_centerInParent="true" style="@style/kwjx_common_style_head_image6" skin:enable="true" />
+        <TextView android:textSize="@dimen/text_size_10" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/gift_join_user_num" android:background="@drawable/kwjx_specific_gift_receiver_selected_bg" android:layout_width="12.0dip" android:layout_height="12.0dip" android:text="2" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

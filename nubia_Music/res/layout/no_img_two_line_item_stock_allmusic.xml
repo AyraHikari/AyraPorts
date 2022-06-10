@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/father_layout" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/father_two_layout" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/end_layout">
+        <ImageView android:id="@id/favorate_icon" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="#ffd80e7b" android:layout_centerVertical="true" android:layout_marginEnd="32.0dip" android:layout_alignParentStart="true" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/line_layout" android:layout_width="wrap_content" android:layout_height="@dimen/mfvc_2line_list_height" android:paddingEnd="16.0dip" android:layout_toEndOf="@id/favorate_icon">
+            <LinearLayout android:layout_gravity="center_vertical" android:id="@id/line1_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/first_line_text_size" android:textColor="@color/list_item_text" android:ellipsize="end" android:id="@id/line1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="@dimen/first_line_text_size" android:textColor="@color/music_ply_icon_favorite" android:ellipsize="end" android:id="@id/drm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DRM" android:singleLine="true" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/second_line_text_size" android:textColor="@color/list_item_second_text" android:ellipsize="end" android:id="@id/line2" android:paddingTop="@dimen/two_line_between_height" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:layout_below="@id/line1_layout" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/end_layout" android:background="@drawable/actionbar_button_selector" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <cn.zte.music.view.VisualizerView android:id="@id/play_flag" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" />
+        <cn.zte.music.view.RepeatingImageButton android:id="@id/play_btn" android:background="@drawable/actionbar_button_selector" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/play_more" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/more" android:tint="#ffd80e7b" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/itemlayout" android:layout_width="fill_parent" android:layout_height="@dimen/mfvc_2line_list_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/favorate_icon" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerVertical="true" android:layout_marginEnd="32.0dip" android:layout_alignParentStart="true" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/mfvc_2line_list_height" android:paddingEnd="16.0dip" android:layout_marginEnd="16.0dip" android:layout_toEndOf="@id/favorate_icon">
+        <TextView android:textSize="@dimen/first_line_text_size" android:textColor="@color/list_item_text" android:ellipsize="end" android:id="@id/line1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/second_line_text_size" android:textColor="@color/list_item_second_text" android:ellipsize="end" android:id="@id/line2" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/two_line_between_height" android:scrollHorizontally="true" android:singleLine="true" android:paddingEnd="8.0dip" />
+    </LinearLayout>
+    <com.zte.mifavor.widget.CheckBoxZTE android:gravity="center" android:id="@id/select" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

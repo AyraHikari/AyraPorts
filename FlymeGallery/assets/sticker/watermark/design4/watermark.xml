@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sticker height="10" id="watermark_4" type="watermark_date" width="38" thumb="watermark_text_date_thumb">
+    <text bottom="10" font-name="sans-serif" hint="年.月.日" left="0" right="38" size="10" top="0"
+    text-align="center"/>
+</sticker>

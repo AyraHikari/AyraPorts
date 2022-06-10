@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d liedjies is uitgevee.</item>
+        <item quantity="one">1 liedjie is uitgevee.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d albums</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d liedjies</item>
+    </plurals>
+</resources>

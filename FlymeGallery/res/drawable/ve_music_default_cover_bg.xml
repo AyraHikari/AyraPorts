@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="56.0dip" android:width="56.0dip">
+        <shape android:shape="rectangle">
+            <corners android:radius="6.0dip" />
+            <solid android:color="@color/black_bg" />
+        </shape>
+    </item>
+    <item android:height="56.0dip" android:width="56.0dip">
+        <bitmap android:gravity="center" android:src="@drawable/icon_my_music" android:antialias="false" android:filter="true" android:dither="false" android:tileMode="disabled" android:mipMap="true" />
+    </item>
+</layer-list>

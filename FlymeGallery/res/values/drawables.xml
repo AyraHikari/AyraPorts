@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="media_pager_bg">@color/common_bg</item>
+    <item type="drawable" name="media_pager_margin">@color/media_pager_margin_color</item>
+    <item type="drawable" name="mz_background_dark">@color/mz_background_dark</item>
+    <item type="drawable" name="mz_background_light">@color/mz_background_light</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+</resources>

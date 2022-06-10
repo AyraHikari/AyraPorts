@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom" android:id="@id/live_game_blank_space" android:background="@color/kw_common_cl_black_alpha_40" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="418.0dip">
+        <RelativeLayout android:background="@drawable/guard_ll_two_bg_full" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="39.0dip">
+            <RelativeLayout android:id="@id/guard_tip_rl" android:background="@color/kwjx_guard_tip_bg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="50.0dip">
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/kw_common_cl_black_alpha_40" android:id="@id/guard_num_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="守护(0)" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/kwjx_buy_guard" android:id="@id/guard_detail_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="什么是守护?" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <GridView android:id="@id/live_game_list_gridview" android:background="@color/kwjx_guard_bg" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="55.0dip" android:divider="@null" android:layout_below="@id/guard_tip_rl" />
+            <TextView android:textSize="@dimen/text_size_18" android:textStyle="bold" android:textColor="@color/kwjx_buy_guard" android:gravity="center" android:id="@id/guard_btn" android:background="@drawable/open_guard_button_bg" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="48.0dip" android:layout_marginRight="48.0dip" android:layout_marginBottom="10.0dip" android:text="立即开通" android:layout_alignParentBottom="true" />
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/kwjx_no_guard_tip" android:gravity="center_horizontal" android:id="@id/live_game_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/kwjx_no_guard" android:drawablePadding="10.0dip" android:layout_centerInParent="true" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/player_loading" android:visibility="gone" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/top_h" android:layout_width="wrap_content" android:layout_height="79.0dip" android:src="@drawable/kwjx_pop_guard" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

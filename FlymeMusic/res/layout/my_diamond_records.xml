@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/consume_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rel_item_one" android:background="@drawable/kwjx_bg_my_stytmnews_itme" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/kw_common_404040" android:id="@id/tv_diamond_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:singleLine="true" android:layout_alignBottom="@id/tv_news_time" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/kw_common_404040" android:id="@id/tv_diamond_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:singleLine="true" android:layout_toLeftOf="@id/iv_consume_xbcoin" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_consume_xbcoin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/iv_diamond_records" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="@color/kw_common_d9d9d9" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

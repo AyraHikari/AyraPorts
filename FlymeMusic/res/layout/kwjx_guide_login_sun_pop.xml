@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/live_game_blank_space" android:background="@color/kw_common_cl_black_alpha_50" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/color_transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/guide_login_sunbg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_guide_login_sunbg" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/guide_login_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/kwjx_first_pay_guanbi" android:layout_below="@id/guide_login_sunbg" android:layout_centerHorizontal="true" /> /> <Button android:id="@id/guide_login_btn" android:background="@drawable/kwjx_guide_login_sunbtn" android:layout_width="wrap_content" android:layout_height="37.0dip" android:layout_marginBottom="16.0dip" android:layout_alignBottom="@id/guide_login_sunbg" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

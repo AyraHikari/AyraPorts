@@ -1,0 +1,11 @@
+<ul>
+<li>PLATFORM: Better support for jdk9 in the new IntelliJ, Netbeans and for Gradle.</li>
+<li>BREAKING CHANGE: <em>lombok config</em> key <code>lombok.addJavaxGeneratedAnnotation</code> now defaults to <code>false</code> instead of true. Oracle broke this annotation with the release of JDK9, necessitating this breaking change.</li>
+<li>BREAKING CHANGE: <em>lombok config</em> key <code>lombok.anyConstructor.suppressConstructorProperties</code> is now deprecated and defaults to <code>true</code>, that is, by default lombok no longer automatically generates <code>@ConstructorProperties</code> annotations. New config key <code>lombok.anyConstructor.addConstructorProperties</code> now exists; set it to <code>true</code> if you want the old behavior. Oracle more or less broke this annotation with the release of JDK9, necessitating this breaking change.</li>
+<li>DEVELOPMENT: Compiling lombok on JDK1.9 is now possible.</li>
+<li>BUGFIX: The generated hashCode would break the contract if <code>callSuper=true,of={}</code>.</li>
+<li>BUGFIX: <code>delombok</code> no longer prints the synthetic outer-class parameter.</li>
+<li>BUGFIX: @Builder.Default now also works when type parameters are present.</li>
+<li>BUGFIX: @Builder now also works on method with a generified return type.</li>
+<li>INSTALLER: By default, the lombok installer now inserts an absolute path in <code>eclipse.ini</code> and friends, instead of a relative path. If you want the old behavior, you can use <code>java -jar -Dlombok.installer.fullpath=false lombok.jar</code>.</li>
+</ul>

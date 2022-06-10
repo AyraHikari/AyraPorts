@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/playlistRoot" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.banqu.music.ui.widget.RatioRoundLayout android:id="@id/iconLayout" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListIcon100">
+        <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="start|center" android:id="@id/playCount" android:background="@drawable/bq_audio_icon_bottom_info_bg" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_alignParentBottom="true" android:paddingStart="5.0dip" />
+    </com.banqu.music.ui.widget.RatioRoundLayout>
+    <TextView android:textSize="@dimen/bq_grid_item_sub_ts" android:textColor="@color/bq_grid_item_title_color" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="2" android:layout_below="@id/iconLayout" android:layout_alignStart="@id/iconLayout" android:layout_alignEnd="@id/iconLayout" />
+    <TextView android:textSize="8.0dip" android:textColor="@color/alpha_40_black" android:ellipsize="end" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:singleLine="true" android:layout_below="@id/title" android:layout_alignStart="@id/iconLayout" android:layout_alignEnd="@id/iconLayout" />
+</RelativeLayout>

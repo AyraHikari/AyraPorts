@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/main" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/editorContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.meizu.media.gallery.filtershow.imageshow.ImageShow android:id="@id/imageShow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.meizu.media.gallery.filtershow.editlongcrop.TransitionAnimationView android:id="@id/filtershow_trans_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/filtershow_top_menu" />
+    <include layout="@layout/filtershow_main_panel" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/editor_panel_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/filtershow_main_panel_height" android:minHeight="@dimen/filtershow_editor_sticker_panel_expand_height" />
+    <com.meizu.media.gallery.filtershow.ui.CircleButton android:gravity="center" android:layout_gravity="bottom|center|right" android:id="@id/btn_contrast" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:contentDescription="@string/compare" android:layout_marginEnd="18.0dip" />
+    <ImageView android:gravity="center" android:layout_gravity="bottom|center|left" android:id="@id/btn_super_portrait" android:background="@drawable/photo_pager_loading_background" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/super_potrait_off_foreground" android:scaleType="centerInside" android:layout_marginStart="18.0dip" />
+    <ImageView android:layout_gravity="start|bottom|center" android:id="@id/filtershow_user_guide" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="42.0dip" android:src="@drawable/ic_user_guide_new" android:scaleType="center" />
+    <ViewStub android:id="@id/image_blur_guide" android:layout="@layout/blur_guide_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/progressbar_numpop" android:background="@drawable/progress_pop_bg" android:visibility="gone" android:layout_width="23.0dip" android:layout_height="23.0dip" android:text="10" style="@style/sfdin_bold" />
+</FrameLayout>

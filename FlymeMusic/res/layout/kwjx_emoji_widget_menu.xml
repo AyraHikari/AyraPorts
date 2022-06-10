@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.kuwo.jx.emoji.widget.EmojiconPagerView android:id="@id/pager_view" android:layout_width="fill_parent" android:layout_height="142.0dip" />
+    <cn.kuwo.jx.emoji.widget.EmojiconIndicatorView android:id="@id/indicator_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" />
+    <cn.kuwo.jx.emoji.widget.EmojiconScrollTabBar android:id="@id/tab_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="35.0dip" />
+</LinearLayout>

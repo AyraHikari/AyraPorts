@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:background="@drawable/filtershow_editor_panel_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.filtershow.ui.OverlayRecycleView android:layout_gravity="center|top" android:orientation="horizontal" android:id="@id/geometry_tool_list" android:paddingTop="15.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/filtershow_panel_common_height" />
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/filter_straighten_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/filtershow_seekbar_height" android:layout_below="@id/geometry_tool_list">
+        <FrameLayout android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/edit_rotate_mirror_handle_view" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="@dimen/filtershow_seekbar_height" android:contentDescription="@string/rotate">
+            <TextView android:textSize="7.0dip" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_vertical" android:background="@drawable/mirror_rotate_handle_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/annotation_first_item_margin_left" android:layout_marginEnd="14.0dip" />
+        </FrameLayout>
+        <com.meizu.media.gallery.filtershow.ui.FiltersHorizontalWheelView android:layout_gravity="center_vertical" android:id="@id/seekbar" android:layout_width="0.0dip" android:layout_height="@dimen/filtershow_seekbar_height" android:layout_weight="1.0" />
+        <FrameLayout android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/edit_crop_handle_view" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="@dimen/filtershow_seekbar_height" android:contentDescription="@string/crop_ratio">
+            <TextView android:textSize="7.0dip" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_vertical" android:background="@drawable/cut_handle_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="14.0dip" android:layout_marginEnd="@dimen/annotation_first_item_margin_left" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Buka keyboard untuk menamai Daftar Putar baru, atau pilih Simpan untuk menamainya \"%s\".</string>
+    <string name="rename_playlist_diff_prompt">Buka keyboard untuk memberi nama baru pada daftar putar \"%1$s\", atau pilih Simpan untuk menamainya \"%2$s\".</string>
+    <string name="rename_playlist_same_prompt">Buka keyboard untuk memberi nama baru pada daftar putar \"%s\".</string>
+</resources>

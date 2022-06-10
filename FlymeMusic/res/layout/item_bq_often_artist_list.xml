@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="84.0dip" android:layout_height="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/item_bq_often_artist_bg" android:scaleType="fitXY" />
+    <RelativeLayout android:layout_width="80.0dip" android:layout_height="112.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip">
+        <com.banqu.music.ui.widget.RoundImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="66.0dip" style="@style/ListIcon80_66" />
+        <View android:background="@drawable/item_bq_often_artist_layer_bg" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_alignParentBottom="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_alignParentBottom="true">
+            <TextView android:textSize="12.0dip" android:textColor="#ff000000" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/artistName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:singleLine="true" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" />
+            <com.banqu.music.ui.widget.PlaySourceImageView android:layout_gravity="center_horizontal" android:id="@id/playIcon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_bq_home_daily_recommend_play" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout" android:layout_width="0.0dip" android:layout_height="@dimen/mz_action_bar_search_layout_height" android:layout_weight="1.0" android:layout_marginStart="@dimen/mc_search_layout_padding_left_with_back" layout="@layout/mc_search_layout" />
+    <LinearLayout android:gravity="center" android:id="@id/mc_tv_layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?android:actionMenuTextAppearance" android:gravity="center" android:id="@id/mc_search_textView" android:background="?android:actionBarItemBackground" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mc_search_button_text" style="?mzSearchButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

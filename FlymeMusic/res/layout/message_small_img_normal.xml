@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="114.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_alignParentTop="true" layout="@layout/message_small_img" />
+    <include android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_alignParentBottom="true" layout="@layout/message_bottom_layout" />
+</RelativeLayout>

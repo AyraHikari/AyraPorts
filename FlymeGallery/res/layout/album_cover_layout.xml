@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/bottom_album_cover_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.meizu.media.common.widget.FixedSizeImageView android:id="@id/bottom_album_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/bottom_album_cover_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/middle_album_cover_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.meizu.media.common.widget.FixedSizeImageView android:id="@id/middle_album_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/middle_album_cover_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/top_album_cover_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.meizu.media.common.widget.FixedSizeImageView android:id="@id/top_album_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/top_album_cover_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="bottom|center|right" android:id="@id/type_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/no_photo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <CheckBox android:id="@id/cover_check_icon" style="@style/ListCheckBox" />
+    </FrameLayout>
+</merge>

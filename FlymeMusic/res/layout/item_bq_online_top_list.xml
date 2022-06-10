@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/online_item_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_20"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/topListViewHead" layout="@layout/bq_group_category_header_normal" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/topListView" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_18" app:layout_constraintTop_toBottomOf="@id/topListViewHead" />
+</androidx.constraintlayout.widget.ConstraintLayout>

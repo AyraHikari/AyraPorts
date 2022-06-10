@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/cp_logos_layout" android:layout_width="wrap_content" android:layout_height="76.0dip" android:layout_marginTop="36.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/filter_text_color_70_black" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/download_cp_app" />
+</LinearLayout>

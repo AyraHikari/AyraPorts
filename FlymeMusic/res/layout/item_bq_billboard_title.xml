@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/bq_title_ts" android:textColor="@color/bq_title_color" android:gravity="bottom" android:layout_gravity="center_vertical" android:id="@id/boardName" android:paddingBottom="4.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="39.0dip" android:layout_marginTop="6.0dip" android:text="22" style="@style/BQ_Medium_title" />
+</FrameLayout>

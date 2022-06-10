@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/puzzle_multi_padding_none" android:maxLevel="1" />
+    <item android:drawable="@drawable/puzzle_multi_padding_s" android:maxLevel="2" />
+    <item android:drawable="@drawable/puzzle_multi_padding_m" android:maxLevel="3" />
+    <item android:drawable="@drawable/puzzle_multi_padding_l" android:maxLevel="4" />
+</level-list>

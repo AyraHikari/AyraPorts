@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/empty_icon" android:background="@drawable/bq_no_data_song" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0dip" android:gravity="center" android:id="@id/empty_tips" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq_no_favorite_music" android:layout_below="@id/empty_icon" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/app_theme_color_red" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/importTV" android:background="@drawable/circle_bord" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/bq_import_song" android:layout_below="@id/empty_tips" android:layout_centerHorizontal="true" />
+</RelativeLayout>

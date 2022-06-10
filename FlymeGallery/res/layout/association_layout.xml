@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/face_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" android:text="@string/association_face" android:fontFamily="sans-serif-medium" android:paddingStart="17.0dip" android:paddingEnd="17.0dip" />
+        <flyme.support.v7.widget.RecyclerView android:id="@id/face_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/association_face_height" android:paddingStart="18.0dip" android:paddingEnd="18.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/scene_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" android:text="@string/association_scene" android:fontFamily="sans-serif-medium" android:paddingStart="17.0dip" android:paddingEnd="17.0dip" />
+        <flyme.support.v7.widget.RecyclerView android:id="@id/scene_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/association_scene_height" android:paddingStart="18.0dip" android:paddingEnd="18.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/location_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" android:text="@string/location_name" android:fontFamily="sans-serif-medium" android:paddingStart="17.0dip" android:paddingEnd="17.0dip" />
+        <flyme.support.v7.widget.RecyclerView android:id="@id/location_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/association_scene_height" android:paddingStart="18.0dip" android:paddingEnd="18.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/memory_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/memory_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" android:text="@string/association_memory_video" android:fontFamily="sans-serif-medium" android:paddingStart="17.0dip" android:paddingEnd="17.0dip" />
+        <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="@dimen/association_video_height" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" app:cardCornerRadius="4.0dip" xmlns:app="http://schemas.android.com/apk/res-auto">
+            <ImageView android:id="@id/video_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_video_editor_play" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/empty_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" android:text="@string/association_related" android:fontFamily="sans-serif-medium" android:paddingStart="17.0dip" android:paddingEnd="17.0dip" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="320.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="#ff989898" android:layout_gravity="center" android:id="@id/tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/association_related_not_found" android:fontFamily="sans-serif-medium" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/placeholder" android:layout_width="fill_parent" android:layout_height="@dimen/association_bottom_layout_height" />
+</LinearLayout>

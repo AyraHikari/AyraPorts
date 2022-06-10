@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.meizu.media.gallery" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.CONTROL_DISPLAY_BRIGHTNESS"/>
+    <uses-permission android:name="flyme.permission.CONTROL_DISPLAY_BRIGHTNESS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="com.android.permission.WHITELIST_BLUETOOTH_DEVICE"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="com.android.email.permission.READ_ATTACHMENT"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS"/>
+    <uses-permission android:name="com.android.usagestats.permission.WRITE_USAGESTATS"/>
+    <uses-permission android:name="com.android.usagestats.permission.READ_USAGESTATS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="com.meizu.flyme.permission.UPDATE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.Manifest.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="meizu.permission.SWITCH_SYSTEM_MODES"/>
+    <uses-permission android:name="meizu.permission.BIND_PRIVACY_CONTROLER" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="meizu.permission.READ_PRIVACY" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.meizu.flyme.push.permission.RECEIVE"/>
+    <permission android:name="com.meizu.media.gallery.push.permission.MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.meizu.media.gallery.push.permission.MESSAGE"/>
+    <uses-permission android:name="com.meizu.c2dm.permission.RECEIVE"/>
+    <permission android:name="com.meizu.media.gallery.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.meizu.media.gallery.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.meizu.flyme.wlauncher.permission.BIND_WATCHSERVISE"/>
+    <uses-permission android:name="com.meizu.functionmanager" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.meizu.flyme.filemanager.permission.DELETE_FILE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="com.meizu.picker.ocr.permission.RECOGNIZE"/>
+    <permission android:name="com.open.gallery.smart.Provider" android:protectionLevel="normal"/>
+    <permission android:name="com.open.gallery.smart.Read" android:protectionLevel="normal"/>
+    <permission android:name="com.open.gallery.smart.Write" android:protectionLevel="normal"/>
+    <uses-permission android:name="com.open.gallery.smart.Provider"/>
+    <uses-permission android:name="com.open.gallery.smart.Read"/>
+    <uses-permission android:name="com.open.gallery.smart.Write"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="com.meizu.feedback.permission.FCK_CATEGORY"/>
+    <uses-permission android:name="com.meizu.safe.SDK_PROVIDER"/>
+    <permission android:name="com.meizu.media.gallery.fm.FilterManage" android:protectionLevel="normal"/>
+    <uses-permission android:name="com.flyme.permission.SCREENSHOTEX"/>
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="com.meizu.compaign.permission.READ_SDK_INFO"/>
+    <uses-permission android:name="com.meizu.compaign.permission.SEND_NOTIFICATION"/>
+    <uses-permission android:name="com.meizu.flyme.appcenter.permission.action.perform"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="com.meizu.flyme.update.permission.EXTERNAL_INSTALL"/>
+    <uses-permission android:name="android.permission.LOCAL_MAC_ADDRESS"/>
+    <uses-permission android:name="android.permission.ROOT_RECOVERY_STATE"/>
+    <uses-permission android:name="flyme.permission.ROOT_RECOVERY_STATE"/>
+    <uses-permission android:name="com.meizu.safe.permission.MZ_OPEN_ID"/>
+    <uses-permission android:name="com.meizu.flyme.providers.forcetouch.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.meizu.flyme.providers.forcetouch.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.meizu.flyme.permission.PUSH"/>
+    <uses-permission android:name="android.webkit.permission.PLUGIN"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.fm.openservice.READ_PROPERTY"/>
+    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS"/>
+    <uses-permission android:name="freemme.permission.msa"/>
+    <compatible-screens/>
+    <application android:allowBackup="false" android:fullBackupContent="@xml/backup_descriptor" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher_gallery" android:label="@string/app_name" android:largeHeap="true" android:name="com.meizu.media.gallery.GalleryAppImpl" android:preserveLegacyExternalStorage="true" android:requestLegacyExternalStorage="true" android:requiredForAllUsers="true" android:resizeableActivity="false" android:supportsRtl="true" android:theme="@style/Theme.Gallery" android:uiOptions="splitActionBarWhenNarrow" android:usesCleartextTraffic="true">
+        <meta-data android:name="account_client_id" android:value="0eDLbk4FDpajuYbPD2f0"/>
+        <meta-data android:name="account_client_secret" android:value="KxdvgiCH6xWen3r8RxUQw8UR89qNGo"/>
+        <meta-data android:name="android.nfc.disable_beam_default" android:value="true"/>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="408985d1924e630f27d0fc332a5d62ac"/>
+        <service android:name="com.amap.api.location.APSService"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyCEYmU6Mf_YcaQpqTF1zkDSNdScb9vA5FA"/>
+        <meta-data android:name="banner_id" android:value="A"/>
+        <activity android:label="@string/title_activity_cover_thumbnails" android:name="com.meizu.media.gallery.customcover.CoverThumbnailsActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Flyme.AppCompat.Light.LitePopup" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.meizu.media.gallery.cloud.ui.TransManagementActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.meizu.media.gallery.share.F8PhotoShareActivity" android:screenOrientation="portrait" android:showWhenLocked="true" android:theme="@style/Theme.Gallery.PhotoShare" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.meizu.media.gallery.share.F9PhotoShareActivity" android:screenOrientation="portrait" android:showWhenLocked="true" android:theme="@style/Theme.Flyme.AppCompat.Light.LitePopup" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:configChanges="keyboardHidden|locale|mcc|mnc|orientation|screenLayout|screenSize|uiMode" android:label="@string/app_name" android:name="com.meizu.media.gallery.GalleryActivity" android:screenOrientation="portrait" android:showWhenLocked="true" android:theme="@style/Theme.AbstactGallery" android:windowSoftInputMode="adjustNothing">
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcut"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.APP_GALLERY"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.meizu.media.gallery.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.meizu.media.cloudgallery.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.gallery.action.GET_CONTACT_PORTRAIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="com.android.camera.action.REVIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="application/vnd.google.panorama360+jpg"/>
+                <data android:mimeType="vnd.android.cursor.dir/image"/>
+                <data android:mimeType="vnd.android.cursor.dir/video"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.camera.action.REVIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="video/mpeg4"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="video/3gp"/>
+                <data android:mimeType="video/3gpp"/>
+                <data android:mimeType="video/3gpp2"/>
+                <data android:mimeType="application/sdp"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.SET_WALLPAPER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.meizu.media.gallery.SHOW_CLOUD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="com.meizu.media.gallery" android:path="/content_page" android:scheme="flyme_3dtouch"/>
+                <data android:host="com.meizu.media.gallery" android:path="/map" android:scheme="flyme_3dtouch"/>
+                <data android:host="com.meizu.media.gallery" android:path="/cloud" android:scheme="flyme_3dtouch"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.meizu.media.gallery.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.meizu.media.gallery.action.PRIVACY_PHOTO_LIST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:host="com.meizu.media.gallery" android:path="/web" android:scheme="mzg"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.meizu.media.gallery.action.ENTER_ALL_PHOTO_BY_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.meizu.media.gallery.action.ENTER_TRASH_BIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="com.meizu.media.gallery.facebeauty.FaceBeauty" android:screenOrientation="portrait" android:theme="@style/Theme.Gallery" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="com.android.gallery.action.FACE_BEAUTY"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="image/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:label="@string/app_name" android:name="com.meizu.media.gallery.rotate.PhotoRotateStraighten" android:process=":filtershow">
+            <intent-filter>
+                <action android:name="com.android.gallery.action.STRAIGHTEN"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="image/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.meizu.media.gallery.AlbumManagerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Flyme.AppCompat.Light.LitePopup" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+                <data android:mimeType="vnd.android.cursor.dir/image"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="meizu.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/image"/>
+                <data android:mimeType="vnd.android.cursor.dir/video"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="meizu.intent.action.SETWALLPAPER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.meizu.media.gallery.action.ENTER_PUZZLE_BY_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="meizu.intent.action.VIEW_TRASH_MEDIA"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="media/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.meizu.media.gallery.AccessRangeActivity" android:screenOrientation="portrait" android:taskAffinity=":access_range" android:theme="@style/Theme.Flyme.AppCompat.Light.LitePopup" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="meizu.intent.action.MODIFY_ACCESS_RANGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.meizu.media.gallery.MapViewActivity" android:theme="@style/Theme.Gallery.Translucent" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/crop_label" android:name="com.meizu.media.gallery.crop.CropImage" android:theme="@style/Theme.FaceBeauty">
+            <intent-filter android:label="@string/crop_label">
+                <action android:name="com.android.camera.action.CROP"/>
+                <action android:name="com.android.camera.action.EDITOR_CROP"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="image/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.ALTERNATIVE"/>
+                <category android:name="android.intent.category.SELECTED_ALTERNATIVE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/title_activity_filter_show" android:name="com.meizu.media.gallery.filtershow.FilterShowActivity" android:screenOrientation="portrait" android:showWhenLocked="true" android:theme="@style/Theme.Gallery.Translucent.FilterShow" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="action_nextgen_edit"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.meizu.media.gallery.filtershow.AnnotationActivity" android:screenOrientation="portrait" android:showWhenLocked="true" android:theme="@style/Theme.Gallery.Translucent.FilterShow" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/title_activity_filter_show" android:name="com.meizu.media.gallery.videoeditor.VideoEditorActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Gallery" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.meizu.intent.action.VIDEOEDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.meizu.media.gallery.preferences.GallerySettingsActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="meizu.intent.action.FUNCTION_MANAGER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.meizu.media.gallery.cloud.account.CloudLoginActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenSize" android:name="com.meizu.media.gallery.CloudActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AbstactGallery" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenSize" android:label="" android:name="com.meizu.media.gallery.ContainerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AbstactGallery" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenSize" android:name="com.meizu.media.gallery.preferences.SwitcherActivity3D" android:screenOrientation="portrait" android:theme="@style/Theme.AbstactGallery" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="com.meizu.media.gallery.switch_3D"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|locale|mcc|mnc|orientation|screenLayout|screenSize|uiMode" android:name="com.meizu.media.gallery.MemoryEditorActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AbstactGallery.Translucent" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.meizu.media.gallery.liveEdit.LiveEditActivity" android:screenOrientation="portrait" android:theme="@style/Theme.LongScreenShot" android:windowSoftInputMode="adjustNothing"/>
+        <uses-library android:name="com.google.android.media.effects" android:required="false"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <service android:exported="true" android:name="com.meizu.media.gallery.BackgroundService">
+            <intent-filter>
+                <action android:name="com.meizu.media.gallery.START"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.meizu.media.gallery.moment.service.UpdateAssistantService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.meizu.media.gallery.localsearch.searchdb.SearchService" android:stopWithTask="false"/>
+        <service android:name="com.meizu.media.gallery.imageloader.service.GenerateCacheService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.meizu.media.gallery.moment.service.SmartCardScanService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:enabled="true" android:name="com.meizu.media.common.service.DlnaService"/>
+        <service android:exported="false" android:name="com.meizu.update.service.MzUpdateComponentService" android:stopWithTask="false"/>
+        <service android:exported="false" android:name="com.meizu.media.gallery.filtershow.pipeline.ProcessingService"/>
+        <service android:exported="false" android:name="com.meizu.media.gallery.cloud.CloudService" android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.meizu.media.gallery.cloud.DOWNLOAD"/>
+                <action android:name="com.meizu.media.gallery.cloud.UPLOAD"/>
+                <action android:name="com.meizu.media.gallery.cloud.AUTOTRANS"/>
+                <action android:name="com.meizu.media.gallery.cloud.ACCOUNT_RETRY"/>
+                <action android:name="com.meizu.media.gallery.cloud.DOWNLOAD_TRANSACTION"/>
+                <action android:name="com.meizu.media.gallery.cloud.UPLOAD_TRANSACTION"/>
+                <action android:name="com.meizu.media.gallery.cloud.RETRY_TRANS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.meizu.media.gallery.cloud.BackupScheduler" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.meizu.media.gallery.GalleryScheduler" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.meizu.media.gallery.moment.network.InitializeDataService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.meizu.media.gallery.ocr.OcrScanService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.meizu.media.gallery.trashbin.TrashKiller" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.meizu.statsapp.UsageStatsManagerService"/>
+        <service android:name="com.meizu.media.gallery.trashbin.TrashService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.meizu.media.gallery.content.ContentUpdateService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.meizu.media.gallery.utils.ContentUpdateReceiver">
+            <intent-filter>
+                <action android:name="com.meizu.media.gallery.content.update"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.meizu.media.gallery.effect" android:exported="true" android:initOrder="100" android:multiprocess="true" android:name="com.meizu.media.gallery.extapi.EffectContentProvider"/>
+        <provider android:authorities="com.meizu.media.gallery.cloud.db.cloudtrans" android:exported="false" android:initOrder="100" android:multiprocess="true" android:name="com.meizu.media.gallery.cloud.db.CloudProvider"/>
+        <provider android:authorities="com.meizu.media.gallery.barcode" android:exported="false" android:initOrder="100" android:multiprocess="true" android:name="com.meizu.media.gallery.barcode.db.BarcodeProvider"/>
+        <provider android:authorities="com.meizu.media.gallery.providers.flyme" android:exported="false" android:initOrder="100" android:multiprocess="true" android:name="com.meizu.media.gallery.cloud.data.FlymeMediaProvider"/>
+        <provider android:authorities="com.meizu.media.gallery.provider" android:exported="true" android:initOrder="100" android:multiprocess="true" android:name="com.meizu.media.gallery.content.GalleryPhotoProvider"/>
+        <provider android:authorities="com.meizu.media.gallery.providers.switcher" android:exported="false" android:initOrder="100" android:multiprocess="true" android:name="com.meizu.media.gallery.preferences.OnlineSwitcherProvider"/>
+        <provider android:authorities="com.meizu.media.gallery.moment" android:exported="false" android:initOrder="100" android:multiprocess="true" android:name="com.meizu.media.gallery.moment.provider.MomentProvider"/>
+        <provider android:authorities="com.open.gallery.smart.provider" android:exported="true" android:grantUriPermissions="true" android:initOrder="100" android:multiprocess="false" android:name="com.meizu.media.gallery.micromsg.MicroMsgProvider"/>
+        <receiver android:name="com.meizu.media.gallery.cloud.account.OAuthUtils$UnbindReceiver">
+            <intent-filter>
+                <action android:name="com.meizu.account.qh_account_status_change"/>
+                <action android:name="com.meizu.account.yunos_account_status_change"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.meizu.media.gallery.common.ChargingWorkTrigger">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.meizu.media.gallery.utils.PrivacyModeChangedReceiver">
+            <intent-filter>
+                <action android:name="meizu.intent.action.SWITCH_PRIVATE_MODE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:launchMode="singleTop" android:name="com.meizu.media.gallery.barcode.BarcodeActivity" android:theme="@style/Theme.Gallery.Translucent" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="com.meizu.media.gallery.member.MemberActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Gallery">
+            <intent-filter>
+                <action android:name="com.meizu.media.gallery.SHOW_MEMBER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.meizu.gslb.push.GslbDataRefreshReceiver">
+            <intent-filter>
+                <action android:name="com.meizu.flyme.gslb.push.broadcast"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.meizu.media.gallery.utils.ImageSaveReceiver">
+            <intent-filter>
+                <action android:name="com.meizu.media.gallery.saveImage"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.meizu.media.imageservice.ARC_REFOCUS_FINISH"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.flyme.gallery.scanner.receiver.MediaScanReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_SCANNER_SCAN_FILE"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.meizu.media.gallery.GalleryPushMsgReceiver">
+            <intent-filter>
+                <action android:name="com.meizu.flyme.push.intent.MESSAGE"/>
+                <action android:name="com.meizu.flyme.push.intent.REGISTER.FEEDBACK"/>
+                <action android:name="com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"/>
+                <action android:name="com.meizu.c2dm.intent.REGISTRATION"/>
+                <action android:name="com.meizu.c2dm.intent.RECEIVE"/>
+                <category android:name="com.meizu.media.gallery"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenSize" android:name="com.meizu.media.gallery.SecondScreenCropActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Gallery"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenSize" android:name="com.meizu.media.gallery.MemoryActivity" android:screenOrientation="sensor" android:theme="@style/Theme.Gallery.Memory">
+            <intent-filter>
+                <action android:name="com.meizu.media.gallery.intent.MOMENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="com.meizu.media.gallery.moment.service.MemoryPhotoScanService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenSize|uiMode" android:name="com.meizu.media.gallery.FaceDetailsActivity" android:screenOrientation="portrait" android:theme="@style/Theme.GalleryFaceDetail" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="com.meizu.media.gallery.filtershow.editlongcrop.LongCropEditActivity" android:screenOrientation="portrait" android:theme="@style/Theme.LongScreenShot" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.meizu.media.gallery.LONG_SCREENSHOT_EDIT"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.meizu.media.gallery.LONG_SCREENSHOT_EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="false" android:name="com.meizu.media.gallery.filtershow.editlongcrop.ScreenshotShareReceiver"/>
+        <activity android:launchMode="singleTop" android:name="com.meizu.media.gallery.backseek.BackSeekActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Gallery.FullScreen" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenSize" android:name="com.meizu.media.gallery.localsearch.LocalSearchActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Gallery" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.meizu.media.gallery.action.ENTER_LOCAL_SEARCH_BY_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenSize|uiMode" android:name="com.meizu.media.gallery.localsearch.SearchDetailsActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Gallery"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenSize" android:name="com.meizu.media.gallery.external.ExternalPhotoActivity" android:showWhenLocked="true" android:theme="@style/Theme.AbstactGallery.Translucent" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="com.meizu.gallery.action.CAMERA_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.meizu.media.gallery.PermissionGrantActivity"/>
+        <activity android:name="com.meizu.media.gallery.doccorrect.DocCorrectActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Gallery.FullScreen" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="com.meizu.media.gallery.puzzle.PuzzleActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Gallery.FullScreen" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:launchMode="singleInstance" android:name="com.meizu.media.gallery.filterManager.FilterManagerActivity" android:permission="com.meizu.media.gallery.fm.FilterManage" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.android.gallery.action.FILTER_MANAGER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="*" android:mimeType="*/*" android:pathPattern=".*\\.cube" android:scheme="file"/>
+                <data android:host="*" android:mimeType="*/*" android:pathPattern=".*\\.3dl" android:scheme="file"/>
+                <data android:host="*" android:mimeType="*/*" android:pathPattern=".*\\.cube" android:scheme="content"/>
+                <data android:host="*" android:mimeType="*/*" android:pathPattern=".*\\.3dl" android:scheme="content"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleInstance" android:name="com.meizu.media.gallery.filterManager.ShareActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ve_music_title" android:name="com.meizu.media.gallery.videoeditor.music.MusicSelectActivity" android:theme="@style/Theme.MusicSelect"/>
+        <activity android:configChanges="keyboardHidden|locale|mcc|mnc|orientation|screenLayout|screenSize|uiMode" android:name="com.meizu.media.gallery.campaign.CampaignActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Gallery"/>
+        <provider android:authorities="com.meizu.media.gallery.filtermanager" android:exported="true" android:grantUriPermissions="true" android:initOrder="100" android:multiprocess="false" android:name="com.meizu.media.gallery.filterManager.db.FilterProvider"/>
+        <provider android:authorities="com.meizu.media.gallery.filtercomp" android:exported="true" android:grantUriPermissions="true" android:initOrder="100" android:multiprocess="false" android:name="com.meizu.media.gallery.filterManager.db.FilterCompProvider"/>
+        <receiver android:exported="false" android:name="com.meizu.media.gallery.filterManager.share.ShareIntentSender"/>
+        <provider android:authorities="com.meizu.media.gallery.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <provider android:authorities="com.meizu.media.gallery.trash" android:exported="true" android:name="com.meizu.media.gallery.trashbin.TrashProvider"/>
+        <service android:name="com.meizu.gslb.push.GslbPushHandler"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.meizu.compaign.hybrid.WebSiteActivity" android:screenOrientation="portrait" android:theme="@style/Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="com.meizu.media.gallery" android:scheme="website"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:name="com.meizu.compaign.hybrid.app.WebSiteActivityForAndroid" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.meizu.compaign.hybrid.app.WebSiteActivityForFlyme" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <receiver android:name="com.meizu.compaign.notify.push.CompaignPushReceiver">
+            <intent-filter android:priority="-1000">
+                <action android:name="com.meizu.c2dm.intent.REGISTRATION"/>
+                <action android:name="com.meizu.c2dm.intent.RECEIVE"/>
+                <action android:name="com.meizu.flyme.push.intent.MESSAGE"/>
+                <action android:name="com.meizu.flyme.push.intent.REGISTER.FEEDBACK"/>
+                <action android:name="com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"/>
+                <category android:name="com.meizu.media.gallery"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.meizu.media.gallery.compaignsdk.provider" android:exported="true" android:label="@string/app_name" android:name="com.meizu.compaign.sdkcommon.crossprocess.SdkProvider"/>
+        <receiver android:name="com.meizu.compaign.notify.CompaignNotificationReceiver">
+            <intent-filter>
+                <action android:name="com.meizu.media.gallery.compaignsdk.receiver"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.meizu.compaign.sdkcommon.utils.ActivityDialog" android:screenOrientation="portrait" android:theme="@style/Transparent"/>
+        <service android:name="com.meizu.advertise.services.ProxyIntentService"/>
+        <service android:name="com.meizu.advertise.services.ProxyService"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:name="com.meizu.adplatform.api.activity.WebSurfingActivity" android:theme="@style/MzAdWebViewTheme"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:name="com.meizu.adplatform.api.activity.VideoWebActivity" android:theme="@style/MzAdWebViewTheme"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:name="com.meizu.adplatform.api.activity.AdFullScreenActivity" android:theme="@style/MzAdWebViewTheme"/>
+        <activity android:exported="false" android:name="com.meizu.update.display.KeyguardHelperActivity" android:theme="@style/MzucActivityNoDisplay"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.meizu.update.display.UpdateDialogActivityWrapper" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.meizu.media.gallery.update.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.meizu.update.util.UpdateFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/updatefilepaths"/>
+        </provider>
+        <provider android:authorities="com.meizu.media.gallery.store" android:exported="true" android:name="com.meizu.media.gallery.external.provider.GMediaProvider"/>
+        <service android:exported="false" android:name="com.meizu.media.gallery.external.util.FaceDataMover"/>
+        <activity android:excludeFromRecents="true" android:launchMode="standard" android:name="com.meizu.sharewidget.activity.ShareViewGroupActivity" android:theme="@style/Theme.Flyme.Share.Day"/>
+        <activity android:configChanges="uiMode" android:name="com.meizu.share.activity.ChooserActivity" android:theme="@style/Theme.Flyme.Share.Chooser"/>
+        <service android:exported="true" android:name="com.meizu.cloud.pushsdk.NotificationService"/>
+        <activity android:name="com.meizu.open.pay.hybrid.ui.PayAlertActivity" android:screenOrientation="portrait" android:theme="@style/OpenPayTheme.MyTranslucent"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation" android:exported="false" android:name="com.meizu.open.pay.hybrid.ui.HybridBaseActivity" android:screenOrientation="portrait" android:theme="@style/pay_custom_app_theme"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation" android:exported="false" android:name="com.meizu.open.pay.hybrid.ui.RequestActionActivity" android:screenOrientation="portrait" android:theme="@style/pay_custom_app_theme"/>
+        <activity android:name="flyme.support.v7.app.WebViewActivity" android:screenOrientation="portrait"/>
+        <provider android:authorities="com.meizu.media.gallery.meizucommon" android:enabled="true" android:exported="false" android:name="com.meizu.common.app.LibraryInitProvider"/>
+        <provider android:authorities="com.meizu.media.gallery.workmanager-init" android:directBootAware="false" android:exported="false" android:multiprocess="true" android:name="androidx.work.impl.WorkManagerInitializer"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.meizu.media.gallery.lifecycle-trojan" android:exported="false" android:multiprocess="true" android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <service android:exported="true" android:name="com.meizu.savior.SaviorJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:name="com.meizu.gslb2.GslbDataRefreshReceiver">
+            <intent-filter>
+                <action android:name="com.meizu.flyme.gslb.push.broadcast"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:name="com.alipay.sdk.app.H5PayActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.DeviceDefault" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.ipaynow.wechatpay.plugin.inner_plugin.wechat_plugin.activity.WeChatNotifyActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.Dialog"/>
+    </application>
+</manifest>

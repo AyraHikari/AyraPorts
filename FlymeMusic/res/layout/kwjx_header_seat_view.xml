@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/room_seat_enter_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/room_view" android:background="@color/kw_common_cl_black_alpha_50" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/room_seat_rel" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@drawable/kwjx_room_header_seat_background" android:layout_width="273.0dip" android:layout_height="361.0dip" android:layout_centerInParent="true">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/room_linear" android:layout_width="fill_parent" android:layout_height="43.0dip" android:layout_marginLeft="23.0dip" android:layout_marginTop="141.0dip" android:layout_marginRight="24.0dip">
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+                    <ImageView android:id="@id/room_seat_low" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_room_header_seat_low" />
+                    <ImageView android:id="@id/room_header_seat_low_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_room_header_seat_low_normal" />
+                </RelativeLayout>
+                <EditText android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffff5c8c" android:ellipsize="end" android:gravity="center" android:id="@id/room_seat_text" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="1" android:maxLines="1" android:maxLength="7" android:layout_weight="1.0" android:inputType="number" />
+                <ImageView android:id="@id/room_seat_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/kwjx_room_header_seat_add" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/room_linear">
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="当前座位需要" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffef37" android:id="@id/room_seat_text_number" android:paddingLeft="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="张及以上门票才能抢到" />
+            </LinearLayout>
+            <ImageView android:id="@id/room_seat_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip" android:src="@drawable/kwjx_room_header_seat_button" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <RelativeLayout android:id="@id/room_seat_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_room_header_seat_close" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

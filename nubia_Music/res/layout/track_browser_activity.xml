@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/base_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zte.mifavor.widget.ZTEIndexListView android:textSize="18.0sp" android:id="@android:id/list" android:background="@color/list_color" android:paddingTop="0.0dip" android:scrollbars="none" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@color/list_divider_color" android:dividerHeight="@dimen/list_devide_size" android:layout_weight="1.0" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+        <RelativeLayout android:orientation="vertical" android:id="@android:id/empty" android:background="@color/list_color" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <include layout="@layout/shuffle_item" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/leftview" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                        <include layout="@layout/no_songs_layout" />
+                    </RelativeLayout>
+                    <FrameLayout android:id="@id/emptyview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                </LinearLayout>
+                <FrameLayout android:id="@id/rightview" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+        </RelativeLayout>
+        <include layout="@layout/nowplaying" />
+    </LinearLayout>
+    <cn.zte.music.view.Parabola.ParabolaView android:id="@id/parabolaView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

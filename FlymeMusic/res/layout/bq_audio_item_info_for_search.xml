@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="76.0dip" android:paddingStart="@dimen/default_page_padding" android:paddingEnd="@dimen/default_page_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/iconLayout" android:layout_width="56.0dip" android:layout_height="56.0dip" layout="@layout/bq_audio_icon_view_56" />
+    <TextView android:id="@id/title" android:layout_marginTop="8.5dip" android:singleLine="true" android:layout_marginStart="@dimen/dp_10" app:layout_constraintLeft_toRightOf="@id/iconLayout" app:layout_constraintTop_toTopOf="parent" style="@style/bqAudioTitleTextStyle" />
+    <TextView android:id="@id/podcaster" android:layout_marginBottom="5.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="@id/title" style="@style/bqAudioRecWordsTextStyle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

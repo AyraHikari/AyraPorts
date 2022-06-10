@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:shareInterpolator="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:interpolator="@interpolator/mz_overflow_popup_alpha_anim_interpolator" android:duration="100" android:fillBefore="true" android:fillAfter="true" android:fromAlpha="0.0" android:toAlpha="1.0" android:fillEnabled="true" />
+    <scale android:interpolator="@interpolator/mz_overflow_popup_scale_enter_anim_interpolator" android:duration="150" android:pivotX="79.99999%" android:pivotY="0.0%" android:fromXScale="0.965" android:toXScale="1.0" android:fromYScale="0.965" android:toYScale="1.0" />
+</set>

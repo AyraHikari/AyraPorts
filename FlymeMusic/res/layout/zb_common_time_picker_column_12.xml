@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.BanquCommon.McPickerLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/mc_column_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+        <FrameLayout android:id="@id/mc_column3Layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="40.0dip">
+            <com.banqu.music.widgetcommon.widget.ScrollTextView android:id="@id/mc_scroll3" android:layout_width="60.0dip" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+            <LinearLayout android:id="@id/mc_column1Layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layoutDirection="locale">
+                <com.banqu.music.widgetcommon.widget.ScrollTextView android:layout_gravity="start" android:id="@id/mc_scroll1" android:layout_width="42.0dip" android:layout_height="fill_parent" />
+                <TextView android:textSize="@dimen/zbc_mc_picker_text_size" android:textColor="@color/mc_picker_text_color" android:layout_gravity="end" android:id="@id/mc_scroll1_text" android:paddingTop="@dimen/zbc_mc_date_picker_padding_top" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <ImageView android:id="@id/mc_divider_bar1" android:visibility="gone" android:layout_width="0.0px" android:layout_height="fill_parent" />
+            <LinearLayout android:id="@id/mc_column2Layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:layoutDirection="locale">
+                <com.banqu.music.widgetcommon.widget.ScrollTextView android:layout_gravity="start" android:id="@id/mc_scroll2" android:layout_width="42.0dip" android:layout_height="fill_parent" />
+                <TextView android:textSize="@dimen/zbc_mc_picker_text_size" android:textColor="@color/mc_picker_text_color" android:layout_gravity="end" android:id="@id/mc_scroll2_text" android:paddingTop="@dimen/zbc_mc_date_picker_padding_top" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

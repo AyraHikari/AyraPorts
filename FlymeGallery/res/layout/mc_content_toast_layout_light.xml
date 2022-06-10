@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mc_content_toast_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/mc_content_toast_parent" android:background="@drawable/mc_toast_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mc_content_toast_min_height" android:paddingStart="@dimen/mc_content_toast_light_content_horizontal_padding" android:paddingEnd="@dimen/mc_content_toast_light_content_horizontal_padding" android:layout_marginHorizontal="@dimen/mc_content_toast_light_content_margin_horizontal">
+        <ImageView android:id="@android:id/icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:paddingEnd="@dimen/mc_content_toast_ic_margin_right" />
+        <RelativeLayout android:id="@id/preference_text_layout" android:paddingTop="@dimen/mc_content_toast_content_text_padding_vertical" android:paddingBottom="@dimen/mc_content_toast_content_text_padding_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/mc_content_toast_text_layout_margin_end">
+            <TextView android:ellipsize="end" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/mc_content_toast_line_spacing" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="start|center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/mz_action_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mz_arrow_next_right_normal_light" />
+            <TextView android:textAppearance="@style/TextAppearance.Flyme.ContentToastLayout.ActionTextAppearance.Dark" android:id="@id/mz_action_text" android:paddingTop="@dimen/mc_content_toast_action_text_padding_vertical" android:paddingBottom="@dimen/mc_content_toast_action_text_padding_vertical" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/mc_content_toast_action_text_padding_horizontal" android:paddingEnd="@dimen/mc_content_toast_action_text_padding_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/mc_toast_separator" android:background="#26000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0px" />
+</LinearLayout>

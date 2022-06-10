@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_00" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_01" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_02" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_03" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_04" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_05" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_06" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_07" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_08" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_09" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_00" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_01" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_02" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_03" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_04" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_05" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_06" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_07" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_08" />
+    <item android:duration="100" android:drawable="@drawable/kwjx_first_charge_09" />
+</animation-list>

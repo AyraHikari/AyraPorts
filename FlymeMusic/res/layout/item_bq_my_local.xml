@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bq_page_padding_default" android:layout_marginRight="@dimen/bq_page_padding_default" android:layout_marginBottom="@dimen/dp_14"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/firstLine" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/local" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:src="@drawable/bq_local" />
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq_local" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/my_download" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:src="@drawable/bq_download" />
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/my_bug" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:src="@drawable/bq_buy" />
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq_my_buy_list" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/secondLine" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" android:baselineAligned="false" app:layout_constraintTop_toBottomOf="@id/firstLine">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/recently_played" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:src="@drawable/bq_recently" />
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/playlist_recently_played" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/my_audio" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:src="@drawable/bq_audio" />
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq_my_audio" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/favorite" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:src="@drawable/bq_favorite" />
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq_favorite" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

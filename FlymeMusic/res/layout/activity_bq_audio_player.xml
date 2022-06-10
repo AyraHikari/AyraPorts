@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/abumFg" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:id="@id/actionBarControllerStub" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_behavior="com.banqu.music.ui.widget.behavior.ActionBarControllerBehavior" />
+            <FrameLayout android:id="@id/viewPagerRoot" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.banqu.music.ui.widget.behavior.ViewPagerBehavior">
+                <androidx.viewpager.widget.ViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <RelativeLayout android:id="@id/headLayout" android:layout_width="fill_parent" android:layout_height="500.0dip" app:layout_behavior="com.banqu.music.ui.widget.behavior.ListHeaderBehavior">
+                <com.fly.xtablayout.ColorTrackTabLayout android:id="@id/tabLayout" android:fadingEdge="horizontal" android:fadingEdgeLength="15.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_alignParentBottom="true" android:requiresFadingEdge="horizontal" android:layout_marginStart="@dimen/sp_15" android:layout_marginEnd="@dimen/sp_15" app:fadeInFadeOut="true" app:layout_constraintStart_toStartOf="parent" app:x_indicatorMarginTop="0.0dip" app:x_tabGravity="center" app:x_tabIndicatorAnimation="false" app:x_tabIndicatorColor="@color/app_theme_color_red" app:x_tabIndicatorHeight="3.0dip" app:x_tabIndicatorRoundRect="true" app:x_tabMargin="25.0dip" app:x_tabMode="scrollable" app:x_tabPaddingEnd="0.0dip" app:x_tabPaddingStart="0.0dip" app:x_tabSelectedTextColor="@color/app_theme_color_red" app:x_tabTextColor="#ff000000" app:x_tabTextSize="@dimen/sp_16" style="@style/BQ_Medium_title" />
+                <FrameLayout android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tabLayout" />
+            </RelativeLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.ui.ThumbnailImageView android:layout_gravity="center" android:id="@id/item" android:layout_width="@dimen/burst_fragment_scale_gallery_slot_size" android:layout_height="@dimen/burst_fragment_scale_gallery_slot_size" android:scaleType="centerCrop" />
+    <CheckBox android:layout_gravity="center" android:id="@id/cover_check_icon" android:background="@drawable/checkbox_selected_gallery" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListCheckBox" />
+</FrameLayout>

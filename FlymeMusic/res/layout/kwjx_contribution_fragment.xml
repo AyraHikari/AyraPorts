@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/cb_top_title" android:background="@drawable/kwjx_contribution_title_bg" android:padding="1.5dip" android:layout_width="210.0dip" android:layout_height="33.0dip" android:layout_centerHorizontal="true">
+        <View android:id="@id/cb_indicator" android:background="@drawable/kwjx_contribution_title_select_bg" android:layout_width="60.0dip" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/chat_text_size_14" android:textColor="@color/kw_common_cl_black" android:gravity="center" android:id="@id/cb_1" android:layout_width="60.0dip" android:layout_height="fill_parent" android:text="本场" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="@dimen/chat_text_size_14" android:textColor="@color/kw_common_cl_black_alpha_40" android:gravity="center" android:id="@id/cb_7" android:layout_width="60.0dip" android:layout_height="fill_parent" android:text="周榜" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/chat_text_size_14" android:textColor="@color/kw_common_cl_black_alpha_40" android:gravity="center" android:id="@id/cb_30" android:layout_width="60.0dip" android:layout_height="fill_parent" android:text="月榜" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@id/cb_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_below="@id/cb_top_title" />
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/widget_bg" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/album_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/widget_bg_cover" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="80.0dip" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="right" android:id="@id/album_appwidget" android:layout_width="80.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/app_name" />
+            <ImageView android:id="@id/default_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerInParent="true" android:contentDescription="@string/app_name" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/widget_title_and_artist" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginTop="8.0dip">
+                <TextView android:textSize="13.0sp" android:textColor="#b3ffffff" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_songs" android:singleLine="true" />
+                <TextView android:textSize="10.0sp" android:textColor="#77ffffff" android:id="@id/artist" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="5.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layoutDirection="ltr">
+                <ImageView android:id="@id/control_prev" android:background="@drawable/actionbar_button_selector" android:layout_width="36.0dip" android:layout_height="36.0dip" android:contentDescription="@string/app_name" android:layout_marginStart="50.0dip" />
+                <ImageView android:id="@id/control_play" android:background="@drawable/actionbar_button_selector" android:layout_width="36.0dip" android:layout_height="36.0dip" android:contentDescription="@string/app_name" android:layout_marginStart="28.0dip" android:layout_marginEnd="28.0dip" />
+                <ImageView android:id="@id/control_next" android:background="@drawable/actionbar_button_selector" android:layout_width="36.0dip" android:layout_height="36.0dip" android:contentDescription="@string/app_name" android:layout_marginEnd="50.0dip" />
+            </LinearLayout>
+            <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/progressbar_dur" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="5.0dip" android:maxHeight="2.0dip" android:progressDrawable="@drawable/seekbar_widget_style_new" android:minHeight="2.0dip" android:thumbOffset="5.0dip" android:layout_marginStart="45.0dip" android:layout_marginEnd="45.0dip" style="?android:progressBarStyleHorizontal" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

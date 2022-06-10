@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.media.gallery.ui.BlurLinearLayout android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/top_container" android:layout_width="fill_parent" android:layout_height="@dimen/mz_action_bar_default_height">
+        <ImageView android:gravity="center|left" android:id="@id/back_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/mz_titlebar_ic_back_dark" android:contentDescription="@string/back_to_last_page" android:layout_marginStart="@dimen/mz_action_tab_bar_margin_left" />
+        <TextView android:textAppearance="@style/TextAppearance.Flyme.AppCompat.Widget.ActionMode.Title" android:gravity="center_vertical" android:id="@id/detail_fragment_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/details" android:layout_marginStart="@dimen/mz_action_bar_tab_view_padding_left_large" />
+    </LinearLayout>
+    <com.meizu.media.gallery.ui.LockableScrollView android:id="@id/scroll_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="top" android:orientation="vertical" android:id="@id/grid_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/file_name_container" style="@style/PhotoDetailContainer">
+                <TextView android:text="@string/title" style="@style/PhotoDetailLabel" />
+                <RelativeLayout android:id="@id/file_name_content" style="@style/PhotoDetailLayout">
+                    <com.meizu.media.gallery.ui.RollingTextView android:id="@id/file_name" android:background="@null" android:focusable="false" android:layout_toLeftOf="@id/rename" android:layout_alignParentStart="true" style="@style/PhotoDetailContent" />
+                    <TextView android:id="@id/rename" android:layout_height="44.0dip" android:text="@string/rename" android:layout_alignParentEnd="true" style="@style/PhotoDetailButton" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/resolution_container" style="@style/PhotoDetailContainer">
+                <TextView android:text="@string/resolution" style="@style/PhotoDetailLabel" />
+                <RelativeLayout style="@style/PhotoDetailLayout">
+                    <com.meizu.media.gallery.ui.RollingTextView android:id="@id/resolution" android:layout_toLeftOf="@id/resize" android:layout_alignParentStart="true" style="@style/PhotoDetailContent" />
+                    <TextView android:id="@id/resize" android:layout_height="44.0dip" android:text="@string/resize" android:singleLine="true" android:layout_alignParentEnd="true" style="@style/PhotoDetailButton" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/file_size_container" style="@style/PhotoDetailContainer">
+                <TextView android:text="@string/file_size" style="@style/PhotoDetailLabel" />
+                <TextView android:id="@id/file_size_content" style="@style/PhotoDetailContent" />
+            </LinearLayout>
+            <LinearLayout style="@style/PhotoDetailContainer">
+                <TextView android:text="@string/content_type" style="@style/PhotoDetailLabel" />
+                <TextView style="@style/PhotoDetailContent" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/file_path_container" style="@style/PhotoDetailContainer">
+                <TextView android:text="@string/path" style="@style/PhotoDetailLabel" />
+                <TextView android:ellipsize="end" android:id="@id/file_path_content" android:maxLines="3" android:singleLine="false" style="@style/PhotoDetailContent" />
+            </LinearLayout>
+            <View android:id="@id/line1" style="@style/PhotoDetailSpace" />
+            <LinearLayout android:id="@id/date_time_container" style="@style/PhotoDetailContainer">
+                <TextView android:text="@string/time" style="@style/PhotoDetailLabel" />
+                <TextView android:id="@id/date_time_content" android:singleLine="false" style="@style/PhotoDetailContent" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/modified_time_container" style="@style/PhotoDetailContainer">
+                <TextView android:text="@string/modification_time" style="@style/PhotoDetailLabel" />
+                <TextView android:id="@id/modified_time_content" android:singleLine="false" style="@style/PhotoDetailContent" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/location_container" style="@style/PhotoDetailContainer">
+                <TextView android:text="@string/location" style="@style/PhotoDetailLabel" />
+                <TextView android:id="@id/location_content" android:singleLine="false" style="@style/PhotoDetailContent" />
+            </LinearLayout>
+            <View android:id="@id/line2" style="@style/PhotoDetailSpace" />
+            <LinearLayout android:id="@id/manufacturer_container" style="@style/PhotoDetailContainer">
+                <TextView android:text="@string/maker" style="@style/PhotoDetailLabel" />
+                <TextView android:id="@id/manufacturer_content" style="@style/PhotoDetailContent" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/device_container" style="@style/PhotoDetailContainer">
+                <TextView android:text="@string/model" style="@style/PhotoDetailLabel" />
+                <TextView android:id="@id/device_content" style="@style/PhotoDetailContent" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/flash_container" style="@style/PhotoDetailContainer">
+                <TextView android:text="@string/flash" style="@style/PhotoDetailLabel" />
+                <TextView android:id="@id/flash_content" style="@style/PhotoDetailContent" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/focal_length_container" style="@style/PhotoDetailContainer">
+                <TextView android:text="@string/focal_length" style="@style/PhotoDetailLabel" />
+                <TextView android:id="@id/focal_length_content" style="@style/PhotoDetailContent" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/aperture_container" style="@style/PhotoDetailContainer">
+                <TextView android:text="@string/aperture" style="@style/PhotoDetailLabel" />
+                <TextView android:id="@id/aperture_content" style="@style/PhotoDetailContent" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/exposure_time_container" style="@style/PhotoDetailContainer">
+                <TextView android:text="@string/exposure_time" style="@style/PhotoDetailLabel" />
+                <TextView android:id="@id/exposure_time_content" style="@style/PhotoDetailContent" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/iso_container" style="@style/PhotoDetailContainer">
+                <TextView android:text="@string/iso" style="@style/PhotoDetailLabel" />
+                <TextView android:id="@id/iso_content" style="@style/PhotoDetailContent" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.meizu.media.gallery.ui.LockableScrollView>
+</com.meizu.media.gallery.ui.BlurLinearLayout>

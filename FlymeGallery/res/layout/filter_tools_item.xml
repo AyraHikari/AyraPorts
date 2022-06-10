@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_main_bg" android:focusable="true" android:clickable="true" android:layout_width="@dimen/filter_tools_icon_bg_height" android:layout_height="@dimen/filter_tools_icon_bg_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/iv_blur_bg" android:layout_width="@dimen/filter_tools_icon_inner_bg_height" android:layout_height="@dimen/filter_tools_icon_inner_bg_height" />
+    <TextView android:textSize="@dimen/filter_tools_title_text_size" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_icon_fg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

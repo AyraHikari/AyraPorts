@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mc_galleryflow_album_title_padding_bottom">3.5dip</dimen>
+    <dimen name="mc_galleryflow_album_title_size">16.0sp</dimen>
+    <dimen name="mc_galleryflow_delta_1">35.0dip</dimen>
+    <dimen name="mc_galleryflow_delta_2">20.0dip</dimen>
+    <dimen name="mc_galleryflow_picture_size">105.0dip</dimen>
+    <dimen name="media_empty_image_margin_top">113.0dip</dimen>
+    <dimen name="media_empty_text_size">14.0sp</dimen>
+    <dimen name="media_pager_indicator_left">95.0dip</dimen>
+    <dimen name="media_pager_screen_width">400.0dip</dimen>
+    <dimen name="media_pager_tab_padding">16.0dip</dimen>
+    <dimen name="media_pager_tab_text_size">14.0sp</dimen>
+    <dimen name="media_pager_title_height">30.0dip</dimen>
+    <dimen name="media_progress_contanier_padding_left">6.5dip</dimen>
+    <dimen name="media_progress_margin_bottom">350.0dip</dimen>
+    <dimen name="media_search_button_width">64.0dip</dimen>
+    <dimen name="media_search_cancel_margin_right">5.0dip</dimen>
+    <dimen name="media_search_cancel_margin_top">6.0dip</dimen>
+    <dimen name="media_search_layout_margin_top">2.1999817dip</dimen>
+    <dimen name="media_search_query_margin_left">1.5999756dip</dimen>
+    <dimen name="media_search_query_padding_right">38.0dip</dimen>
+    <dimen name="media_search_query_size">18.0sp</dimen>
+    <dimen name="media_tab_indicator_item_min_width">60.0dip</dimen>
+    <dimen name="media_tab_indicator_item_padding">14.599976dip</dimen>
+    <dimen name="media_tab_title_size">16.0sp</dimen>
+    <dimen name="meida_title_text_size">18.0sp</dimen>
+    <dimen name="new_media_custom_title_back_icon_width">15.0dip</dimen>
+    <dimen name="new_media_custom_title_icon_size">30.0dip</dimen>
+    <dimen name="new_media_custom_title_layout_right">26.0dip</dimen>
+    <dimen name="sliding_drawer_bottom_offset">-200.0dip</dimen>
+    <dimen name="mc_incoming_ringing_outerring_diameter">272.0dip</dimen>
+    <dimen name="mc_multiwaveview_snap_margin">45.19998dip</dimen>
+    <dimen name="mc_multiwaveview_target_placement_radius">134.5dip</dimen>
+</resources>

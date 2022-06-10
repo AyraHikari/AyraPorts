@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/cardview_headline" android:background="@drawable/kwjx_headline_bg1" android:layout_width="fill_parent" android:layout_height="fill_parent" fresco:cardBackgroundColor="@color/kwjx_transparent" fresco:cardCornerRadius="10.0dip">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_headline_pic" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="1.0dip" fresco:placeholderImage="@drawable/show_lib_default" fresco:roundAsCircle="true" fresco:roundingBorderColor="#ffffffff" fresco:roundingBorderWidth="1.0dip" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:src="@drawable/kwjx_headline_ic2" />
+            <TextView android:textSize="12.0sp" android:textColor="#fff6ff03" android:id="@id/tv_headline_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/ll_headline_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/tv_headline_content1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="12.0sp" android:textColor="#fff6ff03" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:text="送给" android:singleLine="true" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/tv_headline_content2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_headline_content" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" fresco:placeholderImage="@drawable/show_lib_default" />
+                <TextView android:textSize="12.0sp" android:textColor="#fff6ff03" android:ellipsize="none" android:gravity="center_vertical" android:id="@id/tv_headline_content3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+            <ImageView android:id="@id/iv_headline_arrows" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/kwjx_headline_ic3" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_headline_star" android:background="@drawable/kwjx_headline_ic" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+</merge>

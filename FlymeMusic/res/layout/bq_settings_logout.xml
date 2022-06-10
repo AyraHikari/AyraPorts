@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/userRootLayout" android:clickable="true" style="@style/Widget.Banqu.Preference.ContentLinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/bq_theme_color_red" android:id="@id/user_name" android:text="@string/bq_logout" android:layout_centerVertical="true" style="@style/Widget.Banqu.Preference.Title" />
+</RelativeLayout>

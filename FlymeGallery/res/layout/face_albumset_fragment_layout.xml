@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.ui.OverScrollLayout android:id="@id/over_scroll_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <flyme.support.v7.widget.MzRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/list" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/cluster_grid_footer" />
+        <TextView android:textSize="11.0dip" android:gravity="center|top" android:layout_gravity="bottom" android:id="@id/ad" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginBottom="-28.0dip" android:text="@string/face_yt_support" />
+    </com.meizu.media.gallery.ui.OverScrollLayout>
+    <include layout="@layout/cluster_empty_view" />
+    <include layout="@layout/media_progress_container" />
+</FrameLayout>

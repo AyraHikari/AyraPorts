@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/kwjx_repor_admin_bg" android:layout_width="105.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="15.0dip">
+        <TextView android:textSize="@dimen/text_size_15" android:gravity="center" android:id="@id/tv_setting_control" android:visibility="gone" android:layout_width="105.0dip" android:layout_height="49.0dip" android:text="设置场控" />
+        <TextView android:textSize="@dimen/text_size_15" android:gravity="center" android:id="@id/tv_setting_admin" android:visibility="gone" android:layout_width="105.0dip" android:layout_height="44.0dip" android:text="设置管理" />
+        <View android:id="@id/v_line_one" android:background="@color/rgbd9d9d9" android:visibility="gone" android:layout_width="105.0dip" android:layout_height="0.5dip" />
+        <TextView android:textSize="@dimen/text_size_15" android:gravity="center" android:id="@id/tv_setting_report" android:layout_width="105.0dip" android:layout_height="44.0dip" android:text="举报" />
+        <View android:id="@id/v_line_two" android:background="@color/rgbd9d9d9" android:visibility="gone" android:layout_width="105.0dip" android:layout_height="0.5dip" />
+        <TextView android:textSize="@dimen/text_size_15" android:gravity="center" android:id="@id/tv_setting_kicking" android:visibility="gone" android:layout_width="105.0dip" android:layout_height="44.0dip" android:text="踢人" />
+        <View android:id="@id/v_line_three" android:background="@color/rgbd9d9d9" android:visibility="gone" android:layout_width="105.0dip" android:layout_height="0.5dip" />
+        <TextView android:textSize="@dimen/text_size_15" android:gravity="center" android:id="@id/tv_setting_excuse" android:visibility="gone" android:layout_width="105.0dip" android:layout_height="49.0dip" android:text="禁言" />
+        <View android:id="@id/v_line_four" android:background="@color/rgbd9d9d9" android:visibility="gone" android:layout_width="105.0dip" android:layout_height="0.5dip" />
+        <TextView android:textSize="@dimen/text_size_15" android:gravity="center" android:id="@id/tv_setting_relieve_excuse" android:visibility="gone" android:layout_width="105.0dip" android:layout_height="49.0dip" android:text="解除禁言" />
+    </LinearLayout>
+</LinearLayout>

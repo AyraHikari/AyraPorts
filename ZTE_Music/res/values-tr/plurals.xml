@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NMins">
+        <item quantity="other">"
+      %d dakika"</item>
+        <item quantity="one">1 dakika</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d şarkı silindi.</item>
+        <item quantity="one">1 şarkı silindi.</item>
+    </plurals>
+    <plurals name="NNNtrackswilldeleted">
+        <item quantity="other">"
+%d şarkılar kalıcı olarak silinecek.
+    "</item>
+        <item quantity="one">1 şarkı kalıcı olarak silindi.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d albüm</item>
+        <item quantity="one">1 albüm</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d şarkı</item>
+    </plurals>
+</resources>

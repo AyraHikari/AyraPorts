@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_audience" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/img_head_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" app:placeholderImage="@drawable/show_lib_default" app:roundedCornerRadius="6.0dip" />
+        <RelativeLayout android:background="@drawable/kwjx_audio_left_back" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip">
+            <ImageView android:id="@id/iv_play_gif" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:src="@drawable/kwjx_audio_play_gif" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/text_size_10" android:textColor="@color/white" android:id="@id/tv_audience_num" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_toRightOf="@id/iv_play_gif" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/text_size_13" android:textStyle="bold" android:textColor="@color/black" android:ellipsize="end" android:id="@id/tv_singer_name" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/fl_audience" />
+    <TextView android:textSize="@dimen/text_size_11" android:textColor="@color/kw_common_cl_black_99" android:ellipsize="end" android:id="@id/tv_topic" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="topic" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/tv_singer_name" />
+</RelativeLayout>

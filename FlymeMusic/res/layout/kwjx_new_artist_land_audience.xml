@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/kwjx_new_artist_rightside_bg" android:layout_width="375.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:id="@id/ll_audience_title" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/kw_white" android:id="@id/tv_audience" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="观众" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/kw_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="在线人数：" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/kw_white" android:id="@id/tv_audience_acount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0人" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <cn.kuwo.show.base.uilib.pulltorefresh.PullToRefreshListView android:id="@id/content_list" android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/kw_common_cl_black_alpha_0" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:layout_below="@id/ll_audience_title" android:fadeScrollbars="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/kw_common_cl_black_4" android:gravity="center" android:id="@id/load_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/data_non" android:layout_below="@id/ll_audience_title" />
+    <include android:id="@id/online_error_content_au" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ll_audience_title" layout="@layout/online_error" />
+</RelativeLayout>

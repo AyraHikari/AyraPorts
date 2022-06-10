@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/playlistRoot" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.banqu.music.ui.widget.RoundRelativeLayout android:id="@id/iconLayout" style="@style/ListIcon100">
+        <ImageView android:id="@id/image" style="@style/ListIcon100" />
+    </com.banqu.music.ui.widget.RoundRelativeLayout>
+    <TextView android:textSize="@dimen/bq_grid_item_title_ts" android:textColor="@color/bq_grid_item_title_color" android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="2" android:layout_below="@id/iconLayout" android:layout_centerHorizontal="true" />
+</RelativeLayout>

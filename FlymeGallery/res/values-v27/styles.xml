@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.V19.Theme.Flyme.AppCompat.Light" parent="@style/Base.V7.Theme.Flyme.AppCompat.Light">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">#00ffffff</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

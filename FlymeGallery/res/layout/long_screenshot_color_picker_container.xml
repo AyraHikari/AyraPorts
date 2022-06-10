@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:facebeauty="http://schemas.android.com/apk/res-auto">
+    <com.meizu.media.gallery.filtershow.ui.ColorItemView android:id="@id/doodle_color_picker" android:contentDescription="@string/pick_color_from_screen" facebeauty:circleBg="@drawable/long_screenshot_pick_color" facebeauty:circleBgPress="@drawable/ic_color_pressed" style="@style/FilterDoodleColorStyle1" />
+    <com.meizu.media.gallery.filtershow.ui.ColorItemView android:id="@id/doodle_color_custom" android:contentDescription="@string/gray" facebeauty:circleBg="#ff7e97ac" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.filtershow.ui.ColorItemView android:id="@id/doodle_color_01" android:contentDescription="@string/white" facebeauty:circleBg="#ffffffff" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.filtershow.ui.ColorItemView android:id="@id/doodle_color_02" android:contentDescription="@string/black" facebeauty:circleBg="#ff000000" facebeauty:innerRingColor="#ff505050" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.filtershow.ui.ColorItemView android:id="@id/doodle_color_03" android:contentDescription="@string/red" facebeauty:circleBg="#ffdc2a2a" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.filtershow.ui.ColorItemView android:id="@id/doodle_color_04" android:contentDescription="@string/orange" facebeauty:circleBg="#fffc5b23" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.filtershow.ui.ColorItemView android:id="@id/doodle_color_05" android:contentDescription="@string/yellow" facebeauty:circleBg="#ffffaf00" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.filtershow.ui.ColorItemView android:id="@id/doodle_color_06" android:contentDescription="@string/yellow_green" facebeauty:circleBg="#ffb3c759" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.filtershow.ui.ColorItemView android:id="@id/doodle_color_07" android:contentDescription="@string/green" facebeauty:circleBg="#ff3bc06b" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.filtershow.ui.ColorItemView android:id="@id/doodle_color_08" android:contentDescription="@string/light_green" facebeauty:circleBg="#ff04c0cf" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.filtershow.ui.ColorItemView android:id="@id/doodle_color_09" android:contentDescription="@string/blue" facebeauty:circleBg="#ff198ded" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.filtershow.ui.ColorItemView android:id="@id/doodle_color_10" android:contentDescription="@string/violet" facebeauty:circleBg="#ff4a67cf" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.filtershow.ui.ColorItemView android:id="@id/doodle_color_11" android:contentDescription="@string/dark_violet" facebeauty:circleBg="#ff3a4ec6" style="@style/FilterDoodleColorStyle" />
+    <com.meizu.media.gallery.filtershow.ui.ColorItemView android:id="@id/doodle_color_12" android:layout_marginRight="0.0dip" android:contentDescription="@string/purple" facebeauty:circleBg="#ff832ae3" style="@style/FilterDoodleColorStyle" />
+</LinearLayout>

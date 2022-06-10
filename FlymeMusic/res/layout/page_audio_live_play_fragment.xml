@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.kuwo.show.ui.view.GestureSwitchLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/rl_dragview" android:background="@color/kw_common_cl_black" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:id="@id/glgift_viewstub" android:layout="@layout/page_live_gift_glview" android:inflatedId="@id/shake_guide_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/glkeyword_viewstub" android:layout="@layout/kwjx_live_keyword_glview" android:inflatedId="@id/shake_guide_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</cn.kuwo.show.ui.view.GestureSwitchLayout>

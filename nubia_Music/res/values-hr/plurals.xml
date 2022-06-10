@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">Broj izbrisanih pjesama: %d.</item>
+        <item quantity="one">Izbrisana je 1 pjesma</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">Broj albuma: %d</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">Broj pjesama: %d</item>
+    </plurals>
+</resources>

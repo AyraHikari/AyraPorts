@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="111" android:drawable="@drawable/kwjx_pay_back_00" />
+    <item android:duration="111" android:drawable="@drawable/kwjx_pay_back_01" />
+    <item android:duration="111" android:drawable="@drawable/kwjx_pay_back_02" />
+    <item android:duration="111" android:drawable="@drawable/kwjx_pay_back_03" />
+    <item android:duration="111" android:drawable="@drawable/kwjx_pay_back_04" />
+    <item android:duration="111" android:drawable="@drawable/kwjx_pay_back_05" />
+    <item android:duration="111" android:drawable="@drawable/kwjx_pay_back_06" />
+    <item android:duration="111" android:drawable="@drawable/kwjx_pay_back_07" />
+    <item android:duration="111" android:drawable="@drawable/kwjx_pay_back_00" />
+    <item android:duration="111" android:drawable="@drawable/kwjx_pay_back_00" />
+    <item android:duration="111" android:drawable="@drawable/kwjx_pay_back_01" />
+    <item android:duration="111" android:drawable="@drawable/kwjx_pay_back_02" />
+    <item android:duration="111" android:drawable="@drawable/kwjx_pay_back_03" />
+    <item android:duration="111" android:drawable="@drawable/kwjx_pay_back_04" />
+    <item android:duration="111" android:drawable="@drawable/kwjx_pay_back_05" />
+    <item android:duration="111" android:drawable="@drawable/kwjx_pay_back_06" />
+    <item android:duration="111" android:drawable="@drawable/kwjx_pay_back_07" />
+    <item android:duration="111" android:drawable="@drawable/kwjx_pay_back_00" />
+</animation-list>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/bars_background_color" android:layout_width="fill_parent" android:layout_height="74.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <HorizontalScrollView android:layout_gravity="center" android:id="@id/categorytrack_container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.meizu.media.gallery.filtershow.category.CategoryTrack android:gravity="center_vertical" android:id="@id/listItems" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:iconSize="@dimen/category_panel_icon_size" />
+    </HorizontalScrollView>
+</LinearLayout>

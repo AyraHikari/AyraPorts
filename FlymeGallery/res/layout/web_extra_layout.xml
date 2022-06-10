@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.common.widget.LoadingView android:layout_gravity="center" android:id="@id/web_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" meizu:mcLBackground="@color/mc_loading_view_background_light" meizu:mcLoadingRadius="10.0dip" xmlns:meizu="http://schemas.android.com/apk/res-auto" />
+    <ImageView android:id="@id/web_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/mz_text_size_small" android:textColor="@color/mc_loading_view_text_light" android:id="@id/web_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" />
+</LinearLayout>

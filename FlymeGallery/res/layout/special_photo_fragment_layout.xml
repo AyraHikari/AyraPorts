@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@id/pager_toolbar" android:background="@color/white" android:paddingTop="@dimen/status_bar_height" android:visibility="gone" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/pager_toolbar_heigth">
+        <ImageView android:id="@id/refocus_back" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:src="@drawable/mz_titlebar_ic_back_dark" android:scaleType="center" />
+        <TextView android:textSize="@dimen/mz_text_size_medium" android:textColor="#b2ffffff" android:gravity="center|left" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="11.0dip" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/display_container" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.meizu.media.gallery.ui.DisplayImageView android:layout_gravity="center_horizontal" android:id="@id/special_display_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/refocus_icon" android:background="@drawable/refocus_icon_selector" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/refocus_hint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/refoucs_tip" android:shadowColor="#4c000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/burst_gallery_layout" android:background="@color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/burst_item_layout_height">
+        <com.meizu.common.widget.ScaleGallery android:gravity="top" android:id="@id/burst_gallery" android:layout_width="fill_parent" android:layout_height="wrap_content" android:spacing="@dimen/burst_item_space" android:numColumns="auto_fit" />
+    </FrameLayout>
+    <FrameLayout android:background="@color/white" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="54.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/mz_button_positive_text_default" android:gravity="center" android:layout_gravity="center" android:id="@id/special_fragment_menu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:fontFamily="sans-serif-medium" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+    </FrameLayout>
+</LinearLayout>

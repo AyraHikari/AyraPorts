@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.textinputlayout.TextInputLayout android:textColorHint="@color/mz_text_input_hint_color" android:id="@id/text_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_input_text_content_margin_top" android:layout_marginBottom="@dimen/text_input_text_content_margin_bottom" android:layout_marginStart="@dimen/text_input_text_content_margin_left" android:layout_marginEnd="@dimen/text_input_text_content_margin_left">
+        <com.meizu.textinputlayout.EditTextWithClearIcon android:textSize="@dimen/text_input_text_size" android:id="@id/mz_text_input_edit" android:paddingTop="@dimen/text_input_edit_padding_top" android:paddingBottom="@dimen/text_input_edit_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/text_input_edit_min_height" android:hint="@string/text_input_hint_text" android:paddingStart="@dimen/text_input_edit_padding_left" />
+    </com.meizu.textinputlayout.TextInputLayout>
+</LinearLayout>

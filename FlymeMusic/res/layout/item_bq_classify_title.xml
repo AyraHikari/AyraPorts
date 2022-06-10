@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/bq_grid_item_title_ts" android:textColor="@color/bq_subtext_color" android:gravity="center_vertical" android:id="@id/classifyTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:layout_marginBottom="3.0dip" style="@style/TextAppearance.Banqu.list.Category.Title"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

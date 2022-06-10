@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d bài hát đã bị xóa.</item>
+        <item quantity="one">1 bài hát đã bị xóa.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d anbom</item>
+        <item quantity="one">1 anbom</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d bài hát</item>
+    </plurals>
+</resources>

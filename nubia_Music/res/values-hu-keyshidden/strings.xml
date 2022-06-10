@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Nyissa meg a billentyűzetet, hogy elnevezze az új lejátszási listát, vagy válassza a Mentés lehetőséget a(z) \"%s\" név használatához.</string>
+    <string name="rename_playlist_diff_prompt">Nyissa meg a billentyűzetet, hogy új nevet adjon a(z) \"%1$s\" lejátszási listának, vagy válassza a Mentés lehetőséget a(z) \"%2$s\" név használatához.</string>
+    <string name="rename_playlist_same_prompt">Nyissa meg a billentyűzetet, hogy a(z) \"%s\" lejátszási listának új nevet adjon.</string>
+</resources>

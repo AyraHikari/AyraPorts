@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/audience_item" android:layout_width="fill_parent" android:layout_height="49.0dip">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/audience_user_icon" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginLeft="10.0dip" android:layout_centerVertical="true" app:actualImageScaleType="fitCenter" app:placeholderImage="@drawable/user_img_default" app:roundAsCircle="true" />
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="#ff404040" android:ellipsize="end" android:id="@id/audience_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="asdfas" android:singleLine="true" android:layout_toRightOf="@id/audience_user_icon" android:layout_centerVertical="true" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/audience_level_img" android:layout_width="38.0dip" android:layout_height="19.0dip" android:layout_marginLeft="6.0dip" android:layout_toRightOf="@id/audience_name_tv" android:layout_centerVertical="true" app:actualImageScaleType="centerCrop" />
+        <ImageView android:id="@id/audience_level_official" android:visibility="gone" android:layout_width="38.0dip" android:layout_height="19.0dip" android:layout_marginLeft="6.0dip" android:src="@drawable/kwjx_official_icon" android:layout_toRightOf="@id/audience_level_img" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/audience_vip_icon" android:visibility="visible" android:layout_width="19.0dip" android:layout_height="19.0dip" android:layout_marginLeft="6.0dip" android:src="@drawable/samllvip2" android:layout_toRightOf="@id/audience_level_official" android:layout_centerVertical="true" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/audience_official_img" android:visibility="gone" android:layout_width="19.0dip" android:layout_height="19.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/kwjx_official_icon" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/audience_role_img" android:layout_width="19.0dip" android:layout_height="19.0dip" android:src="@drawable/kwjx_icon_manager" />
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="#ff37cab4" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/audio_mic_state" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginLeft="5.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

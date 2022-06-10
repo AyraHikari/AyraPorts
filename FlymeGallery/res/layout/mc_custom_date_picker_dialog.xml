@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:common="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="38.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.meizu.common.widget.SimpleAdaptiveTextView android:textSize="19.0sp" android:textColor="@color/mc_custom_date_picker_unselected_tab_color" android:gravity="center" android:id="@id/time_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mc_custom_date_time_gregorian" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/mc_custom_date_picker_selected_tab_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/switchshowlunar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/mc_custom_date_time_show_lunar" android:singleLine="true" android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.meizu.common.widget.DatePicker android:layout_gravity="center_horizontal" android:id="@id/datePicker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="29.0dip" android:spinnersShown="true" android:calendarViewShown="false" common:mcInternalLayout="@layout/mc_custom_date_picker" common:mcVisibleRow="5" />
+</LinearLayout>

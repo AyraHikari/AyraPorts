@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.open.pay.hybrid.ui.AnimatorFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.open.pay.hybrid.BaseWebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.meizu.open.pay.hybrid.ui.AnimatorFrameLayout>

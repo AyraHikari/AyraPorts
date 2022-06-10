@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NMins">
+        <item quantity="other">" 
+      %d min"</item>
+        <item quantity="one">1 min</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">Liczba usuniętych utworów: %d.</item>
+        <item quantity="one">1 utwór został usunięty.</item>
+    </plurals>
+    <plurals name="NNNtrackswilldeleted">
+        <item quantity="other">"
+%d utwóry(ów) zostanie trwale usunięty.
+    "</item>
+        <item quantity="one">1 utwór zostanie trwale usunięty z pamięci.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d albumów</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d utworów</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">प्लेलिस्ट नाम</string>
+    <string name="rename_playlist_diff_prompt">\"%s\" का नाम बदलकर यह करें</string>
+    <string name="rename_playlist_same_prompt">\"%s\" का नाम बदलकर यह करें</string>
+</resources>

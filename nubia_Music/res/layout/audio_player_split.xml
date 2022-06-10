@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.zte.music.view.PlaybackLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/top_layout" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentTop="true">
+            <ImageView android:id="@id/back_image" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/expand_more" android:tint="@color/my_music_base_color" android:layout_centerVertical="true" android:contentDescription="@string/talkback_back" android:layout_alignParentStart="true" />
+            <cn.zte.music.view.RepeatingImageButton android:id="@id/menubutton" android:background="@drawable/menu_selector" android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="@color/my_music_base_color" android:layout_centerVertical="true" android:contentDescription="@string/talkback_more_options" android:layout_alignParentEnd="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/menubutton" android:layout_toRightOf="@id/back_image">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/track_info" android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_weight="1.0" android:layout_alignParentBottom="true">
+                    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#ff000000" android:ellipsize="marquee" android:gravity="bottom|center" android:id="@id/track_name" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="1.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="@string/no_songs" android:singleLine="true" android:fontFamily="Roboto-Bold" />
+                    <TextView android:textSize="9.0sp" android:textColor="#de000000" android:ellipsize="marquee" android:gravity="center|top" android:id="@id/album_artist" android:paddingLeft="10.0dip" android:paddingTop="1.0dip" android:paddingRight="10.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="16.0dip" android:text="@string/unknown_artist_name" android:singleLine="true" android:fontFamily="Roboto-Regular" />
+                </LinearLayout>
+                <LinearLayout android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:id="@id/content_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="1.0dip" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/albumfragment" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginBottom="1.0dip" android:layout_weight="1.0" />
+            <FrameLayout android:id="@id/listfragment" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginBottom="1.0dip" android:layout_weight="1.0" android:paddingStart="15.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/controllayout" android:layout_width="fill_parent" android:layout_height="114.0dip">
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/timelayout" android:layout_width="fill_parent" android:layout_height="36.0dip">
+                <TextView android:textSize="13.0sp" android:textColor="#ff000000" android:layout_gravity="center" android:id="@id/currenttime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/mfvc_large_padding" android:layout_alignParentStart="true" />
+                <TextView android:textSize="13.0sp" android:textColor="#33000000" android:id="@id/totaltime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/mfvc_large_padding" android:layout_alignParentEnd="true" />
+                <com.zte.mifavor.widget.SeekBarZTE android:layout_gravity="center" android:id="@id/progress" android:paddingLeft="8.0dip" android:paddingTop="0.0px" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="20.0dip" android:maxHeight="2.0dip" android:progress="0" android:secondaryProgress="0" android:progressDrawable="@drawable/seekbar_style" android:minHeight="1.0dip" android:thumb="@drawable/progress_control" android:thumbOffset="8.0dip" android:layout_toStartOf="@id/totaltime" android:layout_toEndOf="@id/currenttime" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottom_btn" android:layout_width="fill_parent" android:layout_height="86.0dip">
+                <RelativeLayout android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="68.0dip" android:layout_weight="2.0" android:layout_marginStart="@dimen/mfvc_large_padding">
+                    <LinearLayout android:id="@id/random_menu_click_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="5.0dip" android:layout_alignParentStart="true">
+                        <ImageView android:id="@id/random_menu" android:background="@drawable/actionbar_button_selector" android:layout_width="18.0dip" android:layout_height="18.0dip" />
+                    </LinearLayout>
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/repeat_menu_click_layout" android:layout_toRightOf="@id/random_menu_click_layout" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+                        <RelativeLayout android:orientation="vertical" android:id="@id/pauselayout" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_centerInParent="true">
+                            <ImageView android:id="@id/pause" android:background="@drawable/playbg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerInParent="true" android:contentDescription="@string/talkback_play_current" />
+                            <ProgressBar android:id="@id/progress_load" android:background="@drawable/actionbar_button_selector" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_centerInParent="true" style="?android:progressBarStyleLarge" />
+                        </RelativeLayout>
+                        <RelativeLayout android:gravity="center" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+                            <ImageView android:id="@id/prev" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_centerVertical="true" android:contentDescription="@string/talkback_play_previous" />
+                        </RelativeLayout>
+                        <RelativeLayout android:gravity="center" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                            <ImageView android:id="@id/next" android:layout_width="36.0dip" android:layout_height="36.0dip" android:contentDescription="@string/talkback_play_next" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <LinearLayout android:id="@id/repeat_menu_click_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="5.0dip" android:layout_alignParentEnd="true">
+                        <ImageView android:id="@id/repeat_menu" android:background="@drawable/actionbar_button_selector" android:layout_width="18.0dip" android:layout_height="18.0dip" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/menu_bar" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginEnd="@dimen/mfvc_large_padding">
+                    <LinearLayout android:gravity="center" android:id="@id/favorite_menu_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="center" android:id="@id/favorite_menu_click_layout" android:layout_width="36.0dip" android:layout_height="36.0dip">
+                            <ImageView android:id="@id/favorite_menu" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/star_outline" android:scaleType="centerInside" android:tint="@color/my_music_base_color" android:contentDescription="@string/talkback_favorite" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:id="@id/dolby_menu_layout" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="center" android:id="@id/dolby_menu_click_layout" android:layout_width="36.0dip" android:layout_height="36.0dip">
+                            <ImageView android:id="@id/dolby_menu" android:visibility="visible" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/dobly" android:scaleType="centerInside" android:contentDescription="@string/talkback_dolby_Atmos" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:id="@id/hifi_menu_layout" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="center" android:id="@id/hifi_menu_click_layout" android:layout_width="36.0dip" android:layout_height="36.0dip">
+                            <ImageView android:id="@id/hifi_menu" android:visibility="visible" android:layout_width="18.0dip" android:layout_height="18.0dip" android:scaleType="centerInside" android:contentDescription="@null" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:id="@id/switch_menu_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="center" android:id="@id/switch_menu_click_layout" android:layout_width="36.0dip" android:layout_height="36.0dip">
+                            <ImageView android:id="@id/switch_image" android:layout_width="18.0dip" android:layout_height="18.0dip" android:scaleType="centerInside" android:tint="@color/my_music_base_color" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </cn.zte.music.view.PlaybackLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:shareInterpolator="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale android:interpolator="@interpolator/zb_common_snackbar_scale_blowup_interpolator" android:duration="80" android:pivotX="50.0%" android:pivotY="50.0%" android:fillBefore="true" android:fillAfter="true" android:fromXScale="1.0" android:toXScale="1.01" android:fromYScale="1.0" android:toYScale="1.01" android:fillEnabled="true" />
+    <alpha android:interpolator="@interpolator/zb_common_snackbar_alpha_interpolator" android:duration="80" android:fromAlpha="0.0" android:toAlpha="1.0" />
+    <scale android:interpolator="@interpolator/zb_common_snackbar_scale_shrink_interpolator" android:duration="220" android:pivotX="50.0%" android:pivotY="50.0%" android:fillBefore="true" android:fillAfter="true" android:startOffset="80" android:fromXScale="1.0" android:toXScale="0.99" android:fromYScale="1.0" android:toYScale="0.99" android:fillEnabled="true" />
+</set>

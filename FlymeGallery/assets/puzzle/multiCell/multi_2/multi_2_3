@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<puzzle type="multi" width="1080" height="1440">
+    <window left="0" top="0" right="1080" bottom="480"/>
+    <window left="0" top="480" right="1080" bottom="1440"/>
+</puzzle>

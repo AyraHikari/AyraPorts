@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/singer_bg" android:background="@color/kwjx_theme_color_MOD1" android:layout_width="fill_parent" android:layout_height="wrap_content" skin:enable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/ray_list_item2_left" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/singer_list_item2_left" android:layout_width="@dimen/mv_follow_small_head_pic" android:layout_height="@dimen/mv_follow_small_head_pic" android:layout_marginLeft="10.0dip" android:layout_marginTop="@dimen/mv_follow_small_head_pic_l" android:layout_marginRight="5.0dip" android:layout_marginBottom="@dimen/mv_follow_small_head_pic_l" android:layout_centerVertical="true" style="@style/kwjx_common_style_head_image1" skin:enable="true" />
+            <ImageView android:id="@id/singer_user_level" android:layout_width="26.0dip" android:layout_height="20.0dip" android:layout_marginRight="4.0dip" android:scaleType="centerInside" android:layout_toRightOf="@id/singer_list_item2_left" android:layout_centerVertical="true" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/kwjx_theme_color_C1" android:ellipsize="end" android:id="@id/item2_left_room_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:layout_toRightOf="@id/singer_user_level" android:layout_centerVertical="true" skin:enable="true" />
+            <RelativeLayout android:orientation="vertical" android:id="@id/follow_right_btn_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <ImageView android:id="@id/singer_user_level_sign" android:background="@android:color/transparent" android:layout_width="@dimen/bo_level_w" android:layout_height="@dimen/bo_level_h" android:layout_marginRight="4.0dip" android:scaleType="centerCrop" android:layout_toLeftOf="@id/item2_left_audience_num" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/text_size_12" android:ellipsize="end" android:id="@id/item2_left_audience_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:layout_alignParentRight="true" />
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/kwjx_theme_color_C2" android:id="@id/rec_grid_extend_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignRight="@id/item2_left_audience_num" android:layout_alignParentTop="true" skin:enable="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="vertical" android:id="@id/follow_right_btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <FrameLayout android:textSize="@dimen/text_size_12" android:ellipsize="end" android:id="@id/follow_right_btn" android:background="@drawable/follow_item_btn_cancle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/line" android:background="@color/kwjx_theme_color_LN" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="10.0dip" android:layout_alignLeft="@id/mv_follow_small_head_pic" android:layout_alignParentBottom="true" skin:enable="true" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="100.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.filterManager.view.FilterImageView android:id="@id/filter_preview" android:layout_width="100.0dip" android:layout_height="100.0dip" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+    <CheckBox android:id="@id/check_box" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginEnd="4.0dip" android:layout_alignEnd="@id/filter_preview" style="@style/CheckBox" />
+    <TextView android:textAppearance="@style/TextAppearance.Flyme.Medium" android:textSize="14.0sp" android:textColor="@color/black_90" android:gravity="center_vertical" android:id="@id/filter_name" android:paddingTop="6.0dip" android:paddingBottom="16.0dip" android:layout_width="100.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/filter_preview" android:layout_alignLeft="@id/filter_preview" />
+</RelativeLayout>

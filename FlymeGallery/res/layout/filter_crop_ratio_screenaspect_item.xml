@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@id/crop_ratio_screen_w_h" android:drawableTop="@drawable/editor_cut_screen_size_selector" style="@style/filterGeoCropRationStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

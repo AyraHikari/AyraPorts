@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<puzzle type="poster" width="830" height="1200">
+    <window left="95" top="288" right="402" bottom="431"/>
+    <window left="414" top="288" right="735" bottom="431"/>
+
+    <window left="95" top="443" right="735" bottom="924"/>
+
+    <window left="95" top="936" right="300" bottom="1079"/>
+    <window left="312" top="936" right="517" bottom="1079"/>
+    <window left="539" top="936" right="735" bottom="1079"/>
+    <icon left="0" top="0" right="830" bottom="1200" src="temp.png"/>
+    <text x="95" y="182" content="一行行，打动过我的现代诗" length="15" size="26"/>
+    <text x="730" y="114" content="02" length="2" size="90" font="-1" textColor="#161c3a" textAlign="right"/>
+</puzzle>
+<!--md5:86acdadcc01da50c0379d0dfc83a500a,idx:6-->

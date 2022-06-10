@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="@dimen/mz_preference_category_no_title_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:background="@color/mz_divider_line_block" android:layout_width="fill_parent" android:layout_height="@dimen/mz_list_item_divider_height" android:layout_marginStart="@dimen/mz_page_padding_default" android:layout_marginEnd="@dimen/mz_page_padding_default" />
+</LinearLayout>

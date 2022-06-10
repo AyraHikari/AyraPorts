@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/headLayout" android:paddingTop="@dimen/dp_8" android:paddingBottom="@dimen/dp_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dp_18" app:layout_behavior="com.banqu.music.ui.widget.behavior.ArtistClassifyHeadBehavior">
+        <LinearLayout android:orientation="vertical" android:id="@id/oftenArtistsLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="#72000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq_often_artists" style="@style/BQ_Sans_Medium" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/oftenArtistsRecyclerView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/regionRv" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/genderRv" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/genreRv" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/selectLayout" android:background="@android:color/white" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="54.0dip" android:alpha="0.0" app:layout_behavior="com.banqu.music.ui.widget.behavior.ArtistClassifyTxtHeadBehavior">
+        <TextView android:textSize="@dimen/sp_15" android:textColor="@color/black" android:id="@id/selectTv" android:background="@drawable/bg_radius_4dp" android:paddingLeft="@dimen/dp_24" android:paddingTop="11.0dip" android:paddingRight="@dimen/dp_24" android:paddingBottom="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:fontFamily="sans-serif-medium" />
+        <ImageView android:id="@id/openIv" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_bq_artist_more" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_4" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/listView" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/bq_recyclerview_selector" app:layout_behavior="com.banqu.music.ui.widget.behavior.ArtistClassifyListBehavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

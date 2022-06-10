@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/audioLayout" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/default_page_padding" android:paddingEnd="@dimen/default_page_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/iconLayout" android:layout_width="@dimen/audio_normal_icon_size" android:layout_height="@dimen/audio_normal_icon_size" android:layout_marginEnd="10.0dip" layout="@layout/bq_audio_icon_view_80" />
+    <include layout="@layout/bq_audio_item_info_for_list" />
+</LinearLayout>

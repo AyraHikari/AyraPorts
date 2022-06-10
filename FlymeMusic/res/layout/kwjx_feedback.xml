@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/color_e7e7e7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_feedback" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <EditText android:textSize="@dimen/feedback_common_size" android:textColor="@color/kw_common_edit" android:textColorHint="@color/kw_common_edit" android:ellipsize="start" android:gravity="center|left" android:id="@id/et_recommend_contact" android:background="@color/kw_white" android:paddingLeft="@dimen/feedback_big_edittext_pad_l" android:layout_width="fill_parent" android:layout_height="@dimen/feedback_contact_edittext_h" android:layout_marginTop="@dimen/feed_et_recommend_content_margin_top" android:hint="@string/kwjx_recommend_contact_hint" android:maxLength="300" android:textCursorDrawable="@null" />
+            <EditText android:textSize="@dimen/feedback_common_size" android:textColor="@color/kw_common_edit" android:textColorHint="@color/kw_common_edit" android:ellipsize="start" android:gravity="center|left|top" android:id="@id/et_recommend_content" android:background="@color/kw_white" android:paddingLeft="@dimen/feedback_big_edittext_pad_l" android:paddingTop="@dimen/feedback_big_edittext_pad_t" android:layout_width="fill_parent" android:layout_height="@dimen/feedback_big_edittext_h" android:layout_marginTop="@dimen/feed_et_recommend_content_margin_top" android:text="" android:hint="@string/kwjx_recommend_content_hint" android:maxLength="300" android:textCursorDrawable="@null" />
+            <TextView android:textSize="19.0sp" android:textColor="@color/kw_common_cl_white" android:gravity="center" android:id="@id/iv_feedbak_send_btn" android:background="@drawable/feedback_commit_button" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="25.0dip" android:text="@string/kwjx_send_back" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_qq_h5" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="108.0dip" android:layout_height="108.0dip" android:layout_marginTop="100.0dip" android:src="@drawable/kwjx_about_icon" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/send_qq_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:src="@drawable/kwjx_feedback_jump_qq" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+</RelativeLayout>

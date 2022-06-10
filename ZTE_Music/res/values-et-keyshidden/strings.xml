@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Avage klaviatuur, et lisada oma esitusloendile nimi või valige käsk Salvesta, et lisada sellele nimi „%s”.</string>
+    <string name="rename_playlist_diff_prompt">Avage klaviatuur, et lisada esitusloendile „%1$s” uus nimi või valige käsk Salvesta, et lisada sellele nimi „%2$s”.</string>
+    <string name="rename_playlist_same_prompt">Avage klaviatuur, et anda esitusloendile %s uus nimi.</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/balance_category_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:test="http://schemas.android.com/apk/res-auto">
+    <com.meizu.media.gallery.filtershow.MutexView android:textColor="@color/white" android:gravity="center" android:id="@id/category_1" android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_marginLeft="84.0dip" android:text="@string/filtershow_balance_r" android:layout_alignParentLeft="true" test:circleColor="#ffe15230" />
+    <com.meizu.media.gallery.filtershow.MutexView android:textColor="@color/white" android:gravity="center" android:id="@id/category_2" android:layout_width="27.0dip" android:layout_height="27.0dip" android:text="@string/filtershow_balance_g" android:layout_centerHorizontal="true" test:circleColor="#ff59ac52" />
+    <com.meizu.media.gallery.filtershow.MutexView android:textColor="@color/white" android:gravity="center" android:id="@id/category_3" android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_marginRight="84.0dip" android:text="@string/filtershow_balance_b" android:layout_alignParentRight="true" test:circleColor="#ff3876d3" />
+</RelativeLayout>

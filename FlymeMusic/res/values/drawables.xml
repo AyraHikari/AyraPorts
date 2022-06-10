@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="drawable_room_bg">#66000000</item>
+    <item type="drawable" name="drawable_room_bg2">#cc000000</item>
+    <item type="drawable" name="drawable_transparent">#00000000</item>
+    <item type="drawable" name="kwjx_true_voice_bg">#d9ffffff</item>
+    <item type="drawable" name="mz_background_dark">@color/mz_background_dark</item>
+    <item type="drawable" name="mz_background_light">@color/mz_background_light</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="zb_com_background_dark">@color/zb_com_background_dark</item>
+    <item type="drawable" name="zb_com_background_light">@color/zb_com_background_light</item>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.facebeauty.FaceBeautyPreview android:id="@id/face_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/face_top_actionbar" android:background="@color/bars_background_color" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/filtershow_top_menu_height" />
+    <com.meizu.media.gallery.facebeauty.FaceEditBottomToolView android:orientation="vertical" android:id="@id/face_edit_container" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <FrameLayout android:id="@id/face_bottom_container" android:background="#f8f2f2f2" android:layout_width="fill_parent" android:layout_height="@dimen/face_editor_panel_height">
+            <FrameLayout android:layout_gravity="center" android:id="@id/beauty_fast_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/face_beauty_fast_view6" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center" android:id="@id/beauty_setting_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/face_beauty_setting_view" />
+            </FrameLayout>
+        </FrameLayout>
+        <FrameLayout android:background="@color/bars_background_color" android:layout_width="fill_parent" android:layout_height="@dimen/mz_action_bar_default_height_appcompat_split">
+            <LinearLayout android:orientation="horizontal" android:id="@id/face_tools_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="10.0sp" android:textColor="@color/filter_editor_toolbar_color_selector" android:gravity="center" android:layout_gravity="center" android:id="@id/face_menu_item_filter" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scaleType="centerInside" android:text="@string/beauty" android:drawableTop="@drawable/face_fast_selector" android:layout_weight="1.0" android:onClick="onMenuItemClick" android:fontFamily="sans-serif-medium" />
+                <TextView android:textSize="10.0sp" android:textColor="@color/filter_editor_toolbar_color_selector" android:gravity="center" android:layout_gravity="center" android:id="@id/face_menu_item_tools" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scaleType="centerInside" android:text="@string/face_set" android:drawableTop="@drawable/face_setting_selector" android:layout_weight="1.0" android:onClick="onMenuItemClick" android:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+            <com.meizu.media.gallery.filtershow.ui.FilterBottomActionBar android:id="@id/face_setting_actionbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.meizu.media.gallery.facebeauty.FaceFilterBottomActionBar android:id="@id/face_filter_actionbar" android:background="@color/bars_background_color" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </com.meizu.media.gallery.facebeauty.FaceEditBottomToolView>
+</RelativeLayout>

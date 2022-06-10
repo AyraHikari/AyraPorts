@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/progressContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:id="@android:id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" android:singleLine="true" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/listContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_tracks_title" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.zte.mifavor.widget.BottomBar android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:textSize="14.0sp" android:textColor="@color/my_music_st_icon_btn" android:gravity="center" android:id="@id/cancelButton" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" />
+            <Button android:textSize="14.0sp" android:textColor="@color/my_music_st_icon_btn" android:gravity="center" android:id="@id/okayButton" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ok" android:layout_weight="1.0" />
+        </LinearLayout>
+    </com.zte.mifavor.widget.BottomBar>
+</LinearLayout>

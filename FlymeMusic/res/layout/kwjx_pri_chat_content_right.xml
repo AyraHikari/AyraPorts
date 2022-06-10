@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="@dimen/kwjx_common_text_size_24" android:textColor="@color/kwjx_theme_color_TW1" android:gravity="center" android:id="@id/pri_chat_content_right_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" skin:enable="true" />
+        <RelativeLayout android:id="@id/pri_chat_content_lin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/pri_chat_content_right_image" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" fresco:placeholderImage="@drawable/kwjx_def_user_icon" fresco:placeholderImageScaleType="centerCrop" fresco:roundAsCircle="true" style="@style/kwjx_common_style_head_image1" skin:enable="true" />
+            <TextView android:textSize="@dimen/kwjx_common_text_size_32" android:textColor="@color/kwjx_theme_color_C1" android:id="@id/pri_chat_right_content" android:background="@drawable/kwjx_pri_chat_content_right_shape" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="60.0dip" android:maxWidth="225.0dip" android:minHeight="40.0dip" android:text="" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:lineSpacingExtra="2.0dip" skin:enable="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

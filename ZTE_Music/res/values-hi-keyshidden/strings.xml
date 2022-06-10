@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">अपनी नई प्‍लेलिस्‍ट को एक नाम देने के लिए कुंजीपटल खोलें, या इसे \"%s\" नाम देने के लिए सहेजें चुनें.</string>
+    <string name="rename_playlist_diff_prompt">प्‍लेलिस्‍ट \"%1$s\" को एक नया नाम देने के लिए कुंजीपटल खोलें, या इसे \"%2$s\" नाम देने के लिए सहेजें का चयन करें.</string>
+    <string name="rename_playlist_same_prompt">प्‍लेलिस्‍ट \"%s\" को एक नया नाम देने के लिए कुंजीपटल खोलें.</string>
+</resources>

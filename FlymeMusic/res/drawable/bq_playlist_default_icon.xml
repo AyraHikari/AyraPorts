@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="80.0dip" android:width="80.0dip">
+        <shape>
+            <corners android:radius="8.0dip" />
+            <solid android:color="#1ae73a3c" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="66.0dip" android:width="66.0dip">
+        <bitmap android:gravity="center" android:src="@drawable/playlist_icon_default" />
+    </item>
+</layer-list>

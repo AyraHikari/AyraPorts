@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_action_bar" android:background="@color/bars_background_color" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/filtershow_toolbar_height" android:layout_alignParentTop="true">
+        <TextView android:textSize="16.0sp" android:textColor="@color/filter_text_color_70_black" android:gravity="center" android:id="@id/id_correct_cancel_tv" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:text="@string/cancel" android:layout_alignParentLeft="true" android:onClick="onMenuItemClick" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/filter_editor_top_toolbar_color_selector" android:gravity="center" android:id="@id/id_correct_ok_tv" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="16.0dip" android:text="@string/save_str" android:layout_alignParentRight="true" android:onClick="onMenuItemClick" android:fontFamily="sans-serif-medium" />
+    </RelativeLayout>
+    <com.meizu.media.gallery.doccorrect.CorrectView android:id="@id/id_doc_correct_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/filtershow_toolbar_height" />
+    <com.meizu.media.gallery.doccorrect.DocTransAnimationView android:id="@id/doc_trans_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/filtershow_toolbar_height" />
+</RelativeLayout>

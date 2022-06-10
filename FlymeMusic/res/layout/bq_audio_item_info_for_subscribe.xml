@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/audio_normal_icon_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" app:layout_constraintTop_toTopOf="parent" style="@style/bqAudioTitleTextStyle" />
+    <TextView android:gravity="bottom" android:id="@id/latestProgram" android:layout_height="13.0dip" android:layout_marginStart="5.0dip" app:layout_constraintBottom_toBottomOf="parent" style="@style/bqAudioBottomTextStyle" />
+    <TextView android:id="@id/podcaster" android:layout_marginTop="@dimen/bq_audio_item_list_title_spacing" app:layout_constraintTop_toBottomOf="@id/title" style="@style/bqAudioRecWordsTextStyle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

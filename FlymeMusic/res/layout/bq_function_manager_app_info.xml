@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/userRootLayout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.banqu.music.ui.widget.RoundImageView android:id="@id/app_logo" android:layout_width="@dimen/dp_48" android:layout_height="@dimen/dp_48" android:layout_marginTop="@dimen/dp_20" android:layout_marginBottom="@dimen/dp_20" android:src="@mipmap/ic_launcher_music" android:layout_marginStart="22.0dip" android:layout_alignParentStart="true" app:type="circle" />
+    <TextView android:textSize="@dimen/dp_16" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/bq_app_name" android:layout_toRightOf="@id/app_logo" android:layout_alignTop="@id/app_logo" style="@style/BQ_Medium_title" />
+    <TextView android:textSize="@dimen/dp_14" android:id="@id/app_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_toRightOf="@id/app_logo" android:layout_alignBottom="@id/app_logo" style="@style/BQ_Medium_sub" />
+</RelativeLayout>

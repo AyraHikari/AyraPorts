@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/root_view" android:background="@drawable/ic_bq_widget_new_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_cover" android:layout_width="74.0dip" android:layout_height="74.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/ic_bq_widget_42_cover" android:scaleType="fitXY" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip">
+                <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/bq_widget_theme_90_black" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bq_widget_no_music_play_tip" android:singleLine="true" />
+                <TextView android:textSize="10.0dip" android:textColor="@color/bq_widget_theme_45_black" android:ellipsize="end" android:id="@id/tv_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/bq_app_name" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="24.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+            <ImageView android:id="@id/iv_collect" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_bq_widget_42_uncollect" android:layout_weight="1.0" />
+            <ImageView android:id="@id/iv_prev" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_bq_widget_42_previous" android:layout_weight="1.0" />
+            <ImageView android:id="@id/iv_play_pause" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_bq_widget_42_play" android:layout_weight="1.0" />
+            <ImageView android:id="@id/iv_next" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_bq_widget_42_next" android:layout_weight="1.0" />
+            <ImageView android:id="@id/iv_mode" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_bq_widget_42_mode_circle" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

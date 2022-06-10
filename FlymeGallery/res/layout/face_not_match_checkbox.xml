@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/comment_checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/do_not_show_again" android:paddingStart="8.5dip" android:layout_marginStart="@dimen/mz_alert_dialog_normal_margin_start" android:layout_marginEnd="@dimen/mz_alert_dialog_normal_margin_end" />
+</LinearLayout>

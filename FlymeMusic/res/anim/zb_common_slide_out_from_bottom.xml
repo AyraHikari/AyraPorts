@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate android:interpolator="@interpolator/zb_common_showat_bottom_dialog_out_interpolator" android:duration="@integer/zb_compat_bottom_dialog_anim_duration" android:fromYDelta="0.0" android:toYDelta="100.0%p"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

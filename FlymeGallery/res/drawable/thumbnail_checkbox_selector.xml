@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/mz_btn_check_button_square_on_color_firebrick" android:state_activated="true" />
+    <item android:drawable="@drawable/item_checked_normal" android:state_activated="false" />
+</selector>

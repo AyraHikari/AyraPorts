@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.ui.ThumbnailImageView android:id="@id/thumbnail" android:focusableInTouchMode="true" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/image" />
+    <ImageView android:id="@id/cloud_video_corner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:src="@drawable/video_corner_thumb" android:layout_marginStart="6.0dip" />
+    <CheckBox android:id="@id/thumbnail_check_box" android:layout_marginTop="@dimen/thumbnail_fragment_checkbox_margin" android:layout_marginRight="@dimen/thumbnail_fragment_checkbox_margin" style="@style/ListCheckBox" />
+</FrameLayout>

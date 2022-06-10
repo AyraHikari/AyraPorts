@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/show_grid_list_item_root" android:background="@drawable/bg_show_list_item_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:id="@id/rl_guard" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginTop="15.0dip">
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center_horizontal" android:id="@id/rec_grid_pic" android:layout_width="42.0dip" android:layout_height="42.0dip" android:src="@drawable/menu_user_default_icon" android:layout_centerVertical="true" app:placeholderImage="@drawable/menu_user_default_icon" app:roundAsCircle="true" />
+        <ImageView android:id="@id/rec_guard_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/live_guard_head_s" android:layout_alignBottom="@id/rec_grid_pic" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/rgb757575" android:ellipsize="end" android:gravity="center" android:id="@id/rec_grid_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.5dip" android:text="@string/select_song_selected" android:singleLine="true" android:maxLength="4" android:layout_below="@id/rl_guard" />
+</LinearLayout>

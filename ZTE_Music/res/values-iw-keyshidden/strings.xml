@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">"פתח את המקלדת כדי לתת שם לפלייליסט החדש, או בחר 'שמור' כדי לשמור אותו בשם \"%s\"."</string>
+    <string name="rename_playlist_diff_prompt">"פתח את המקלדת כדי לתת לפלייליסט \"%1$s\" שם חדש, או בחר ב'שמור' כדי לשמור אותו בשם \"%2$s\"."</string>
+    <string name="rename_playlist_same_prompt">"פתח את המקלדת כדי לתת לפלייליסט '%s' שם חדש."</string>
+</resources>

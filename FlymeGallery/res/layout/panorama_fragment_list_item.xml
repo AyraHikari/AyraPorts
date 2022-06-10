@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.meizu.media.gallery.ui.ThumbnailImageView android:layout_gravity="center" android:id="@id/panorama_image_view" android:layout_width="@dimen/panorama_fragment_item_width" android:layout_height="@dimen/panorama_fragment_item_height" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:scaleType="centerInside" />
+        <com.meizu.common.widget.AnimCheckBox android:layout_gravity="end|center|top" android:id="@android:id/checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginEnd="24.0dip" style="@style/Widget.DeviceDefault.CompoundButton.CheckButtonlessMultiple.Arrow.Color.FireBrick" />
+    </FrameLayout>
+    <View android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="50.0dip" />
+</LinearLayout>

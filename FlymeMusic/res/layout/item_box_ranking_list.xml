@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_ranking_num" android:layout_width="30.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:src="@drawable/kwjx_box_one" />
+    <TextView android:textSize="20.0sp" android:textColor="#ff404040" android:gravity="center" android:id="@id/tv_ranking_num" android:layout_width="30.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="45.0dip" android:layout_marginLeft="5.0dip">
+        <ImageView android:id="@id/iv_ranking_head_crown" android:layout_width="wrap_content" android:layout_height="12.0dip" android:src="@drawable/kwjx_box_crown" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_ranking_head_portrait" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="-3.0dip" fresco:actualImageScaleType="centerInside" fresco:placeholderImage="@drawable/kwjx_def_user_icon" fresco:roundAsCircle="true" fresco:roundingBorderColor="#ffffedb4" fresco:roundingBorderWidth="1.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="15.0sp" android:textColor="#ff404040" android:id="@id/tv_ranking_nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textSize="15.0sp" android:textColor="#ffec660d" android:id="@id/tv_ranking_coin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" />
+</LinearLayout>

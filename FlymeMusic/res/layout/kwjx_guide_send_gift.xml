@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/kwjx_guide_send_gift_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_singer_head" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="3.0dip" fresco:placeholderImage="@drawable/kwjx_def_user_icon" fresco:roundAsCircle="true" fresco:roundingBorderColor="#ffffffff" fresco:roundingBorderWidth="1.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="10.0dip" android:text="送个玫瑰支持我一下吧～" android:maxLines="1" />
+</LinearLayout>

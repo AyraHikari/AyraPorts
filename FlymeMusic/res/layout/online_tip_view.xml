@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <cn.kuwo.show.ui.common.KwTipView android:id="@id/kw_tip_view" android:background="@color/kwjx_theme_color_tip_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" skin:enable="true" />
+</LinearLayout>

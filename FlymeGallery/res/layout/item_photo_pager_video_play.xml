@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.photopager.PhotoView android:id="@id/photo" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.meizu.media.gallery.ui.VideoPlayView android:id="@id/video_view" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+    <com.meizu.media.gallery.ui.VideoPlayViewHdr android:id="@id/video_view_hdr" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="1.0dip" android:translationZ="-1.0dip" />
+    <ImageView android:layout_gravity="end" android:id="@id/video_8k_tag" android:background="@drawable/video_8k_tag_bg" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="54.0dip" android:layout_height="26.0dip" android:layout_marginTop="110.0dip" android:src="@drawable/v8k" android:contentDescription="@string/video_8k" android:paddingStart="9.0dip" android:paddingEnd="9.0dip" android:layout_marginEnd="20.0dip" />
+</FrameLayout>

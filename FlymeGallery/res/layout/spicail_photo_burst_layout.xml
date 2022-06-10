@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:background="@color/white" android:paddingTop="@dimen/status_bar_height" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="78.0dip">
+        <TextView android:textColor="@color/mz_theme_color_firebrick" android:id="@id/burst_fragment_exit" android:text="@string/cancel" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" style="@style/BurstToolbarMenuItem" />
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/selection_hint" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TextAppearance.Flyme.AppCompat.Widget.ActionMode.Title" />
+        <TextView android:enabled="false" android:textColor="@color/mz_button_text_color_firebrick" android:id="@id/burst_fragment_delete" android:text="@string/menu_delete_title" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" style="@style/BurstToolbarMenuItem" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager android:layout_gravity="center_horizontal" android:id="@id/special_display_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.meizu.common.widget.ScaleGallery android:id="@id/burst_gallery" android:layout_width="fill_parent" android:layout_height="78.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="14.0dip" android:numColumns="auto_fit" app:ItemSpacing="2.0dip" />
+</LinearLayout>

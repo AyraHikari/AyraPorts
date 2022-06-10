@@ -1,0 +1,141 @@
+.class public final enum Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;
+.super Ljava/lang/Enum;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field private static final synthetic $VALUES:[Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;
+
+.field public static final enum DefaultGroup:Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;
+
+.field public static final enum HeavyGroup:Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;
+
+.field public static final enum Single:Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;
+
+
+# instance fields
+.field private final code:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 9
+
+    .line 24
+    new-instance v0, Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;
+
+    const-string v1, "Single"
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x1
+
+    invoke-direct {v0, v1, v2, v3}, Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;-><init>(Ljava/lang/String;II)V
+
+    sput-object v0, Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;->Single:Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;
+
+    .line 30
+    new-instance v1, Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;
+
+    const-string v4, "DefaultGroup"
+
+    const/4 v5, 0x3
+
+    invoke-direct {v1, v4, v3, v5}, Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;-><init>(Ljava/lang/String;II)V
+
+    sput-object v1, Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;->DefaultGroup:Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;
+
+    .line 36
+    new-instance v4, Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;
+
+    const-string v6, "HeavyGroup"
+
+    const/4 v7, 0x2
+
+    const/16 v8, 0x19
+
+    invoke-direct {v4, v6, v7, v8}, Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;-><init>(Ljava/lang/String;II)V
+
+    sput-object v4, Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;->HeavyGroup:Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;
+
+    new-array v5, v5, [Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;
+
+    aput-object v0, v5, v2
+
+    aput-object v1, v5, v3
+
+    aput-object v4, v5, v7
+
+    .line 19
+    sput-object v5, Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;->$VALUES:[Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;
+
+    return-void
+.end method
+
+.method private constructor <init>(Ljava/lang/String;II)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I)V"
+        }
+    .end annotation
+
+    .line 40
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    .line 41
+    iput p3, p0, Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;->code:I
+
+    return-void
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;
+    .locals 1
+
+    .line 19
+    const-class v0, Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;
+
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;
+
+    return-object p0
+.end method
+
+.method public static values()[Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;
+    .locals 1
+
+    .line 19
+    sget-object v0, Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;->$VALUES:[Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;
+
+    invoke-virtual {v0}, [Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;->clone()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public getCode()I
+    .locals 1
+
+    .line 45
+    iget v0, p0, Lcom/meizu/cloud/pushsdk/pushtracer/emitter/BufferOption;->code:I
+
+    return v0
+.end method

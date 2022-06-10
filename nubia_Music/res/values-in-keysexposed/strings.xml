@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Nama daftar putar</string>
+    <string name="rename_playlist_diff_prompt">Ubah nama \"%s\" menjadi</string>
+    <string name="rename_playlist_same_prompt">Ubah nama \"%s\" menjadi</string>
+</resources>

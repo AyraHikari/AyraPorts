@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d пісень видалено.</item>
+        <item quantity="one">1 пісню видалено.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">Альбомів: %d</item>
+        <item quantity="one">1 альбом</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">Пісень: %d</item>
+    </plurals>
+</resources>

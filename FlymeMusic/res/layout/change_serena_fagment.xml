@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/partent_lay" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <RelativeLayout android:id="@id/rl_change" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/linearLayout2" android:background="@color/kwjx_theme_color_MOD1" android:layout_width="fill_parent" android:layout_height="wrap_content" skin:enable="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:src="@drawable/iv_change_xingzuan" />
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/kwjx_theme_color_C1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="当前星钻" android:singleLine="true" skin:enable="true" />
+            <TextView android:textSize="@dimen/text_size_36" android:textColor="@color/kw_common_cl_violet_f6c530" android:id="@id/tv_change_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="00" android:singleLine="true" />
+            <View android:background="@color/kwjx_theme_color_LN" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="30.0dip" skin:enable="true" />
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/kwjx_theme_color_C1" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="可兑换星币" android:singleLine="true" skin:enable="true" />
+                <TextView android:textSize="@dimen/text_size_17" android:textStyle="bold" android:textColor="@color/kwjx_theme_color_C1" android:id="@id/tv_change_sure_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="0" android:singleLine="true" android:layout_alignTop="@id/textView" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" skin:enable="true" />
+            </RelativeLayout>
+            <View android:background="@color/kwjx_theme_color_LN" android:layout_width="fill_parent" android:layout_height="0.5dip" skin:enable="true" />
+        </LinearLayout>
+        <Button android:textSize="@dimen/kwjx_common_text_size_36" android:textStyle="bold" android:textColor="@color/kwjx_theme_color_BWC" android:id="@id/bt_change" android:background="@drawable/kwjx_theme_img_hl7" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="30.0dip" android:text="兑换星币" android:layout_below="@id/linearLayout2" android:layout_centerHorizontal="true" skin:enable="true" />
+    </RelativeLayout>
+</RelativeLayout>

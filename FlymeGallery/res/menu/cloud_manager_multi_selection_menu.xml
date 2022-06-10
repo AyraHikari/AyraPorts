@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/btn_delete" android:id="@id/action_cloud_delete" android:title="@string/cloud_menu_title_delete" app:showAsAction="always|withText" />
+    <item android:id="@id/action_cloud_select" android:visible="false" android:showAsAction="always" android:actionViewClass="com.meizu.common.widget.SelectionButton" />
+</menu>

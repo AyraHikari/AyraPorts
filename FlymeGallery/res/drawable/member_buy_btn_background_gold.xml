@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/gold_buy_color_start" android:endColor="@color/gold_buy_color_end" android:useLevel="false" android:angle="0.0" android:type="linear" />
+    <corners android:radius="19.0dip" />
+</shape>

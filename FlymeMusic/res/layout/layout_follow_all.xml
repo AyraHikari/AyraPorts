@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <cn.kuwo.show.base.uilib.pulltorefresh.PullToRefreshBothEndRecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_setting_header" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/kwjx_theme_color_C2" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" skin:enable="true" />
+</RelativeLayout>

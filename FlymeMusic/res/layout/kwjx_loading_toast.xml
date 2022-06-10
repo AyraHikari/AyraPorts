@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@drawable/kwjx_waiting_toast" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/pb_progress" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="13.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/tv_progress_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/kwjx_alert_loading" android:layout_below="@id/pb_progress" android:layout_centerHorizontal="true" />
+</RelativeLayout>

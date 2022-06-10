@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <RelativeLayout android:layout_width="60.0dip" android:layout_height="60.0dip">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/rec_grid_pic" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/kwjx_common_style_head_image2" skin:enable="true" />
+        <ImageView android:id="@id/iv_play_icon" android:visibility="invisible" android:layout_width="17.0dip" android:layout_height="17.0dip" android:src="@drawable/kwjx_show_home_follow_off" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" skin:enable="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/kwjx_common_text_size_20" android:textColor="@color/kwjx_theme_color_C1" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/singer_name_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:singleLine="true" skin:enable="true" />
+</LinearLayout>

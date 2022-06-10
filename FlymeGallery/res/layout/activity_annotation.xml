@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/main" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/imageShowContainer" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/editorContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.meizu.media.gallery.filtershow.imageshow.ImageShow android:id="@id/imageShow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.meizu.media.gallery.filtershow.editlongcrop.TransitionAnimationView android:id="@id/filtershow_trans_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/filtershow_top_menu" />
+    <FrameLayout android:layout_gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/main_panel_container" android:background="@drawable/filtershow_editor_panel_background" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/editor_panel_container" android:background="@drawable/filtershow_main_panel_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/mz_action_bar_default_height_appcompat_split" />
+    </FrameLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/progressbar_numpop" android:background="@drawable/progress_pop_bg" android:visibility="gone" android:layout_width="23.0dip" android:layout_height="23.0dip" android:text="10" style="@style/sfdin_bold" />
+</FrameLayout>

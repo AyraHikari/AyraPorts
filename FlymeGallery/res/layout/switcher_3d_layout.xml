@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <WebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/switcher_3d_btn" android:layout_width="240.0dip" android:layout_height="38.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="28.669983dip" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/media_empty_view" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/empty_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="174.0dip" android:src="@drawable/cloud_empty_drawable_network" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/black_40" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="304.0dip" android:text="@string/no_network" android:fontFamily="sans-serif-medium" />
+        <Button android:textSize="14.0sp" android:textColor="@color/member_tip_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/button" android:background="@drawable/round_corner_cloud_empty" android:layout_width="120.69998dip" android:layout_height="32.0dip" android:layout_marginTop="387.0dip" android:text="@string/no_network_set" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+    </FrameLayout>
+</FrameLayout>

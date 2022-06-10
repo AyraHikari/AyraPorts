@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/recommend_adv_panel" android:background="@color/kwjx_theme_color_MOD1" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" skin:enable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <RelativeLayout android:id="@id/iv_baner_bg" android:background="@color/kwjx_audio_home_f9faf9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_alignBottom="@id/contentPager" />
+    <cn.kuwo.show.ui.view.common.ViewPagerBanner android:id="@id/contentPager" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/banner_hint_panel_v3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:layout_marginBottom="5.0dip" android:layout_alignBottom="@id/contentPager" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/mirror_rotate_container" android:background="@drawable/crop_mirror_bg" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+        <TextView android:id="@id/rotate_left" android:text="@string/filtershow_geometry_rotate_left" android:drawableTop="@drawable/rotate_left_selector" style="@style/filterGeoMirrorStyleLeft" />
+        <TextView android:id="@id/rotate_right" android:text="@string/filtershow_geometry_rotate_right" android:drawableTop="@drawable/rotate_right_selector" style="@style/filterGeoMirrorStyle" />
+        <TextView android:id="@id/mirror_horizontal" android:text="@string/filtershow_geometry_mirror_horizontal" android:drawableTop="@drawable/mirror_horizontal_selector" style="@style/filterGeoMirrorStyle" />
+        <TextView android:id="@id/mirror_vertical" android:text="@string/filtershow_geometry_mirror_vertical" android:drawableTop="@drawable/mirro_vertical_selector" style="@style/filterGeoMirrorStyleRight" />
+    </LinearLayout>
+</LinearLayout>

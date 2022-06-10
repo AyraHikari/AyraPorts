@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/annotation_container" android:background="@drawable/filtershow_editor_panel_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="107.0dip" android:minHeight="74.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:facebeauty="http://schemas.android.com/apk/res-auto" xmlns:MzCenterSeekBar="http://schemas.android.com/apk/res-auto">
+    <EditText android:id="@id/draw_text_editor" android:layout_width="1.0px" android:layout_height="1.0px" android:alpha="0.0" />
+    <FrameLayout android:id="@id/mark_tool_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/filtershow_seekbar_height">
+        <HorizontalScrollView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/colors_container_text" android:visibility="gone" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="3.0dip" android:paddingStart="26.0dip" android:paddingEnd="26.0dip">
+            <include layout="@layout/filtershow_color_picker_container" />
+        </HorizontalScrollView>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/progress_container" android:visibility="visible" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="24.0dip">
+            <com.meizu.media.gallery.filtershow.ui.ColorItemView android:id="@id/color_picker" android:padding="6.0dip" android:layout_marginLeft="0.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="0.0dip" android:contentDescription="@string/modify_color" android:layout_marginStart="3.0dip" MzCenterSeekBar:circleBg="#ffdc2a2a" MzCenterSeekBar:useRainBowRing="true" style="@style/FilterDoodleColorStyle" />
+            <FrameLayout android:id="@id/toolContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.meizu.media.gallery.filtershow.ui.MarkBreakerSeekBar android:id="@id/primarySeekBar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="9.0dip" android:layout_marginEnd="12.0dip" MzCenterSeekBar:filterShowThumbTint="@color/filter_progress_bg_color" MzCenterSeekBar:progressBackgroundTint="@color/filter_progress_hint_bg_color" MzCenterSeekBar:progressTint="@color/filter_progress_bg_color" />
+                <include android:id="@id/rect_tool_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/filtershow_imgtext_roundrect" />
+                <include android:id="@id/circle_tool_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/filtershow_imgtext_circle" />
+            </FrameLayout>
+        </LinearLayout>
+        <include android:id="@id/mosaic_tool_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/filtershow_mosaic_edit_layout" />
+    </FrameLayout>
+    <flyme.support.v7.widget.RecyclerView android:layout_gravity="center_vertical" android:id="@id/tools_container" android:background="@color/translucent_background" android:scrollbars="none" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/filtershow_panel_common_height" />
+</LinearLayout>

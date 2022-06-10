@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Atidarykite klaviatūrą, kad suteiktumėte grojaraščiui naują pavadinimą arba pasirinkite „Išsaugoti į“, kad pavadintumėte jį „%s“.</string>
+    <string name="rename_playlist_diff_prompt">Atidarykite klaviatūrą, kad suteiktumėte grojaraščiui „%1$s“ naują pavadinimą arba pasirinkite „Išsaugoti į“, kad pavadintumėte jį „%2$s“.</string>
+    <string name="rename_playlist_same_prompt">Atidarykite klaviatūrą, kad grojaraščiui „%s“ suteiktumėte naują pavadinimą.</string>
+</resources>

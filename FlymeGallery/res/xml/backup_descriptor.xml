@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="sharedpref" path="com.meizu.media.gallery_preferences.xml" />
+    <exclude domain="sharedpref" path="ad.xml" />
+    <exclude domain="sharedpref" path="user_info.xml" />
+    <exclude domain="sharedpref" path="scanner.xml" />
+    <exclude domain="sharedpref" path="face_mover.xml" />
+    <exclude domain="sharedpref" path="com.meizu.media.gallery_moment.xml" />
+    <exclude domain="sharedpref" path="com.android.gallery3d_preferences.xml" />
+    <exclude domain="sharedpref" path="smart_card.xml" />
+</full-backup-content>

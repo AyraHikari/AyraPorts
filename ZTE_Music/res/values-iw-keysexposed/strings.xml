@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">שם הפלייליסט</string>
+    <string name="rename_playlist_diff_prompt">"שנה את השם של '%s' לשם"</string>
+    <string name="rename_playlist_same_prompt">"שנה את השם של '%s' לשם"</string>
+</resources>

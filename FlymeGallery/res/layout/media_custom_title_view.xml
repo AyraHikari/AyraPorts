@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/media_title_margin_left" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:id="@id/media_title_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/media_title_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:gravity="left" android:id="@id/media_subtitle_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/media_title_text_margin_left" android:singleLine="true" style="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Subtitle" />
+        <TextView android:gravity="left" android:id="@id/media_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/media_title_text_margin_left" android:singleLine="true" android:includeFontPadding="false" style="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title" />
+    </LinearLayout>
+    <include layout="@layout/media_list_tab_view" />
+    <FrameLayout android:layout_gravity="center|right" android:id="@id/media_special_view_container" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/media_tab_indicator_right_margin" />
+</LinearLayout>

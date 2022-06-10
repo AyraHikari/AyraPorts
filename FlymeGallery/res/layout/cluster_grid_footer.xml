@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.media.gallery.cluster.widget.FaceGridFooterView android:orientation="vertical" android:id="@id/grid_footer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:test="http://schemas.android.com/apk/res-auto">
+    <Space android:layout_width="0.0px" android:layout_height="24.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black_40" android:gravity="center_horizontal" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="2" android:lineSpacingExtra="5.5999756dip" />
+    <com.meizu.media.gallery.ui.LoginButton android:textSize="17.0sp" android:layout_gravity="center_horizontal" android:id="@id/footer_launch_btn" android:background="@drawable/cluster_launch_background" android:layout_width="240.0dip" android:layout_height="42.0dip" android:layout_marginTop="9.0dip" android:layout_marginBottom="9.0dip" android:fontFamily="sans-serif-medium" test:loadingText="@string/cluster_btn_scanning" test:loadingTextColor="#40000000" test:normalText="@string/cluster_btn_text" test:normalTextColor="#ff1f7ffb" />
+</com.meizu.media.gallery.cluster.widget.FaceGridFooterView>

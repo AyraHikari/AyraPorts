@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/itme_view" android:background="@color/kw_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/lay_user" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="center" android:id="@id/audio_raking_one_icon" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="3.0dip" fresco:failureImage="@drawable/kwjx_def_user_icon" fresco:failureImageScaleType="centerInside" fresco:placeholderImage="@drawable/kwjx_def_user_icon" fresco:roundAsCircle="true" fresco:roundingBorderWidth="0.0dip" />
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_audio_ranking_one_icon" />
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="10.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/audio_rank_result_iv_richlvl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/f0" />
+            <TextView android:textSize="@dimen/text_size_16" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/audio_rank_tv_nickname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" />
+            <ImageView android:id="@id/btn_rigth_play" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pay_detail_itme_coin" />
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/rgbff7474" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_audio_ranking_coin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="1.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/rgbf0f0f0" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/lay_user" />
+</RelativeLayout>

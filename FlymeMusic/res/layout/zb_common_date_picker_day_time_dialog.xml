@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="23.0dip" android:layout_marginTop="21.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="16.0sp" android:textColor="@color/mc_custom_date_picker_unselected_tab_color" android:id="@id/time_preview" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mc_custom_date_time_gregorian" android:singleLine="true" android:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/mc_custom_date_picker_selected_tab_color" android:gravity="center" android:id="@id/switchshowlunar" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mc_custom_date_time_show_lunar" android:singleLine="true" android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.banqu.music.widgetcommon.widget.DayTimeDatePicker android:layout_gravity="center_horizontal" android:id="@id/day_time_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" />
+</LinearLayout>

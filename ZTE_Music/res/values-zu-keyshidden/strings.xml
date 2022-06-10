@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Vula ikhibhodi ukunikeza Uhlu lokudlalayo lwakho igama elisha, noma khetha Gcina ukuliqamba \"%s\".</string>
+    <string name="rename_playlist_diff_prompt">Vula ikhibhodi ukunikeza uhlu lokudlalwayo \"%1$s\" igama elisha, noma khetha Gcina ukuqamba \"%2$s\".</string>
+    <string name="rename_playlist_same_prompt">Vula ikhibhodi ukunikeza uhlu lokudlala \"%s\" igama elisha.</string>
+</resources>

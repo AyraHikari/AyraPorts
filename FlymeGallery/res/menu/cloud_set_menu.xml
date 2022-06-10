@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/btn_add_set" android:id="@id/menu_add_folder" android:visible="true" android:title="@string/cloud_menu_title_add_folder" app:showAsAction="withText" />
+    <item android:id="@id/menu_cloud_sync_manage" android:visible="true" android:title="@string/cloud_menu_title_cloud_sync_manage" app:showAsAction="withText" />
+    <item android:icon="@drawable/btn_add_set" android:id="@id/menu_sync_settings" android:visible="true" android:title="@string/cloud_menu_title_sync_settings" app:showAsAction="withText" />
+    <item android:id="@id/menu_change_member" android:visible="true" android:title="@string/cloud_menu_title_change_member_level" app:showAsAction="withText" />
+    <item android:id="@id/menu_trash" android:visible="true" android:title="@string/trash_album_name" app:showAsAction="withText" />
+    <item android:id="@id/menu_user_policy" android:visible="true" android:title="@string/cloud_menu_title_user_policy" app:showAsAction="withText" />
+</menu>

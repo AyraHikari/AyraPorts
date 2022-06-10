@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/kw_common_cl_black_alpha_80" android:layout_width="140.0dip" android:layout_height="140.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/btn_close" android:background="@color/kwjx_transparent" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/kwjx_btn_close_room" android:scaleType="centerInside" android:layout_alignParentRight="true" />
+    <cn.kuwo.show.ui.view.RoundProgressBar android:id="@id/round_progressbar" android:layout_width="54.0dip" android:layout_height="54.0dip" android:layout_marginTop="32.0dip" android:layout_centerHorizontal="true" app:kwjx_roundColor="@color/kwjx_transparent" app:kwjx_roundProgressColor="@color/white" app:kwjx_roundWidth="3.0dip" app:kwjx_textColor="@color/white" app:kwjx_textIsDisplayable="true" app:kwjx_textSize="@dimen/text_size_14" />
+    <TextView android:textSize="@dimen/text_size_14" android:id="@id/text_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="28.0dip" android:layout_below="@id/round_progressbar" android:layout_centerHorizontal="true" />
+</RelativeLayout>

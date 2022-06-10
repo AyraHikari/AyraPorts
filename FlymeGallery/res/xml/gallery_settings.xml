@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.common.preference.SwitchPreference android:title="@string/online_module_cloud" android:key="manual_enable_cloud" android:defaultValue="true" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/cloud_peaceful_backup" android:key="cloud_peaceful_backup" android:summary="@string/cloud_peaceful_backup_summary" android:defaultValue="true" />
+    <com.meizu.media.gallery.SpinnerPreference android:title="@string/cloud_manage_menu_savein_sdcard" android:key="save_in_sdcard" android:summary="@string/cloud_manage_menu_savein_sdcard_summary" android:defaultValue="true" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/splash_ad_switch" android:key="enable_splash" android:summary="@string/splash_ad_switch_summary" android:defaultValue="true" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/small_size_filter" android:key="small_size_filter" android:defaultValue="true" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/view_with_original_size" android:key="view_with_origin_size" android:defaultValue="false" />
+</PreferenceScreen>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <LinearLayout android:orientation="horizontal" android:id="@id/rank_list_tab" android:background="@color/kwjx_theme_color_MOD2" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/mine_local_tab_h" android:baselineAligned="false" skin:enable="true">
+        <RelativeLayout android:id="@id/rank_list_tab_day_lay" android:background="@drawable/kwjx_ruank_tab_item_selecter" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" skin:enable="true">
+            <TextView android:textSize="14.0sp" android:textColor="@color/kwjx_liveroom_tab_text_color" android:gravity="center_vertical" android:id="@id/rank_list_tab_day" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/rank_tab_day" android:singleLine="true" android:drawablePadding="5.0dip" android:layout_centerInParent="true" skin:enable="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rank_list_tab_week_lay" android:background="@drawable/kwjx_ruank_tab_item_selecter" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" skin:enable="true">
+            <TextView android:textSize="14.0sp" android:textColor="@color/kwjx_liveroom_tab_text_color" android:gravity="center_vertical" android:id="@id/rank_list_tab_week" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/rank_tab_week" android:singleLine="true" android:drawablePadding="5.0dip" android:layout_centerInParent="true" skin:enable="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rank_list_tab_month_lay" android:background="@drawable/kwjx_ruank_tab_item_selecter" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" skin:enable="true">
+            <TextView android:textSize="14.0sp" android:textColor="@color/kwjx_liveroom_tab_text_color" android:gravity="center_vertical" android:id="@id/rank_list_tab_month" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/rank_tab_month" android:singleLine="true" android:drawablePadding="5.0dip" android:layout_centerInParent="true" skin:enable="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rank_list_tab_super_lay" android:background="@drawable/kwjx_ruank_tab_item_selecter" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" skin:enable="true">
+            <TextView android:textSize="14.0sp" android:textColor="@color/kwjx_liveroom_tab_text_color" android:gravity="center_vertical" android:id="@id/rank_list_tab_super" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/rank_tab_super" android:singleLine="true" android:drawablePadding="5.0dip" android:layout_centerInParent="true" skin:enable="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

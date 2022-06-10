@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/room_float_rel" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip">
+        <cn.kuwo.show.ui.audiolive.widget.DragLayout android:orientation="vertical" android:id="@id/room_float_ball_drag" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:id="@id/float_top_view" android:background="@color/kw_common_cl_black_alpha_0" android:layout_width="fill_parent" android:layout_height="200.0dip" />
+            <View android:layout_gravity="center_horizontal" android:id="@id/dragView" android:background="@color/kw_common_cl_black_alpha_0" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+            <RelativeLayout android:id="@id/contentView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:background="@drawable/kwjx_room_float_bg" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_alignParentBottom="true" />
+                <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" app:cardBackgroundColor="@color/white" app:cardCornerRadius="4.0dip" app:cardPreventCornerOverlap="true">
+                    <FrameLayout android:id="@id/frag_one" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/dragView_top" android:layout_width="28.0dip" android:layout_height="12.0dip">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:src="@drawable/kwjx_room_float_top_image" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+        </cn.kuwo.show.ui.audiolive.widget.DragLayout>
+    </RelativeLayout>
+</LinearLayout>

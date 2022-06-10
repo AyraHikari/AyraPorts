@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/member_price_corner_uncheck" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_marginBottom="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/member_update_tip" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+            <TextView android:textSize="8.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tip" android:background="@color/member_tip_color" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:id="@id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:maxLines="1" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:fontFamily="sans-serif-medium" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black" android:id="@id/origin_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="73.0dip" android:maxLines="1" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

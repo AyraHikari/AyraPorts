@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.banqu.music.ui.widget.RoundImageView android:id="@id/progressIcon" android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:src="@drawable/bq_default_cover" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" app:type="circle" />
+    <com.banqu.music.ui.widget.MarqueeTextView android:textSize="14.0dip" android:textColor="@android:color/black" android:ellipsize="marquee" android:gravity="center|left" android:id="@id/tv_title" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="21.0dip" android:text="@string/meizu_music" android:singleLine="true" android:layout_alignTop="@id/progressIcon" android:marqueeRepeatLimit="marquee_forever" android:layout_toEndOf="@id/progressIcon" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/grey" android:ellipsize="end" android:gravity="center|left" android:id="@id/tv_artist" android:layout_width="wrap_content" android:layout_height="@dimen/dp_18" android:text="@string/play_control_msg" android:lines="1" android:layout_alignBottom="@id/progressIcon" android:layout_toEndOf="@id/progressIcon" />
+</RelativeLayout>

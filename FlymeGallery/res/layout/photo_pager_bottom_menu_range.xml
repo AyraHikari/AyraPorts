@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.ui.MenuTextView android:id="@id/menu_video_play" android:visibility="gone" android:text="@string/video_pause" android:maxLines="1" android:drawableTop="@drawable/video_play_selector" style="@style/MenuTextItem" />
+    <com.meizu.media.gallery.ui.MenuTextView android:id="@id/menu_remove" android:text="@string/alert_dialog_remove" android:drawableTop="@drawable/btn_delete" style="@style/MenuTextItem" />
+</merge>

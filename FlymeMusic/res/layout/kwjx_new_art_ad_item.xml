@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.drawee.view.SimpleDraweeView android:id="@id/ad_pic" android:layout_width="80.0dip" android:layout_height="80.0dip" fresco:actualImageScaleType="focusCrop" fresco:placeholderImage="@drawable/kwjx_show_banner_default" fresco:roundedCornerRadius="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" />

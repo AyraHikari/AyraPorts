@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/mfvc_1line_list_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/line1_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/end_layout" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentStart="true">
+        <ImageView android:id="@id/favorate_icon" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="@color/my_music_base_color" android:layout_marginEnd="32.0dip" />
+        <TextView android:textSize="@dimen/first_line_text_size" android:textColor="@color/list_item_text" android:ellipsize="end" android:id="@id/line1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingEnd="16.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/end_layout" android:layout_width="68.0dip" android:layout_height="68.0dip" android:layout_centerVertical="true" android:paddingEnd="5.0dip" android:layout_alignParentEnd="true">
+        <cn.zte.music.view.VisualizerView android:id="@id/play_flag" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:tint="@color/my_music_base_color" android:layout_centerVertical="true" android:layout_marginEnd="28.0dip" />
+        <ImageView android:id="@id/remove_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="@color/my_music_base_color" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

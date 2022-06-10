@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dlg_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <LinearLayout android:orientation="vertical" android:background="@color/kwjx_theme_color_MOD1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" skin:enable="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <Button android:textSize="16.0sp" android:textColor="@color/kwjx_theme_color_C1" android:gravity="center" android:id="@id/btn_bank_start" android:background="@null" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/rank_title_start" skin:enable="true" />
+            <View android:background="@color/kwjx_theme_color_LN" android:layout_width="fill_parent" android:layout_height="0.5dip" skin:enable="true" />
+            <Button android:textSize="16.0sp" android:textColor="@color/kwjx_theme_color_C1" android:gravity="center" android:id="@id/btn_bank_rich" android:background="@null" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/rank_title_rich" skin:enable="true" />
+            <TextView android:background="@color/kwjx_theme_color_LN" android:layout_width="fill_parent" android:layout_height="0.5dip" skin:enable="true" />
+            <Button android:textSize="16.0sp" android:textColor="@color/kwjx_theme_color_C1" android:gravity="center" android:id="@id/btn_bank_order_song" android:background="@null" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/rank_title_order_song" skin:enable="true" />
+            <TextView android:background="@color/kwjx_theme_color_LN" android:layout_width="fill_parent" android:layout_height="0.5dip" skin:enable="true" />
+            <Button android:textSize="16.0sp" android:textColor="@color/kwjx_theme_color_C1" android:gravity="center" android:id="@id/btn_bank_week_start" android:background="@null" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/rank_title_fans_song" skin:enable="true" />
+            <TextView android:background="@color/kwjx_theme_color_LN" android:layout_width="fill_parent" android:layout_height="0.5dip" skin:enable="true" />
+            <Button android:textSize="16.0sp" android:textColor="@color/kwjx_theme_color_C1" android:gravity="center" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/rank_title_week_start" skin:enable="true" />
+            <TextView android:background="@color/kwjx_theme_color_LN" android:layout_width="fill_parent" android:layout_height="0.5dip" skin:enable="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

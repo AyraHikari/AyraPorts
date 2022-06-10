@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/rank_item_rl" android:layout_width="62.0dip" android:layout_height="93.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/car_user_icon" android:visibility="visible" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" app:actualImageScaleType="fitCenter" />
+    <ImageView android:id="@id/car_def_icon" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/rob_car_bg" />
+    <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/live_fans_rank_tv_color" android:ellipsize="end" android:gravity="center" android:id="@id/car_name_tv" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="车位" android:singleLine="true" />
+    <ImageView android:id="@id/car_level_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:src="@drawable/f1" />
+</LinearLayout>

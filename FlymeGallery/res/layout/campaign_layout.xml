@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/campaign_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:id="@id/content" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/top_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:src="@color/thumbnail_placeholder_color" />
+            <com.meizu.media.gallery.campaign.CampaignRecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="30.0dip" />
+            <com.meizu.media.gallery.campaign.Switcher android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/switch_ad" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginStart="32.0dip">
+                <ImageView android:id="@id/switch_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/switch_ad" />
+                <Space android:layout_width="8.0dip" android:layout_height="0.0px" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/black" android:layout_gravity="start" android:id="@id/switch_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/campaign_switch" />
+            </com.meizu.media.gallery.campaign.Switcher>
+            <TextView android:textSize="12.0sp" android:layout_gravity="center_horizontal" android:id="@id/campaign_progress" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="10.0dip" />
+            <com.meizu.media.gallery.campaign.CampaignButton android:textSize="17.0sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/campaign_confirm" android:background="@drawable/campaign_btn_background" android:layout_width="240.0dip" android:layout_height="42.0dip" android:fontFamily="sans-serif-medium" />
+            <TextView android:textSize="12.0sp" android:gravity="start" android:id="@id/campaign_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="34.0dip" android:lineSpacingExtra="1.0sp" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/media_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/media_empty_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="174.0dip" android:src="@drawable/cloud_empty_drawable_network" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/black_40" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/media_empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="334.0dip" android:fontFamily="sans-serif-medium" />
+    </FrameLayout>
+    <include layout="@layout/media_progress_container" />
+</FrameLayout>

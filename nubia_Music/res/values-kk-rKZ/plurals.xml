@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NMins">
+        <item quantity="other">%d минут</item>
+        <item quantity="one">1 минут</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d ән жойылды</item>
+        <item quantity="one">1 ән жойылды</item>
+    </plurals>
+    <plurals name="NNNtrackswilldeleted">
+        <item quantity="other">%d әндер тұрақты жадыдан жойылады.</item>
+        <item quantity="one">1 ән тұрақты жадыдан жойылады.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d альбомдар</item>
+        <item quantity="one">1 альбом</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d әндер</item>
+    </plurals>
+</resources>

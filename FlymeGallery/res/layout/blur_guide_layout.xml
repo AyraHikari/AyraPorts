@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#3f000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="55.0dip" android:layout_marginTop="171.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/filtershow_blur_guide_bg1" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:src="@drawable/filtershow_blur_guide_dot" />
+    </LinearLayout>
+    <com.meizu.media.gallery.ui.FocusedTextView android:textSize="12.0dip" android:textColor="#cdffffff" android:ellipsize="marquee" android:gravity="center_vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="142.0dip" android:layout_height="wrap_content" android:layout_marginLeft="67.0dip" android:layout_marginTop="177.0dip" android:text="@string/filtershow_blur_guide_text1" android:singleLine="true" android:drawableLeft="@drawable/filtershow_blur_guide_icon1" android:drawablePadding="6.0dip" android:marqueeRepeatLimit="marquee_forever" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="130.0dip" android:layout_marginTop="338.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:src="@drawable/filtershow_blur_guide_dot" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/filtershow_blur_guide_bg2" />
+    </LinearLayout>
+    <com.meizu.media.gallery.ui.FocusedTextView android:textSize="12.0dip" android:textColor="#cdffffff" android:gravity="center_vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="145.0dip" android:layout_height="wrap_content" android:layout_marginLeft="169.0dip" android:layout_marginTop="344.0dip" android:text="@string/filtershow_blur_guide_text2" android:singleLine="true" android:drawableLeft="@drawable/filtershow_blur_guide_icon2" android:drawablePadding="7.0dip" />
+</FrameLayout>

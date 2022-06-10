@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_common_header" android:background="@color/kwjx_theme_color_MOD1" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" skin:enable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/ranking_back_relative" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+        <cn.kuwo.show.base.uilib.KwImageView android:id="@id/ranking_backto" android:paddingLeft="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_nav_back_up_2_new" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/kwjx_theme_color_C1" android:ellipsize="end" android:id="@id/tv_Title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:maxWidth="@dimen/quku_header_maxLength" android:text="返回" android:singleLine="true" android:layout_toRightOf="@id/ranking_backto" android:layout_centerVertical="true" skin:enable="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/ranking_group" android:clickable="true" android:layout_width="180.0dip" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+        <TextView android:textSize="21.0sp" android:textColor="@color/kwjx_theme_color_C1" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/ranking_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="@dimen/quku_header_maxLength" android:text="排行榜" android:singleLine="true" android:layout_centerInParent="true" android:layout_centerVertical="true" skin:enable="true" />
+        <ImageView android:id="@id/rank_kind_select" android:paddingLeft="8.0dip" android:paddingTop="17.0dip" android:paddingRight="20.0dip" android:paddingBottom="17.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ranking_kind_select" android:layout_toRightOf="@id/ranking_name" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

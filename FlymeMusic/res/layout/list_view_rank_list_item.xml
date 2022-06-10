@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/rank_list_item_ll" android:background="@drawable/app_list_item_select" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="@dimen/text_size_10" android:id="@id/user_level_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/user_ranking_img" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/ranking1_icon" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/hot_item_gray_color" android:gravity="center_horizontal" android:id="@id/user_ranking_tv" android:visibility="invisible" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginLeft="10.0dip" android:text="4" android:layout_centerVertical="true" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/user_icon_img" android:background="@color/kw_common_cl_transparent" android:layout_width="@dimen/user_msg_fans_icon_size" android:layout_height="@dimen/user_msg_fans_icon_size" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/user_ranking_img" android:layout_centerVertical="true" fresco:placeholderImage="@drawable/kwjx_def_user_icon" fresco:roundAsCircle="true" fresco:roundWithOverlayColor="@color/kw_common_cl_transparent" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/hot_item_room_des_color" android:ellipsize="end" android:id="@id/user_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@null" android:singleLine="true" android:layout_toLeftOf="@id/user_level_img" android:layout_toRightOf="@id/user_icon_img" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/hot_item_line_view_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/rank_list_item_ll" />
+</RelativeLayout>

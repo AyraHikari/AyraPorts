@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/menu_edit_name" android:title="@string/face_edit_name" app:showAsAction="never" />
+    <item android:id="@id/face_remove" android:title="@string/face_remove" app:showAsAction="never" />
+    <item android:id="@id/face_save" android:visible="false" android:title="@string/face_save" app:showAsAction="never" />
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/base_layout" android:background="@color/list_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_timing_turn_off" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true">
+                    <TextView android:textSize="@dimen/first_line_text_size" android:textColor="@color/list_item_text" android:layout_gravity="center_vertical" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/timing_turn_off" />
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/second_line_text_size" android:textColor="@color/list_item_second_text" android:layout_gravity="center_vertical" android:id="@id/sleep_total" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/time_turn_off" android:layout_below="@id/textView1" />
+                </RelativeLayout>
+                <com.zte.mifavor.widget.SwitchZTE android:id="@id/switch_timing" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:contentDescription="@string/talkback_sleep_timer" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_timingbar" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <com.zte.mifavor.widget.SeekBarZTE android:layout_gravity="center_vertical" android:id="@id/timing_seekBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="2.0dip" android:max="90" android:progressDrawable="@drawable/seekbar_im" android:minHeight="2.0dip" android:thumbOffset="1.0dip" />
+                <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/second_line_text_size" android:textColor="@color/list_item_second_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zero_mins" android:layout_alignParentStart="true" />
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/first_line_text_size" android:textColor="@color/list_item_second_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ninety_mins" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:id="@id/list_divider_one" android:background="@color/list_divider" android:layout_width="fill_parent" android:layout_height="@dimen/list_devide_size" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/layout_dolby_effect" android:layout_width="fill_parent" android:layout_height="60.0dip" android:contentDescription="@string/talkback_dolby_Atmos" android:paddingStart="16.0dip">
+                <TextView android:textSize="@dimen/first_line_text_size" android:textColor="@color/list_item_text" android:id="@id/dolby_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dolby_effect" />
+                <TextView android:textSize="@dimen/first_line_text_size" android:textColor="@color/list_item_text" android:id="@id/dolby_summer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_item_summary_dolby" />
+            </LinearLayout>
+            <View android:id="@id/list_divider_two" android:background="@color/list_divider" android:layout_width="fill_parent" android:layout_height="@dimen/list_devide_size" />
+            <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/layout_filter_less60s_audio" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/single_line_image_list_item_height" android:paddingStart="16.0dip" android:layout_marginEnd="46.0dip">
+                    <TextView android:textSize="@dimen/first_line_text_size" android:textColor="@color/list_item_text" android:id="@id/textView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/filter_less_60" />
+                </LinearLayout>
+                <com.zte.mifavor.widget.CheckBoxZTE android:id="@id/checkbox_filter" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="16.0dip" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View android:id="@id/list_divider_three" android:background="@color/list_divider" android:layout_width="fill_parent" android:layout_height="@dimen/list_devide_size" />
+            <TextView android:textSize="@dimen/first_line_text_size" android:textColor="@color/list_item_text" android:gravity="center_vertical" android:id="@id/layout_feedback" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/feedback" android:paddingStart="16.0dip" />
+            <View android:id="@id/list_divider_four" android:background="@color/list_divider" android:layout_width="fill_parent" android:layout_height="@dimen/list_devide_size" />
+            <TextView android:textSize="@dimen/first_line_text_size" android:textColor="@color/list_item_text" android:gravity="center_vertical" android:id="@id/layout_clear_cache" android:background="@drawable/list_selector_background_zte_light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/clear_cache" android:paddingEnd="16.0dip" />
+            <TextView android:textSize="@dimen/first_line_text_size" android:textColor="@color/list_item_text" android:gravity="center_vertical" android:id="@id/layout_about" android:background="@drawable/list_selector_background_zte_light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/about" android:paddingEnd="16.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

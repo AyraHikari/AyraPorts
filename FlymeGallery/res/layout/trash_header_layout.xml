@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fffafafa" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/trash_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:maxLines="1" />
+    <com.meizu.media.gallery.ui.RollingTextView android:textSize="12.0sp" android:textColor="#ffb7b7b7" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/trash_header_text" android:maxLines="1" />
+</LinearLayout>

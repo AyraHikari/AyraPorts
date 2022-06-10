@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.media.gallery.ui.GalleryTopTableNestedScrollLayout android:orientation="vertical" android:id="@id/nest_scroll_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/toolbar_layout" android:background="@color/white" android:paddingLeft="@dimen/gallery_top_table_toolbar_padding_exclude_top" android:paddingRight="@dimen/gallery_top_table_toolbar_padding_exclude_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.meizu.media.gallery.ui.OverflowTabScroller android:layout_gravity="left" android:id="@id/top_table_tab_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gallery_top_table_tab_layout_margintop_expand" android:layout_marginBottom="@dimen/gallery_top_table_tab_layout_marginbottom" />
+        <com.meizu.media.gallery.ui.MenuTextView android:gravity="center" android:layout_gravity="center|right|top" android:id="@id/search_bar" android:layout_width="44.0dip" android:layout_height="60.0dip" android:layout_marginRight="44.0dip" android:contentDescription="@string/search" />
+        <com.meizu.media.gallery.ui.MenuTextView android:gravity="center" android:layout_gravity="center|right|top" android:id="@id/more_bar" android:layout_width="44.0dip" android:layout_height="60.0dip" android:src="@drawable/more_bar_icon" android:contentDescription="@string/more_label" />
+    </FrameLayout>
+    <com.meizu.media.gallery.ui.GalleryViewPager android:id="@id/media_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+</com.meizu.media.gallery.ui.GalleryTopTableNestedScrollLayout>

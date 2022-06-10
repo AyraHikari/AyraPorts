@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/background_view" android:background="@color/filtershow_default_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.meizu.media.gallery.moment.widget.SmartCardView android:layout_gravity="center_vertical" android:id="@id/image" android:background="@color/filtershow_default_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <ImageView android:layout_gravity="center" android:id="@id/source_image" android:background="@color/filtershow_default_background_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/animation" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/toolbar_layout" android:background="@color/gallery_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <flyme.support.v7.widget.Toolbar android:gravity="center_vertical" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/line" android:background="@color/gallery_bottom_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/activity_black_line_height" android:layout_below="@id/toolbar" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/compare" android:background="@drawable/constract_btn_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="26.0dip" android:layout_marginBottom="@dimen/smart_card_compare_margin_bottom" android:minWidth="48.0dip" android:text="@string/contrast_btn" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/smart_card_compare_margin_right" android:layout_alignParentEnd="true" style="@style/text_style_medium" />
+    <com.meizu.media.gallery.ui.TouchBlockFrameLayout android:id="@id/menu_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

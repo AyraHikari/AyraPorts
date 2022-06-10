@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_pic" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/kwjx_common_style_image_8" skin:enable="true" />
+    <ImageView android:id="@id/iv_select" android:visibility="visible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/kwjx_music_xuankuang" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_marginEnd="5.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

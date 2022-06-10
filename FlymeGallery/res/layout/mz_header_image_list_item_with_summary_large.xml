@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/Widget.Flyme.HeadImageList.ContentLinearLayout">
+        <ImageView android:id="@id/icon" style="@style/Widget.Flyme.HeadImageList.HeadImageView" />
+        <LinearLayout style="@style/Widget.Flyme.HeadImageList.TextContentLinearLayout">
+            <TextView android:id="@id/title" style="@style/Widget.Flyme.List.Header.Image.Title" />
+            <TextView android:id="@id/descOne" style="@style/Widget.Flyme.HeadImageList.Desc.Large.AdjoinTitle" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Buka papan kekunci untuk menamakan Senarai Main baru anda atau pilih Simpan untuk menamakannya \"%s\".</string>
+    <string name="rename_playlist_diff_prompt">Buka papan kekunci untuk memberi nama baru bagi senarai main \"%1$s\" atau pilih Simpan untuk menamakannya \"%2$s\".</string>
+    <string name="rename_playlist_same_prompt">Buka papan kekunci untuk memberi nama baru kepada senarai main \"%s\".</string>
+</resources>

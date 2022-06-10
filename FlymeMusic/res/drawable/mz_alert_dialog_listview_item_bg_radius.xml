@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/mz_dialog_alert_listitem_pressed" />
+            <corners android:radius="6.0dip" />
+        </shape>
+    </item>
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/mz_dialog_alert_listitem_checked" />
+            <corners android:radius="6.0dip" />
+        </shape>
+    </item>
+    <item android:drawable="@android:color/transparent" />
+</selector>

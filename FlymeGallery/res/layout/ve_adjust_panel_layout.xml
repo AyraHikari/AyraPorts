@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/filtershow_editor_panel_background" android:layout_width="fill_parent" android:layout_height="@dimen/filtershow_editor_panel_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.filtershow.ui.OverlayRecycleView android:id="@id/tool_list" android:paddingTop="15.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/filtershow_panel_common_height" />
+    <com.meizu.media.gallery.filtershow.ui.FiltersHorizontalWheelView android:id="@id/primarySeekBar" android:layout_width="fill_parent" android:layout_height="@dimen/filtershow_seekbar_height" android:layout_alignParentBottom="true" />
+</RelativeLayout>

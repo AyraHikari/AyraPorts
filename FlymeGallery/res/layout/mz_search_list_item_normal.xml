@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/Widget.Flyme.List.Layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/Widget.Flyme.SearchList.ContentLinearLayout">
+        <ImageView android:id="@id/mz_search_icon" style="@style/Widget.Flyme.SearchList.SearchIcon" />
+        <LinearLayout style="@style/Widget.Flyme.SearchList.TextContentLinearLayout">
+            <TextView android:id="@id/title" style="@style/TextAppearance.Flyme.SearchList.Title" />
+            <TextView android:id="@id/descOne" android:visibility="gone" style="@style/Widget.Flyme.SearchList.Desc.Normal.AdjoinTitle" />
+        </LinearLayout>
+        <ImageView android:id="@id/mz_cancel_icon" android:visibility="gone" style="@style/Widget.Flyme.SearchList.OperationIcon" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="KTitleBar" android:background="@drawable/kwjx_loading_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/rl_aduio_connection_bg" android:background="@drawable/kwjx_loading_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" fresco:actualImageScaleType="fitXY" />
+    <ImageView android:id="@id/iv_voice_close" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_btn_close" android:layout_alignParentRight="true" />
+    <cn.kuwo.show.ui.audiolive.widget.RippleBackground android:id="@id/rb_voice_ripple_bg" android:layout_width="fill_parent" android:layout_height="400.0dip" fresco:rb_color="@color/kwjx_audio_ripple" fresco:rb_duration="3000" fresco:rb_radius="40.0dip" fresco:rb_rippleAmount="4" fresco:rb_scale="2.0">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_voice_head_portrait" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_centerInParent="true" fresco:actualImageScaleType="fitCenter" fresco:placeholderImage="@drawable/show_lib_default" fresco:roundAsCircle="true" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/tv_voice_nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:layout_below="@id/iv_voice_head_portrait" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffcccccc" android:id="@id/tv_voice_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="正在请求语音连接..." android:layout_below="@id/tv_voice_nickname" android:layout_centerHorizontal="true" />
+    </cn.kuwo.show.ui.audiolive.widget.RippleBackground>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_voice_close" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/kwjx_audio_btn_close" />
+            <TextView android:textSize="14.0sp" android:textColor="#ffcccccc" android:gravity="center" android:paddingTop="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="收起" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_voice" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_voice_ring" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_btn_ring_off_normal" />
+            <TextView android:textSize="14.0sp" android:textColor="#ffcccccc" android:gravity="center" android:id="@id/tv_voice_ring" android:paddingTop="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="挂断" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_voice_control" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_voice_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/kwjx_audio_disablemic" />
+            <TextView android:textSize="14.0sp" android:textColor="#ffcccccc" android:gravity="center" android:id="@id/tv_voice_msg" android:paddingTop="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="闭麦" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

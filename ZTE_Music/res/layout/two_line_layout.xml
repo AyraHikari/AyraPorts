@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="@dimen/mfvc_2line_list_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/line1_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="16.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/downloaded_icon" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/downloaded_outline" android:layout_marginEnd="6.0dip" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/favorate_icon" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:tint="@color/music_ply_icon_favorite" android:layout_marginEnd="6.0dip" />
+        <TextView android:textSize="@dimen/first_line_text_size" android:textColor="@color/list_item_text" android:ellipsize="end" android:id="@id/line1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/second_line_text_size" android:textColor="@color/list_item_second_text" android:ellipsize="end" android:id="@id/line2" android:paddingTop="@dimen/two_line_between_height" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:layout_below="@id/line1_layout" />
+</RelativeLayout>

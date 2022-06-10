@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/kwjx_bg_white_corner_up_6" android:paddingLeft="30.0dip" android:paddingTop="17.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/black" android:gravity="center" android:id="@id/btn_share_live" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="17.0dip" android:text="分享直播间" android:drawableTop="@drawable/kwjx_share_live_pic" android:drawablePadding="10.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/black" android:gravity="center" android:id="@id/btn_share_live_reocord" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="17.0dip" android:text="录制短视频分享" android:drawableTop="@drawable/kwjx_share_live_record" android:drawablePadding="10.0dip" android:layout_weight="1.0" />
+</LinearLayout>

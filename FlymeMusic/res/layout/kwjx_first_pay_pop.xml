@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/live_game_blank_space" android:background="@color/kw_common_cl_black_alpha_50" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="260.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/first_pay_pic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_first_pay_bg" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/first_pay_popup_xinshou" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_first_pay_xinshou" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/first_pay_popup_chaozhi" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_first_pay_chaozhi" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/first_pay_popup_zunxiang" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_first_pay_zunxiang" android:layout_centerInParent="true" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="135.0dip" android:layout_marginRight="25.0dip">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="首充" />
+                <TextView android:textSize="@dimen/text_size_12" android:textStyle="bold" android:textColor="#fffffc28" android:id="@id/first_pay_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1元" />
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(" />
+                <TextView android:textSize="@dimen/text_size_12" android:textStyle="bold" android:textColor="#fffffc28" android:id="@id/first_pay_xingbi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100星币" />
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=")赠送新手礼包" />
+            </LinearLayout>
+        </LinearLayout>
+        <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rg_pay_type" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="165.0dip">
+            <RadioButton android:id="@id/first_pay_choose_xinshou" android:layout_width="0.0dip" android:layout_height="40.0dip" android:button="@color/kwjx_transparent" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/first_pay_choose_chaozhi" android:layout_width="0.0dip" android:layout_height="40.0dip" android:button="@color/kwjx_transparent" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/first_pay_choose_zunxiang" android:layout_width="0.0dip" android:layout_height="40.0dip" android:button="@color/kwjx_transparent" android:layout_weight="1.0" />
+        </RadioGroup>
+        <ImageView android:id="@id/first_pay_popup_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:src="@drawable/kwjx_first_pay_guanbi" android:layout_below="@id/first_pay_pic" android:layout_centerHorizontal="true" />
+        <View android:id="@id/first_pay_click_area" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="48.0dip" android:layout_above="@id/first_pay_popup_close" />
+        <Button android:textColor="#ff662e00" android:id="@id/first_pay_chongzhi_btn" android:background="@drawable/first_pay_pop_button" android:layout_width="wrap_content" android:layout_height="35.0dip" android:text="立即充值1元" android:layout_alignTop="@id/first_pay_click_area" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

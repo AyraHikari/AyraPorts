@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="filter_text_color_10_black">#ffe5e5e5</color>
+    <color name="filtershow_default_background_color">@android:color/black</color>
+    <color name="mz_seekbar_progress_disable">#ff0a1d36</color>
+</resources>

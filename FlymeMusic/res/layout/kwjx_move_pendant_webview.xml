@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="95.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/pendant_fl" android:visibility="gone" android:layout_width="95.0dip" android:layout_height="wrap_content">
+        <cn.kuwo.show.ui.view.WebViewJS android:id="@id/pendant_webview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <ImageView android:id="@id/close_pendant" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/btn_close_room" android:layout_alignParentRight="true" />
+</RelativeLayout>

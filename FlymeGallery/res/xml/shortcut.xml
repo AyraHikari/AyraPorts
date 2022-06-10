@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/ic_shortcut_photos" android:enabled="true" android:shortcutId="all_album" android:shortcutShortLabel="@string/all_picture_list_title">
+        <intent android:targetPackage="com.meizu.media.gallery" android:action="com.meizu.media.gallery.action.ENTER_ALL_PHOTO_BY_SHORTCUT" android:targetClass="com.meizu.media.gallery.GalleryActivity" />
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_shortcut_puzzle" android:enabled="true" android:shortcutId="puzzle" android:shortcutShortLabel="@string/collage">
+        <intent android:targetPackage="com.meizu.media.gallery" android:action="com.meizu.media.gallery.action.ENTER_PUZZLE_BY_SHORTCUT" android:targetClass="com.meizu.media.gallery.AlbumManagerActivity" />
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_shortcut_search" android:enabled="true" android:shortcutId="search" android:shortcutShortLabel="@string/search">
+        <intent android:targetPackage="com.meizu.media.gallery" android:action="com.meizu.media.gallery.action.ENTER_LOCAL_SEARCH_BY_SHORTCUT" android:targetClass="com.meizu.media.gallery.localsearch.LocalSearchActivity" />
+    </shortcut>
+</shortcuts>

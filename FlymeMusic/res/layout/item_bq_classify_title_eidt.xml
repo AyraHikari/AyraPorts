@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/bq_grid_item_title_ts" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/editTitle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="1.0dip" android:layout_alignParentLeft="true" android:fontFamily="sans-serif-medium" />
+    <TextView android:textSize="@dimen/bq_grid_item_title_ts" android:textColor="@color/app_theme_color_red" android:layout_gravity="center_vertical" android:id="@id/edit" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="1.0dip" android:text="@string/bq_edit" android:layout_alignParentRight="true" android:fontFamily="sans-serif-medium" />
+</RelativeLayout>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  整个主题名, 封面, 对比度, 版本等 -->
+<theme  cover="cover.jpg" name="love"  supported ="1v1" tag="suitPhoto" version="1.0.0">
+
+<!-- 视频流, 对宽高等的定义. 底层包括画图的一些设置  -->
+<video  videoWidth="1280" videoHeight="720" bitrate="5000000" framerate="30" >
+	<!-- 对图片/视频画图的处理  每张图片的时间长度  重复次数等-->
+    <track name="" type="base"  order="1" durationPP="3000"  height="1"  X="0" Y="0" Z="0" W="1" H="1" >
+		  <!-- 转场类型,  对于每次图片进行切换时进行转成动画操作 -->
+		  <transition name="polor"  duration="0.1"/>
+		  <!-- 旋转, 平移, 缩放等动画 -->
+		<!--
+		  <animation name="translate" start="0" end="1000" interval="2" from="0,0,0" to="-0.1,0,0"  repeat="" />
+		  <animation name="translate" start="1000" end="2000" interval="2" from="-0.1,0,0" to="0,0,0"  repeat="" />
+		  -->
+    </track>
+
+	<!-- 120PX -->
+    <credits name="front" type="titles" W="1" H="0.1666667" duration="3000"  text="香港特别行政区"   X="0" Y="-0.02" Z="0">
+		<filter name="alpha_set" start="0" end="300" type="zero" />
+		<animation name="scale" start="300" end="700" from="0.01,0.01,0.01" to="0.99999,0.99999,0.99999" />
+		<animation name="scale" start="700" end="3000" from="0.99999,0.99999,0.99999" to="1,1,1" />
+		<animation name="translate" start="0" end="700" from="0,-0.02,0" to="0,-0.04,0" />
+		<animation name="translate" start="700" end="1100" from="0,-0.04,0" to="0,0.07291667,0" />
+		<animation name="translate" start="1100" end="3000" from="0,0.07291667,0" to="0,0.07291667,0" />
+		<filter name="alpha_set" start="2500" end="3000" type="sub" />
+	</credits>
+	<credits name="front" type="titles" W="1" H="0.1666667" duration="100" text=""  X="0" Y="0.0" Z="0">
+		<filter name="alpha_set" start="0" end="300" type="zero" />
+		<animation name="scale" start="300" end="700" from="0.01,0.01,0.01" to="0.99999,0.99999,0.99999" />
+		<animation name="scale" start="700" end="3000" from="0.99999,0.99999,0.99999" to="1,1,1" />
+		<animation name="translate" start="0" end="700" from="0,0.0,0" to="0,0.0453333,0" />
+		<animation name="translate" start="700" end="1100" from="0,0.0453333,0" to="0,0.1333333,0" />
+		<animation name="translate" start="1100" end="3000" from="0,0.1333333,0" to="0,0.1333333,0" />
+		<filter name="alpha_set" start="2500" end="3000" type="sub" />
+	</credits>
+    <credits name="front" type="titles" W="1" H="0.1666667" duration="3000" text="2017年9月1日" X="0" Y="-0.032229166" Z="0">
+		    <filter name="alpha_set" start="0" end="700" type="zero" />
+		    <animation name="translate" start="0" end="3000" from="0,-0.032229166,0" to="0,-0.032229166,0" />
+		    <animation name="scale" start="700" end="1100" from="0.01,0.01,0.01" to="0.99999,0.99999,0.99999" />
+		    <animation name="scale" start="1100" end="3000" from="0.99999,0.99999,0.99999" to="1,1,1" />
+		    <filter name="alpha_set" start="2500" end="3000" type="sub" />
+	</credits>
+
+
+	<!-- 108PX -->
+	<credits name="front" type="titles" W="1" H="0.1666667" duration="3000"  text="香港特别行政区"   X="0" Y="-0.02" Z="0">
+		<filter name="alpha_set" start="0" end="300" type="zero" />
+		<animation name="scale" start="300" end="700" from="0.01,0.01,0.01" to="0.99999,0.99999,0.99999" />
+		<animation name="scale" start="700" end="3000" from="0.99999,0.99999,0.99999" to="1,1,1" />
+		<animation name="translate" start="0" end="700" from="0,-0.02,0" to="0,-0.04,0" />
+		<animation name="translate" start="700" end="1100" from="0,-0.04,0" to="0,0.06666667,0" />
+		<animation name="translate" start="1100" end="3000" from="0,0.06666667,0" to="0,0.06666667,0" />
+		<filter name="alpha_set" start="2500" end="3000" type="sub" />
+	</credits>
+	<credits name="front" type="titles" W="1" H="0.1666667" duration="100" text=""  X="0" Y="0.0" Z="0">
+		<filter name="alpha_set" start="0" end="300" type="zero" />
+		<animation name="scale" start="300" end="700" from="0.01,0.01,0.01" to="0.99999,0.99999,0.99999" />
+		<animation name="scale" start="700" end="3000" from="0.99999,0.99999,0.99999" to="1,1,1" />
+		<animation name="translate" start="0" end="700" from="0,0.0,0" to="0,0.0453333,0" />
+		<animation name="translate" start="700" end="1100" from="0,0.0453333,0" to="0,0.1333333,0" />
+		<animation name="translate" start="1100" end="3000" from="0,0.1333333,0" to="0,0.1333333,0" />
+		<filter name="alpha_set" start="2500" end="3000" type="sub" />
+	</credits>
+	<credits name="front" type="titles" W="1" H="0.1666667" duration="3000" text="2017年9月1日" X="0" Y="-0.032229166" Z="0">
+		<filter name="alpha_set" start="0" end="700" type="zero" />
+		<animation name="translate" start="0" end="3000" from="0,-0.032229166,0" to="0,-0.032229166,0" />
+		<animation name="scale" start="700" end="1100" from="0.01,0.01,0.01" to="0.99999,0.99999,0.99999" />
+		<animation name="scale" start="1100" end="3000" from="0.99999,0.99999,0.99999" to="1,1,1" />
+		<filter name="alpha_set" start="2500" end="3000" type="sub" />
+	</credits>
+
+
+	<!-- 90PX -->
+	<credits name="front" type="titles" W="1" H="0.1666667" duration="3000"  main="1" text="香港特别行政区"   X="0" Y="-0.02" Z="0">
+		<filter name="alpha_set" start="0" end="300" type="zero" />
+		<animation name="scale" start="300" end="700" from="0.01,0.01,0.01" to="0.99999,0.99999,0.99999" />
+		<animation name="scale" start="700" end="3000" from="0.99999,0.99999,0.99999" to="1,1,1" />
+		<animation name="translate" start="0" end="700" from="0,-0.02,0" to="0,-0.04,0" />
+		<animation name="translate" start="700" end="1100" from="0,-0.04,0" to="0,0.057291667,0" />
+		<animation name="translate" start="1100" end="3000" from="0,0.057291667,0" to="0,0.057291667,0" />
+		<filter name="alpha_set" start="2500" end="3000" type="sub" />
+	</credits>
+	<credits name="front" type="titles" W="1" H="0.1666667" duration="100" text=""  X="0" Y="0.0" Z="0">
+		<filter name="alpha_set" start="0" end="300" type="zero" />
+		<animation name="scale" start="300" end="700" from="0.01,0.01,0.01" to="0.99999,0.99999,0.99999" />
+		<animation name="scale" start="700" end="3000" from="0.99999,0.99999,0.99999" to="1,1,1" />
+		<animation name="translate" start="0" end="700" from="0,0.0,0" to="0,0.0453333,0" />
+		<animation name="translate" start="700" end="1100" from="0,0.0453333,0" to="0,0.1333333,0" />
+		<animation name="translate" start="1100" end="3000" from="0,0.1333333,0" to="0,0.1333333,0" />
+		<filter name="alpha_set" start="2500" end="3000" type="sub" />
+	</credits>
+	<credits name="front" type="titles" W="1" H="0.1666667" duration="3000"  main="0" text="2017年9月1日" X="0" Y="-0.032229166" Z="0">
+		<filter name="alpha_set" start="0" end="700" type="zero" />
+		<animation name="translate" start="0" end="3000" from="0,-0.032229166,0" to="0,-0.032229166,0" />
+		<animation name="scale" start="700" end="1100" from="0.01,0.01,0.01" to="0.99999,0.99999,0.99999" />
+		<animation name="scale" start="1100" end="3000" from="0.99999,0.99999,0.99999" to="1,1,1" />
+		<filter name="alpha_set" start="2500" end="3000" type="sub" />
+	</credits>
+
+
+	<!-- 72PX -->
+	<credits name="front" type="titles" W="1" H="0.1666667" duration="3000" text="香港特别行政区"   X="0" Y="-0.02" Z="0">
+		<filter name="alpha_set" start="0" end="300" type="zero" />
+		<animation name="scale" start="300" end="700" from="0.01,0.01,0.01" to="0.99999,0.99999,0.99999" />
+		<animation name="scale" start="700" end="3000" from="0.99999,0.99999,0.99999" to="1,1,1" />
+		<animation name="translate" start="0" end="700" from="0,-0.02,0" to="0,-0.04,0" />
+		<animation name="translate" start="700" end="1100" from="0,-0.04,0" to="0,0.04791667,0" />
+		<animation name="translate" start="1100" end="3000" from="0,0.04791667,0" to="0,0.04791667,0" />
+		<filter name="alpha_set" start="2500" end="3000" type="sub" />
+	</credits>
+	<credits name="front" type="titles" W="1" H="0.1666667" duration="3000" text=""   X="0" Y="0.0" Z="0">
+		<filter name="alpha_set" start="0" end="300" type="zero" />
+		<animation name="scale" start="300" end="700" from="0.01,0.01,0.01" to="0.99999,0.99999,0.99999" />
+		<animation name="scale" start="700" end="3000" from="0.99999,0.99999,0.99999" to="1,1,1" />
+		<animation name="translate" start="0" end="700" from="0,0.0,0" to="0,0.0453333,0" />
+		<animation name="translate" start="700" end="1100" from="0,0.0453333,0" to="0,0.1333333,0" />
+		<animation name="translate" start="1100" end="3000" from="0,0.1333333,0" to="0,0.1333333,0" />
+		<filter name="alpha_set" start="2500" end="3000" type="sub" />
+	</credits>
+	<credits name="front" type="titles" W="1" H="0.1666667" duration="3000" text="2017年9月1日" X="0" Y="-0.032229166" Z="0">
+		<filter name="alpha_set" start="0" end="700" type="zero" />
+		<animation name="translate" start="0" end="3000" from="0,-0.032229166,0" to="0,-0.032229166,0" />
+		<animation name="scale" start="700" end="1100" from="0.01,0.01,0.01" to="0.99999,0.99999,0.99999" />
+		<animation name="scale" start="1100" end="3000" from="0.99999,0.99999,0.99999" to="1,1,1" />
+		<filter name="alpha_set" start="2500" end="3000" type="sub" />
+	</credits>
+
+	<!-- 标题动画B
+	<credits name="front" type="titles" W="2" H="0.6" duration="3000"  text="香港特别行政区"   X="0" Y="0" Z="0">
+		<filter name="alpha_set" start="0" end="300" type="zero" />
+		<animation name="scale" start="300" end="700" from="0.01,0.01,0.01" to="1,1,1" />
+		<animation name="translate" start="300" end="700" from="0,-0.3,0" to="0,0.2,0" />
+		<filter name="alpha_set" start="2500" end="3000" type="sub" />
+	</credits>
+	<credits name="front" type="titles" W="1.3" H="0.4" duration="3000"  text="2017年9月1日"   X="0" Y="0" Z="0">
+		<filter name="alpha_set" start="0" end="700" type="zero" />
+		<animation name="scale" start="700" end="1100" from="0.01,0.01,0.01" to="1,1,1" />
+		<animation name="translate" start="700" end="1100" from="0,-0.3,0" to="0,-0.15,0" />
+		<filter name="alpha_set" start="2500" end="3000" type="sub" />
+	</credits>
+	end -->
+
+	<!--
+	<credits name="front" type="titles" W="2" H="0.6" duration="3000"  text="香港特别行政区"   X="0" Y="0" Z="0">
+		<filter name="alpha_set" start="0" end="200" type="zero" />
+		<filter name="alpha_set" start="200" end="400" type="add" />
+		<animation name="translate" start="400" end="1000" from="0,0,0" to="0,0.17,0" />
+		<filter name="alpha_set" start="2500" end="3000" type="sub" />
+	</credits>
+	<credits name="front" type="titles" W="1.3" H="0.4" duration="3000"  text="2017年9月1日"   X="0" Y="0" Z="0">
+		<filter name="alpha_set" start="0" end="700" type="zero" />
+		<filter name="alpha_set" start="700" end="1000" type="add" />
+		<animation name="translate" start="400" end="1000" from="0,0,0" to="0,-0.17,0" />
+		<filter name="alpha_set" start="2500" end="3000" type="sub" />
+	</credits>
+	-->
+
+	<!--
+	<credits name="front" type="titles" W="2" H="0.6" duration="3000"  text="香港特别行政区"   X="0" Y="0.2" Z="0">
+		<filter name="alpha_set" start="0" end="800" type="add" />
+		<animation name="rotate" start="0" end="800" to="0,0.17,0" />
+		<filter name="alpha_set" start="2500" end="3000" type="sub" />
+	</credits>
+	<credits name="front" type="titles" W="1.3" H="0.4" duration="3000"  text="2017年9月1日"   X="0" Y="-0.15" Z="0">
+		<filter name="alpha_set" start="0" end="800" type="add" />
+		<animation name="rotate" start="0" end="800" to="0,0.17,0" />
+		<filter name="alpha_set" start="2500" end="3000" type="sub" />
+	</credits>
+	-->
+
+    <!-- 统一后处理 -->
+    <processing type="post" name="sepia" />
+</video>
+
+<!-- 音频层, 包括配音, 开始时间,  是否淡入淡出等 -->
+<audio musicName="soft" path="/sdcard/mmfEditor/1.mp3"  needFade="1" />
+</theme>

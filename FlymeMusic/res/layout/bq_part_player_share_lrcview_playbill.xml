@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff2c2c2c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/abumBg" android:background="#ff2c2c2c" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ScrollView android:id="@id/scroll_view" android:focusable="true" android:fitsSystemWindows="true" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="78.0dip">
+        <com.banqu.music.ui.music.playpage.PlaybillView android:id="@id/playbill" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </ScrollView>
+    <Button android:textSize="@dimen/bq_button_ts" android:textColor="@color/white" android:id="@id/share" android:background="@drawable/bg_import_playlist_btn_normal_color" android:layout_width="@dimen/bq_button_width" android:layout_height="@dimen/bq_button_height" android:layout_marginBottom="20.0dip" android:text="@string/bq_go_share_lyric" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</RelativeLayout>

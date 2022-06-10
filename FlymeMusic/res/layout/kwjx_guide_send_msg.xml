@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/kwjx_guide_send_msg_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/tv_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="5.0dip" android:text="主播你真美" android:maxLines="1" />
+    <Button android:textSize="14.0sp" android:textColor="#ffff7474" android:id="@id/btn_send_msg" android:background="@drawable/kwjx_btn_white_corner_bg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginRight="10.0dip" android:text="发送" />
+</LinearLayout>

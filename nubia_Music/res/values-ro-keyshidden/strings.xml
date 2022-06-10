@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Deschideţi tastatura pentru a denumi noua listă de redare, sau selectaţi Salvaţi pentru a o denumi „%s”.</string>
+    <string name="rename_playlist_diff_prompt">Deschideţi tastatura pentru a da listei de redare „%1$s” un nume nou sau selectaţi Salvaţi pentru a o denumi „%2$s”.</string>
+    <string name="rename_playlist_same_prompt">Deschideţi tastatura pentru a redenumi lista de redare „%s”.</string>
+</resources>

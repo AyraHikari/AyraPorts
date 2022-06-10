@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/filtershow_default_background_color" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:test="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/cloud_guide_cover" android:layout_width="300.0dip" android:layout_height="254.0dip" android:layout_marginTop="111.0dip" android:src="@drawable/cloud_switch_logo_big" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:layout_gravity="top" android:id="@id/actionbar" android:layout_width="fill_parent" android:layout_height="70.0dip">
+        <ImageView android:id="@id/cloud_guide_back" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="43.0dip" android:src="@drawable/mz_titlebar_ic_back_dark" android:scaleType="centerInside" />
+    </RelativeLayout>
+    <TextView android:textSize="16.0sp" android:textColor="@color/black_60" android:gravity="center_horizontal" android:id="@id/cloud_guide_main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/cloud_guide_cover" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-medium" />
+    <TextView android:textSize="@dimen/cloud_guide_login_text_size" android:textColor="@color/mz_theme_color_firebrick" android:gravity="center" android:id="@id/cloud_login" android:background="@drawable/round_button_blue" android:layout_width="@dimen/cloud_guide_button_width" android:layout_height="@dimen/cloud_guide_button_height" android:layout_marginBottom="65.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-medium" />
+</RelativeLayout>

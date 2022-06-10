@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/myfans_header_rel" android:tag="KTitleBar" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <cn.kuwo.show.ui.common.KwTitleBar android:id="@id/ktb_header" style="@style/KwjxTitleBar" skin:enable="true" />
+</RelativeLayout>

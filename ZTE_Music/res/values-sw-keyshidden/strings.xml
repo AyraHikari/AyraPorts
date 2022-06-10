@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Fungua kibodi ili kupatia orodha ya kucheza jina jipya, au chagua Hifadhi ili kuiita jila la \"%s\".</string>
+    <string name="rename_playlist_diff_prompt">Fungua kibodi ili kupatia orodha ya kucheza \"%1$s\" jina jipya, au chagua Hifadi ili kuipatia jina \"%2$s\".</string>
+    <string name="rename_playlist_same_prompt">Fungua kibodi ili kupatia orodha ya kucheza \"%s\" jina jipya.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/online_item_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/recommendAlbumHead" layout="@layout/bq_group_category_header_normal" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recommendAlbum" android:paddingLeft="@dimen/default_page_padding" android:paddingRight="@dimen/default_page_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" app:layout_constraintTop_toBottomOf="@id/recommendAlbumHead" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/love" android:background="@drawable/bq_my_love_bg" android:layout_width="fill_parent" android:layout_height="70.0dip" android:paddingStart="@dimen/dp_18" android:paddingEnd="@dimen/dp_18" android:layout_marginStart="@dimen/dp_18" android:layout_marginEnd="@dimen/dp_18"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/love_favorite" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/sp_15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq_my_love" android:layout_marginStart="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/love_favorite" app:layout_constraintTop_toTopOf="parent" />
+    <com.banqu.music.ui.widget.PlaySourceImageView android:id="@id/play_love" android:padding="10.0dip" android:clickable="true" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_bq_home_daily_recommend_play" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

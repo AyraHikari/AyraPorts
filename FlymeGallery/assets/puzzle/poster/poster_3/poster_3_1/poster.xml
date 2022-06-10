@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<puzzle type="poster" width="900" height="1200">
+    <icon left="0" top="0" right="900" bottom="1200" src="temp.png" local="0"/>
+    <window type="rect" left="81" top="81" right="442" bottom="567"/>
+    <window type="rect" left="456" top="81" right="816" bottom="567"/>
+    <window type="rect" left="81" top="582" right="441" bottom="1118"/>
+    <text x="816" y="1040" content="愿生活" length="5" size="32" textColor="#F98383" textAlign="right"/>
+    <text x="813" y="1083" content="不太拥挤 不必刻意" length="10" size="26" textAlign="right"/>
+</puzzle>

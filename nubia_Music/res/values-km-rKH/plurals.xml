@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NMins">
+        <item quantity="other">%d នាទី</item>
+        <item quantity="one">១ នាទី</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">"បាន​លុប​បទម្រៀង%d "</item>
+        <item quantity="one">បាន​លុប​បទចម្រៀង 1</item>
+    </plurals>
+    <plurals name="NNNtrackswilldeleted">
+        <item quantity="other">បទចម្រៀង%d នឹងត្រូវ​បាន​លុប​ជា​អចិន្ត្រៃយ៍​ពី​ឧបបករណ៍​ផ្ទុក។</item>
+        <item quantity="one">បទ​ចម្រៀង​ 1 នឹង​ត្រូវ​បានលុប​ជា​អចិន្ត្រៃយ៍​ពី​ឧបករណ៍​ផ្ទុក។</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d albums</item>
+        <item quantity="one">​អាល់ប៊ុម​ទី ១</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d songs</item>
+    </plurals>
+</resources>

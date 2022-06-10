@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/btn_export_white" android:id="@id/exporting" android:visible="true" android:title="@string/exporting_video" android:contentDescription="@string/exporting_video" app:showAsAction="always" />
+    <item android:icon="@drawable/mz_tab_ic_share_light" android:id="@id/share" android:visible="true" android:title="@string/menu_share_title" android:contentDescription="@string/menu_share_title" app:showAsAction="always" />
+    <item android:icon="@drawable/btn_export_black" android:id="@id/menu_export" android:title="@string/exporting_video" android:contentDescription="@string/exporting_video" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_share" android:id="@id/menu_share" android:title="@string/menu_share_title" android:contentDescription="@string/menu_share_title" app:showAsAction="always" />
+    <item android:icon="@drawable/btn_delete" android:id="@id/menu_delete" android:title="@string/delete" android:contentDescription="@string/delete" app:showAsAction="always" />
+</menu>

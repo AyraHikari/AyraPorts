@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ggg.ui.banner.CardsBannerView android:id="@id/banner" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layerScale="0.1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" app:levelOneOutOffsetRatio="0.1" app:minAlpha="0.0" app:visibleCount="3" />
+</FrameLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/send_gift_dialog_ll" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/dialog_rl" android:background="@drawable/kwjx_send_gift_tips_dialog_bg" android:layout_width="244.0dip" android:layout_height="190.0dip" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/room_send_gift_tips" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" android:text="点击即赠送图标中礼物" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tip_tv_rl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/title" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/black80" android:id="@id/tip_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="本次赠送" />
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/gift_src" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" fresco:roundAsCircle="true" />
+            <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/black80" android:id="@id/num_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/need_coin_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tip_tv_rl" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/black80" android:id="@id/sum_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="需要" />
+            <ImageView android:id="@id/gift_coin_iv" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/kwjx_recharge_xingbi" android:scaleType="centerInside" />
+            <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/black80" android:id="@id/gift_coin" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageView android:id="@id/pay_no_tips" android:padding="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_never_tip_selector" android:layout_below="@id/need_coin_ll" android:layout_centerHorizontal="true" />
+        <View android:id="@id/divider" android:background="@color/room_send_gift_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/pay_no_tips" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/room_send_gift_tips" android:gravity="center" android:id="@id/cancle_send_btn" android:layout_width="122.0dip" android:layout_height="40.0dip" android:text="取消" android:layout_below="@id/divider" />
+        <View android:background="@color/room_send_gift_divider" android:layout_width="1.0dip" android:layout_height="40.0dip" android:layout_toRightOf="@id/cancle_send_btn" android:layout_below="@id/divider" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/room_send_gift" android:gravity="center" android:id="@id/send_gift_btn" android:layout_width="122.0dip" android:layout_height="40.0dip" android:text="赠送" android:layout_toRightOf="@id/cancle_send_btn" android:layout_below="@id/divider" />
+    </RelativeLayout>
+</RelativeLayout>

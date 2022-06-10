@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/small_window_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/small_bg" android:background="@drawable/bg_float_lyric" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/rl_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/music_app" android:background="@drawable/ic_music" android:layout_width="@dimen/dp_24" android:layout_height="@dimen/dp_24" android:layout_margin="@dimen/dp_8" />
+            <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/music_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/app_name" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/btn_close" android:background="@drawable/ic_clear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+        </LinearLayout>
+        <com.banqu.music.oldui.widget.lyric.LyricTextView android:id="@id/lyric" android:layout_width="fill_parent" android:layout_height="84.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="10.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <net.steamcrafted.materialiconlib.MaterialIconView android:layout_gravity="center" android:id="@id/btn_lock" android:background="?selectableItemBackgroundBorderless" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="center" android:layout_weight="1.0" app:materialIcon="lock_open" app:materialIconColor="@color/white" app:materialIconSize="24.0dip" />
+                <net.steamcrafted.materialiconlib.MaterialIconView android:layout_gravity="center" android:id="@id/btn_previous" android:background="?selectableItemBackgroundBorderless" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="center" android:layout_weight="1.0" app:materialIcon="skip_previous" app:materialIconColor="@color/white" app:materialIconSize="24.0dip" />
+                <net.steamcrafted.materialiconlib.MaterialIconView android:layout_gravity="center" android:id="@id/btn_play" android:background="?selectableItemBackgroundBorderless" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="center" android:layout_weight="1.0" app:materialIcon="play" app:materialIconColor="@color/white" app:materialIconSize="24.0dip" />
+                <net.steamcrafted.materialiconlib.MaterialIconView android:layout_gravity="center" android:id="@id/btn_next" android:background="?selectableItemBackgroundBorderless" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="center" android:layout_weight="1.0" app:materialIcon="skip_next" app:materialIconColor="@color/white" app:materialIconSize="24.0dip" />
+                <net.steamcrafted.materialiconlib.MaterialIconView android:layout_gravity="center" android:id="@id/btn_settings" android:background="?selectableItemBackgroundBorderless" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="center" android:layout_weight="1.0" app:materialIcon="settings" app:materialIconColor="@color/white" app:materialIconSize="24.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_settings" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <SeekBar android:id="@id/sb_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+            <com.rtugeek.android.colorseekbar.ColorSeekBar android:id="@id/sb_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" app:colorSeeds="@array/material_colors" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

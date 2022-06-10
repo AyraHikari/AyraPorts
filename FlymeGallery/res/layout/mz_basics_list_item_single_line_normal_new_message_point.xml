@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/list_item" style="@style/Widget.Flyme.List.Layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/Widget.Flyme.SingleList.ContainerRelativeLayout">
+        <TextView android:id="@id/title" style="@style/Widget.Flyme.SingleList.Title" />
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip">
+        <com.meizu.common.widget.NewMessageView android:id="@id/title_new_message_point" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/pri_chat_list_item_anchor_rel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <RelativeLayout android:id="@id/pri_chat_list_header_rel" android:background="@drawable/kwjx_pri_chat_list_item_shape" android:layout_width="fill_parent" android:layout_height="85.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" skin:enable="true">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/pri_chat_list_item_anchor_image" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginLeft="10.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" fresco:placeholderImage="@drawable/kwjx_def_user_icon" fresco:placeholderImageScaleType="centerCrop" fresco:roundAsCircle="true" style="@style/kwjx_common_style_head_image1" skin:enable="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_toRightOf="@id/pri_chat_list_item_anchor_image" android:layout_centerVertical="true">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/kwjx_common_text_size_32" android:textStyle="bold" android:textColor="@color/kwjx_theme_color_C1" android:ellipsize="end" android:id="@id/pri_chat_list_item_anchor_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="120.0dip" android:text="" android:lines="1" skin:enable="true" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/pri_chat_list_item_anchor_small_image" android:layout_width="24.0dip" android:layout_height="16.0dip" android:layout_marginLeft="2.0dip" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/kwjx_common_text_size_24" android:textColor="@color/kwjx_theme_color_C2" android:ellipsize="end" android:id="@id/pri_chat_list_item_anchor_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxWidth="140.0dip" android:text="" android:lines="1" skin:enable="true" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/pri_chat_list_item_anchor_chat" android:background="@drawable/kwjx_theme_img_hl7" android:layout_width="63.0dip" android:layout_height="26.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" skin:enable="true">
+            <TextView android:textSize="@dimen/kwjx_common_text_size_28" android:textColor="@color/kwjx_theme_color_BWC" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="私聊" android:layout_centerInParent="true" skin:enable="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.banqu.music.widgetcommon.preference.PreferenceCategory>
+        <com.banqu.music.ui.music.functionmgr.AppInfoPreference android:key="appInfo" />
+    </com.banqu.music.widgetcommon.preference.PreferenceCategory>
+    <com.banqu.music.widgetcommon.preference.PreferenceCategory>
+        <com.banqu.music.ui.widget.preference.SwitchPreference android:title="@string/bq_settings_online_music" android:key="online_music_sw" />
+    </com.banqu.music.widgetcommon.preference.PreferenceCategory>
+</PreferenceScreen>

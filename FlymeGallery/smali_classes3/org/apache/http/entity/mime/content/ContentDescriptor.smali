@@ -1,0 +1,16 @@
+.class public interface abstract Lorg/apache/http/entity/mime/content/ContentDescriptor;
+.super Ljava/lang/Object;
+
+
+# virtual methods
+.method public abstract getCharset()Ljava/lang/String;
+.end method
+
+.method public abstract getContentLength()J
+.end method
+
+.method public abstract getMimeType()Ljava/lang/String;
+.end method
+
+.method public abstract getTransferEncoding()Ljava/lang/String;
+.end method

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="#00000000" android:paddingBottom="@dimen/zb_com_preference_category_padding_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/zb_com_preference_category_normal_height" android:layout_marginTop="@dimen/zb_com_preference_category_margin_top">
+        <TextView android:textSize="11.0sp" android:textColor="@color/zb_com_preference_category_text_color" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" android:layout_marginStart="@dimen/zb_com_page_padding_default" />
+        <LinearLayout android:gravity="end|center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@color/zb_com_divider_line_block" android:layout_width="fill_parent" android:layout_height="@dimen/zb_com_list_item_divider_height" android:layout_marginStart="@dimen/zb_com_list_publish_padding" android:layout_marginEnd="@dimen/zb_com_list_publish_padding" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/mz_cir_btn_radius_normal" />
+            <solid android:color="?mzThemeColorLevel1" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/mz_cir_btn_radius_normal" />
+            <solid android:color="#05000000" />
+        </shape>
+    </item>
+</layer-list>

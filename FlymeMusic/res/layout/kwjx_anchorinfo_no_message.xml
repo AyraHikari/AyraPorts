@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/partent_lay" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/kw_tip_lin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80.0dip" android:layout_centerHorizontal="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/user_img_default" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/kwjx_theme_color_C2" android:id="@id/kw_tip_no_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="暂时没有聚星事文章" skin:enable="true" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/recommend_popup_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <ImageView android:id="@id/close_popup" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/audio_recommend_close" android:scaleType="centerInside" android:layout_alignParentRight="true" />
+        <TextView android:textSize="@dimen/text_size_21" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/text_live_over" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:text="本场直播已经结束" android:includeFontPadding="false" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/recommend_popupwindow_padding_rl" android:layout_marginTop="18.0dip" android:layout_marginRight="@dimen/recommend_popupwindow_padding_rl" android:layout_marginBottom="18.0dip" android:layout_weight="1.0">
+        <RelativeLayout android:id="@id/rl_refresh" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="#ff737373" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="猜你喜欢" android:includeFontPadding="false" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/btn_refresh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/audio_recommend_refresh" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <cn.kuwo.show.ui.view.WrapGridView android:id="@id/gd_recommend" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:listSelector="@android:color/transparent" android:horizontalSpacing="@dimen/recommend_popupwindow_item_horizontalSpacing" android:verticalSpacing="13.0dip" android:numColumns="2" android:layout_below="@id/rl_refresh" />
+        <TextView android:textSize="@dimen/text_size_20" android:textColor="@color/rgb757575" android:gravity="center" android:id="@id/tv_noSinger" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="没有找到合适的主播" android:layout_below="@id/rl_refresh" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/background">
+        <shape android:tint="@color/mfv_common_pb_bg" android:shape="rectangle">
+            <corners android:radius="@dimen/progress_bar_corner_material_mff" />
+            <size android:height="@dimen/mfvc_line_normal_height" />
+            <solid android:color="@color/white_disabled_material_mff" />
+        </shape>
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/secondaryProgress">
+        <scale android:scaleWidth="100%">
+            <shape android:tint="@color/mfv_common_pb" android:shape="rectangle">
+                <corners android:radius="@dimen/progress_bar_corner_material_mff" />
+                <size android:height="@dimen/mfvc_line_normal_height" />
+                <solid android:color="@color/white_disabled_material_mff" />
+            </shape>
+        </scale>
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/progress">
+        <scale android:scaleWidth="100%">
+            <shape android:tint="@color/mfv_common_pb" android:shape="rectangle">
+                <corners android:radius="@dimen/progress_bar_corner_material_mff" />
+                <size android:height="@dimen/mfvc_line_normal_height" />
+                <solid android:color="@android:color/white" />
+            </shape>
+        </scale>
+    </item>
+</layer-list>

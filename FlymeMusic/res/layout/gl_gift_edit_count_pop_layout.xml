@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/kw_common_cl_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="14.0sp" android:textColor="@color/kw_common_cl_white" android:gravity="center" android:id="@id/count_ok_btn" android:background="#ff897aeb" android:layout_width="64.0dip" android:layout_height="@dimen/live_gift_edit_count_top_area_height" android:text="确认" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textColor="#ffa6a6a6" android:textColorHint="#ffa6a6a6" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/edit_text" android:background="@drawable/bg_rob_seat_edit" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:hint="自定义数量" android:layout_toLeftOf="@id/count_ok_btn" />
+    <View android:id="@id/line_view_center" android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/count_ok_btn" />
+    <GridView android:gravity="center" android:id="@id/gift_edit_count_grid_view" android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:horizontalSpacing="1.0px" android:verticalSpacing="1.0px" android:stretchMode="columnWidth" android:numColumns="3" android:layout_below="@id/line_view_center" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/def_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tab_ll" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    <RelativeLayout android:id="@id/tab_ll" android:background="@drawable/kwjx_one_hour_head_background" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_above="@id/contentLayout">
+        <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/black" android:gravity="center" android:id="@id/one_hour_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:text="小时榜" />
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/black" android:gravity="center" android:id="@id/one_hour_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="19.0dip" android:text="" android:layout_toRightOf="@id/one_hour_name" />
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/white" android:gravity="center" android:id="@id/count_down" android:background="@drawable/kwjx_one_hour_countdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/contentLayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ListView android:id="@id/content_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@android:color/transparent" android:divider="@null" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/kw_common_cl_black_4" android:gravity="center" android:id="@id/load_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="270.0dip" android:text="@string/data_non" android:layout_centerInParent="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/non_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/user_img_default" />
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/live_inout_text_color" android:id="@id/error_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="主播未上榜" />
+        </LinearLayout>
+        <include android:id="@id/online_error_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/online_error" />
+    </RelativeLayout>
+    <View android:id="@id/background" android:background="#80000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

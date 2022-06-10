@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="14.0sp" android:textColor="@color/live_gift_tab_text_color_full" android:ellipsize="marquee" android:gravity="center" android:id="@id/gift_page_text" android:background="@drawable/liveroom_middle_tab_item_selecter" android:focusable="true" android:layout_width="64.0dip" android:layout_height="36.0dip" android:text="豪华" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

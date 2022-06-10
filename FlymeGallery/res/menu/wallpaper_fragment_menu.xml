@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_wallpaper_blur" android:id="@id/action_blur" android:visible="true" android:title="@string/blur" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_wallpaper_texture" android:id="@id/action_overlay" android:visible="true" android:title="@string/wallpaper_overlaying" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_wallpaper_preview" android:id="@id/action_preview" android:visible="true" android:title="@string/wallpaper_preview" app:showAsAction="always|withText" />
+</menu>

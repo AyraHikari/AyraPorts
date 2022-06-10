@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/show_in_latest" android:visible="false" android:title="@string/menu_show_in_latest" />
+    <item android:id="@id/hide_in_latest" android:visible="false" android:title="@string/menu_hide_in_latest" />
+    <item android:id="@id/enable_backup" android:visible="false" android:title="@string/menu_enable_backup" />
+    <item android:id="@id/disable_backup" android:visible="false" android:title="@string/menu_disable_backup" />
+    <item android:id="@id/box" android:visible="false" android:title="@string/menu_box" />
+    <item android:id="@id/unbox" android:visible="false" android:title="@string/menu_unbox" />
+    <item android:id="@id/delete" android:visible="false" android:title="@string/menu_delete_title" />
+    <item android:id="@id/rename" android:visible="false" android:title="@string/cloud_menu_title_rename" />
+    <item android:id="@id/set_cover" android:visible="false" android:title="@string/set_cover" />
+</menu>

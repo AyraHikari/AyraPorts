@@ -1,0 +1,169 @@
+.class public Lcom/meizu/flyme/palette/HSLFilter;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroidx/palette/graphics/Palette$Filter;
+
+
+# static fields
+.field private static final BLACK_MAX_LIGHTNESS:F = 0.05f
+
+.field public static final INSTANCE:Lcom/meizu/flyme/palette/HSLFilter;
+
+.field private static final WHITE_MIN_LIGHTNESS:F = 0.95f
+
+.field private static final maxS:F = 0.85f
+
+.field private static final maxV:F = 0.7f
+
+.field private static final minL:F = 0.15f
+
+.field private static final minS:F = 0.25f
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 64
+    new-instance v0, Lcom/meizu/flyme/palette/HSLFilter;
+
+    invoke-direct {v0}, Lcom/meizu/flyme/palette/HSLFilter;-><init>()V
+
+    sput-object v0, Lcom/meizu/flyme/palette/HSLFilter;->INSTANCE:Lcom/meizu/flyme/palette/HSLFilter;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 14
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method private isBlack([F)Z
+    .locals 1
+
+    const/4 v0, 0x2
+
+    .line 48
+    aget p1, p1, v0
+
+    const v0, 0x3d4ccccd    # 0.05f
+
+    cmpg-float p1, p1, v0
+
+    if-gtz p1, :cond_0
+
+    const/4 p1, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    :goto_0
+    return p1
+.end method
+
+.method private isNearRedILine([F)Z
+    .locals 4
+
+    const/4 v0, 0x0
+
+    .line 61
+    aget v1, p1, v0
+
+    const/4 v2, 0x1
+
+    const/high16 v3, 0x41200000    # 10.0f
+
+    cmpl-float v1, v1, v3
+
+    if-ltz v1, :cond_0
+
+    aget v1, p1, v0
+
+    const/high16 v3, 0x42140000    # 37.0f
+
+    cmpg-float v1, v1, v3
+
+    if-gtz v1, :cond_0
+
+    aget p1, p1, v2
+
+    const v1, 0x3e99999a    # 0.3f
+
+    cmpg-float p1, p1, v1
+
+    if-gtz p1, :cond_0
+
+    const/4 v0, 0x1
+
+    :cond_0
+    return v0
+.end method
+
+.method private isWhite([F)Z
+    .locals 1
+
+    const/4 v0, 0x2
+
+    .line 55
+    aget p1, p1, v0
+
+    const v0, 0x3f733333    # 0.95f
+
+    cmpl-float p1, p1, v0
+
+    if-ltz p1, :cond_0
+
+    const/4 p1, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    :goto_0
+    return p1
+.end method
+
+
+# virtual methods
+.method public isAllowed(I[F)Z
+    .locals 0
+
+    .line 39
+    invoke-direct {p0, p2}, Lcom/meizu/flyme/palette/HSLFilter;->isWhite([F)Z
+
+    move-result p1
+
+    if-nez p1, :cond_0
+
+    invoke-direct {p0, p2}, Lcom/meizu/flyme/palette/HSLFilter;->isBlack([F)Z
+
+    move-result p1
+
+    if-nez p1, :cond_0
+
+    invoke-direct {p0, p2}, Lcom/meizu/flyme/palette/HSLFilter;->isNearRedILine([F)Z
+
+    move-result p1
+
+    if-nez p1, :cond_0
+
+    const/4 p1, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    :goto_0
+    return p1
+.end method

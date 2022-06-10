@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/gift_indicator" android:width="@dimen/gift_indicator" />
+    <solid android:color="@color/gift_indicator_select" />
+</shape>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="#ff000000" android:ellipsize="end" android:gravity="start|center" android:id="@id/queueTitleTv" android:layout_width="fill_parent" android:layout_height="60.0dip" android:maxWidth="200.0dip" android:singleLine="true" android:paddingStart="18.0dip" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/select" />
+    <TextView android:textSize="13.0dip" android:gravity="center" android:id="@id/select" android:layout_width="wrap_content" android:layout_height="60.0dip" android:drawablePadding="3.0dip" android:drawableEnd="@drawable/bq_select_down" android:layout_marginEnd="@dimen/default_page_padding" android:layout_alignParentEnd="true" />
+    <View android:id="@id/title_line" android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_below="@id/queueTitleTv" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_line" layout="@layout/layout_two_direct_pull_list_x" />
+    <FrameLayout android:id="@id/expandSelectLayout" android:background="@drawable/bq_program_select_list_bg" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@id/title_line">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/layout_overscroll_list_x" />
+    </FrameLayout>
+</RelativeLayout>

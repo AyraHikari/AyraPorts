@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/base_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@android:id/list" android:background="@color/list_color" android:paddingLeft="@dimen/mfvc_large_padding" android:paddingTop="0.0dip" android:paddingRight="@dimen/mfvc_large_padding" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/list_divider" android:dividerHeight="@dimen/list_devide_size" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/leftview" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <RelativeLayout android:orientation="vertical" android:background="@color/list_color" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <include layout="@layout/no_songs_layout" />
+            </RelativeLayout>
+            <FrameLayout android:id="@id/emptyview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/rightview" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="@color/mfvc_bottom_bg_color" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/button_text" android:gravity="center" android:id="@id/cancel" android:background="@drawable/left_fragment_button" android:paddingTop="1.0dip" android:paddingBottom="2.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="1.0dip" android:layout_height="28.0dip" android:src="@color/tab_divider_color" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/button_text_disable" android:gravity="center" android:id="@id/menuname" android:background="@drawable/left_fragment_button" android:paddingTop="1.0dip" android:paddingBottom="2.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottombuttonview" android:background="@color/mfvc_bottom_bg_color" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <Button android:textSize="14.0sp" android:textColor="@color/my_music_acb_icon" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/add_button" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/add" android:layout_weight="1.0" android:layout_marginStart="24.0dip" />
+        <Button android:textSize="14.0sp" android:textColor="@color/my_music_acb_icon" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/menu_button" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    </LinearLayout>
+    <View android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/addplaylistview" android:background="@color/mfvc_bottom_bg_color" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <Button android:textSize="14.0sp" android:textColor="@color/my_music_acb_icon" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/cancel_button" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" android:layout_marginStart="24.0dip" />
+        <Button android:textSize="14.0sp" android:textColor="@color/my_music_acb_icon" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/add_playlist_button" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/add" android:layout_weight="1.0" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    </LinearLayout>
+</LinearLayout>

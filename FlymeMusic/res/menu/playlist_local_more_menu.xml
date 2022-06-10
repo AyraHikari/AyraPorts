@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/addSong" android:title="@string/bq_menu_add_song" />
+    <item android:id="@id/sort" android:title="@string/bq_menu_sort" />
+    <item android:id="@id/downloadAll" android:title="@string/bq_download_all" />
+</menu>

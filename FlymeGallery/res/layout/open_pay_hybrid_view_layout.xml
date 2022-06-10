@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.meizu.open.pay.hybrid.BaseWebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/progress_whole" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.meizu.common.widget.LoadingView android:layout_gravity="center_horizontal" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:mcLForeground="@color/open_pay_theme_color" style="@style/Widget.MeizuCommon.LoadingView.Light" />
+        <TextView android:textSize="14.0sp" android:layout_gravity="center_horizontal" android:id="@id/progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/msg_loading" style="@style/LoadingViewTextStyle.Light" />
+    </LinearLayout>
+    <com.meizu.common.widget.EmptyView android:layout_gravity="center" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:mcTopMarginOfTips="15.0dip" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sticker type="watermark_user" width="52" height="11" id="watermark_14" thumb="watermark_photographer_thumb">
+    <icon left="0" top="1" right="11" bottom="10" src="watermark_photographer_icon"/>
+    <text left="19" top="0" right="52" bottom="11" font-name="sans-serif-medium"
+        size="11" hint="拍摄者" text-align="left"/>
+</sticker>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sticker type="watermark_time" width="62" height="33" id="watermark_3" thumb="watermark_text_time_1_thumb">
+    <text left="0" top="0" right="62" bottom="33" font-name="SFDIN-CondensedBold"
+        size="33" hint="18:30" color="white" text-align="center"/>
+</sticker>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/mv_category_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.kuwo.show.base.uilib.pulltorefresh.PullToRefreshListView android:gravity="center" android:layout_gravity="center" android:id="@id/content_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/liveroom_audience_listitem_bg" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:footerDividersEnabled="false" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_empty_icon" />
+        <TextView android:textSize="@dimen/text_size_20" android:textStyle="bold" android:textColor="@color/mv_recommend_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="还没有人被加入黑名单" />
+    </LinearLayout>
+</RelativeLayout>

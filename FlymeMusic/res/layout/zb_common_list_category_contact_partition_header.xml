@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/zb_com_list_category_contact_partition_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/mc_list_category_partition_contact_text1" android:background="@drawable/zbc_common_list_category_contact_partition_header_background" android:layout_width="@dimen/zb_com_list_category_contact_partition_circle_width" android:layout_height="@dimen/zb_com_list_category_contact_partition_circle_height" android:layout_marginTop="@dimen/zb_com_list_category_contact_partition_padding_top" android:layout_marginBottom="@dimen/zb_com_list_category_contact_partition_padding_bottom" android:includeFontPadding="false" android:layout_marginStart="@dimen/zb_com_list_category_contact_partition_margin_left" style="@style/Widget.Banqu.Light.TextView.Little.Medium" />
+</RelativeLayout>

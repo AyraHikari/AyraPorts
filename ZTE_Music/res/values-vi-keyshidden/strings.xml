@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Mở bàn phím để đặt tên cho Danh sách nhạc mới hoặc chọn Lưu để đặt tên danh sách nhạc là \"%s\".</string>
+    <string name="rename_playlist_diff_prompt">Mở bàn phím để đặt tên mới cho danh sách nhạc \"%1$s\" hoặc chọn Lưu để đặt tên danh sách nhạc là \"%2$s\".</string>
+    <string name="rename_playlist_same_prompt">Mở bàn phím để đặt tên mới cho danh sách nhạc \"%s\".</string>
+</resources>

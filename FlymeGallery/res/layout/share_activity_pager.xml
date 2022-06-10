@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/share_max_page_width" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.meizu.media.gallery.ui.RoundImageView android:layout_gravity="center" android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:scaleType="centerCrop" app:cornerRadius="10.0dip" />
+        <FrameLayout android:layout_gravity="end|bottom|center" android:layout_width="25.299988dip" android:layout_height="25.299988dip" android:layout_marginBottom="9.0dip" android:layout_marginEnd="9.0dip">
+            <CheckBox android:id="@id/checkbox" android:layout_width="fill_parent" android:layout_height="fill_parent" android:button="@drawable/checkbox_share" />
+            <com.meizu.media.gallery.ui.CloudThumbProgressor android:layout_gravity="center" android:id="@id/cloud_progress_view" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" app:drawingColor="@color/black_15" app:failedRes="@drawable/cloud_progress_fail_share_1" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/spinner" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="?android:progressBarStyle" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:id="@id/prompt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/spinner" android:layout_alignParentTop="true" />
+    <TextView android:textSize="13.0sp" android:textColor="#ff333333" android:id="@id/scanned_file" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/spinner" android:layout_below="@id/prompt" />
+</RelativeLayout>

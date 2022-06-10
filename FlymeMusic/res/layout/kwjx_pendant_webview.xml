@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/web_view_ll" android:visibility="gone" android:layout_width="96.0dip" android:layout_height="128.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/web_view" android:background="@color/kw_common_cl_transparent" android:visibility="gone" android:layout_width="96.0dip" android:layout_height="128.0dip" />
+    <View android:id="@id/web_view_click_view" android:layout_width="96.0dip" android:layout_height="128.0dip" />
+</FrameLayout>

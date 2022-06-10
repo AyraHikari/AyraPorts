@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/rgbf0f0f0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/namelayout_input" android:background="@color/kw_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+                <TextView android:textSize="14.0dip" android:textColor="@color/rgb404040" android:id="@id/iv_name_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="昵称:" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <cn.kuwo.show.ui.view.AutoCompleteEmailEdit android:textSize="14.0dip" android:textColor="@color/rgb404040" android:textColorHint="@color/cards_a6a6a6" android:id="@id/auto_edit_name" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginRight="30.0dip" android:hint="@string/new_nickname" android:singleLine="true" android:popupBackground="@drawable/kwjx_protocal_bg" android:layout_toRightOf="@id/iv_name_icon" android:layout_centerVertical="true" android:dropDownHeight="90.0dip" />
+                <RelativeLayout android:gravity="center_vertical" android:id="@id/relay_tv_clear_account" android:background="@drawable/login_clear_btn_bg" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <TextView android:id="@id/tv_account_err_view" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="45.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="20.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="@color/kw_common_cl_white_alpha_50" android:gravity="bottom" android:id="@id/tv_local_name_account_notice" android:background="@drawable/local_login_tip" android:padding="3.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/l_pop_enter_account" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

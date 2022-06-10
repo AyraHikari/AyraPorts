@@ -1,0 +1,57 @@
+[
+  {
+    "id": "3001",
+    "mt": "[定位]的小伙伴们播放最多的歌曲！要听一下吗？",
+    "st": "和TA冥冥中有着某种联系♥",
+    "nt": "TXT",
+    "p": "",
+    "ext": "",
+    "j4": "",
+    "jt": "DEEPLINK",
+    "jd":"banqumusic://host/dplink?path=board&type=0&sp=0&from=local_p&data=e30"
+  },
+  {
+    "id": "3002",
+    "mt": "我在这都躺半年了",
+    "st": "你倒是来戳我一下啊？",
+    "nt": "TXT",
+    "p": "",
+    "ext": "",
+    "j4": "",
+    "jt": "DEEPLINK",
+    "jd":"banqumusic://host/dplink?path=playlistsquare&type=0&sp=0&from=local_p&data=eyJ0aXRsZSI6IuatjOWNleW5v-WcuiJ9"
+  },
+  {
+    "id": "3003",
+    "mt": "我可以从零开始",
+    "st": "直到找到不断绽放的你",
+    "nt": "TXT",
+    "p": "",
+    "ext": "",
+    "j4": "",
+    "jt": "DEEPLINK",
+    "jd":"banqumusic://host/dplink?path=home&type=0&sp=0&from=local_p&data=e30"
+  },
+  {
+    "id": "3004",
+    "mt": "你的个人专属歌单已生成",
+    "st": "点击查看",
+    "nt": "TXT",
+    "p": "",
+    "ext": "",
+    "j4": "",
+    "jt": "DEEPLINK",
+    "jd":"banqumusic://host/dplink?path=playlistsquare&type=0&sp=0&from=local_p&data=eyJ0aXRsZSI6IuatjOWNleW5v-WcuiJ9"
+  },
+  {
+    "id": "3005",
+    "mt": "跟我走吧",
+    "st": "情书给你 怀抱给你 好听的歌都给你",
+    "nt": "TXT",
+    "p": "",
+    "ext": "",
+    "j4": "",
+    "jt": "DEEPLINK",
+    "jd":"banqumusic://host/dplink?path=playlistsquare&type=0&sp=0&from=local_p&data=eyJ0aXRsZSI6IuatjOWNleW5v-WcuiJ9"
+  }
+]

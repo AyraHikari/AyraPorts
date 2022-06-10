@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="9.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/page_padding" android:paddingEnd="@dimen/page_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/face_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/search_tip_sub_title_size" android:textColor="@color/black_40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/face_album" android:fontFamily="sans-serif-medium" android:layout_alignParentStart="true" />
+            <TextView android:textSize="@dimen/search_tip_sub_title_size" android:textColor="@color/member_tip_color" android:id="@id/menu_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/more_label" android:fontFamily="sans-serif-medium" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <flyme.support.v7.widget.MzRecyclerView android:id="@id/face_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/scene_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/search_tip_sub_title_size" android:textColor="@color/black_40" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/scene_album" android:fontFamily="sans-serif-medium" />
+        <com.meizu.common.widget.LabelLayout android:id="@id/scene_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" app:itemMargin="8.0dip" app:labelHeight="24.0dip" app:labelRadiusCorner="2.0dip" app:lineMargin="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/location_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/search_tip_sub_title_size" android:textColor="@color/black_40" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mz_calendar_location" android:fontFamily="sans-serif-medium" />
+        <com.meizu.common.widget.LabelLayout android:id="@id/location_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" app:itemMargin="8.0dip" app:labelHeight="24.0dip" app:labelRadiusCorner="2.0dip" app:lineMargin="8.0dip" />
+    </LinearLayout>
+</LinearLayout>

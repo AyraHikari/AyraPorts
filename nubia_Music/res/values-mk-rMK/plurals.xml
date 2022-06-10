@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NMins">
+        <item quantity="other">%d минути</item>
+        <item quantity="one">1 минута</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d песни се избришани</item>
+        <item quantity="one">1 песна е избришана</item>
+    </plurals>
+    <plurals name="NNNtrackswilldeleted">
+        <item quantity="other">%d песни ќе бидат трајно избришани од просторот за складирање.</item>
+        <item quantity="one">1 песна ќе биде трајно избришана од просторот за складирање.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d албуми</item>
+        <item quantity="one">1 албум</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d песни</item>
+    </plurals>
+</resources>

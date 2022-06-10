@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/bannerRoot" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/bq_banner_view_pager_primary_element_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bannerImg" android:background="@drawable/bq_default_cover" android:layout_width="fill_parent" android:layout_height="@dimen/bq_banner_view_pager_primary_element_height" android:scaleType="fitXY" />
+    <ImageView android:layout_gravity="right" android:id="@id/ad_flag" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/ad_flag_right" android:scaleType="centerCrop" />
+</FrameLayout>

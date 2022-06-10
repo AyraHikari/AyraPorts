@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.kuwo.show.ui.view.GestureSwitchLayout android:id="@id/roomid" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <cn.kuwo.show.ui.room.widget.ResizeLayout android:id="@id/rl_dragview" android:background="@drawable/kwjx_room_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_room_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" fresco:actualImageScaleType="focusCrop" fresco:overlayImage="@drawable/drawable_room_bg2" />
+        <FrameLayout android:id="@id/video_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/video_margin_top">
+            <SurfaceView android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="@dimen/video_height" />
+            <include layout="@layout/page_room_live_loading" />
+        </FrameLayout>
+        <ViewStub android:id="@id/room_content_stub" android:layout="@layout/kwjx_room_content" android:inflatedId="@id/room_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </cn.kuwo.show.ui.room.widget.ResizeLayout>
+</cn.kuwo.show.ui.view.GestureSwitchLayout>

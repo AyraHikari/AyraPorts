@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<puzzle type="multi" width="1080" height="1440">
+    <window left="0" top="0" right="270" bottom="360"/>
+    <window left="270" top="0" right="810" bottom="360"/>
+    <window left="810" top="0" right="1080" bottom="360"/>
+
+    <window left="0" top="360" right="270" bottom="1080"/>
+    <window left="270" top="360" right="810" bottom="1080"/>
+    <window left="810" top="360" right="1080" bottom="1080"/>
+
+    <window left="0" top="1080" right="270" bottom="1440"/>
+    <window left="270" top="1080" right="810" bottom="1440"/>
+    <window left="810" top="1080" right="1080" bottom="1440"/>
+</puzzle>

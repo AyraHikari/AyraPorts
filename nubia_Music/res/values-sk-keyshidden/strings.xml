@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Otvorte klávesnicu a zadajte názov nového zoznamu skladieb. Ak vyberiete tlačidlo Uložiť, zoznamu skladieb bude pridelený názov %s.</string>
+    <string name="rename_playlist_diff_prompt">Otvorte klávesnicu a zadajte nový názov zoznamu skladieb %1$s alebo vyberte tlačidlo Uložiť a zoznamu skladieb bude pridelený názov %2$s.</string>
+    <string name="rename_playlist_same_prompt">Otvorte klávesnicu a zadajte nový názov zoznamu skladieb %s.</string>
+</resources>

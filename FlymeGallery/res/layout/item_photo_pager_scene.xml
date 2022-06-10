@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginEnd="10.0dip" app:cardCornerRadius="3.3299866dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/scene_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/image" />
+    <View android:layout_gravity="bottom" android:background="@drawable/scene_grid_shader" android:layout_width="fill_parent" android:layout_height="61.299988dip" />
+    <TextView android:textSize="12.699982sp" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/scene_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:fontFamily="sans-serif-medium" />
+</android.support.v7.widget.CardView>

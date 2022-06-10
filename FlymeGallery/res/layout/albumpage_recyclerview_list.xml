@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.media.gallery.ui.OverScrollFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.ui.GalleryRecyclerView android:id="@id/list" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/fast_scroller_layout" />
+    <include layout="@layout/gallery_empty_view" />
+</com.meizu.media.gallery.ui.OverScrollFrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Obriu el teclat per donar un nom a la llista de reproducció nova o seleccioneu \"Desa\" per assignar-li el nom \"%s\".</string>
+    <string name="rename_playlist_diff_prompt">Obriu el teclat per canviar el nom de la llista de reproducció \"%1$s\" o seleccioneu \"Desa\" per assignar-li el nom \"%2$s\".</string>
+    <string name="rename_playlist_same_prompt">Obriu el teclat per assignar un nom nou a la llista de reproducció \"%s\".</string>
+</resources>

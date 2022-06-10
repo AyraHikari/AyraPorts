@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.kuwo.show.ui.view.SlideLayout android:orientation="horizontal" android:id="@id/pri_chat_list_item_slid" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <RelativeLayout android:id="@id/true_voice_follow_rel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <RelativeLayout android:id="@id/pri_chat_list_total_rel" android:background="@drawable/kwjx_pri_chat_list_item_shape" android:layout_width="fill_parent" android:layout_height="84.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" skin:enable="true">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/pri_chat_list_item_image" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginLeft="11.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" fresco:placeholderImage="@drawable/kwjx_def_user_icon" fresco:placeholderImageScaleType="centerCrop" fresco:roundAsCircle="true" style="@style/kwjx_common_style_head_image1" skin:enable="true" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_toRightOf="@id/pri_chat_list_item_image" android:layout_centerVertical="true">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/kwjx_common_text_size_32" android:textColor="@color/kwjx_theme_color_C1" android:ellipsize="end" android:id="@id/pri_chat_list_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="120.0dip" android:text="" android:lines="1" skin:enable="true" />
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/pri_chat_list_item_small_image" android:layout_width="24.0dip" android:layout_height="16.0dip" android:layout_marginLeft="2.0dip" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/kwjx_common_text_size_24" android:textColor="@color/kwjx_theme_color_C2" android:ellipsize="end" android:id="@id/pri_chat_list_item_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxWidth="140.0dip" android:text="" android:lines="1" skin:enable="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <TextView android:textSize="@dimen/kwjx_common_text_size_24" android:textColor="@color/kwjx_theme_color_C2" android:id="@id/pri_chat_list_item_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:lines="1" skin:enable="true" />
+                <ImageView android:layout_gravity="end" android:id="@id/pri_chat_list_item_red_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:src="@drawable/kwjx_pri_chat_list_item_red" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/true_voice_delete" android:background="#ffff6e6e" android:layout_width="106.0dip" android:layout_height="84.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="删除" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</cn.kuwo.show.ui.view.SlideLayout>

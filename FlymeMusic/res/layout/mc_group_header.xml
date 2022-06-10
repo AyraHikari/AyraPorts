@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/title_layout" android:background="#08000000" android:layout_width="fill_parent" android:layout_height="@dimen/mz_list_partition_header_large_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center_vertical" android:id="@android:id/text2" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/mz_list_card_2_little_title_height" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd" />
+    <TextView android:textSize="@dimen/mz_text_size_little" android:textColor="@color/mz_list_text_color_alpha_50" android:gravity="center_vertical" android:id="@android:id/text1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.699982dip" android:fontFamily="sans-serif-medium" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd" />
+    <ImageView android:gravity="bottom" android:id="@android:id/background" android:background="@drawable/mz_card_new_list_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/mz_group_interval_header_divider_height" />
+</LinearLayout>

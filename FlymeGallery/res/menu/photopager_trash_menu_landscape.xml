@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/trash_restore" android:id="@id/action_trash_recover" android:title="@string/trash_restore" app:showAsAction="always" />
+    <item android:icon="@drawable/video_play_selector" android:id="@id/menu_video_play" android:visible="false" android:title="@string/video_pause" android:checkable="true" app:showAsAction="always" />
+    <item android:icon="@drawable/btn_delete" android:id="@id/action_trash_delete" android:title="@string/trash_delete" app:showAsAction="always" />
+</menu>

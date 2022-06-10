@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<puzzle type="poster" width="900" height="1200">
+    <window type="rect" left="55" top="75" right="844" bottom="519"/>
+    <window type="rect" left="55" top="552" right="844" bottom="996"/>
+    <icon left="0" top="0" right="900" bottom="1200" src="temp.png" local="0"/>
+    <text x="57" y="1057" content="SRERNDIP" size="60" length="8" font="-1"/>
+    <text x="844" y="1075" content="让热爱 更澎湃" size="24" length="7" textAlign="right" font="-3"/>
+</puzzle>

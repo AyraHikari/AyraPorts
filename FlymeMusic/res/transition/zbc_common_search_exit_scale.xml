@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changeBounds android:interpolator="@interpolator/zbc_common_search_exit_scale_interpolator" android:duration="320"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

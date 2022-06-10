@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/gallery_image" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="fitXY" app:roundedCornerRadius="3.0dip" skin:enable="true" />
+    <cn.kuwo.show.ui.view.WebViewJS android:id="@id/webviewjs" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/webview_click" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/view_overlay" android:background="#7f000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

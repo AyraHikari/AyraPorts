@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:id="@id/edit_menu_item_cancel" android:background="@android:color/transparent" android:paddingLeft="22.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_menu_cancel_holo_light" android:scaleType="centerInside" />
+    <com.meizu.media.gallery.filtershow.ui.MzCenterSeekBar android:layout_gravity="center" android:id="@id/primarySeekBar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" app:filterShowThumbTint="@color/red" app:progressBackgroundTint="@color/filter_text_color_10_black" app:progressTint="@color/red" />
+    <ImageButton android:id="@id/edit_menu_item_save" android:background="@android:color/transparent" android:paddingLeft="5.0dip" android:paddingRight="22.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_menu_done_holo_light" android:scaleType="centerInside" />
+</merge>

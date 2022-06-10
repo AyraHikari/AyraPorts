@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/puzzle_edit_text_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:background="@drawable/puzzle_edit_text_layout_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="@dimen/puzzle_edit_text_layout_margin" android:layout_centerVertical="true" android:layout_toStartOf="@id/confirm_btn" android:layout_alignParentStart="true">
+        <EditText android:textSize="@dimen/puzlle_edit_text_size" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/edit_text" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="默认hint" android:lines="1" android:layout_centerVertical="true" android:paddingStart="@dimen/puzzle_edit_text_padding" android:paddingEnd="@dimen/puzzle_edit_text_padding" android:layout_toStartOf="@id/btn_clear_all" android:layout_alignParentStart="true" />
+        <ImageButton android:id="@id/btn_clear_all" android:background="@drawable/puzzle_edit_text_clear_all" android:layout_width="@dimen/puzzle_edit_text_clear_all_btn_size" android:layout_height="@dimen/puzzle_edit_text_clear_all_btn_size" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/puzzle_edit_text_clear_all_btn_margin" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ImageButton android:id="@id/confirm_btn" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/confirm_btn" android:layout_centerVertical="true" android:paddingStart="@dimen/puzzle_edit_text_confirm_btn_padding_start" android:paddingEnd="@dimen/puzzle_edit_text_confirm_btn_padding_end" android:layout_alignParentEnd="true" />
+</RelativeLayout>

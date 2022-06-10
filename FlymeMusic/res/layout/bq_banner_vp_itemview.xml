@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/bq_f8_banner_itemview_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.banqu.music.widgetcommon.widget.SmoothCornerView android:layout_gravity="bottom" android:id="@id/bq_f8_banner_itemview_shadow_view" android:background="@drawable/bq_banner_vp_item_shadows" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bq_banner_view_blur_effect_margin_left" android:layout_marginRight="@dimen/bq_banner_view_blur_effect_margin_right" android:layout_centerHorizontal="true" app:zbCornerRadius="@dimen/bq_banner_view_corner_radius" />
+    <com.banqu.music.widgetcommon.widget.SmoothCornerView android:id="@id/bq_f8_banner_itemview_primary_element" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bq_banner_view_pager_primary_element_margin_bottom" app:zbCornerRadius="@dimen/bq_banner_view_corner_radius">
+        <FrameLayout android:id="@id/bq_f8_banner_itemview_primary_element_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:layout_gravity="bottom" android:id="@id/bq_f8_banner_itemview_overlayer" android:background="@drawable/bq_banner_vp_item_overlayer" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/bq_banner_view_overlayer_height" />
+        <FrameLayout android:layout_gravity="bottom|center" android:id="@id/bq_f8_banner_itemview_overlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.banqu.music.widgetcommon.widget.SmoothCornerView>
+</FrameLayout>

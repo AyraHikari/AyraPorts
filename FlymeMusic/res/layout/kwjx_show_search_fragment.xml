@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/search_result_top_layout" android:background="@color/rgbf0f0f0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <RelativeLayout android:id="@id/search_bar_rel" android:tag="KTitleBar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/search_bar" android:background="@color/kwjx_theme_color_MOD1" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_below="@id/mine_header" android:layout_alignParentLeft="true" skin:enable="true">
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/search_bar_input" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/search_bar_btn_search" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                <EditText android:textSize="@dimen/text_size_14" android:textColor="@color/kwjx_theme_color_C1" android:textColorHint="@color/kwjx_theme_color_C2" android:id="@id/search_bar_et" android:background="@drawable/kwjx_search_bg_new_shape" android:paddingLeft="7.0dip" android:paddingRight="30.0dip" android:nextFocusLeft="@id/search_bar_et" android:nextFocusUp="@id/search_bar_et" android:clickable="true" android:layout_width="fill_parent" android:layout_height="30.0dip" android:hint="请输入房间号、昵称" android:maxLines="1" android:singleLine="true" android:maxLength="12" android:drawableLeft="@drawable/kwjx_shousuo_icon" android:drawablePadding="5.0dip" android:imeOptions="actionSearch" skin:enable="true" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/kwjx_theme_color_C1" android:gravity="center" android:id="@id/search_bar_btn_search" android:background="@color/kwjx_transparent" android:layout_width="47.0dip" android:layout_height="fill_parent" android:text="取消" android:layout_alignParentRight="true" style="@style/search_btn" skin:enable="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <cn.kuwo.show.ui.common.KwTipView android:id="@id/kw_tip_view" android:background="@color/kwjx_theme_color_tip_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/search_bar_rel" skin:enable="true" />
+    <RelativeLayout android:background="@color/kw_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/search_bar_rel">
+        <cn.kuwo.show.base.uilib.pulltorefresh.PullToRefreshBothEndRecyclerView android:id="@id/recyclerView_recommend" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <cn.kuwo.show.base.uilib.pulltorefresh.PullToRefreshBothEndRecyclerView android:id="@id/recyclerView" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <cn.kuwo.show.base.uilib.pulltorefresh.PullToRefreshBothEndRecyclerView android:id="@id/recyclerView_association" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</RelativeLayout>

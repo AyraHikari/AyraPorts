@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="72.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/two_line_layout_stock" />
+    <cn.zte.music.view.VisualizerView android:id="@id/play_flag" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <cn.zte.music.view.RepeatingImageButton android:id="@id/play_btn" android:background="@drawable/actionbar_button_selector" android:focusable="false" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

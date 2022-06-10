@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/gift_page_content" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/gift_page_top_space" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/gift_page_info_panel" />
+    <RelativeLayout android:id="@id/gift_send_bottom" android:background="@color/rgbf029282e" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/but_give_gift" android:layout_width="56.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:src="@drawable/kwjx_gift_give_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <RelativeLayout android:orientation="horizontal" android:id="@id/gift_more_num_rl" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/but_give_gift" android:layout_centerVertical="true">
+            <TextView android:textSize="13.0sp" android:textColor="@color/kw_common_cl_white" android:gravity="center_vertical" android:id="@id/gift_more_num_tv" android:background="@drawable/kwjx_select_gift_num_bg" android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="1" android:drawableRight="@drawable/kwjx_select_gift_num_top" android:drawablePadding="5.0dip" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/gift_page_racharge" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/kw_common_cl_white" android:id="@id/gift_page_has" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="6.0dip" android:text="星币:0" android:singleLine="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/gift_page_racharge_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/kwjx_gift_recharge_icon" android:layout_toRightOf="@id/gift_page_has" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:id="@id/line_view" android:background="@color/rgb595959" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_above="@id/gift_send_bottom" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/rgba6a6a6" android:gravity="center" android:id="@id/def_gift_tv" android:background="@color/rgbf029282e" android:layout_width="fill_parent" android:layout_height="20.0dip" android:text="送出礼物,为主播投1票" android:layout_above="@id/line_view" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/gift_viewpager" android:background="@color/rgbf029282e" android:layout_width="fill_parent" android:layout_height="188.0dip" android:layout_above="@id/def_gift_tv" />
+    <View android:id="@id/line_view_center" android:background="@color/rgb595959" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_above="@id/gift_viewpager" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/gift_page_info_panel" android:background="@color/rgbf029282e" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_above="@id/line_view_center">
+        <TextView android:textSize="16.0sp" android:textColor="@color/kw_common_cl_white" android:id="@id/gift_def_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="火拼礼物" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/double_hit_fl" android:visibility="gone" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <ImageView android:layout_gravity="center" android:layout_width="65.0dip" android:layout_height="65.0dip" android:src="@drawable/kwjx_double_hit_icon" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_22" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/double_hit_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="29" />
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="连送" />
+        </LinearLayout>
+        <cn.kuwo.show.ui.view.ArcProgressStackView android:layout_gravity="center" android:id="@id/double_hit_apsv" android:layout_width="68.0dip" android:layout_height="67.5dip" app:apsv_animated="true" app:apsv_dragged="false" app:apsv_draw_width="4.0dip" app:apsv_model_bg_enabled="false" app:apsv_rounded="true" app:apsv_shadowed="false" />
+    </FrameLayout>
+</RelativeLayout>

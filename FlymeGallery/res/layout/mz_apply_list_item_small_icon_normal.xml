@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/Widget.Flyme.IconList.ContentLinearLayout.Small">
+        <com.meizu.common.widget.SmoothCornerView app:mzCornerRadius="@dimen/mz_list_icon_item_icon_corner_radius" style="@style/Widget.Flyme.IconList.Icon.Small">
+            <ImageView android:id="@id/icon" style="@style/Widget.Flyme.IconList.Icon.Small" />
+        </com.meizu.common.widget.SmoothCornerView>
+        <LinearLayout style="@style/Widget.Flyme.IconList.TextContentLinearLayout">
+            <TextView android:id="@id/title" style="@style/Widget.Flyme.IconList.Title.Single" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

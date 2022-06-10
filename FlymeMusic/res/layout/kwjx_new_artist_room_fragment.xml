@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.kuwo.show.ui.view.GestureSwitchLayout android:id="@id/rootView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <cn.kuwo.show.ui.room.widget.ResizeLayout android:id="@id/rl_dragview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_room_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" fresco:actualImageScaleType="focusCrop" fresco:placeholderImage="@drawable/kwjx_room_bg" fresco:placeholderImageScaleType="focusCrop" fresco:progressBarImage="@color/black80" fresco:progressBarImageScaleType="focusCrop" />
+        <FrameLayout android:id="@id/video_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/video_margin_top">
+            <TextureView android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="@dimen/video_height" />
+            <include layout="@layout/page_room_live_loading" />
+            <ImageView android:layout_gravity="center|right|top" android:id="@id/landscape_logo" android:visibility="gone" android:layout_width="97.0dip" android:layout_height="32.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="30.0dip" android:src="@drawable/kwjx_landscape_room_logo" android:scaleType="centerInside" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/content_portrait" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ViewStub android:id="@id/room_content_portrait_stub" android:layout="@layout/kwjx_new_artist_room_content_portrait" android:inflatedId="@id/room_content_portrait" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/content_landscape" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ViewStub android:id="@id/room_content_landscape_stub" android:layout="@layout/kwjx_new_artist_room_content_landscape" android:inflatedId="@id/room_content_landscape" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </cn.kuwo.show.ui.room.widget.ResizeLayout>
+</cn.kuwo.show.ui.view.GestureSwitchLayout>

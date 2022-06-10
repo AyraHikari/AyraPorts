@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/nowplaying" android:background="@drawable/playbarbg" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/nowplaying_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/blur_image" android:background="@drawable/shape_nowplaying_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/bg_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/shade_color" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/goview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/controller_layout" android:layout_alignParentStart="true">
+        <cn.zte.music.view.CircleImageView android:id="@id/album" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/cover_default_40dp" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/playlist_title_color" android:layout_gravity="center_vertical" android:id="@id/trackname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/controller_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layoutDirection="ltr" android:layout_alignParentEnd="true">
+        <cn.zte.music.view.RepeatingImageButton android:id="@id/previous" android:background="@drawable/actionbar_button_selector" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@string/talkback_play_previous" android:layout_marginStart="8.0dip" android:layout_marginEnd="24.0dip" android:backgroundTint="#fff01e78" />
+        <cn.zte.music.view.RepeatingImageButton android:id="@id/pause" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="24.0dip" android:contentDescription="@string/talkback_play_current" />
+        <ProgressBar android:id="@id/progress_load" android:background="@drawable/actionbar_button_selector" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" style="?android:progressBarStyleLarge" />
+        <cn.zte.music.view.RepeatingImageButton android:id="@id/next" android:background="@drawable/actionbar_button_selector" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@string/talkback_play_next" android:layout_marginStart="24.0dip" android:layout_marginEnd="16.0dip" android:backgroundTint="#fff01e78" />
+    </LinearLayout>
+</RelativeLayout>

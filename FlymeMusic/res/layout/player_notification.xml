@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/notificationContent" android:background="@color/background_notification_color" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/notificationCover" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/bq_default_cover" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="14.0dip" android:textColor="@color/background_title_color" android:ellipsize="end" android:id="@id/notificationSongName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/background_subtext_color" android:ellipsize="end" android:id="@id/notificationArtist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <ImageButton android:id="@id/notificationPlayPause" android:background="#00000000" android:focusable="true" android:clickable="true" android:layout_width="45.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_pause" />
+    <ImageButton android:id="@id/notificationFForward" android:background="#00000000" android:padding="5.0dip" android:focusable="true" android:clickable="true" android:layout_width="45.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_skip_next" android:scaleType="fitCenter" />
+    <ImageButton android:id="@id/notificationLyric" android:background="#00000000" android:padding="5.0dip" android:focusable="true" android:clickable="true" android:layout_width="45.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_lyric" android:scaleType="fitCenter" />
+    <ImageButton android:id="@id/notificationStop" android:background="#00000000" android:padding="5.0dip" android:focusable="true" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/ic_clear" android:scaleType="fitCenter" />
+</LinearLayout>

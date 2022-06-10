@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/tips_view" android:background="@drawable/ic_bq_home_account_bg" android:paddingBottom="24.0dip" android:layout_width="280.0dip" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <com.banqu.music.ui.widget.RoundImageView android:id="@id/top_img" android:layout_width="fill_parent" android:layout_height="160.0dip" android:src="@drawable/bq_vip_expire_tip_top" app:borderRadius="@dimen/dp_8" />
+        <com.banqu.music.widgetcommon.widget.CusMaxHeightScrollView android:id="@id/tipsScroll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:overScrollMode="never" app:max_height="200.0dip">
+            <TextView android:textSize="14.0dip" android:textColor="#cc000000" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="230.0dip" android:lineSpacingExtra="8.0dip" />
+        </com.banqu.music.widgetcommon.widget.CusMaxHeightScrollView>
+        <Button android:textSize="14.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/goVip" android:background="@drawable/bq_dialog_button_bg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="224.0dip" android:layout_height="38.0dip" android:layout_marginTop="20.0dip" android:text="@string/bq_vip_renew" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/exit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:src="@drawable/dialog_exit" android:layout_below="@id/tips_view" android:layout_centerHorizontal="true" />
+</RelativeLayout>

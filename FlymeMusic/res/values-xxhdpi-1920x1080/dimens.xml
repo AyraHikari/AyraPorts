@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bq_play_moreLayout_marginBottom">44.0dip</dimen>
+    <dimen name="bq_play_playActionPart_marginBottom">50.0dip</dimen>
+    <dimen name="bq_play_seekBarLayout_marginBottom">20.0dip</dimen>
+    <dimen name="bq_play_song_icon_padding">40.0dip</dimen>
+</resources>

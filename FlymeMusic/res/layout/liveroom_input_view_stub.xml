@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/liveroom_input_root" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/kwjx_voice2text_page" />
+    <RelativeLayout android:id="@id/flirtation_words_exposure_container" android:background="@drawable/kwjx_bg_white_corner_up_6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" skin:enable="true">
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/kwjx_theme_color_C1" android:gravity="center_vertical" android:id="@id/flirtation_words_more" android:paddingLeft="15.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="更多" android:drawableRight="@drawable/kwjx_liaomei_more_unfold" android:drawablePadding="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" skin:enable="true" />
+        <View android:id="@id/divider" android:background="@color/kw_white" android:layout_width="0.5dip" android:layout_height="14.0dip" android:layout_toLeftOf="@id/flirtation_words_more" android:layout_centerVertical="true" />
+        <HorizontalScrollView android:id="@id/flirtation_words_exposure_scrollView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/divider" android:layout_centerVertical="true">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/flirtation_words_exposure" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </HorizontalScrollView>
+        <View android:gravity="center" android:background="@color/kwjx_theme_color_ln" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="1.0sp" android:layout_height="20.0dip" android:layout_toLeftOf="@id/divider" android:layout_centerVertical="true" skin:enable="true" />
+    </RelativeLayout>
+    <include layout="@layout/kwjx_pri_chat_content_view" />
+    <View android:background="@color/kwjx_theme_color_ln" android:layout_width="fill_parent" android:layout_height="0.5dip" skin:enable="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/liveroom_input_rl" android:background="@color/kwjx_theme_color_LAY2" android:layout_width="fill_parent" android:layout_height="@dimen/live_lay_chat_height" skin:enable="true">
+        <ToggleButton android:id="@id/switch_bullet_screen" android:background="@drawable/kwjx_switch_btn_fly_screen" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:textOn="@null" android:textOff="@null" skin:enable="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/live_input_edit_ll" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/live_bottom_content" android:layout_weight="1.0">
+            <EditText android:textSize="@dimen/kwjx_common_text_size_32" android:textColor="@color/kwjx_theme_color_C1" android:textColorHint="@color/kwjx_theme_color_C3" android:gravity="center_vertical" android:id="@id/liveroom_chat_edittext" android:tag="pub" android:background="@color/kwjx_transparent" android:layout_width="fill_parent" android:layout_height="@dimen/live_bottom_content" android:hint="说点什么吧" android:maxLines="1" android:singleLine="true" android:maxLength="5000" android:imeOptions="actionSend" skin:enable="true" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/private_voice_rl" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/private_voice_bg_first" android:background="@drawable/voice_shape_cirle" android:visibility="invisible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/send_voice_tv" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/kwjx_fayuyin_black" android:scaleType="center" android:layout_centerVertical="true" skin:enable="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/liveroom_emoticon_btn" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/kwjx_emoji_btn" skin:enable="true" />
+        <Button android:textSize="14.0sp" android:textColor="@color/kwjx_theme_color_BWC" android:gravity="center" android:id="@id/send_btn" android:background="@drawable/kwjx_theme_img_hl7" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginRight="8.0dip" android:text="发送" skin:enable="true" />
+    </LinearLayout>
+    <View android:background="@color/kwjx_theme_color_ln" android:layout_width="fill_parent" android:layout_height="0.5dip" skin:enable="true" />
+    <cn.kuwo.jx.emoji.widget.EmojiconMenu android:id="@id/room_emoji_menu" android:background="@color/kwjx_theme_color_LAY2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" skin:enable="true" />
+    <include layout="@layout/liveroom_fly_screen_view_layout" />
+</LinearLayout>

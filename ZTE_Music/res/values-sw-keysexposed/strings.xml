@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Jina la orodha ya kucheza</string>
+    <string name="rename_playlist_diff_prompt">Badilisha jina \"%s\" hadi</string>
+    <string name="rename_playlist_same_prompt">Badilisha jina \"%s\" hadi</string>
+</resources>

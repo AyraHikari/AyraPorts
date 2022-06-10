@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/filtershow_editor_panel_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="71.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/id_filter_tab" android:layout_width="fill_parent" android:layout_height="@dimen/filter_tab_height">
+        <TextView android:textAppearance="@style/TextAppearance.Flyme.Medium" android:textSize="14.0sp" android:textColor="@color/filter_tab_text_color" android:gravity="bottom" android:id="@id/id_orig_filter_tab" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/f_classic" android:shadowColor="@color/black_30" android:shadowRadius="4.0" android:translationX="-5.0dip" />
+        <TextView android:textAppearance="@style/TextAppearance.Flyme.Medium" android:textSize="14.0sp" android:textColor="@color/filter_tab_text_color" android:gravity="bottom" android:id="@id/id_my_filter_tab" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/f_custom" android:shadowColor="@color/black_30" android:shadowRadius="4.0" android:translationX="5.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/filterEditControlArea" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.meizu.media.gallery.filtershow.ui.FiltersHorizontalWheelView android:id="@id/primarySeekBar" style="@style/FilterSeekBarStyle" />
+</LinearLayout>

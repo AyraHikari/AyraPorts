@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/sp_12" android:textColor="@drawable/bq_program_pay_txt_color" android:gravity="center" android:id="@id/text" android:background="@drawable/bq_program_pay_bg" android:layout_width="80.0dip" android:layout_height="30.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

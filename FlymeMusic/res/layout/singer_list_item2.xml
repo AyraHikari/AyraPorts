@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/singer_bg" android:background="@color/kw_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/ray_list_item2_left" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/singer_list_item2_left" android:layout_width="@dimen/bo_head_pic_w_h" android:layout_height="@dimen/bo_head_pic_w_h" android:layout_marginLeft="10.0dip" android:layout_marginRight="12.0dip" android:scaleType="centerCrop" android:layout_centerVertical="true" fresco:border_color="@android:color/white" fresco:placeholderImage="@drawable/def_user_icon" />
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/singer_user_level" android:background="@android:color/transparent" android:layout_width="@dimen/bo_level_w" android:layout_height="@dimen/bo_level_h" android:layout_marginRight="4.0dip" android:scaleType="centerCrop" android:layout_toRightOf="@id/singer_list_item2_left" android:layout_centerVertical="true" />
+            <LinearLayout android:background="#fff1e6fc" android:layout_width="fill_parent" android:layout_height="0.5dip" android:scaleType="centerCrop" android:layout_toRightOf="@id/singer_list_item2_left" android:layout_alignParentBottom="true" android:layout_centerVertical="true">
+                <ImageView android:background="@android:color/transparent" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginRight="12.0dip" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+            </LinearLayout>
+            <TextView android:textSize="14.0dip" android:textColor="#ff404040" android:ellipsize="end" android:id="@id/item2_left_room_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/singer_user_level" android:layout_centerVertical="true" />
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <TextView android:textSize="@dimen/my_fllow_list_live_textSize" android:textColor="#ff9d56e6" android:ellipsize="end" android:gravity="center|right" android:id="@id/item2_left_audience_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:layout_marginBottom="4.0dip" android:singleLine="true" android:layout_weight="1.0" />
+                <TextView android:textSize="@dimen/my_fllow_list_time_textSize" android:textColor="#ff404040" android:id="@id/rec_grid_extend_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

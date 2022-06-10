@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.banqu.music.ui.widget.RoundImageView android:id="@id/image" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/ListIcon32" />
+    <com.banqu.music.ui.widget.PlaySourceImageView android:id="@id/play" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_bq_home_song_play" android:layout_centerVertical="true" android:layout_marginStart="6.0dip" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="14.0dip" android:layout_toStartOf="@id/play" android:layout_toEndOf="@id/image">
+        <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/alpha_40_black" android:ellipsize="end" android:id="@id/artist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

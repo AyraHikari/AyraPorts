@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NMins">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">1 minute</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d songs deleted</item>
+        <item quantity="one">1 song deleted</item>
+    </plurals>
+    <plurals name="NNNtrackswilldeleted">
+        <item quantity="other">Delete %d songs permanently from the storage device?</item>
+        <item quantity="one">Delete 1 song permanently from the storage device?</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d albums</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d songs</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+</resources>

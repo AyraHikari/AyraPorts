@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/mfvc_dialog_bottom_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textAppearance="?android:textAppearanceMedium" android:textSize="16.0sp" android:textColor="#ff333333" android:layout_gravity="center_horizontal" android:id="@id/playlist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" android:singleLine="true" android:maxLength="50" android:inputType="textCapSentences" android:backgroundTint="@color/my_music_base_color">
+        <requestFocus />
+    </EditText>
+    <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true">
+        <Button android:textSize="16.0sp" android:gravity="center" android:id="@id/cancel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="1.0px" android:layout_height="28.0dip" android:src="@color/black" />
+        <Button android:textSize="16.0sp" android:gravity="center" android:id="@id/create" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/create_playlist_create_text" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

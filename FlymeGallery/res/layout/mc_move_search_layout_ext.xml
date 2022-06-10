@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="end" android:layout_gravity="end" android:id="@id/mc_stretch_search_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/mc_stretch_search_padding_left" android:paddingEnd="@dimen/mc_stretch_search_tv_padding_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="end" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/mc_stretch_search_layout_1" android:background="?mzActionBarSearchViewBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/mc_stretch_search_padding_right">
+        <include android:gravity="right" android:layout_gravity="right" android:background="@null" android:layout_width="@dimen/mc_move_search_shorten_width" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" layout="@layout/mc_search_layout" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/mz_text_size_normal" android:textColor="@color/mz_stretch_search_textview_textcolor" android:gravity="center" android:layout_gravity="end" android:id="@id/mc_search_textview" android:background="@null" android:visibility="gone" android:layout_width="@dimen/mc_stretch_search_textview_width" android:layout_height="fill_parent" android:layout_alignParentEnd="true" />
+</RelativeLayout>

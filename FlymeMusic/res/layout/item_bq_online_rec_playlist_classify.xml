@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.banqu.music.ui.widget.RatioRoundLayout android:layout_width="wrap_content" android:layout_height="wrap_content" app:angleRadius="@dimen/default_image_round_radius" app:whRatio="0.667"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/image" android:background="@drawable/bq_default_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <TextView android:textSize="@dimen/bq_list_item_title_ts" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:lines="1" android:singleLine="true" android:layout_centerInParent="true" style="@style/BQ_Medium_title" />
+</com.banqu.music.ui.widget.RatioRoundLayout>

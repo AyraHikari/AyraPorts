@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.banqu.music.widgetcommon.widget.NewMessageView android:id="@id/zb_new_message_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

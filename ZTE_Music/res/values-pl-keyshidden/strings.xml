@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Otwórz klawiaturę, aby nadać nazwę nowej liście odtwarzania, lub wybierz przycisk Zapisz, aby nadać jej nazwę „%s”.</string>
+    <string name="rename_playlist_diff_prompt">Otwórz klawiaturę, aby nadać nową nazwę liście odtwarzania „%1$s”, lub wybierz przycisk Zapisz, aby nadać jej nazwę „%2$s”.</string>
+    <string name="rename_playlist_same_prompt">Otwórz klawiaturę, aby nadać nową nazwę playliście „%s”.</string>
+</resources>

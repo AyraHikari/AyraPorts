@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/Widget.Flyme.DoubleLineList.ContainerLinearLayout.LargeTitle">
+        <TextView android:id="@id/title" style="@style/Widget.Flyme.MultipleList.Title.Medium" />
+        <TextView android:id="@id/descOne" style="@style/Widget.Flyme.MultipleList.Desc.NormalDisplay.AdjoinTitle" />
+    </LinearLayout>
+</RelativeLayout>

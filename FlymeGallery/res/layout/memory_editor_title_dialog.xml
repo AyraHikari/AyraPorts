@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.textinputlayout.TextInputLayout android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="16.0sp" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:scrollHorizontally="true" android:singleLine="true" android:maxLength="22" android:capitalize="none" android:autoText="false" android:layout_marginStart="@dimen/mz_alert_dialog_normal_margin_start" android:layout_marginEnd="@dimen/mz_alert_dialog_normal_margin_end" />
+    </com.meizu.textinputlayout.TextInputLayout>
+    <com.meizu.textinputlayout.TextInputLayout android:id="@id/subtitle_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="16.0sp" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:scrollHorizontally="true" android:singleLine="true" android:maxLength="15" android:capitalize="none" android:autoText="false" android:layout_below="@id/title" android:layout_marginStart="@dimen/mz_alert_dialog_normal_margin_start" android:layout_marginEnd="@dimen/mz_alert_dialog_normal_margin_end" />
+    </com.meizu.textinputlayout.TextInputLayout>
+    <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="54.0dip">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" style="?android:buttonBarStyle">
+            <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.25" />
+            <Button android:layout_gravity="start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="取消" android:maxLines="2" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+            <Button android:layout_gravity="end" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="确定" android:maxLines="2" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+            <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.25" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

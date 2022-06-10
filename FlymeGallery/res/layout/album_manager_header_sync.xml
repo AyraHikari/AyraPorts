@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="54.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/black_4" android:layout_width="fill_parent" android:layout_height="36.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black_40" android:layout_gravity="start|bottom|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="27.0dip" android:text="@string/select_sync_dir" android:fontFamily="sans-serif-medium" android:layout_marginStart="24.0dip" />
+</FrameLayout>

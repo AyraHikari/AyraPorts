@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="@string/fit_action_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/fragment_content" android:background="@color/white" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="370.0dip" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="right" android:layout_gravity="right" android:id="@id/enter_ll" android:background="@drawable/kwjx_enter_room_right" android:layout_width="wrap_content" android:layout_height="wrap_content" skin:enable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_pk_room" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="5.0dip" android:layout_centerVertical="true" fresco:placeholderImage="@drawable/kwjx_def_user_icon" fresco:roundAsCircle="true" fresco:roundingBorderColor="#ff595959" fresco:roundingBorderWidth="0.5dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toLeftOf="@id/iv_pk_room" android:layout_centerVertical="true">
+        <cn.kuwo.show.ui.room.widget.SpannableTextView android:textSize="@dimen/text_size_13" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/welcome_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sss" android:singleLine="true" android:maxLength="5" skin:enable="true" />
+        <cn.kuwo.show.ui.room.widget.SpannableTextView android:textSize="@dimen/text_size_10" android:textColor="@color/white" android:id="@id/tv_follow_nesw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="对方" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="camera_crop_height">644</integer>
+    <integer name="camera_crop_width">286</integer>
+</resources>

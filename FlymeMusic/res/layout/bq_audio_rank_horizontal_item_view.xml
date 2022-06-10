@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/audioLayout" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="18.0dip" android:paddingEnd="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/iconLayout" android:layout_width="@dimen/audio_normal_icon_size" android:layout_height="@dimen/audio_normal_icon_size" layout="@layout/bq_audio_icon_view_80" />
+    <TextView android:id="@id/rank" android:layout_marginStart="10.0dip" app:layout_constraintStart_toEndOf="@id/iconLayout" app:layout_constraintTop_toTopOf="@id/iconLayout" style="@style/bqAudioSubCategoryTagTextStyle" />
+    <TextView android:textSize="@dimen/bq_list_item_title_ts" android:id="@id/title" android:layout_marginTop="@dimen/bq_audio_item_list_title_spacing" app:layout_constraintLeft_toLeftOf="@id/rank" app:layout_constraintTop_toBottomOf="@id/rank" style="@style/bqAudioTitleTextStyle" />
+    <TextView android:id="@id/recWords" android:singleLine="true" app:layout_constraintBottom_toBottomOf="@id/iconLayout" app:layout_constraintLeft_toLeftOf="@id/title" style="@style/bqAudioRecWordsTextStyle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

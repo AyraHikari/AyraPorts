@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/songRoot" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/default_page_padding" android:paddingBottom="@dimen/default_page_padding" android:focusable="true" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="80.0dip" android:paddingStart="8.0dip" android:paddingEnd="@dimen/default_page_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/numberLayout" android:layout_width="wrap_content" android:layout_height="@dimen/dp_24" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/songInfo" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="@dimen/bq_list_item_title_ts" android:gravity="center" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxEms="4" style="@style/BQ_BOLD_sub" />
+        <include android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_centerVertical="true" android:layout_alignEnd="@id/number" layout="@layout/song_music_visualizer" />
+    </RelativeLayout>
+    <ImageView android:id="@id/menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_bq_more_vert" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="40.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/item_song_info" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">노래 %d곡이 삭제되었습니다.</item>
+        <item quantity="one">노래 1곡이 삭제되었습니다.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">앨범 %d개</item>
+        <item quantity="one">앨범 1개</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">노래 %d곡</item>
+    </plurals>
+</resources>

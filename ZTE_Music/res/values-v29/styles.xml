@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.ZTE.Light" parent="@style/Base.V29.Theme.ZTE.Light" />
+    <style name="Base.V29.Theme.ZTE.Light" parent="@style/Base.V21.Theme.ZTE.Light" />
+</resources>

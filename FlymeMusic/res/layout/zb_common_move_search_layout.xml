@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="end" android:layout_gravity="end|center" android:id="@id/mc_stretch_search_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/mc_stretch_search_padding_left" android:paddingEnd="@dimen/mc_stretch_search_padding_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/mc_stretch_search_layout_1" android:background="?zbActionBarSearchViewBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:gravity="right" android:layout_gravity="right" android:background="@null" android:layout_width="@dimen/mc_move_search_shorten_width" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" layout="@layout/zb_common_search_layout" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:gravity="center" android:id="@id/customScan" android:layout_width="160.0dip" android:layout_height="30.0dip" android:layout_marginBottom="10.0dip" android:text="@string/bq_custom_scan_start" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Widget.DeviceDefault.Light.Button.Stroke.Color.RedBq" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/folderNav" android:background="@color/folder_nav_bg" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="36.0dip" android:paddingStart="@dimen/default_page_padding" android:paddingEnd="@dimen/default_page_padding" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/folderRV" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="10.0dip" app:layout_constraintBottom_toTopOf="@id/customScan" app:layout_constraintTop_toBottomOf="@id/folderNav" />
+</androidx.constraintlayout.widget.ConstraintLayout>

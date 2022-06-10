@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flyme.support.v7.widget.RecyclerView android:id="@id/scene_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/association_scene_height" android:paddingStart="18.0dip" android:paddingEnd="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

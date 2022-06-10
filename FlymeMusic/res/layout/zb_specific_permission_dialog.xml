@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/zb_compat_alert_dialog_normal_margin_start" android:paddingEnd="@dimen/zb_compat_alert_dialog_normal_margin_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#73000000" android:id="@id/zb_specific_permission_dialog_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="2.1999817sp" />
+    <CheckBox android:textSize="14.0sp" android:textColor="#73000000" android:id="@id/zb_specific_permission_dialog_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:checked="false" android:text="@string/zb_compat_permission_almost_deny" android:paddingStart="8.0dip" style="@style/Widget.Banqu.PermissionDialog.CheckBox" />
+</LinearLayout>

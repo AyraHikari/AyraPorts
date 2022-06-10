@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/plume_rl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_size_12" android:textColor="#ffe6a425" android:gravity="center" android:id="@id/plume_tv" android:background="@drawable/kwjx_yumao_j" android:paddingTop="20.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <cn.kuwo.show.ui.view.ArcProgressStackView android:layout_gravity="center" android:id="@id/plume_apsv" android:layout_width="40.0dip" android:layout_height="40.0dip" app:apsv_animated="true" app:apsv_dragged="false" app:apsv_draw_width="2.0dip" app:apsv_model_bg_enabled="false" app:apsv_rounded="true" app:apsv_shadowed="false" />
+    <TextView android:textSize="@dimen/text_size_9" android:textStyle="bold" android:textColor="@color/rgbeb54ac" android:gravity="center" android:id="@id/plume_count_tv" android:background="@drawable/bg_room_act_count_alpha" android:layout_width="16.0dip" android:layout_height="wrap_content" android:text="10" android:layout_alignRight="@id/plume_tv" android:layout_alignBottom="@id/plume_tv" />
+</RelativeLayout>

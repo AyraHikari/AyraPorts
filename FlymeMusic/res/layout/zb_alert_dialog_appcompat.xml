@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.banqu.support.v7.widget.ZbAlertDialogLayout android:gravity="start|center|top" android:orientation="vertical" android:id="@id/parentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.widget.Space android:id="@id/dialogSpace1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/topPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/title_template" android:paddingLeft="?dialogPreferredPadding" android:paddingRight="?dialogPreferredPadding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@android:id/icon" android:layout_width="@dimen/zb_compat_alert_dialog_title_icon_width" android:layout_height="@dimen/zb_compat_alert_dialog_title_icon_height" android:layout_marginRight="8.0dip" android:src="@null" android:scaleType="fitCenter" android:layout_marginEnd="8.0dip" />
+            <androidx.appcompat.widget.DialogTitle android:ellipsize="end" android:gravity="start" android:id="@id/alertTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" style="?android:windowTitleStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <android.widget.Space android:id="@id/dialogSpace2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/contentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="top" android:id="@id/scrollIndicatorUp" android:background="#0d000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0px" />
+        <androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="start" android:id="@android:id/message" android:paddingLeft="?dialogPreferredPadding" android:paddingRight="?dialogPreferredPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" style="?zbDialogMessageStyle" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <View android:layout_gravity="bottom" android:id="@id/scrollIndicatorDown" android:background="#0d000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0px" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/customPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/custom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <android.widget.Space android:id="@id/dialogSpace3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttonPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+        <Button android:textSize="17.0sp" android:ellipsize="end" android:gravity="center" android:id="@android:id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dip" android:minHeight="0.0dip" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" style="?buttonBarNeutralButtonStyle" />
+        <Button android:textSize="17.0sp" android:ellipsize="end" android:gravity="center" android:id="@android:id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dip" android:minHeight="0.0dip" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" style="?buttonBarNegativeButtonStyle" />
+        <Button android:textSize="17.0sp" android:ellipsize="end" android:gravity="center" android:id="@android:id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dip" android:minHeight="0.0dip" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" style="?buttonBarPositiveButtonStyle" />
+    </LinearLayout>
+    <android.widget.Space android:id="@id/dialogSpace4" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.banqu.support.v7.widget.ZbAlertDialogLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/ll_week_podium" android:background="@drawable/kwjx_friends_this_week_podium_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.5dip" android:layout_marginRight="9.5dip">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_anchor_two" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="64.0dip" android:layout_marginRight="26.0dip" android:layout_toLeftOf="@id/ll_anchor_one">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@id/user_icon_two" android:layout_width="61.0dip" android:layout_height="61.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.5dip" android:src="@drawable/def_user_icon" fresco:failureImage="@drawable/def_user_icon" fresco:failureImageScaleType="fitXY" fresco:placeholderImage="@drawable/def_user_icon" fresco:placeholderImageScaleType="fitXY" fresco:roundAsCircle="true" fresco:roundingBorderColor="@color/kwjx_rgbb3fdff" fresco:roundingBorderWidth="2.0dip" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_friends_this_week_on_two" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_user_name_two" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="5" android:singleLine="true" android:layout_weight="2.0" />
+                <ImageView android:id="@id/iv_user_richlvl_two" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="22.0dip" android:layout_marginLeft="2.0dip" android:src="@drawable/f0" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/iv_user_cnt_two" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" android:maxLength="7" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_anchor_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_centerHorizontal="true">
+            <LinearLayout android:gravity="center_horizontal" android:background="@drawable/kwjx_friends_this_week_head_bg" android:layout_width="103.5dip" android:layout_height="80.0dip">
+                <RelativeLayout android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip">
+                    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/user_icon_one" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.5dip" android:src="@drawable/def_user_icon" fresco:failureImage="@drawable/def_user_icon" fresco:failureImageScaleType="fitXY" fresco:placeholderImage="@drawable/def_user_icon" fresco:placeholderImageScaleType="fitXY" fresco:roundAsCircle="true" fresco:roundingBorderColor="@color/kwjx_rgbf9fa17" fresco:roundingBorderWidth="2.0dip" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_friends_this_week_on_one" />
+                </RelativeLayout>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/white" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/tv_user_name_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:maxEms="5" android:singleLine="true" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_user_richlvl_one" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="22.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="6.0dip" android:src="@drawable/f0" />
+            <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/iv_user_cnt_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_anchor_three" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="64.0dip" android:layout_toRightOf="@id/ll_anchor_one">
+            <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@id/user_icon_three" android:layout_width="61.0dip" android:layout_height="61.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.5dip" android:src="@drawable/def_user_icon" fresco:failureImage="@drawable/def_user_icon" fresco:failureImageScaleType="fitXY" fresco:placeholderImage="@drawable/def_user_icon" fresco:placeholderImageScaleType="fitXY" fresco:roundAsCircle="true" fresco:roundingBorderColor="@color/kwjx_rgbffd7d7" fresco:roundingBorderWidth="2.0dip" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_friends_this_week_on_three" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_user_name_three" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="5" android:singleLine="true" />
+                <ImageView android:id="@id/iv_user_richlvl_three" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="22.0dip" android:layout_marginLeft="2.0dip" android:src="@drawable/f0" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/iv_user_cnt_three" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" android:maxLength="7" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/resize_rl" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <cn.kuwo.show.base.uilib.pulltorefresh.PullToRefreshListView android:id="@id/content_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:divider="@null" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_no_data" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="18.0sp" android:textColor="@color/kw_common_edit" android:gravity="center" android:id="@id/load_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/data_non" android:layout_centerVertical="true" />
+        </LinearLayout>
+        <include android:id="@id/online_error_content" android:visibility="gone" layout="@layout/online_error" />
+    </RelativeLayout>
+</LinearLayout>

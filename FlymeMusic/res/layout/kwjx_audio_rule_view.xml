@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rl_audio_tringle" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/im_audio_trungle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="190.0dip" android:src="@drawable/im_audio_tringle" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_audio_tipic_bg" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/vip_new_textcolor_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="活动规则" />
+            <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/black" android:id="@id/tv_audio_topic" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

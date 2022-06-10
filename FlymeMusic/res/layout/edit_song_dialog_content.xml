@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/default_page_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <TextView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq_song_title" />
+        <EditText android:textSize="16.0dip" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:hint="输入歌曲名称" android:scrollHorizontally="true" android:singleLine="true" android:capitalize="none" android:autoText="false" android:layout_marginStart="@dimen/zb_compat_alert_dialog_normal_margin_start" android:layout_marginEnd="@dimen/zb_compat_alert_dialog_normal_margin_end" style="@style/BaseEditStyle" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <TextView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq_song_album" />
+        <EditText android:textSize="16.0dip" android:id="@id/album" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:hint="输入专辑名称" android:scrollHorizontally="true" android:singleLine="true" android:capitalize="none" android:autoText="false" android:layout_marginStart="@dimen/zb_compat_alert_dialog_normal_margin_start" android:layout_marginEnd="@dimen/zb_compat_alert_dialog_normal_margin_end" style="@style/BaseEditStyle" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <TextView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq_song_artists" />
+        <EditText android:textSize="16.0dip" android:id="@id/artist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:hint="输入歌手名称" android:scrollHorizontally="true" android:singleLine="true" android:capitalize="none" android:autoText="false" android:layout_marginStart="@dimen/zb_compat_alert_dialog_normal_margin_start" android:layout_marginEnd="@dimen/zb_compat_alert_dialog_normal_margin_end" style="@style/BaseEditStyle" />
+    </LinearLayout>
+    <TextView android:textSize="10.0dip" android:textColor="@color/grey" android:autoLink="web" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/bq_artist_msg" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/app_theme_color_red" android:autoLink="web" android:layout_gravity="end" android:id="@id/charsetMsg" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/default_page_padding" android:text="@string/bq_charset_msg" />
+</LinearLayout>

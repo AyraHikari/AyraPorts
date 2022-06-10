@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.filtershow.doodle.ColorPickerPreview android:id="@id/color_picker" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/draw_shape_colors_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <HorizontalScrollView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/filter_doodle_colors_container" />
+        </HorizontalScrollView>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="18.0dip" android:src="@drawable/filter_doodle_seekbar_small" />
+            <SeekBar android:id="@id/draw_doodle_seekbar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="7.0dip" android:max="30" android:layout_weight="1.0" style="@style/FilterShowSlider" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/filter_doodle_seekbar_big" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/shape_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:src="@drawable/doodles_line_background" style="@style/DoodleShapeDialogItem" />
+            <ImageView android:src="@drawable/doodles_arrow_background" style="@style/DoodleShapeDialogItem" />
+            <ImageView android:src="@drawable/doodles_2arrow_background" style="@style/DoodleShapeDialogItem" />
+            <ImageView android:src="@drawable/doodles_circle_arrow_background" style="@style/DoodleShapeDialogItem" />
+            <ImageView android:src="@drawable/doodles_squre_frame_background" style="@style/DoodleShapeDialogItem" />
+            <ImageView android:src="@drawable/doodles_round_squre_frame_background" style="@style/DoodleShapeDialogItem" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:src="@drawable/doodles_circle_frame_background" style="@style/DoodleShapeDialogItem" />
+            <ImageView android:src="@drawable/doodles_6squre_frame_background" style="@style/DoodleShapeDialogItem" />
+            <ImageView android:src="@drawable/doodles_squre_background" style="@style/DoodleShapeDialogItem" />
+            <ImageView android:src="@drawable/doodles_round_squre_background" style="@style/DoodleShapeDialogItem" />
+            <ImageView android:src="@drawable/doodles_circle_background" style="@style/DoodleShapeDialogItem" />
+            <ImageView android:src="@drawable/doodles_6squre_background" style="@style/DoodleShapeDialogItem" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

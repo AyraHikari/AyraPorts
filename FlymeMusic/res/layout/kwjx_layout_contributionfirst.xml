@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_con_head" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="2.0dip" fresco:placeholderImage="@drawable/kwjx_def_user_icon" fresco:roundAsCircle="true" fresco:roundingBorderColor="#ffffe747" fresco:roundingBorderWidth="1.0dip" />
+    <TextView android:textSize="12.0sp" android:textStyle="bold|italic" android:textColor="@color/color_contribution_first" android:gravity="center_vertical" android:id="@id/tv_con_num" android:background="@color/kwjx_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:text="NO.1" android:maxLines="1" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_contribution_first" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_con_name" android:background="@color/kwjx_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:maxLines="1" />
+    <ImageView android:id="@id/iv_con_star" android:background="@drawable/kwjx_contribution_no1_ic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-30.0dip" />
+</LinearLayout>

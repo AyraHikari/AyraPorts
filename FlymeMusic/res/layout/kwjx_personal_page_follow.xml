@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/personal_page_fragment" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_title_user" android:background="@drawable/kwjx_bg_personal_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="30.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_gravity="center_horizontal" android:background="@drawable/kwjx_userinfo_user_icon_bg" android:layout_width="83.0dip" android:layout_height="83.0dip">
+                    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/userinfo_user_icon" android:layout_width="77.0dip" android:layout_height="77.0dip" android:src="@drawable/menu_user_default_icon" android:layout_centerHorizontal="true" android:layout_centerVertical="true" fresco:failureImage="@drawable/menu_user_default_icon" fresco:failureImageScaleType="center" fresco:placeholderImage="@drawable/menu_user_default_icon" fresco:roundAsCircle="true" />
+                </RelativeLayout>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/kwjx_title_bar_bg" android:gravity="center_vertical" android:id="@id/userinfo_user_nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" />
+                    <ImageView android:id="@id/iv_zhubo_wealth" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/f0" android:layout_below="@id/linearLayout" android:layout_centerHorizontal="true" />
+                    <ImageView android:id="@id/iv_zhubo_official" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/kwjx_official_icon" android:layout_below="@id/linearLayout" android:layout_centerHorizontal="true" />
+                    <ImageView android:id="@id/iv_zhubo_xing" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/g0" android:layout_below="@id/linearLayout" android:layout_centerHorizontal="true" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_hint_follow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="20.0dip">
+                    <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/vip_new_textcolor_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/personal_follow_hint" />
+                    <ImageView android:id="@id/hint_bt_follow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/kwjx_personal_follow_p" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

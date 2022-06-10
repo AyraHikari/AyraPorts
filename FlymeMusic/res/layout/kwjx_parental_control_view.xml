@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/live_game_blank_space" android:background="@color/kw_common_cl_black_alpha_40" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_text" android:background="@drawable/kwjx_parental_control_bg" android:paddingTop="50.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.5dip">
+                <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.5dip" android:text="@string/my_parnetal_dialog_context" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip">
+                    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/kw_737373" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_parnetal_dialog_context_one" />
+                    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/kw_737373" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/my_parnetal_dialog_context_one1" android:singleLine="true" android:drawableLeft="@drawable/kwjx_parental_msg_icon" android:drawablePadding="10.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:background="@drawable/kwjx_parental_control_selected" android:layout_width="75.0dip" android:layout_height="75.0dip" android:src="@drawable/kwjx_parental_pw_icon" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

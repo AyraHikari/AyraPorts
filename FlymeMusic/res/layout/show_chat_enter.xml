@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/enter_ll" android:background="@drawable/show_enter_bg" android:layout_width="wrap_content" android:layout_height="23.0dip" skin:enable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <cn.kuwo.show.base.uilib.KwImageView android:id="@id/rich_img" android:layout_width="24.0dip" android:layout_height="12.0dip" android:layout_centerVertical="true" />
+    <cn.kuwo.show.ui.room.widget.SpannableTextView android:textSize="@dimen/text_size_12" android:textColor="@color/kw_common_cl_white" android:gravity="center_vertical" android:id="@id/welcome_title" android:paddingLeft="4.0dip" android:paddingTop="3.0dip" android:paddingRight="10.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="asdasd" android:layout_toRightOf="@id/rich_img" android:layout_centerVertical="true" skin:enable="true" />
+</RelativeLayout>

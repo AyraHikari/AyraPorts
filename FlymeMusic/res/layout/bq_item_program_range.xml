@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="12.0dip" android:gravity="center" android:id="@id/programRange" android:background="@drawable/bq_program_range_bg_normal" android:layout_width="fill_parent" android:layout_height="@dimen/dp_28"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

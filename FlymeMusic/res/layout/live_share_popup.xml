@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/share_ll" android:background="@color/rgbf5f5f5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/rgb404040" android:gravity="center" android:id="@id/share_def_tv" android:background="@color/kw_white" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="分享到" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/rgb404040" android:gravity="center" android:id="@id/btn_weibo" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/share_popup_weibo" android:drawableTop="@drawable/kwjx_share_weibo" android:drawablePadding="6.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/rgb404040" android:gravity="center" android:id="@id/btn_wechat" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/share_popup_wxchat" android:drawableTop="@drawable/kwjx_share_wxchat" android:drawablePadding="6.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/rgb404040" android:gravity="center" android:id="@id/btn_qq" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/share_popup_qq" android:drawableTop="@drawable/kwjx_share_qq" android:drawablePadding="6.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/rgb404040" android:gravity="center" android:id="@id/btn_qzone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/share_popup_qzone" android:drawableTop="@drawable/kwjx_share_qzone" android:drawablePadding="6.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip"> > <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/rgb404040" android:gravity="center" android:id="@id/btn_timeline" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/share_popup_timeline" android:drawableTop="@drawable/kwjx_share_timeline" android:drawablePadding="6.0dip" android:layout_weight="1.0" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

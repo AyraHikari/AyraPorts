@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mc_galleryflow_album_title_padding_bottom">3.5dip</dimen>
+    <dimen name="mc_galleryflow_album_title_size">16.0sp</dimen>
+    <dimen name="mc_galleryflow_delta_1">35.0dip</dimen>
+    <dimen name="mc_galleryflow_delta_2">20.0dip</dimen>
+    <dimen name="mc_galleryflow_picture_size">105.0dip</dimen>
+    <dimen name="zbc_mc_galleryflow_album_title_padding_bottom">3.5dip</dimen>
+    <dimen name="zbc_mc_galleryflow_album_title_size">16.0sp</dimen>
+    <dimen name="zbc_mc_galleryflow_delta_1">35.0dip</dimen>
+    <dimen name="zbc_mc_galleryflow_delta_2">20.0dip</dimen>
+    <dimen name="zbc_mc_galleryflow_picture_size">105.0dip</dimen>
+    <dimen name="mc_incoming_ringing_outerring_diameter">272.0dip</dimen>
+    <dimen name="mc_multiwaveview_snap_margin">45.19998dip</dimen>
+    <dimen name="mc_multiwaveview_target_placement_radius">134.5dip</dimen>
+</resources>

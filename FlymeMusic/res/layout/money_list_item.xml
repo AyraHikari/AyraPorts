@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/consume_item" android:background="@color/kw_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/rel_consume_item_one" android:background="@color/kw_white" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/kw_common_404040" android:ellipsize="end" android:id="@id/tv_consume_giftname" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="giftname" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/kw_common_9d56e6" android:id="@id/tv_consume_xbcoin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="xbcoin" android:layout_alignBaseline="@id/tv_consume_giftname" android:layout_alignLeft="@id/tv_consume_sendtime" android:layout_alignBottom="@id/tv_consume_giftname" />
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/live_inout_text_color" android:id="@id/tv_consume_sendtime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sendtime" android:layout_alignBaseline="@id/tv_consume_touser" android:layout_alignBottom="@id/tv_consume_touser" android:layout_alignParentRight="true" />
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/live_inout_text_color" android:ellipsize="end" android:id="@id/tv_consume_touser" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="touser" android:layout_toLeftOf="@id/tv_consume_sendtime" android:layout_below="@id/tv_consume_giftname" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    <View android:background="@color/rgbf0f0f0" android:layout_width="wrap_content" android:layout_height="1.0dip" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/live_remind_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@drawable/kwjx_bg_live_remind" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/singer_head_img" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="10.0dip" android:layout_centerVertical="true" fresco:placeholderImage="@drawable/kwjx_def_user_icon" fresco:roundAsCircle="true" />
+        <TextView android:textSize="@dimen/text_size_14" android:textStyle="bold" android:textColor="@color/kw_common_cl_black" android:id="@id/singer_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="主播名" android:layout_toRightOf="@id/singer_head_img" />
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/kw_common_cl_black" android:ellipsize="end" android:id="@id/singer_content_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:text="开播内容" android:singleLine="true" android:layout_toRightOf="@id/singer_head_img" android:layout_below="@id/singer_name_tv" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/rank_line_view" android:background="@color/hot_item_line_view_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/hot_item_line_view" />
+    <RelativeLayout android:id="@id/rank_title_rl" android:background="@drawable/app_list_item_select" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/rank_line_view">
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/kw_common_cl_red" android:id="@id/rank_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="25.0dip" android:text="明星主播榜" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/default_icon_go" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:background="@color/hot_item_line_view_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

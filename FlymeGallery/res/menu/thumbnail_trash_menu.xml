@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/trash_restore" android:id="@id/action_trash_recover" android:title="@string/trash_restore" android:showAsAction="always|withText" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/btn_delete" android:id="@id/action_trash_delete" android:title="@string/trash_delete" android:showAsAction="always|withText" app:showAsAction="always|withText" />
+</menu>

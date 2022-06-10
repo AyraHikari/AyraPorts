@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.flyme.activeview.views.ActiveView android:layout_gravity="end" android:id="@id/active_view" android:visibility="gone" android:clickable="false" android:layout_width="60.0dip" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="end" android:id="@id/img_view" android:visibility="gone" android:clickable="false" android:layout_width="60.0dip" android:layout_height="fill_parent" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/photo_page_text_menu_item_text_color_selector" android:gravity="center" android:layout_gravity="end" android:id="@id/text_view" android:background="?android:selectableItemBackgroundBorderless" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:fontFamily="sans-serif-medium" />
+</FrameLayout>

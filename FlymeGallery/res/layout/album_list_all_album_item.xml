@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.ui.AlbumListImageView android:id="@id/iv_album_cover" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:ellipsize="end" android:layout_gravity="bottom" android:id="@id/tv_album_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:singleLine="true" android:layout_above="@id/tv_album_count" android:fontFamily="SFPRO-medium" android:layout_marginStart="12.0dip" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/black_60" android:gravity="center" android:layout_gravity="bottom" android:id="@id/tv_album_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:maxLines="1" android:layout_alignParentBottom="true" android:fontFamily="sans-serif-regular" android:layout_marginStart="12.0dip" />
+</RelativeLayout>

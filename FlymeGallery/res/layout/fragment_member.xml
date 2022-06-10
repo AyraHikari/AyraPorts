@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:common="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/member_main_panel" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/user_info" android:layout_width="fill_parent" android:layout_height="171.0dip" android:layout_alignParentTop="true">
+            <View android:id="@id/member_blend_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.meizu.media.gallery.member.CircleImageView android:id="@id/user_icon" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="18.0dip" android:layout_marginTop="103.0dip" android:src="@drawable/avatar" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="17.0dip" android:textColor="@color/white" android:ellipsize="end" android:id="@id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="6.0dip" android:maxWidth="200.0dip" android:maxLines="1" android:layout_toRightOf="@id/user_icon" android:layout_alignTop="@id/user_icon" android:fontFamily="sans-serif-medium" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/white_75" android:id="@id/user_taocan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:minHeight="25.0dip" android:layout_below="@id/user_name" android:layout_alignLeft="@id/user_name" android:fontFamily="sans-serif-normal" />
+            <ImageView android:id="@id/vip_icon" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="4.6999817dip" android:layout_toRightOf="@id/user_name" android:layout_alignTop="@id/user_icon" />
+        </RelativeLayout>
+        <flyme.support.v7.widget.AloneTabContainer android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/member_tab_view" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="4.6999817dip" android:layout_below="@id/user_info" />
+        <FrameLayout android:orientation="horizontal" android:id="@id/tao_can_bottom" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_alignParentBottom="true">
+            <View android:layout_gravity="top" android:background="@color/black_3" android:layout_width="fill_parent" android:layout_height="0.70000005dip" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/price_show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="DINPro-medium" android:layout_marginStart="18.0dip" />
+            <Button android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center|right" android:id="@id/pay_btn" android:background="@drawable/member_buy_btn_background_gold" android:layout_width="105.0dip" android:layout_height="38.0dip" android:layout_marginRight="18.0dip" android:text="@string/pay_now" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+        </FrameLayout>
+        <flyme.support.v4.view.ViewPager android:id="@id/member_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tao_can_bottom" android:layout_below="@id/member_tab_view" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/loadingViewLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.meizu.common.widget.LoadingView android:id="@id/loading_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/Widget.MeizuCommon.LoadingView.Light" />
+        <TextView android:textSize="14.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/cloud_trans_loading" android:layout_below="@id/loading_view" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-medium" style="@style/LoadingViewTextStyle.Light" />
+    </RelativeLayout>
+    <com.meizu.common.widget.EmptyView android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="70.0dip" common:mcTitleTextAppearance="@style/TextAppearance.Small.EmptyViewToast.Title" common:mcTopMarginOfTips="12.0dip" />
+</FrameLayout>

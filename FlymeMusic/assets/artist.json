@@ -1,0 +1,100 @@
+{
+  "genderList": [
+    {
+      "name": "全部",
+      "tag": "all"
+    },
+    {
+      "name": "男",
+      "tag": "male"
+    },
+    {
+      "name": "女",
+      "tag": "female"
+    },
+    {
+      "name": "组合",
+      "tag": "group"
+    }
+  ],
+  "regionList": [
+    {
+      "name": "全部",
+      "tag": "all"
+    },
+    {
+      "name": "华语",
+      "tag": "chinese"
+    },
+    {
+      "name": "韩国",
+      "tag": "korean"
+    },
+    {
+      "name": "欧美",
+      "tag": "english"
+    },
+    {
+      "name": "日本",
+      "tag": "japanese"
+    },
+    {
+      "name": "其他",
+      "tag": "other"
+    }
+  ],
+  "genreList": [
+    {
+      "name": "全部",
+      "tag": "all"
+    },
+    {
+      "name": "流行",
+      "tag": "popular"
+    },
+    {
+      "name": "嘻哈",
+      "tag": "hop"
+    },
+    {
+      "name": "摇滚",
+      "tag": "rock"
+    },
+    {
+      "name": "电子",
+      "tag": "electronic"
+    },
+    {
+      "name": "民谣",
+      "tag": "ballad"
+    },
+    {
+      "name": "R&B",
+      "tag": "rb"
+    },
+    {
+      "name": "民歌",
+      "tag": "folk"
+    },
+    {
+      "name": "轻音乐",
+      "tag": "light"
+    },
+    {
+      "name": "爵士",
+      "tag": "sir"
+    },
+    {
+      "name": "古典",
+      "tag": "classical"
+    },
+    {
+      "name": "乡村",
+      "tag": "rural"
+    },
+    {
+      "name": "蓝调",
+      "tag": "blues"
+    }
+  ]
+}

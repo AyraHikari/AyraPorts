@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">打开键盘为新的播放列表命名，或选择“保存”将其命名为“%s”。</string>
+    <string name="rename_playlist_diff_prompt">打开键盘为播放列表“%1$s”重命名，或者选择“保存”将其命名为“%2$s”。</string>
+    <string name="rename_playlist_same_prompt">打开键盘可为播放列表“%s”重命名。</string>
+</resources>

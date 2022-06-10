@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/boardImageRoot" android:layout_width="100.0dip" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.banqu.music.ui.widget.RoundImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" style="@style/ListIcon100" />
+    <com.banqu.music.ui.widget.PlaySourceImageView android:id="@id/play" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/ic_bq_home_daily_recommend_play" android:layout_alignBottom="@id/image" android:layout_marginEnd="5.0dip" android:layout_alignEnd="@id/image" />
+</RelativeLayout>

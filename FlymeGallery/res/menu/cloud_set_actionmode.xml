@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/btn_cloud_download" android:id="@id/action_cloud_download" android:visible="true" android:title="@string/cloud_menu_title_download" android:showAsAction="always|withText" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/btn_delete" android:id="@id/action_cloud_delete" android:visible="true" android:title="@string/cloud_menu_title_delete" android:showAsAction="always|withText" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_cloud_rename" android:id="@id/action_cloud_rename" android:visible="true" android:title="@string/rename" android:showAsAction="always|withText" app:showAsAction="always|withText" />
+    <item android:id="@id/action_select" android:visible="false" app:actionViewClass="com.meizu.common.widget.SelectionButton" app:showAsAction="always" />
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/kwjx_theme_color_MOD1" android:layout_width="fill_parent" android:layout_height="74.0dip" skin:enable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/lay_user" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip">
+        <cn.kuwo.show.ui.view.CircleImageView android:layout_gravity="center_horizontal" android:id="@id/myfans_result_iv_icon" android:layout_width="54.0dip" android:layout_height="54.0dip" fresco:roundingBorderWidth="0.0dip" style="@style/kwjx_common_style_head_image1" skin:enable="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip">
+            <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/kwjx_theme_color_C1" android:gravity="center_vertical" android:id="@id/myfans_result_tv_nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" skin:enable="true" />
+            <ImageView android:id="@id/myfans_result_iv_richlvl" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="1.0dip" android:src="@drawable/f0" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+            <ImageView android:id="@id/myfans_result_iv_singerlvl" android:layout_width="26.0dip" android:layout_height="20.0dip" android:layout_marginLeft="6.0dip" android:src="@drawable/g0" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/kwjx_theme_color_LN" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/lay_user" skin:enable="true" />
+</RelativeLayout>

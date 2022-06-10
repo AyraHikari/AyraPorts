@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<joint type="joint" width="830" bg="0xFFFFFFFF">
+
+    <jwindow id="1" type="rect" width="830" height="wrap_content"/>
+    <jwindow id="2" type="rect" width="830" height="wrap_content" below="@id/1" transY="8"/>
+    <jwindow id="3" type="rect" width="830" height="wrap_content" below="@id/2" transY="8"/>
+    <jwindow id="4" type="rect" width="830" height="wrap_content" below="@id/3" transY="8"/>
+    <jwindow id="5" type="rect" width="830" height="wrap_content" below="@id/4" transY="8"/>
+
+</joint>

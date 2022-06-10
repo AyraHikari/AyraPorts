@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rank_item_rl" android:background="@drawable/liveroom_audience_listitem_full_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/tab_def_view" android:background="#bf393740" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="6.0dip" />
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/rgbbfbfbf" android:gravity="center_vertical" android:id="@id/tab_name_tv" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="本场" />
+</LinearLayout>

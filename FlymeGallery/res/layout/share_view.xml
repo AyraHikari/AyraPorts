@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/share_view_container" android:paddingTop="@dimen/intent_chooser_view_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/share_view_header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:gravity="center" android:id="@id/share_view_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mz_share_view_title" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="12.0sp" android:gravity="center" android:id="@id/share_view_summary" android:layout_width="wrap_content" android:layout_height="16.0dip" android:text="@string/file_selected_number" android:singleLine="true" android:includeFontPadding="false" />
+        <CheckBox android:textSize="16.0sp" android:textColor="@color/colorBlack" android:gravity="center" android:id="@id/share_view_checkbox" android:layout_width="wrap_content" android:layout_height="24.0dip" android:text="@string/mz_share_view_checkbox_text" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" android:paddingStart="9.0dip" style="@style/Widget.Flyme.ShareView.CheckBox" />
+    </LinearLayout>
+    <flyme.support.v4.view.ViewPager android:id="@id/share_view_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.meizu.sharewidget.widget.PageIndicator android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/share_view_indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="17.0dip" />
+</LinearLayout>

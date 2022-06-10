@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.preferences.PackagePreference android:enabled="false" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/online_module_cloud" android:key="manual_enable_cloud" android:defaultValue="true" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/online_module_sticker" android:key="manual_enable_sticker" android:defaultValue="true" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/online_module_moment" android:key="manual_enable_moment" android:defaultValue="true" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/face_albumset_page_title" android:key="manual_enable_face" android:defaultValue="true" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/scene_album_name" android:key="manual_enable_scene" android:defaultValue="true" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/location_title" android:key="manual_enable_location" android:defaultValue="true" />
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:height="22.0dip" android:width="22.0dip">
+        <shape android:shape="oval">
+            <solid android:color="@color/mz_seekbar_thumb_color" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="14.0dip" android:width="14.0dip">
+        <shape android:shape="oval">
+            <solid android:color="#ffffffff" />
+        </shape>
+    </item>
+</layer-list>

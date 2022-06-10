@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/loading_image" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/empty_icon" />
+        <RelativeLayout android:id="@id/loadingViewLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.banqu.music.ui.widget.LoadingView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <TextView android:textColor="#66000000" android:id="@id/loading_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.0dip" android:text="@string/bq_default_page_loading" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

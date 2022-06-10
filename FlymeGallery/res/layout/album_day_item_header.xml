@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/title_layout" android:paddingTop="@dimen/albumpage_week_title_margin_top" android:paddingBottom="@dimen/albumpage_week_title_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/albumpage_title_padding" android:paddingEnd="@dimen/albumpage_title_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/multi_checkbtn" android:visibility="gone" android:layout_width="23.669983dip" android:layout_height="17.0dip" android:scaleType="fitStart" />
+    <TextView android:textSize="@dimen/mz_text_size_small" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/text_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" />
+    <TextView android:textSize="@dimen/mz_text_size_little" android:gravity="center|right" android:layout_gravity="center_vertical" android:id="@id/text_item_subtitle" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:drawablePadding="1.0dip" android:layout_weight="1.0" android:drawableEnd="@drawable/ic_view_address" />
+</LinearLayout>

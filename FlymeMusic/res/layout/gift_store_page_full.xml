@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:background="@color/color_transparent" android:clickable="true" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="224.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/store_gift" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="207.0dip" android:layout_marginLeft="7.5dip" android:layout_marginTop="17.0dip" android:layout_marginRight="7.5dip" android:layout_marginBottom="12.0dip" />
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/rgbbfbfbf" android:layout_gravity="center" android:id="@id/gift_store_none" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/kwjx_gift_store_null" />
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/rgbbfbfbf" android:gravity="center" android:id="@id/gift_store_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="正在加载，请稍等" />
+    <RelativeLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/gift_page_sub_indicator" android:background="@drawable/kwjx_gitpager_indicator_bg" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="2.0dip">
+        <View android:background="@drawable/kwjx_gitpager_indicator_bg" android:layout_width="20.0dip" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</FrameLayout>

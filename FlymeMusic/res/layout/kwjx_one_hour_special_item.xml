@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/rank_item_rl" android:layout_width="fill_parent" android:layout_height="90.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@drawable/kwjx_onehour_background_special" android:layout_width="fill_parent" android:layout_height="90.0dip">
+        <ImageView android:id="@id/one_hour_first_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-50.0dip" android:src="@drawable/kwjx_one_hour_group" />
+        <TextView android:textSize="@dimen/text_size_21" android:textColor="@color/white" android:id="@id/one_hour_rank_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.5dip" android:text="" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/userIcon" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginLeft="56.0dip" android:src="@drawable/menu_user_default_icon" android:layout_centerVertical="true" fresco:roundAsCircle="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_toLeftOf="@id/sendGift" android:layout_toRightOf="@id/userIcon" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="#ff9a70fe" android:id="@id/nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:maxLines="1" />
+        <RelativeLayout android:id="@id/lastOneWordLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/nickname">
+            <RelativeLayout android:id="@id/lastOneWordLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="#ff555555" android:id="@id/lastOneWord" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="超越前一名需送" />
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@id/lastOneWordIcon" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/kwjx_one_hour_rose" android:layout_toRightOf="@id/lastOneWord" android:layout_alignBottom="@id/lastOneWord" />
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="#ff555555" android:id="@id/lastOneText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_toRightOf="@id/lastOneWordIcon" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/lastOneWordLayout2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="#ff555555" android:id="@id/lastOneWord2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="超越前一名需送" />
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@id/lastOneWordIcon2" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/kwjx_one_hour_rose" android:layout_below="@id/lastOneWord2" />
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="#ff555555" android:id="@id/lastOneText2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="" android:layout_toRightOf="@id/lastOneWordIcon2" android:layout_below="@id/lastOneWord2" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/text_size_10" android:textColor="#ff555555" android:id="@id/lastOneCoin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="" android:layout_below="@id/lastOneWordLayout" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/black" android:id="@id/coinNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="15.0dip" android:text="" android:maxLines="1" android:drawableLeft="@drawable/kwjx_one_hour_xing" android:drawablePadding="4.0dip" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/sendGift" android:background="@drawable/kwjx_one_hour_send" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="16.0dip" android:layout_below="@id/coinNum" android:layout_alignParentRight="true" />
+</RelativeLayout>

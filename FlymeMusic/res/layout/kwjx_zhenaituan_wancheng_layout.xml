@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/zhenaituan_wancheng_view" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/zhenaituan_wancheng_bg" android:background="@color/kw_common_cl_black_alpha_56" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:background="@drawable/kwjx_zhenaituan_background" android:clickable="true" android:layout_width="279.0dip" android:layout_height="296.0dip" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/text_size_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="恭喜您，开通成功" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/close_wancheng" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/kwjx_cha" android:scaleType="centerInside" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/gongxiIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="55.0dip" android:src="@drawable/kwjx_gongxi" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/black" android:id="@id/gongxiText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:text="佩戴后，将在其他主播房间显示徽章" android:layout_below="@id/gongxiIcon" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/wareBradgeLayout" android:background="@drawable/kwjx_button_zhenaituan_wancheng_bg" android:layout_width="100.0dip" android:layout_height="40.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="22.0dip" android:layout_below="@id/gongxiText" android:layout_alignParentLeft="true">
+            <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/kw_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="佩戴" android:layout_centerInParent="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/xiangqingLayout" android:background="@drawable/kwjx_button_zhenaituan_wancheng_bg" android:layout_width="100.0dip" android:layout_height="40.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/gongxiText" android:layout_alignParentRight="true">
+            <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/kw_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="详情" android:layout_centerInParent="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="notificationstovibration1" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="down" android:pivotX="12.0" android:pivotY="21.0">
+        <path android:name="notifications_down" android:fillColor="#ff000000" android:pathData="M 13.518 19.905 L 10.319 19.905 C 10.098 19.905 9.919 20.096 9.919 20.333 C 9.919 21.321 10.815 22.126 11.919 22.126 C 13.023 22.126 13.919 21.321 13.919 20.333 C 13.918 20.097 13.738 19.905 13.518 19.905 Z" android:strokeWidth="1.0" />
+    </group>
+    <group android:name="vibration" android:pivotX="12.0" android:pivotY="12.0">
+        <path android:name="notifications_linecenter" android:pathData="M 20.122 18.524 L 3.869 18.524 C 4.46 17.938 5.052 17.351 5.643 16.765 C 6.428 15.937 6.437 15.073 6.437 14.6 L 6.437 9.001 C 6.437 6.126 8.578 3.533 11.503 3.287 C 11.667 3.272 12.325 3.272 12.489 3.287 C 15.411 3.533 17.553 6.126 17.553 9.001 L 17.553 14.6 C 17.553 15.073 17.562 15.937 18.347 16.765 L 18.347 16.765 C 18.939 17.351 19.53 17.938 20.122 18.524" android:strokeColor="#ff000000" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeMiterLimit="10.0" />
+        <group android:name="vibration_left">
+            <path android:name="vibration_left_1" android:pathData="M 2.734 6 L 4.341 8.004 L 2.729 10 L 4.339 11.994 L 2.738 14.008 L 4.341 15.998 L 2.731 18.004" android:strokeColor="#ff000000" android:strokeWidth="1.4" android:trimPathEnd="0.0" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeMiterLimit="10.0" android:fillAlpha="0.0" />
+        </group>
+        <group android:name="vibration_right">
+            <path android:name="vibration_right_1" android:pathData="M 21.266 6 L 19.658 8.004 L 21.271 10 L 19.661 11.994 L 21.262 14.008 L 19.658 15.998 L 21.269 18.004" android:strokeColor="#ff000000" android:strokeWidth="1.4" android:trimPathEnd="0.0" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeMiterLimit="10.0" android:fillAlpha="0.0" />
+        </group>
+    </group>
+</vector>

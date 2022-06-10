@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/land_rl_sound_record" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/kwjx_bg_voice2text_pop" android:layout_width="154.0dip" android:layout_height="89.0dip" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/text_size_36" android:textStyle="bold" android:textColor="#ff05fead" android:gravity="center" android:id="@id/land_iv_sound_time" android:padding="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="54.0dip" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/land_iv_sound_wave" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="24.0dip" android:layout_marginBottom="5.0dip" android:layout_above="@id/land_tv_record_note" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/land_tv_record_note" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:text="手指上滑,取消发送" android:drawableTop="@drawable/kwjx_voice_cancel" android:drawablePadding="4.0dip" android:layout_above="@id/land_company_tv" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="10.0dip" android:textColor="#99d9d9d9" android:id="@id/land_company_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="科大讯飞提供技术支持" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/land_iv_circle" android:background="@drawable/voice_shape_cirle" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="174.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

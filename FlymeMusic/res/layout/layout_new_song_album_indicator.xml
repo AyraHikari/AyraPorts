@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/newIndicator" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dip" android:textColor="@color/alpha_80_black" android:gravity="center" android:id="@id/newSongTv" android:layout_width="40.0dip" android:layout_height="wrap_content" android:text="@string/new_song" style="@style/BQ_Sans_Medium" />
+    <View android:layout_gravity="center" android:background="@android:color/transparent" android:layout_width="20.0dip" android:layout_height="wrap_content" />
+    <TextView android:textSize="18.0dip" android:textColor="@color/alpha_25_black" android:gravity="center" android:id="@id/newAlbumTv" android:layout_width="40.0dip" android:layout_height="wrap_content" android:text="@string/new_album" style="@style/BQ_Sans_Medium" />
+</LinearLayout>

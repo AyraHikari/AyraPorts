@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="340.0dip" app:layout_behavior="com.banqu.music.ui.widget.behavior.BaseBehavior">
+        <com.youth.banner.Banner android:id="@id/musician_banner" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.banqu.music.ui.widget.behavior.RecyclerViewBehavior" />
+    <RelativeLayout android:id="@id/headLayout" android:layout_width="fill_parent" android:layout_height="240.0dip" app:layout_behavior="com.banqu.music.ui.widget.behavior.ListHeaderBehavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:paddingLeft="@dimen/zb_compat_alert_dialog_normal_margin_start" android:paddingTop="@dimen/zb_compat_alert_dialog_normal_margin_top" android:paddingRight="@dimen/zb_compat_alert_dialog_normal_margin_start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/zb_permission_dialog_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0dip" android:lineSpacingMultiplier="1.0" />
+        <CheckBox android:textSize="12.0sp" android:textColor="#73000000" android:gravity="top" android:id="@id/zb_permission_dialog_terms" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:checked="true" android:lineSpacingExtra="3.0dip" android:paddingStart="8.0dip" style="@style/Widget.Banqu.PermissionDialog.CheckBox" />
+    </LinearLayout>
+</ScrollView>

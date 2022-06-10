@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.backseek.PhotoView android:id="@id/photoview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/top_menu_bar" android:background="@android:color/white" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/filtershow_top_menu_height" />
+    <LinearLayout android:orientation="vertical" android:id="@id/backseek_container" android:background="@android:color/white" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="128.0dip" android:layout_alignParentBottom="true">
+        <com.meizu.media.gallery.backseek.BackTraceSlider android:id="@id/seekview_backseek" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="74.0dip" />
+        <View android:background="@color/filter_text_color_5_black" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RelativeLayout android:id="@id/filter_toolbar" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/filtershow_toolbar_height">
+            <ImageButton android:id="@id/cancelFilter" android:background="@android:color/transparent" android:layout_width="26.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/annotation_first_item_margin_left" android:layout_marginRight="5.0dip" android:src="@drawable/ic_menu_cancel_holo_light" android:layout_centerVertical="true" android:onClick="onMenuItemClick" android:layout_alignParentStart="true" />
+            <ImageButton android:id="@id/applyFilter" android:background="@android:color/transparent" android:layout_width="26.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="@dimen/annotation_first_item_margin_left" android:src="@drawable/ic_menu_done_holo_light" android:layout_centerVertical="true" android:onClick="onMenuItemClick" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView android:textSize="10.0sp" android:textColor="@color/black_80" android:gravity="center_horizontal" android:id="@id/backtrace_guide_msg_tv" android:background="@drawable/back_trace_tip_bg" android:paddingLeft="10.0dip" android:paddingTop="4.0dip" android:paddingRight="10.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="27.0dip" android:text="@string/backtrace_tip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/text_style_medium" />
+</RelativeLayout>

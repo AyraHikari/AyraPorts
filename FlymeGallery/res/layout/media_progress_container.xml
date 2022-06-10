@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/media_progressContainer" android:background="#00000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:meizu="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/media_progress_whole" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.meizu.common.widget.LoadingView android:layout_gravity="center" android:id="@id/media_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" meizu:mcLoadingRadius="@dimen/media_progress_container_loading_radius" meizu:mcRingWidth="@dimen/media_progress_container_ring_width" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/media_progress_contanier_text_size" android:textColor="@color/media_progress_contanier_text_color" android:id="@id/media_progress_text" android:paddingLeft="@dimen/media_progress_contanier_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/media_loading_text" android:singleLine="true" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/media_progress_image" android:paddingLeft="@dimen/media_progress_contanier_padding_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

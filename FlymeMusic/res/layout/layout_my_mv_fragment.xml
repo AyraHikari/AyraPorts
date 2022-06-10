@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_nodate" android:background="@color/kwjx_theme_color_MOD1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" skin:enable="true">
+        <ImageView android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="120.0dip" android:src="@drawable/kwjx_empty_icon" android:layout_centerInParent="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/kwjx_theme_color_C2" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/my_works_noworks_text" android:layout_centerInParent="true" skin:enable="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/kwjx_theme_color_C4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/my_works_addworks_text" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/iv_add_mv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:src="@drawable/myif_work_add" />
+    </LinearLayout>
+    <cn.kuwo.show.base.uilib.pulltorefresh.PullToRefreshBothEndRecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

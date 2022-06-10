@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.media.gallery.ui.PullToZoomGroup android:id="@id/pulltozoom_groupview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/media_empty_view" />
+        <ViewStub android:id="@id/progress_container_stub" android:layout="@layout/media_progress_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

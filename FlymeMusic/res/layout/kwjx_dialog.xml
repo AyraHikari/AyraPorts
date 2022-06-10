@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dlg_view" android:background="@drawable/kwjx_kwdialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_image_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-5.0dip">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/main_image" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginTop="15.0dip" android:layout_centerHorizontal="true" uilib:placeholderImage="@drawable/show_lib_default" uilib:placeholderImageScaleType="fitXY" />
+        <ImageView android:id="@id/close_btn_top" android:background="@android:color/transparent" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_common_dialog_close" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/titlebar_panel" android:paddingTop="25.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/logo" android:visibility="gone" android:layout_width="@dimen/kw_dialog_close_btn_width_height" android:layout_height="@dimen/kw_dialog_close_btn_width_height" />
+        <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:layout_gravity="center" android:id="@id/title" android:paddingLeft="17.0dip" android:paddingRight="17.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Dialog_TextView_Title_Style" />
+        </LinearLayout>
+        <View android:layout_gravity="top" android:id="@id/close_btn_divider" android:background="@color/kw_common_cl_black_1" android:visibility="gone" android:layout_width="@dimen/kw_dialog_common_divider_size" android:layout_height="@dimen/kw_dialog_close_btn_divider_height" android:layout_marginLeft="@dimen/kw_dialog_close_btn_divider_margin_left_right" android:layout_marginTop="@dimen/kw_dialog_close_btn_divider_margin_top" android:layout_marginRight="@dimen/kw_dialog_close_btn_divider_margin_left_right" />
+        <ImageView android:id="@id/close_btn" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="@dimen/kw_dialog_close_btn_width_height" android:layout_height="@dimen/kw_dialog_close_btn_width_height" android:src="@drawable/kw_dialog_close_btn" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/dialog_lower_titlebar_panel" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <TextView android:textSize="17.0sp" android:textColor="@color/kw_common_cl_white" android:id="@id/dialog_lower_title_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/kw_common_cl_black_99" android:id="@id/dialog_lower_title_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+    </LinearLayout>
+    <View android:id="@id/kw_dialog_below_title_divider" android:background="@color/kw_common_cl_black_alpha_30" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/kw_dialog_common_divider_size" />
+    <TextView android:textSize="@dimen/kw_dialog_sub_title_front_size" android:textColor="@color/kw_common_cl_black_1" android:gravity="center_vertical" android:id="@id/sub_title" android:paddingLeft="@dimen/kw_dialog_padding_left_right" android:paddingTop="@dimen/kw_dialog_sub_title_padding_top_bottom" android:paddingRight="@dimen/kw_dialog_padding_left_right" android:paddingBottom="@dimen/kw_dialog_sub_title_padding_top_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    <cn.kuwo.show.ui.common.KwAutoHScrollView android:scrollbarThumbVertical="@color/kw_common_cl_transparent" android:id="@id/content_holder1" android:paddingLeft="20.0dip" android:paddingTop="8.0dip" android:paddingRight="20.0dip" android:paddingBottom="16.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" uilib:maxHeight="350.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/content_holder2" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_gravity="center" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Dialog_TextView_Msg_Style" />
+            <CheckBox android:textSize="@dimen/kw_dialog_checkbox_front_size" android:textColor="@color/kw_common_cl_black_1" android:id="@id/checkbox" android:paddingLeft="24.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" />
+        </LinearLayout>
+    </cn.kuwo.show.ui.common.KwAutoHScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/content_stub_holder" android:paddingLeft="@dimen/kw_dialog_padding_left_right" android:paddingTop="@dimen/kw_dialog_content_stub_holder_padding_top" android:paddingRight="@dimen/kw_dialog_padding_left_right" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ViewStub android:id="@id/content_stub" android:inflatedId="@id/content_stub_holder2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <cn.kuwo.show.ui.common.KwAutoHListView android:id="@id/list" android:visibility="gone" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/Dialog_ListView_Style" />
+    <View android:id="@id/kw_dialog_above_btns_divider" android:background="@color/kw_common_cl_black_alpha_30" android:layout_width="fill_parent" android:layout_height="@dimen/kw_dialog_common_divider_size" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/btn_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/kw_dialog_buttons" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/kw_common_cl_black_alpha_40" android:gravity="center" android:id="@id/sub_msg" android:paddingTop="15.0dip" android:paddingBottom="25.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/bottom_margin_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/kw_dialog_margin_bottom" />
+</LinearLayout>

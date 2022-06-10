@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.banqu.music.ui.settings.UserPreference android:key="user" />
+    <com.banqu.music.ui.widget.preference.SwitchPreference android:title="@string/bq_settings_status_bar_lrc" android:key="status_bar_lrc_sw" />
+    <com.banqu.music.ui.widget.preference.SwitchPreference android:title="@string/bq_settings_lock_music" android:key="lock_music_sw" />
+    <com.banqu.music.ui.widget.preference.SwitchPreference android:title="@string/bq_settings_play_together" android:key="play_together_sw" />
+    <com.banqu.music.widgetcommon.preference.PreferenceCategory>
+        <com.banqu.music.ui.widget.preference.SwitchPreference android:title="@string/bq_settings_play_mobile" android:key="play_mobile_sw" />
+        <com.banqu.music.ui.widget.preference.SwitchPreference android:title="@string/bq_settings_download_mobile" android:key="download_mobile_sw" />
+        <com.banqu.music.widgetcommon.preference.ListPreference android:entries="@array/settings_preferences_play_quality" android:title="@string/bq_settings_play_quality" android:key="play_quality_listPref" android:defaultValue="1" android:entryValues="@array/settings_preferences_play_quality_value" />
+        <com.banqu.music.widgetcommon.preference.ListPreference android:entries="@array/settings_preferences_download_quality" android:title="@string/bq_settings_download_quality" android:key="download_quality_listPref" android:defaultValue="1" android:entryValues="@array/settings_preferences_download_quality_value" />
+        <com.banqu.music.ui.widget.TextPreference android:key="clear_cache" app:title="@string/bq_song_cache_clear" />
+    </com.banqu.music.widgetcommon.preference.PreferenceCategory>
+    <com.banqu.music.widgetcommon.preference.PreferenceCategory android:key="user_other_preference">
+        <com.banqu.music.feedback.FeedbackPreference android:key="user_feedback" app:title="@string/bq_settings_user_feedback" />
+        <com.banqu.music.ui.widget.TextPreference android:key="user_agreement" app:title="@string/bq_user_agreement" />
+        <com.banqu.music.ui.widget.TextPreference android:key="privacy_policy" app:title="@string/bq_user_privacy_policy" />
+        <com.banqu.music.ui.widget.preference.SwitchPreference android:title="@string/bq_settings_push" android:key="push_sw" />
+        <com.banqu.music.ui.widget.TextPreference android:key="about_music" app:title="@string/bq_settings_about_music" />
+    </com.banqu.music.widgetcommon.preference.PreferenceCategory>
+    <com.banqu.music.ui.settings.LogoutPreference android:key="logout" />
+</PreferenceScreen>

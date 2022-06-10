@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/live_game_blank_space" android:background="@color/kw_common_cl_black_alpha_50" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/login_whole_layout" android:background="@drawable/guard_ll__two_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip">
+            <ImageView android:layout_gravity="right" android:id="@id/iv_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:src="@drawable/kwjx_h5_gift_animator_exchange_close" />
+            <TextView android:textSize="@dimen/text_size_21" android:textColor="@color/black" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="星钻兑换星币" />
+            <RelativeLayout android:id="@id/top_h" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="15.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/iv_all_exchange_bt" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+                    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/user_img" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="10.0dip" fresco:placeholderImage="@drawable/kwjx_def_user_icon" fresco:roundAsCircle="true" />
+                    <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/black" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="我的星钻：" />
+                    <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/rgbff6a6a" android:layout_gravity="center_vertical" android:id="@id/tv_change_sure" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <ImageView android:id="@id/iv_all_exchange_bt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_h5_gift_animator_exchange_all_bt" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/login_password_layout" android:background="@drawable/kwjx_bg_exchange_et" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip">
+                <EditText android:textSize="@dimen/text_size_12" android:textStyle="bold" android:textColor="@color/kw_common_cl_black" android:textColorHint="@color/rgbcccccc" android:id="@id/ev_change_sure_num" android:background="@null" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="8.0dip" android:hint="输入要兑换的星钻数" android:singleLine="true" android:maxLength="10" android:numeric="integer" android:layout_centerVertical="true" android:dropDownHeight="90.0dip" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip">
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="操作将损耗" />
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/rgbff6a6a" android:id="@id/tv_consume_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="星钻（1星钻=1星币）" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_exchange_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/kwjx_h5_gift_animator_exchange_add" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

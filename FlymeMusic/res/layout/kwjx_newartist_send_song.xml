@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/send_song_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.3" />
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/kwjx_new_artist_rightside_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/text_size_20" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/tv_select_song_cnt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="点歌" />
+        <View android:background="@color/kw_common_cl_white_alpha_10" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:textSize="@dimen/text_size_20" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="歌曲" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+                <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_song_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="歌曲" android:singleLine="true" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:background="@color/kw_common_cl_white_alpha_10" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:textSize="@dimen/text_size_20" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="价格" />
+            <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/rgbb675ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1500星币" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:background="@color/kw_common_cl_white_alpha_10" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="15.0dip" />
+        <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/kw_common_cl_white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_send_song_btn" android:background="@drawable/kwjx_song_send_bt_bg" android:clickable="true" android:layout_width="240.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="20.0dip" android:text="立即点歌  (1500星币)" />
+    </LinearLayout>
+</LinearLayout>

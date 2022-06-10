@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NMins">
+        <item quantity="other">%d мин.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">Удалено композиций: %d.</item>
+        <item quantity="one">1 трек удален</item>
+    </plurals>
+    <plurals name="NNNtrackswilldeleted">
+        <item quantity="other">Удалить навсегда песни: %d ?</item>
+        <item quantity="one">Удалить навсегда песню?</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">Альбомов: %d</item>
+        <item quantity="one">1 альбом</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">Композиций: %d</item>
+    </plurals>
+</resources>

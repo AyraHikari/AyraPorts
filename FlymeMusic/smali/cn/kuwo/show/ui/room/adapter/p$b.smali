@@ -1,0 +1,21 @@
+.class public interface abstract Lcn/kuwo/show/ui/room/adapter/p$b;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcn/kuwo/show/ui/room/adapter/p;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "b"
+.end annotation
+
+
+# virtual methods
+.method public abstract a(Lcn/kuwo/show/base/a/g/a;)V
+.end method
+
+.method public abstract b(Lcn/kuwo/show/base/a/g/a;)V
+.end method

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <FrameLayout android:id="@id/back_panel" android:paddingLeft="15.0dip" android:paddingRight="10.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+        <TextView android:textSize="16.0dip" android:layout_gravity="center" android:id="@id/btn_cancel" android:visibility="gone" style="@style/KwjxTitleBar.TitleBarText" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/btn_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_nav_back_up_2_new" android:scaleType="center" skin:enable="true" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/right_panel" android:paddingLeft="10.0dip" android:paddingRight="15.0dip" android:focusable="false" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <CheckBox android:layout_gravity="center" android:id="@id/check_all" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:checked="false" android:button="@null" />
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/kwjx_theme_color_TW2" android:layout_gravity="center|right" android:id="@id/btn_complete" android:visibility="gone" style="@style/KwjxTitleBar.TitleBarText" skin:enable="true" />
+        <RelativeLayout android:layout_gravity="center" android:id="@id/settings_panel" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/btn_settings" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_menu_setting" android:scaleType="center" android:layout_centerInParent="true" />
+            <View android:id="@id/btn_settings_tips" android:visibility="gone" android:layout_marginTop="0.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/KwDotTip" />
+        </RelativeLayout>
+    </FrameLayout>
+    <RelativeLayout android:id="@id/extend_panel" android:visibility="gone" android:layout_width="45.0dip" android:layout_height="fill_parent" android:layout_toLeftOf="@id/right_panel">
+        <ImageView android:id="@id/btn_extend" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_item_opt_normal" android:scaleType="center" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+        <View android:id="@id/btn_extend_tips" android:visibility="gone" android:layout_marginTop="0.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/KwDotTip" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/title_panel" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/kwjx_theme_color_TW1" android:id="@id/main_title" style="@style/KwjxTitleBar.TitleBarText" skin:enable="true" />
+        <TextView android:textSize="12.0dip" android:id="@id/sub_title" android:visibility="gone" style="@style/KwjxTitleBar.TitleBarText" />
+    </LinearLayout>
+</merge>

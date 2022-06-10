@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/cloud_storage_panel_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/black_6" android:layout_width="fill_parent" android:layout_height="2.0px" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black_80" android:id="@id/cloud_storage_usage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.599976dip" android:layout_alignParentTop="true" android:layout_marginEnd="12.0dip" android:layout_alignParentEnd="true" />
+    <com.meizu.media.gallery.ui.RollingTextView android:textSize="12.0sp" android:textColor="@color/black_80" android:id="@id/cloud_storage_plan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.599976dip" android:layout_toLeftOf="@id/cloud_storage_usage" android:layout_marginStart="20.0dip" android:layout_alignParentStart="true" />
+    <ProgressBar android:id="@id/cloud_storage_seekbar" android:layout_width="fill_parent" android:layout_height="7.0dip" android:layout_marginBottom="20.299988dip" android:layout_alignParentBottom="true" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" style="@android:style/Widget.ProgressBar.Horizontal" />
+</RelativeLayout>

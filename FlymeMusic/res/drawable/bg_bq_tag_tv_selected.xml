@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="3.0dip" />
+    <solid android:color="@color/bq_app_theme_color_red" />
+    <size android:height="5.0dip" android:width="10.0dip" />
+</shape>

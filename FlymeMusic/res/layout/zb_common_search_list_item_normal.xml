@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/Widget.Banqu.List.Layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/Widget.Banqu.SearchList.ContentLinearLayout">
+        <ImageView android:id="@id/zb_search_icon" style="@style/Widget.Banqu.SearchList.SearchIcon" />
+        <LinearLayout style="@style/Widget.Banqu.SearchList.TextContentLinearLayout">
+            <TextView android:id="@id/title" style="@style/TextAppearance.Banqu.SearchList.Title" />
+            <TextView android:id="@id/descOne" android:visibility="gone" style="@style/Widget.Banqu.SearchList.Desc.Normal.AdjoinTitle" />
+        </LinearLayout>
+        <ImageView android:id="@id/zb_cancel_icon" android:visibility="gone" style="@style/Widget.Banqu.SearchList.OperationIcon" />
+    </LinearLayout>
+</LinearLayout>

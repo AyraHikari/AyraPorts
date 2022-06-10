@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/rootLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.banqu.music.ui.widget.FlowLayout android:id="@id/searchTags" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" app:maxLine="3" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/foldLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/foldImg" android:layout_width="10.0dip" android:layout_height="10.0dip" />
+            <TextView android:id="@id/foldTxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

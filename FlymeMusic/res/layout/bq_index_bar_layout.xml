@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.banqu.music.ui.widget.indexlib.indexBar.widget.IndexBar android:id="@id/indexBar" android:paddingTop="10.0dip" android:paddingBottom="64.0dip" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="0.0dip" app:indexBarGapHeight="16.0dip" app:indexBarTextSize="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="48.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tvSideBarHint" android:background="@drawable/bq_shape_side_bar_bg" android:visibility="gone" android:layout_width="70.0dip" android:layout_height="70.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

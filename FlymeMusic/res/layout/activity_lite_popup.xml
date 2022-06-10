@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flyme.support.v7.widget.PopupNestedScrollingLayout android:id="@id/nested_scrolling_layout" android:paddingLeft="@dimen/mz_lite_popup_padding_horizontal" android:paddingRight="@dimen/mz_lite_popup_padding_horizontal" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/action_bar_container" android:background="@drawable/mz_lite_popup_title_bar_bg" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <flyme.support.v7.widget.Toolbar android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" />
+    </LinearLayout>
+    <flyme.support.v7.widget.LitePopupContentFrameLayout android:id="@id/content_panel" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_nested_scrollview="true" />
+</flyme.support.v7.widget.PopupNestedScrollingLayout>

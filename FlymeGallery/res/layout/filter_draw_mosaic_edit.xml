@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/draw_mosaic_type_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/btn_mosaic_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="38.0dip" android:src="@drawable/doodle_ic_mosaic_selector_1" android:layout_alignParentLeft="true" android:contentDescription="@null" />
+        <ImageView android:id="@id/btn_mosaic_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:src="@drawable/doodle_ic_mosaic_selector_2" android:layout_toRightOf="@id/btn_mosaic_1" android:contentDescription="@null" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:src="@drawable/doodle_ic_mosaic_selector_3" android:layout_toRightOf="@id/btn_mosaic_2" android:contentDescription="@null" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="38.0dip" android:src="@drawable/doodle_ic_mosaic_selector_4" android:layout_alignParentRight="true" android:contentDescription="@null" />
+    </RelativeLayout>
+    <com.meizu.media.gallery.ui.DiscreteSeekBar android:id="@id/draw_mosaic_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filtershow_discrete_seekbar_margin_lr" android:layout_marginRight="@dimen/filtershow_discrete_seekbar_margin_lr" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

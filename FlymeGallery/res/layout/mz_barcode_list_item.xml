@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/transparent" android:paddingRight="@dimen/mz_barcode_list_margin_right" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:divider="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/barcode_title_icon" android:background="@color/mz_theme_color_firebrick" android:layout_width="2.0dip" android:layout_height="18.0dip" android:layout_marginTop="@dimen/mz_barcode_list_product_detail_title_margin_top" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="@dimen/mz_font_size_16sp" android:textColor="@android:color/black" android:id="@id/barcode_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/barcode_title_icon" android:layout_alignTop="@id/barcode_title_icon" />
+    <com.meizu.media.gallery.barcode.DividerView android:id="@id/divider" android:background="@color/gallery_background" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_below="@id/barcode_title" divider:dividerColor="#26000000" />
+    <TextView android:textSize="14.0sp" android:textColor="@android:color/black" android:id="@id/barcode_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mz_barcode_list_product_detail_title_margin_top" android:layout_marginBottom="@dimen/mz_barcode_list_product_detail_title_margin_top" android:layout_below="@id/barcode_title" />
+    <TextView android:textColor="@android:color/black" android:id="@id/barcode_extra_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

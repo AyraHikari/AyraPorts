@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/room_banner_rl" android:background="@color/kwjx_transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/room_banner_hegiht"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/room_banner_pager_container" android:background="@color/kwjx_transparent" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <cn.kuwo.show.ui.view.common.ViewPagerBanner android:id="@id/room_banner_vp" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+        <ImageView android:id="@id/room_banner_close" android:paddingRight="10.0dip" android:layout_width="30.0dip" android:layout_height="50.0dip" android:src="@drawable/kwjx_room_banner_close" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/room_banner_count_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/room_banner_close_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/room_banner_clos_icon" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/room_banner_open" android:layout_width="100.0dip" android:layout_height="50.0dip" app:placeholderImageScaleType="fitXY" />
+</RelativeLayout>

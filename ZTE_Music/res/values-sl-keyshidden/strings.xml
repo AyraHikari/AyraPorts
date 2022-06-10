@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Odprite tipkovnico, da vnesete ime za novi seznam predvajanja, ali izberite »Shrani«, da ga poimenujete »%s«.</string>
+    <string name="rename_playlist_diff_prompt">Odprite tipkovnico, da vnesete novo ime za seznam predvajanja »%1$s«, ali izberite »Shrani«, da ga poimenujete »%2$s«.</string>
+    <string name="rename_playlist_same_prompt">Odprite tipkovnico in vnesite novo ime za seznam predvajanja »%s«.</string>
+</resources>

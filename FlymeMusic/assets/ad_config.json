@@ -1,0 +1,108 @@
+{
+  "positionList": [
+    {
+      "name": "splash",
+      "positionList": [],
+      "requestTime": 5,
+      "interval": 0,
+      "showTimes": 10,
+      "splashInterval": 10,
+      "sdkList": [
+        {
+          "name": "bqzy",
+          "cpAdType": "splash",
+          "cpAdslotId": "7001",
+          "cpAppId": "6001",
+          "priority": 78,
+          "substituteRatio": 1,
+          "reduceEcpmRatio": 1,
+          "networkPriority": 1,
+          "requestTimeOut": 5,
+          "customStyle": 0
+        }
+      ]
+    },
+    {
+      "name": "mainBanner",
+      "positionList": [
+        3
+      ],
+      "requestTime": 10,
+      "interval": 0,
+      "showTimes": 5,
+      "splashInterval": 0,
+      "defaultCp": "bqzy",
+      "bottomSlotId": "7005",
+      "bottomAppId": "6001",
+      "substitutionSlotId": "7006",
+      "substitutionAppId": "6001",
+      "sdkList": [
+        {
+          "name": "bqzy",
+          "cpAdType": "banner",
+          "cpAdslotId": "7004",
+          "cpAppId": "6001",
+          "priority": 70,
+          "customStyle": 0
+        }
+      ]
+    },
+    {
+      "name": "newsSmall",
+      "positionList": [],
+      "requestTime": 5,
+      "interval": 0,
+      "showTimes": 10,
+      "splashInterval": 0,
+      "sdkList": [
+        {
+          "name": "bqzy",
+          "cpAdType": "native",
+          "cpAppId": "6001",
+          "cpAdslotId": "7004",
+          "priority": 78,
+          "substituteRatio": 1,
+          "reduceEcpmRatio": 1,
+          "networkPriority": 1,
+          "requestTimeOut": 5,
+          "customStyle": 0
+        }
+      ]
+    },
+    {
+      "name": "newsBig",
+      "positionList": [],
+      "requestTime": 5,
+      "interval": 0,
+      "showTimes": 10,
+      "splashInterval": 0,
+      "sdkList": [
+        {
+          "name": "bqzy",
+          "cpAdType": "native",
+          "cpAppId": "6001",
+          "cpAdslotId": "7004",
+          "priority": 78,
+          "substituteRatio": 1,
+          "reduceEcpmRatio": 1,
+          "networkPriority": 1,
+          "requestTimeOut": 5,
+          "customStyle": 0
+        }
+      ]
+    }
+  ],
+  "cpConfigList": [
+    {
+      "name": "bqzy",
+      "cpAppId": "6001",
+      "silentInstall": 1,
+      "silentInstallRatio": 10,
+      "launchType": null,
+      "notificationActivation": 1,
+      "activationRatio": 10,
+      "clickIntervals": 1,
+      "unableClickRatio": 10
+    }
+  ]
+}

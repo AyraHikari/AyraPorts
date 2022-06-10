@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:background="@drawable/gl_gift_item_select" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_20" android:textColor="#ff404040" android:id="@id/gl_gift_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" />
+    <ImageView android:id="@id/gl_gift_count_back_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_fall_back_icon" />
+</LinearLayout>

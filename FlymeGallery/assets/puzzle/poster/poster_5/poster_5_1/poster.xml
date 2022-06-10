@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<puzzle type="poster" width="900" height="1200" name="r_poster_5_1">
+    <window left="83" top="320" right="817" bottom="857"/>
+    <window left="83" top="869" right="259" bottom="1117"/>
+    <window left="271" top="869" right="445" bottom="1117"/>
+	<window left="457" top="869" right="631" bottom="1117"/>
+	<window left="643" top="869" right="817" bottom="1117"/>
+	<icon left="0" top="0" right="900" bottom="1200" src="temp.png"/>
+	<text x="450" y="184" content="追求源于热爱" length="10" size="27" textColor="#747474" textAlign="center"/>
+</puzzle>

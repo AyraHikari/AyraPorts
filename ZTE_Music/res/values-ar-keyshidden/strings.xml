@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">افتح لوحة المفاتيح لمنح قائمة التشغيل الجديدة اسمًا، أو حدد \"حفظ\" لتسميتها \"%s\".</string>
+    <string name="rename_playlist_diff_prompt">افتح لوحة المفاتيح لمنح قائمة التشغيل\"%1$s\" اسمًا جديدًا أو حدد \"حفظ\" لتسميته \"%2$s\".</string>
+    <string name="rename_playlist_same_prompt">افتح لوحة المفاتيح لمنح قائمة التشغيل \"%s\" اسمًا جديدًا.</string>
+</resources>

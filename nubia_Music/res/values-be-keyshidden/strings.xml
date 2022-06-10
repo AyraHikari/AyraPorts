@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">Адкрыйце клавіятуру, каб даць назву свайму новаму плэйлісту, ці выберыце \"Захаваць\", каб назваць яго \"%s\".</string>
+    <string name="rename_playlist_diff_prompt">Адкрыйце клавіятуру, каб перайменаваць плэйліст \"%1$s\", або выберыце \"Захаваць\", каб назваць яго \"%2$s\".</string>
+    <string name="rename_playlist_same_prompt">Адкрыйце клавіятуру, каб перайменаваць плэйліст \"%s\".</string>
+</resources>

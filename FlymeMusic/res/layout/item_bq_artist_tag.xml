@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/sp_15" android:ellipsize="end" android:gravity="center" android:id="@id/tagTv" android:layout_width="wrap_content" android:layout_height="38.0dip" android:maxWidth="180.0dip" android:lines="1" android:paddingStart="@dimen/dp_16" android:paddingEnd="@dimen/dp_16" style="@style/BQ_Medium_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/Widget.Banqu.Preference.ContentLinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.banqu.music.widgetcommon.widget.SmoothCornerView android:id="@android:id/icon_frame" android:layout_marginEnd="@dimen/zb_com_preference_icon_margin_horizontal" app:zbCornerRadius="@dimen/zb_com_list_icon_item_icon_corner_radius" style="@style/Widget.Banqu.Preference.Icon">
+        <ImageView android:id="@android:id/icon" android:scaleType="centerInside" style="@style/Widget.Banqu.Preference.Icon" />
+    </com.banqu.music.widgetcommon.widget.SmoothCornerView>
+    <LinearLayout android:id="@id/preference_text_layout" style="@style/Widget.Banqu.Preference.TextContentLayout">
+        <TextView android:id="@android:id/title" style="@style/Widget.Banqu.Preference.Title" />
+        <TextView android:id="@android:id/summary" style="@style/Widget.Banqu.Preference.Desc.Normal.AdjoinTitle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/zb_com_preference_widget_width" android:layout_marginStart="@dimen/zb_preference_item_padding_inner" />
+</LinearLayout>

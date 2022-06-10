@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d laulu kustutati.</item>
+        <item quantity="one">1 laul kustutati.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d albumit</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d laulu</item>
+    </plurals>
+</resources>

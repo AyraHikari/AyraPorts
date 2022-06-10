@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left" android:orientation="horizontal" android:background="@drawable/mz_topbar_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/ic_layout" android:background="?android:actionBarItemBackground" android:paddingRight="@dimen/new_media_custom_title_ic_layout_right" android:clickable="false" android:saveEnabled="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/media_foreground_image_drawable">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/back_icon" android:visibility="invisible" android:layout_width="@dimen/new_media_custom_title_back_icon_width" android:layout_height="wrap_content" android:src="?android:homeAsUpIndicator" android:scaleType="center" />
+            <ImageView android:layout_gravity="center" android:layout_width="@dimen/new_media_custom_title_icon_size" android:layout_height="@dimen/new_media_custom_title_icon_size" android:src="@drawable/media_ic_topbar_search" android:scaleType="center" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/media_search_layout_margin_top" android:layout_marginRight="@dimen/new_media_custom_title_layout_right">
+        <com.meizu.media.common.widget.EditTextEx android:textSize="@dimen/media_search_query_size" android:textColorHint="#35000000" android:id="@id/query_text" android:paddingRight="@dimen/media_search_query_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/media_search_query_margin_left" android:singleLine="true" android:imeOptions="actionSearch" />
+        <ImageButton android:layout_gravity="right" android:id="@id/cancel" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/media_search_cancel_margin_top" android:layout_marginRight="@dimen/media_search_cancel_margin_right" android:src="@drawable/media_ic_music_search_delete" android:scaleType="fitCenter" />
+    </FrameLayout>
+</LinearLayout>

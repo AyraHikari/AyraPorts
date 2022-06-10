@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sticker width="82" height="58" id="watermark_13" thumb="watermark_user_arrow_thumb" type="watermark_user">
+    <text  left="20" right="68" top="15" bottom="27" font-name="站酷快乐体2016修订版" hint="用户名称" size="12"
+        text-align="center" input-type="textPersonName"/>
+    <icon left="0" right="82" top="0" bottom="58" src="watermark_user_arrow_icon" />
+</sticker>

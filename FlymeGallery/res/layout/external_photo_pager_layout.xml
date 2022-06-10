@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/pager_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/background_view" android:background="@color/filtershow_default_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.meizu.media.gallery.photopager.PhotoViewPager android:gravity="center" android:layout_gravity="center" android:id="@id/photo_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+        <View android:layout_gravity="center" android:id="@id/temp_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.meizu.media.gallery.member.CircleImageView android:layout_gravity="center" android:id="@id/circle_temp_image" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/entrance_icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/entrance_icon_layout_portical">
+            <ImageView android:id="@id/entrance_icon" style="@style/PhotoPagerEntranceIconStyle" />
+            <ImageView android:id="@id/barcode_icon" android:contentDescription="@string/scan_barcode" style="@style/PhotoPagerEntranceIconStyle" />
+            <ImageView android:id="@id/face_icon" android:contentDescription="@string/face_beautity" style="@style/PhotoPagerEntranceIconStyle" />
+            <ImageView android:id="@id/backtrace_icon" android:contentDescription="@string/back_trace" style="@style/PhotoPagerEntranceIconStyle" />
+            <ImageView android:id="@id/doccorrect_icon" android:contentDescription="@string/doc_correct" style="@style/PhotoPagerEntranceIconStyle" />
+            <ImageView android:id="@id/live_edit_icon" android:contentDescription="@string/edit_live" style="@style/PhotoPagerEntranceIconStyle" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center" android:id="@id/video_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/video_play_group" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/menu_layout" android:background="#faffffff" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <ViewStub android:id="@id/cloud_trash_video_icon" android:layout="@layout/cloud_video_icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/live_button" android:background="@drawable/live_btn_background" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="26.0dip" android:layout_marginTop="99.0dip" android:layout_marginStart="16.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/live_btn" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/black_30" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/live_play_title" />
+    </LinearLayout>
+</RelativeLayout>

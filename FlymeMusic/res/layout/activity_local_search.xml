@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.5dip" android:layout_marginStart="@dimen/default_page_padding" android:layout_marginEnd="@dimen/default_page_padding" layout="@layout/song_list_play_layout" />
+    <include layout="@layout/layout_overscroll_list_x" />
+</LinearLayout>

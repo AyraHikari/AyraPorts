@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:shareInterpolator="false" android:zAdjustment="top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:interpolator="@interpolator/activity_open_enter" android:duration="@integer/mfvc_activity_open_duration" android:fillBefore="true" android:fillAfter="true" android:startOffset="0" android:fromXDelta="100.0%" android:toXDelta="0.0%" android:fillEnabled="true" />
+</set>

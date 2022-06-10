@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d chansons supprimées</item>
+        <item quantity="one">1 chanson supprimée</item>
+    </plurals>
+    <plurals name="NNNtrackswilldeleted">
+        <item quantity="other">%d chansons seront définitivement supprimées du dispositif de stockage.</item>
+        <item quantity="one">Deux chansons seront définitivement supprimées du dispositif de stockage.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%dalbums</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+</resources>

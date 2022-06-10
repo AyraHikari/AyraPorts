@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/my_music_actb_bg" android:left="0.0dip" android:top="0.0dip" android:right="0.0dip" android:bottom="77.0dip" />
+    <item android:drawable="@color/my_music_window_bg" android:left="0.0dip" android:top="77.0dip" android:right="0.0dip" android:bottom="0.0dip" />
+</layer-list>

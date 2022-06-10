@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="vertical" android:id="@id/group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:textSize="18.0dip" android:id="@id/radio1" android:paddingLeft="20.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:button="@null" android:text="@string/set_as_sim1_ringtone" />
+        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RadioButton android:textSize="18.0dip" android:id="@id/radio2" android:paddingLeft="20.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:button="@null" android:text="@string/set_as_sim2_ringtone" />
+    </RadioGroup>
+</LinearLayout>

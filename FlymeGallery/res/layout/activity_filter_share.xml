@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/loadingViewLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.meizu.common.widget.LoadingView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" style="@style/Widget.MeizuCommon.LoadingView.Light" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.0dip" android:text="@string/loading_view_text" android:layout_centerHorizontal="true" style="@style/LoadingViewTextStyle.Light" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/exception_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textAppearance="@style/TextAppearance.Flyme.Medium" android:id="@id/err_msg_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <Button android:id="@id/err_opt_but" android:paddingLeft="18.0dip" android:paddingTop="6.0dip" android:paddingRight="18.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:minWidth="93.0dip" android:minHeight="32.0dip" android:layout_below="@id/err_msg_view" android:layout_centerHorizontal="true" style="@style/Widget.DeviceDefault.Light.Button.LightColor.Color.FireBrick" />
+    </RelativeLayout>
+    <ImageView android:id="@id/share_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+</RelativeLayout>

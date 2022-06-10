@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NMins">
+        <item quantity="other">སྐར་མ་%d</item>
+        <item quantity="one">སྐར་མ་1</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">"གཞས་%d བསུབ་ཟིན། "</item>
+        <item quantity="one">"གཞས་1བསུབ་ཟིན། "</item>
+    </plurals>
+    <plurals name="NNNtrackswilldeleted">
+        <item quantity="other">གཞས་%d ཉར་གསོག་སྒྲིག་ཆས་ནང་ནས་གཏན་དུ་སུབས།</item>
+        <item quantity="one">གཞས་1 ཉར་གསོག་སྒྲིག་ཆས་ནང་ནས་གཏན་དུ་སུབས།</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d ཆེད་བསྒྲིགས།</item>
+        <item quantity="one">ཆེད་བསྒྲིགས། 1</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d གླུ་གཞས།</item>
+    </plurals>
+</resources>

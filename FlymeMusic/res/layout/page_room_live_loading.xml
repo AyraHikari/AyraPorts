@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/page_live_loading" android:background="@drawable/loading1_bg" android:layout_width="fill_parent" android:layout_height="@dimen/video_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/loading_bkgrd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" fresco:overlayImage="@drawable/drawable_room_bg" />
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/ll_loading" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center" android:id="@id/logo_loading" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/kwjx_live_loading" />
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/white" android:gravity="center" android:id="@id/txt_loading_tip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="正在打开房间，精彩马上呈现" />
+    </LinearLayout>
+</RelativeLayout>

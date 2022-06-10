@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/ve_music_item_bg_rip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/music_slt_but_layout" android:clickable="true" android:layout_width="wrap_content" android:layout_height="56.0dip" android:layout_centerVertical="true" android:layout_marginEnd="24.0dip" android:layout_alignParentEnd="true">
+        <Button android:textColor="@color/ve_music_slt_but_bg" android:layout_gravity="center" android:id="@id/music_slt_but" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ve_music_item_but" android:backgroundTint="@color/black_bg" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/music_txt_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="18.0dip" android:paddingEnd="12.0dip" android:layout_toStartOf="@id/music_slt_but_layout" android:layout_alignParentStart="true">
+        <ImageView android:id="@id/music_cover" android:layout_width="56.0dip" android:layout_height="56.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="14.0dip" android:layout_toEndOf="@id/music_cover">
+            <TextView android:textSize="16.0sp" android:textColor="@color/ve_music_slt_name_color" android:gravity="center_vertical" android:id="@id/music_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/ve_music_slt_author_color" android:id="@id/music_author" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

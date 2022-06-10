@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_playlist_create_text_prompt">" አዲሱን ጨዋታዝርዝርዎን ስም ለመስጠት የቁልፍሰሌዳውን ይክፈቱ ወይም ስም ለመስጠት\"%s\" አስቀምጥን ይምረጡ።"</string>
+    <string name="rename_playlist_diff_prompt">" ጨዋታዝርዝር \"%1$s\" አዲስ ስም ለመስጠት የቁልፍሰሌዳውን ይክፈቱ ወይም ስም ለመስጠት\"%2$s\" አስቀምጥን ይምረጡ።"</string>
+    <string name="rename_playlist_same_prompt">አዲስ ስም %s ጨዋታዝርዝር ለመስጠት የቁልፍሣጥኖችክፈት።</string>
+</resources>

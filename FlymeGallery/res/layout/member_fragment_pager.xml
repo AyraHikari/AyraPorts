@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.media.gallery.member.MemberFragmentPager android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <flyme.support.v7.widget.RecyclerView android:id="@id/listview_rights" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="22.0dip" />
+    <flyme.support.v7.widget.MzRecyclerView android:id="@id/listview_prices" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" />
+</com.meizu.media.gallery.member.MemberFragmentPager>

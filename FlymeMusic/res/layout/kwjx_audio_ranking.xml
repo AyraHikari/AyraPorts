@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <RelativeLayout android:id="@id/rl_header" android:tag="KTitleBar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.kuwo.show.ui.common.KwTitleBar android:id="@id/lay_header" style="@style/KwjxTitleBar" skin:enable="true" />
+    </RelativeLayout>
+    <cn.kuwo.show.ui.user.myinfo.anchor.StickyNavHost android:id="@id/sticky_nav_layout" android:background="@color/kwjx_transparent" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_below="@id/rl_header" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/sticky_nav_layout">
+        <ListView android:gravity="center" android:id="@id/list_view" android:background="@android:color/transparent" android:scrollbars="none" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:stretchMode="columnWidth" android:divider="@null" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        <include android:id="@id/myinfo_loading_content" android:visibility="gone" layout="@layout/kwjx_quku_loading" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/kw_common_cl_white" android:id="@id/tv_content_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <cn.kuwo.show.ui.common.KwTipView android:id="@id/kw_tip_view" android:background="@color/kwjx_theme_color_tip_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" skin:enable="true" />
+        <include layout="@layout/kwjx_sticky_nav_anchor_layout" />
+    </RelativeLayout>
+</RelativeLayout>

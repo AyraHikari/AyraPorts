@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/show_grid_list_item_root" android:background="@drawable/bg_show_list_item_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.kuwo.show.base.image.RecyclingImageView android:id="@id/rec_grid_pic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    <ImageView android:id="@id/rec_grid_extend" android:background="@drawable/show_video_live" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/rec_grid_count_root" android:background="@drawable/black_gradient_80" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_alignBottom="@id/rec_grid_pic">
+        <TextView android:textSize="12.0sp" android:textColor="@color/kw_common_cl_white" android:ellipsize="end" android:id="@id/rec_grid_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/rec_grid_count_pic" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/singer_user_tip" android:layout_toLeftOf="@id/rec_grid_count" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rec_grid_song_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/rec_grid_pic">
+        <ImageView android:id="@id/rec_grid_song_pic" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/singer_song_tip" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/kw_common_cl_white" android:id="@id/rec_grid_song" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:singleLine="true" android:layout_toRightOf="@id/rec_grid_song_pic" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="11.0sp" android:textColor="#ff999999" android:ellipsize="end" android:id="@id/rec_grid_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" android:layout_below="@id/rec_grid_song_root" android:layout_alignParentLeft="true" />
+</RelativeLayout>

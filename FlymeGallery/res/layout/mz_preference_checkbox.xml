@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/mz_preference_text_layout" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/mz_page_padding_default" android:paddingRight="@dimen/mz_preference_item_padding_inner" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="@dimen/mz_page_padding_default" android:paddingEnd="@dimen/mz_preference_item_padding_inner">
+        <TextView android:ellipsize="end" android:id="@android:id/title" android:fadingEdge="horizontal" android:singleLine="true" style="@style/Widget.Flyme.MultipleList.Title" />
+        <TextView android:id="@android:id/summary" android:maxLines="4" android:lineSpacingExtra="@dimen/mz_list_desc_line_spacing_extra_large" style="@style/Widget.Flyme.List.Summary.Adjoin.Level2" />
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/mz_preference_checkbox_divider_marginTop" android:layout_marginBottom="@dimen/mz_preference_checkbox_divider_marginTop" android:src="@drawable/mz_card_list_divider_light" android:scaleType="fitXY" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/widget_frame" android:background="?android:selectableItemBackground" android:paddingLeft="24.0dip" android:paddingRight="@dimen/mz_page_padding_default" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/mz_preference_checkbox_widget_width" android:paddingStart="24.0dip" android:paddingEnd="@dimen/mz_page_padding_default" />
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.banqu.music.ui.widget.TopLoadMoreRecyclerView android:id="@id/listView" android:background="@color/bq_default_page_color" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/bq_recyclerview_selector" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

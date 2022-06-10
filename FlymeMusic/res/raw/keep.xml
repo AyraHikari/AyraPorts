@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+           tools:keep="
+           @drawable/mz_stat_sys_downloading_pause,
+           @drawable/mz_stat_sys_downloading,
+           @drawable/mz_ad_game_center_download_success,
+           @drawable/mz_ad_game_center_download_error,
+           @drawable/mz_ad_app_center_download_success,
+           @drawable/mz_ad_app_center_download_error
+           "/>

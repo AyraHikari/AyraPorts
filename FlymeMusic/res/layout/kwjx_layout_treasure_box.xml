@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.kuwo.show.ui.room.widget.RoomDragLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="110.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/iv_box_tips" android:background="@drawable/kwjx_tips_treasure_box" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/fl_box" android:background="@drawable/kwjx_box_animation_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/iv_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kwjx_box_time" />
+            <ImageView android:layout_gravity="right" android:id="@id/iv_box_close" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/kwjx_box_close" />
+        </FrameLayout>
+        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_box_time" android:background="@drawable/kwjx_box_time_bg" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="倒计时 00:00" />
+    </LinearLayout>
+</cn.kuwo.show.ui.room.widget.RoomDragLayout>

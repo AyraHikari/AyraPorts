@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sticker type="watermark_time" width="80" height="87" id="watermark_1" thumb="watermark_text_time_2_thumb">
+    <icon left="0" top="9" right="80" bottom="87" src="watermark_star_icon"/>
+    <text left="21" top="0" right="59" bottom="33" font-name="SFDIN-CondensedBold"
+        size="33" hint="23" color="white" text-align="center" max-length="2" input-type="number"/>
+    <text left="21" top="36" right="59" bottom="69" font-name="SFDIN-CondensedBold"
+        size="33" hint="05" color="white" text-align="center" max-length="2" input-type="number"/>
+</sticker>
